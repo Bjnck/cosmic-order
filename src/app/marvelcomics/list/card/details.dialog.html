@@ -1,0 +1,61 @@
+<h1 mat-dialog-title>{{data.arc.title}}</h1>
+<div mat-dialog-content *ngIf=" !(isMobile | async)?.matches">
+  <div id="details-intro">
+    <div id="details-description">
+      {{data.arc.comment}}
+    </div>
+    <div id="details-reading" *ngIf="data.arc.reading &&
+      ((data.arc.reading.essential && data.arc.reading.essential.length > 0) ||
+      (data.arc.reading.optional && data.arc.reading.optional.length > 0))">
+      <div id="details-reading-title">Pre-reading</div>
+      <div *ngIf="data.arc.reading.essential">
+        <div *ngFor="let reading of data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue">
+          <div class="details-reading-essential" (click)="onReading(reading.ref)">{{reading.title}}</div>
+        </div>
+      </div>
+      <div *ngFor="let reading of data.arc.reading.optional | reading:'optional':data.issueValue:data.collectionValue">
+        <div class="details-reading-optional" (click)="onReading(reading.ref)">{{reading.title}}</div>
+      </div>
+    </div>
+  </div>
+  <table mat-table [dataSource]="data.arc | issue:data.issueValue:data.collectionValue" id="details-issue-table">
+    <ng-container matColumnDef="issue">
+      <th mat-header-cell *matHeaderCellDef>Issue</th>
+      <td mat-cell *matCellDef="let issue"
+          [ngClass]="{'issue-row':true,
+                      'row-essential': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'essential'),
+                      'row-optional': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'optional') &&
+                        !(issue | issueImportance:data.arc:'essential')}">
+        <span>{{issue.title}}</span>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="trade">
+      <th mat-header-cell *matHeaderCellDef>Trade</th>
+      <td mat-cell *matCellDef="let issue"
+          [ngClass]="{'row-essential': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'essential'),
+                      'row-optional': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'optional') &&
+                        !(issue | issueImportance:data.arc:'essential')}">
+        <span *ngIf="issue.trade">{{issue.trade}}</span>
+        <span *ngIf="!issue.trade">{{data.arc.trade}}</span>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="omnibus">
+      <th mat-header-cell *matHeaderCellDef>Omnibus</th>
+      <td mat-cell *matCellDef="let issue"
+          [ngClass]="{'row-essential': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'essential'),
+                      'row-optional': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'optional') &&
+                        !(issue | issueImportance:data.arc:'essential')}">
+        <span *ngIf="issue.omnibus">{{issue.omnibus}}</span>
+        <span *ngIf="!issue.omnibus">{{data.arc.omnibus}}</span>
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
+
+<div mat-dialog-content *ngIf=" (isMobile | async)?.matches">
+  <div id="details-description-mobile">
+    {{data.arc.comment}}
+  </div>
+</div>

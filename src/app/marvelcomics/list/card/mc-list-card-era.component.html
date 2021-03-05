@@ -1,0 +1,10 @@
+<div (click)="onClick(ref)"
+     [ngClass]="{'card-era': !(isMobile | async)?.matches,
+                 'card-era-mobile': (isMobile | async)?.matches}">
+  <div class="card-era-title">{{title}}</div>
+  <div class="card-era-date">({{date}})</div>
+  <div [ngClass]="{'card-era-img': !(isMobile | async)?.matches,
+                   'card-era-img-mobile': (isMobile | async)?.matches}">
+    <img src="assets/img/marvelcomics/era/{{ref}}.jpg" alt="{{ref}}">
+  </div>
+</div>

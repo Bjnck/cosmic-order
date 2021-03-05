@@ -1,0 +1,66 @@
+<mat-toolbar id="picker" *ngIf="!(isMobile | async)?.matches">
+  <div id="picker-right" *ngIf="!(isMobile | async)?.matches">
+    <mat-icon aria-label="Filter">filter_list</mat-icon>
+    <div class="picker-selector">
+      <mc-picker-era [data]="data"
+                     [picker]="eraValue"
+                     (pickerChangeEventEmitter)="onEraChange($event)">
+      </mc-picker-era>
+    </div>
+    <div class="picker-selector" *ngIf="eraValue != 'all'">
+      <mc-picker-collection [picker]="collectionValue"
+                            (pickerChangeEventEmitter)="onCollectionChange($event)">
+      </mc-picker-collection>
+    </div>
+    <div class="picker-selector" *ngIf="collectionValue == 'all' && eraValue != 'all' ">
+      <mc-picker-issue [mobile]="(isMobile | async)?.matches"
+                       [picker]="issueValue"
+                       (pickerChangeEventEmitter)="onIssueChange($event)">
+      </mc-picker-issue>
+    </div>
+  </div>
+  <div>
+    <button id="updates-button" mat-raised-button (click)="openUpdate()">Updates</button>
+  </div>
+</mat-toolbar>
+
+
+<mat-toolbar id="picker-mobile" *ngIf="(isMobile | async)?.matches">
+
+  <mat-toolbar-row class="picker-mobile-line">
+    <div id="filter" (click)="toggleFilter()">
+      <mat-icon aria-label="Filter">filter_list</mat-icon>
+      Filter
+    </div>
+    <div>
+      <button mat-raised-button (click)="openUpdate()">Updates</button>
+    </div>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row *ngIf="showFilter">
+    <div class="picker-selector">
+      <mc-picker-era [data]="data"
+                     [picker]="eraValue"
+                     (pickerChangeEventEmitter)="onEraChange($event)">
+      </mc-picker-era>
+    </div>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row *ngIf="showFilter && eraValue != 'all'">
+    <div class="picker-selector">
+      <mc-picker-collection [picker]="collectionValue"
+                            (pickerChangeEventEmitter)="onCollectionChange($event)">
+      </mc-picker-collection>
+    </div>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row *ngIf="showFilter && collectionValue == 'all' && eraValue != 'all'">
+    <div class="picker-selector">
+      <mc-picker-issue [mobile]="(isMobile | async)?.matches"
+                       [picker]="issueValue"
+                       (pickerChangeEventEmitter)="onIssueChange($event)">
+      </mc-picker-issue>
+    </div>
+  </mat-toolbar-row>
+
+</mat-toolbar>

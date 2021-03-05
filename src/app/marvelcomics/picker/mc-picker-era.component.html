@@ -1,0 +1,9 @@
+<mat-label>Era:</mat-label>
+<mat-form-field class="picker-selector-{{picker | lowercase}}">
+  <mat-select [(value)]="picker"
+              [disableOptionCentering]="true"
+              (selectionChange)="pickerChange()">
+    <mat-option class="picker-selector-option" value="all">All</mat-option>
+    <mat-option *ngFor="let era of data " class="picker-selector-option" value="{{era.ref}}">{{era.title}}</mat-option>
+  </mat-select>
+</mat-form-field>

@@ -1,0 +1,45 @@
+<div *ngIf="eraValue != 'all'">
+  <div id="list-title">- {{(data | era:eraValue).title}} -</div>
+
+  <div id="era-description">
+    <div>{{(data | era:eraValue).comment}}</div>
+  </div>
+
+  <div id="expand-buttons">
+    <button mat-button (click)="accordion.openAll()">
+      <mat-icon aria-label="show all">unfold_more</mat-icon>
+    </button>
+    <button mat-button (click)="accordion.closeAll()">
+      <mat-icon aria-label="show all">unfold_less</mat-icon>
+    </button>
+  </div>
+</div>
+
+<div id="list">
+
+  <div *ngIf="eraValue == 'all'">
+    <div class="cards-era">
+      <div *ngFor="let era of data">
+        <mc-list-card-era [ref]="era.ref"
+                          [title]="era.title"
+                          [date]="era.date"
+                          (eraSelectEventEmitter)="onEraSelection($event)">
+        </mc-list-card-era>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="eraValue != 'all'">
+    <mat-accordion class="example-headers-align" multi>
+      <div *ngFor="let section of ((data | era:eraValue).sections) | section:issueValue:collectionValue">
+        <mc-list-section [section]="section"
+                         [issueValue]="issueValue"
+                         [collectionValue]="collectionValue"
+                         [arcValue]="arcValue"
+                         (openArcEventEmitter)="openArc($event)"
+                         (closeArcEventEmitter)="closeArc()">
+        </mc-list-section>
+      </div>
+    </mat-accordion>
+  </div>
+</div>

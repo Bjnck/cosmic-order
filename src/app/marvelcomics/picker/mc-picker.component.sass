@@ -1,0 +1,77 @@
+#picker
+  background: #2e2e2e
+  position: sticky
+  height: 50px
+  z-index: 50
+  margin-bottom: 30px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding-left: 15px
+  padding-right: 15px
+
+#picker-right
+  display: flex
+  align-items: flex-start
+
+#picker-right mat-icon
+  height: 100%
+  line-height: 60px
+  vertical-align: center
+  margin-right: 10px
+
+.picker-selector
+  font-size: 15px
+
+::ng-deep #picker .picker-selector mat-form-field
+  margin-left: 5px
+  margin-right: 30px
+  width: 90px
+
+::ng-deep .picker-selector-option.mat-selected
+  color: white !important
+
+::ng-deep .mat-select-panel
+  border-radius: 0 !important
+
+#updates-button
+  border-radius: 0
+
+//mobile
+#picker-mobile
+  background-color: #2e2e2e
+  position: sticky
+  z-index: 50
+  border-radius: 2px
+  margin-bottom: 30px
+  align-items: center
+  padding-left: 15px
+  padding-right: 15px
+
+#picker-mobile mat-toolbar-row
+  height: 50px
+  padding: 0
+
+.mat-toolbar-multiple-rows
+  min-height: 50px !important
+
+.picker-mobile-line
+  display: flex
+  justify-content: space-between
+
+#filter
+  font-size: 18px
+  width: 100%
+
+::ng-deep #picker-mobile .picker-selector
+  width: 100%
+  display: flex
+  align-items: flex-start
+
+::ng-deep #picker-mobile .picker-selector mat-form-field
+  margin-left: 5px
+  margin-right: 5px
+  //width: 100%
+
+
+

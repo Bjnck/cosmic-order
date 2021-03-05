@@ -1,0 +1,26 @@
+<app-topbar></app-topbar>
+
+<div id="content">
+  <div id="logo"><img src="assets/img/marvelcomics/logo.png" alt="MARVEL "/>COSMIC</div>
+  <mc-intro (openArcEventEmitter)="openArcForIntro($event)"></mc-intro>
+
+  <mc-picker [data]="data"
+             [eraValue]="eraValue"
+             [issueValue]="issueValue"
+             [collectionValue]="collectionValue"
+             (eraChangeEventEmitter)="onEraChange($event)"
+             (issueChangeEventEmitter)="onIssueChange($event)"
+             (collectionChangeEventEmitter)="onCollectionChange($event)"
+             (openArcEventEmitter)="openArcForUpdate($event)">
+  </mc-picker>
+
+  <mc-list [data]="data"
+           [eraValue]="eraValue"
+           [issueValue]="issueValue"
+           [collectionValue]="collectionValue"
+           [arcValue]="arcValue"
+           (eraSelectionEventEmitter)="onEraChange($event)"
+           (openArcEventEmitter)="openArcForReading($event)"
+           (closeArcEventEmitter)="closeArc()">
+  </mc-list>
+</div>
