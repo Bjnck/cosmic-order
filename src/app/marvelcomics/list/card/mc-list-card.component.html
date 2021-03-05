@@ -1,4 +1,4 @@
-<div [ngClass]="{'card': !(isMobile | async)?.matches,
+<div id="{{arc.ref}}" [ngClass]="{'card': !(isMobile | async)?.matches,
                  'card-mobile': (isMobile | async)?.matches,
                  'card-long-title' : arc.title | cardTitle,
                  'card-essential': collectionValue == 'all' && (arc | arcImportance:'essential') && !(isMobile | async)?.matches,

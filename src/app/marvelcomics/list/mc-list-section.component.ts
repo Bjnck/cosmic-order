@@ -36,6 +36,14 @@ export class McListSectionComponent {
   private expand(arc: string) {
     if (arc && this.section && this.section.arcs.find(a => a.ref == arc)) {
       this.expanded = true;
+      if (this.arcValue) {
+        setTimeout(() => {
+            let el = document.getElementById(this.arcValue);
+            el.scrollIntoView(true);
+            el.scrollIntoView(true);
+          },
+          100);
+      }
     }
   }
 

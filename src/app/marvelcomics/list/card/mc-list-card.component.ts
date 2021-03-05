@@ -50,7 +50,7 @@ export class McListCardComponent {
   ngOnChanges() {
     let arcQuery = this.route.snapshot.queryParamMap.get(McListCardComponent.ARC_QUERY_PARAM);
     if (this.arcValue && this.arc.ref == this.arcValue) {
-      this.openDialog(!arcQuery);
+      setTimeout(() => this.openDialog(!arcQuery), 200);
     }
   }
 

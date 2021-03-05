@@ -481,7 +481,7 @@ eras:
                   - -AW
                   - -GG
           - ref: war_againts_the_gods
-            title: War against the gods
+            title: War Against the Gods
             comment: "That time when Moondragon killed Drax."
             trade: "Drax: Guardian of the Galaxy"
             omnibus: "Guardians of the Galaxy Solo Classic"
@@ -520,7 +520,7 @@ eras:
               - title: Avengers (1963) 261 (excerpt)
           - ref: supernova_saga
             title: The Supernova saga
-            comment: "The last member of the Nova corps seek vengeance."
+            comment: "The last member of the Nova corps seeks vengeance."
             reading:
               essential:
                 - legacy_of_thanos
@@ -551,10 +551,10 @@ eras:
               - title: Marvel Spotlight 4
               - title: Marvel Spotlight 8
           - ref: death_of_captain_marvel
-            title: The Death of Captain Marvel.
+            title: The Death of Captain Marvel
             trade: "Captain Marvel by Jim Starlin: The Complete Collection"
             omnibus: "The Thanos Wars: Infinity Origin"
-            comment: The death of Captain Marvel
+            comment: The death of Captain Marvel.
             importance: essential
             reading:
               essential:
@@ -583,7 +583,7 @@ eras:
           - ref: freedom
             title: Freedom
             trade: "Silver Surfer Epic Collection: Freedom"
-            comment: "The Surfer escapes earth and starts new adventures in space"
+            comment: "The Surfer escapes earth and starts new adventures in space."
             reading:
               optional:
                 - escape
@@ -628,7 +628,7 @@ eras:
               - title: Silver Surfer (1987) 27
               - title: Silver Surfer (1987) Annual 2
           - ref: judgement_day
-            title: Judgement day
+            title: Judgement Day
             trade: "Silver Surfer: Judgement Day"
             reading:
               essential:
@@ -656,7 +656,7 @@ eras:
             importance: essential
             trade: "Silver Surfer: Rebirth of Thanos"
             omnibus: "The Infinity Gauntlet"
-            comment: "Thanos comes back and has a plan"
+            comment: "Thanos comes back from the dead."
             reading:
               essential:
                 - warlock_starlin
@@ -673,9 +673,9 @@ eras:
               - title: Silver Surfer (1987) 37
               - title: Silver Surfer (1987) 38
           - ref: dynamo_city
-            title: Dynamo city
+            title: Dynamo City
             trade: "Silver Surfer Epic Collection: Thanos Quest"
-            comment: "The Surfer is trapped by Thanos in Dynamo city"
+            comment: "The Surfer is trapped by Thanos in Dynamo city."
             reading:
               essential:
                 - rebirth_thanos
@@ -687,10 +687,10 @@ eras:
               - title: Silver Surfer (1987) 42
               - title: Silver Surfer (1987) 43
           - ref: infinity_gauntlet
-            title: The infinity gauntlet
+            title: The Infinity Gauntlet
             importance: essential
             omnibus: "The Infinity Gauntlet"
-            comment: "Thanos on a quest to find all the infinity gems and rule the universe"
+            comment: "Thanos on a quest to find all the infinity gems to rule the universe."
             reading:
               essential:
                 - rebirth_thanos
@@ -825,7 +825,7 @@ eras:
             title: Infinity Watch Origins
             trade: Infinity Gauntlet Aftermath
             importance: optional
-            comment: "Aftermath of the infinity gauntlet"
+            comment: "The Infinity Watch is assembled to watch over the infinity gems."
             reading:
               essential:
                 - infinity_gauntlet
@@ -844,10 +844,10 @@ eras:
               - title: Warlock & the Infinity Watch 5
               - title: Warlock & the Infinity Watch 6
           - ref: surfer_infinity_gauntlet_aftermath
-            title: Silver Surfer infinity gauntlet aftermath
+            title: Silver Surfer Infinity Gauntlet Aftermath
             trade: Infinity Gauntlet Aftermath
             importance: optional
-            comment: "Aftermath of the infinity gauntlet"
+            comment: "Aftermath of the Infinity Gauntlet."
             reading:
               essential:
                 - infinity_gauntlet
@@ -866,7 +866,7 @@ eras:
         title: Operation Galactic Storm
         arcs:
           - ref: quasar_origins
-            title: Quasar origins
+            title: Quasar Origins
             trade: "Quasar Classic vol. 1"
             collections:
               - Q
@@ -899,14 +899,15 @@ eras:
               - title: Quasar (1989) 17
               - title: Quasar (1989) 18
           - ref: jack_hearts_origins
-            title: Jack of Hearts origins
+            title: Jack of Hearts Origins
+            comment: Origins of Jack Heart.
             issues:
               - title: Jack of Hearts 1
               - title: Jack of Hearts 2
               - title: Jack of Hearts 3
               - title: Jack of Hearts 4
           - ref: cosmos_in_collision
-            title: Cosmos in collision
+            title: Cosmos in Collision
             trade: "Quasar: Cosmos in Collision"
             reading:
               essential:
@@ -925,7 +926,7 @@ eras:
               - title: Quasar (1989) 25
           - ref: quasar_26_31
             title: Quasar 26-31
-            comment: Issues 26-27 take place during the infinity gauntlet event
+            comment: Issues 26-27 takes place during the Infinity Gauntlet.
             reading:
               essential:
                 - cosmos_in_collision
@@ -943,7 +944,7 @@ eras:
           - ref: dark_phoenix_saga
             title: The Dark Phoenix Saga
             omnibus: "X-Men: The Dark Phoenix Saga"
-            comment: First appearences of the Shi'ar imperial family, the Starjammers and the Phoenix
+            comment: First appearences of the Shi'ar imperial family, the Starjammers and the Phoenix.
             collections:
               - X
             issues:
@@ -961,8 +962,8 @@ eras:
                 trade: "X-Men: The Dark Phoenix Saga"
               - title: X-Men (1963) 137
                 trade: "X-Men: The Dark Phoenix Saga"
-          - ref: dark_phoenix_saga_prologue
-            title: The Dark Phoenix Saga Prologue
+          - ref: dark_phoenix_saga_epilogue
+            title: The Dark Phoenix Saga Epilogue
             trade: "Fantastic Four Visionaries: John Byrne vol. 5"
             reading:
               essential:
@@ -970,9 +971,9 @@ eras:
             issues:
               - title: Fantastic Four Annual (1961) 18
           - ref: brood_saga
-            title: The Brood saga
+            title: The Brood Saga
             trade: "X-Men: Starjammers by Dave Cockrum"
-            comment: First appearence of Deathbird
+            comment: First appearence of Deathbird.
             reading:
               essential:
                 - dark_phoenix_saga
@@ -994,7 +995,7 @@ eras:
               - title: "X-Men: Spotlight on Starjammers 1"
               - title: "X-Men: Spotlight on Starjammers 2"
           - ref: fall_of_deathbird
-            title: The fall of Deathbird
+            title: The Fall of Deathbird
             trade: "X-Men Visionaries: Jim Lee"
             reading:
               essential:
@@ -1007,8 +1008,8 @@ eras:
               - title: Uncanny X-Men (1981) 276
               - title: Uncanny X-Men (1981) 277
           - ref: operation_galactic_storm
-            title: Operation galactic storm
-            comment: The Kree/Shi'ar war
+            title: Operation Galactic Storm
+            comment: The Kree/Shi'ar war.
             reading:
               essential:
                 - kree_skrull_war
@@ -1066,9 +1067,9 @@ eras:
                 trade: "Avengers: Galactic Storm vol. 2"
               - title: Quasar (1989) 36
           - ref: operation_galactic_storm_aftermath
-            title: Operation galactic storm aftermath
+            title: Operation Galactic Storm Aftermath
             trade: Fantastic Four/Inhumans
-            comment: The Kree's revenge against the Shi'ar. First appearance of J'son of Spartax
+            comment: The Kree's revenge against the Shi'ar. First appearance of J'son of Spartax.
             reading:
               essential:
                 - operation_galactic_storm
@@ -1083,8 +1084,8 @@ eras:
         title: The Infinity War
         arcs:
           - ref: infinity_war
-            title: The infinity war
-            comment: Follow-up to the infinity gauntlet
+            title: The Infinity War
+            comment: Follow-up to the Infinity Gauntlet.
             trade: "The Infinity War"
             omnibus: "The Infinity War"
             importance: essential
@@ -1212,7 +1213,7 @@ eras:
                   - Q
                   - A
           - ref: infinity_war_aftermath
-            title: The infinity war aftermath
+            title: The Infinity War Aftermath
             trade: "The Infinity War Aftermath"
             importance: optional
             reading:
@@ -1230,7 +1231,7 @@ eras:
               - title: Warlock and the Infinity Watch 16
               - title: Warlock and the Infinity Watch 17
           - ref: herald_ordeal
-            title: The herald ordeal
+            title: The Herald Ordeal
             reading:
               essential:
                 - infinity_war
@@ -1255,8 +1256,8 @@ eras:
             issues:
               - title: Marvel Graphic Novel 71
           - ref: power_of_tyrant
-            title: The power of Tyrant
-            comment: First encounter with Tyrant
+            title: The Power of Tyrant
+            comment: First encounter with Tyrant.
             reading:
               essential:
                 - herald_ordeal
@@ -1276,7 +1277,7 @@ eras:
               - title: Silver Surfer (1987) 82
           - ref: surfer_warlock_resurrection
             title: Resurrection
-            comment: "Adam Warlock and the Silver Surfer on a quest to save the surfer's love"
+            comment: "Adam Warlock and the Silver Surfer on a quest to save the surfer's love."
             trade: "The Infinity War Aftermath"
             importance: optional
             reading:
@@ -1295,10 +1296,10 @@ eras:
         title: The Infinity Crusade
         arcs:
           - ref: infinity_crusade
-            title: The infinity crusade
+            title: The Infinity Crusade
             importance: essential
             omnibus: The Infinity Crusade
-            comment: Follow-up to the infinity war
+            comment: Follow-up to the Infinity War.
             reading:
               essential:
                 - infinity_war_aftermath
@@ -1374,9 +1375,9 @@ eras:
               - title: Infinity Crusade 6
                 trade: Infinity Crusade vol. 2
           - ref: blood_and_thunder
-            title: Blood and thunder
+            title: Blood and Thunder
             trade: "Thor: Blood & Thunder"
-            comment: Thanos, the Surfer and the infinity watch comes to aid of Thor and Asgard
+            comment: Thanos, the Surfer and the Infinity Watch comes to aid of Thor and Asgard.
             reading:
               essential:
                 - infinity_crusade
@@ -2050,8 +2051,8 @@ eras:
               - title: "Marvel Universe: The End 4"
               - title: "Marvel Universe: The End 5"
               - title: "Marvel Universe: The End 6"
-          - ref: samaritan
-            title: Samaritan
+          - ref: epiphany
+            title: Epiphany
             trade: "Thanos: Redemption"
             importance: optional
             reading:
@@ -2076,14 +2077,14 @@ eras:
       - ref: annihilation_section
         title: Annihilation
         arcs:
-          - ref: thanos_redemption
-            title: Redemption
+          - ref: samaritan
+            title: Samaritan
             trade: "Thanos: Redemption"
             comment: Describe Thanos state of mind as the Annihilation event is about to start
             importance: optional
             reading:
               optional:
-                - samaritan
+                - epiphany
             collections:
               - TH
             issues:
@@ -2101,7 +2102,7 @@ eras:
             reading:
               optional:
                 - honorable_discharge
-                - thanos_redemption
+                - samaritan
             issues:
               - title: "Drax the Destroyer: Earthfall 1"
                 trade: "Annihilation: The Complete Collection vol. 1"
@@ -4078,7 +4079,7 @@ eras:
             omnibus: "Thanos: The Infinity Saga"
             reading:
               essential:
-                - samaritan
+                - epiphany
               optional:
                 - mother_entropy
             collections:
@@ -4947,7 +4948,7 @@ eras:
             reading:
               optional:
                 - kree_skrull_war
-                - dark_phoenix_saga_prologue
+                - dark_phoenix_saga_epilogue
                 - death_inhumans
             issues:
               - title: Meet the Skrulls 1
