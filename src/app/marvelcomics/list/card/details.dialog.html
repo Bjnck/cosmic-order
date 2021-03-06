@@ -5,8 +5,8 @@
       {{data.arc.comment}}
     </div>
     <div id="details-reading" *ngIf="data.arc.reading &&
-      ((data.arc.reading.essential && data.arc.reading.essential.length > 0) ||
-      (data.arc.reading.optional && data.arc.reading.optional.length > 0))">
+      ((data.arc.reading.essential && (data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue).length > 0) ||
+      (data.arc.reading.optional && (data.arc.reading.optional | reading:'optional':data.issueValue:data.collectionValue).length > 0))">
       <div id="details-reading-title">Pre-reading</div>
       <div *ngIf="data.arc.reading.essential">
         <div *ngFor="let reading of data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue">
@@ -59,8 +59,8 @@
     {{data.arc.comment}}
   </div>
   <div id="details-reading-mobile" *ngIf="data.arc.reading &&
-      ((data.arc.reading.essential && data.arc.reading.essential.length > 0) ||
-      (data.arc.reading.optional && data.arc.reading.optional.length > 0))">
+      ((data.arc.reading.essential && (data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue).length > 0) ||
+      (data.arc.reading.optional && (data.arc.reading.optional | reading:'optional':data.issueValue:data.collectionValue).length > 0))">
     <div id="details-reading-title">Pre-reading</div>
     <div *ngIf="data.arc.reading.essential">
       <div *ngFor="let reading of data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue">

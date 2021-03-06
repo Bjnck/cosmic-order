@@ -1484,8 +1484,8 @@ eras:
         title: Cosmic Powers
         arcs:
           - ref: starlost
-            title: The starlost
-            comment: Rebirth of Xandar
+            title: The Starlost
+            comment: Rebirth of Xandar.
             reading:
               essential:
                 - nova_origins
@@ -1519,7 +1519,7 @@ eras:
               - title: Nova (1994) 15
               - title: Nova (1994) 16
           - ref: honorable_discharge
-            title: Honorable discharge
+            title: Honorable Discharge
             reading:
               essential:
                 - deathstorm
@@ -1533,7 +1533,8 @@ eras:
               - title: New Warriors (1990) 74
               - title: New Warriors (1990) 75
           - ref: legacy_origins
-            title: Legacy origins
+            title: Legacy Origins
+            comment: Origins of Genis Vell.
             reading:
               essential:
                 - power_of_tyrant
@@ -1559,9 +1560,9 @@ eras:
               - title: Silver Surfer (1987) 91
               - title: Silver Surfer (1987) 92
           - ref: cosmic_powers
-            title: Cosmic powers
+            title: Cosmic Powers
             importance: optional
-            comment: Second encounter with Tyrant
+            comment: Second encounter with Tyrant.
             trade: "Thanos: Cosmic Powers"
             reading:
               essential:
@@ -1610,7 +1611,7 @@ eras:
               - title: Silver Surfer (1987) 99
               - title: Silver Surfer (1987) 100
           - ref: cosmic_powers_unlimited_1
-            title: Cosmic powers unlimited 1
+            title: Cosmic Powers Unlimited 1
             importance: optional
             reading:
               essential:
@@ -1623,7 +1624,7 @@ eras:
             issues:
               - title: Cosmic Powers Unlimited 1
           - ref: cosmic_powers_unlimited_2
-            title: Cosmic powers unlimited 2
+            title: Cosmic Powers Unlimited 2
             reading:
               optional:
                 - coming_of_her
@@ -1633,7 +1634,8 @@ eras:
             issues:
               - title: Cosmic Powers Unlimited 2 (Kismet/Surfer)
           - ref: sundragon_origins
-            title: Sundragon origins
+            title: Sundragon Origins
+            comment: Origins of Sundragon.
             reading:
               optional:
                 - war_againts_the_gods
@@ -1645,9 +1647,9 @@ eras:
                 collections:
                   - SS
           - ref: end_of_the_watch
-            title: End of the watch
+            title: End of the Watch
             trade: "The Infinity Watch vol. 2"
-            comment: And now his watch is ended
+            comment: And now his watch is ended.
             reading:
               essential:
                 - count_abyss
@@ -1671,7 +1673,7 @@ eras:
                   - -AW
           - ref: end_of_tyrant
             title: End of Tyrant
-            comment: Third encounter with Tyrant
+            comment: Third encounter with Tyrant.
             reading:
               essential:
                 - temptation
@@ -1705,7 +1707,7 @@ eras:
               - title: Cosmic Powers Unlimited 3 (Surfer)
           - ref: warlock_1998
             title: Warlock 1998
-            comment: Adam Warlock team-up with Legacy
+            comment: Adam Warlock team-up with Legacy.
             reading:
               essential:
                 - end_of_the_watch
@@ -1721,7 +1723,7 @@ eras:
               - title: Warlock (1998) 4
           - ref: captain_marvel_1995
             title: Captain Marvel 1995
-            comment: Genis Vell first solo serie. Note that the issue 'Cosmic Powers Unlimited 4 (Drax)' happen after this but has been listed prior for a better reading experience
+            comment: Genis Vell first solo serie. Note that the issue 'Cosmic Powers Unlimited 4 (Drax)' happens after this but has been listed prior for a better reading experience.
             reading:
               essential:
                 - end_of_tyrant
@@ -1739,7 +1741,7 @@ eras:
               - title: Captain Marvel (1995) 6
           - ref: star_masters
             title: Star Masters
-            comment: Beta Ray Bill, Quasar and the Surfer build a new team to save earth
+            comment: Beta Ray Bill, Quasar and the Surfer build a new team to save earth.
             reading:
               essential:
                 - quasar_57_60
@@ -1755,8 +1757,8 @@ eras:
               - title: Cosmic Powers Unlimited 4 (Star Masters)
               - title: Cosmic Powers Unlimited 5 (Star Masters)
           - ref: unliord_saga
-            title: The Uni-lord saga
-            comment: After issue 122, the story of the surfer continues in Silver Surfer (1987) 123-146 where he discovers the truth beind the illusion of Zenn-La. Those issues are not listed here as they are not cosmic in nature
+            title: The Uni-Lord Saga
+            comment: After issue 122, the story of the surfer continues in Silver Surfer (1987) 123-146 where he discovers the truth beind the illusion of Zenn-La. Those issues are not listed here as they are not cosmic in nature.
             reading:
               optional:
                 - end_of_tyrant
@@ -1781,7 +1783,7 @@ eras:
           - ref: galactus_devourer
             title: Galactus the Devourer
             trade: Galactus the Devourer
-            comment: "Take place after the adventure of the Surfer on earth in Silver Surfer (1987) 123-146"
+            comment: Takes place after the adventure of the Surfer on earth in Silver Surfer (1987) 123-146.
             reading:
               optional:
                 - in_search_of_galactus
@@ -1798,7 +1800,7 @@ eras:
               - title: Galactus the Devourer 6
           - ref: tears_of_the_gods
             title: Tears of the Gods
-            comment: "Thanos destroys the Riggelians"
+            comment: Thanos destroys the Riggelians.
             omnibus: "Thor: Heroes Return"
             trade: "Thor By Dan Jurgens & John Romita Jr. vol. 4"
             reading:
@@ -1815,7 +1817,7 @@ eras:
               - title: Thor (1998) 25
           - ref: uncreated
             title: Uncreated
-            comment: The Shi'ar at war with the Uncreated
+            comment: The Shi'ar at war with the Uncreated.
             trade: "Starjammers"
             reading:
               essential:
@@ -1831,7 +1833,7 @@ eras:
               - title: Starjammers (1995) 4
           - ref: phalanx_invasion
             title: Phalanx Invasion
-            comment: The Shi'ar get help from the X-Men to face a Phalanx invasion
+            comment: The Shi'ar get help from the X-Men to face a Phalanx invasion.
             trade: "X-Men: The Trial of Gambit"
             reading:
               essential:
@@ -1862,7 +1864,7 @@ eras:
               - title: Avengers Infinity 4
           - ref: avengers_forever
             title: Avengers Forever
-            comment: "If you want the full story read issues 1 to 12, I only listed here what is relevant for the Maximum Security event and for Captain Marvel"
+            comment: "If you want the full story read issues 1 to 12, I only listed here what is relevant for the upcoming Maximum Security event and for Captain Marvel."
             trade: Avengers Forever
             omnibus: Avengers By K. Busiek & G. Perez vol. 1
             reading:
@@ -1881,7 +1883,7 @@ eras:
               - title: Avengers Forever 12
           - ref: maximum_security
             title: Maximum Security
-            comment: Earth becomes a prison planet
+            comment: Earth becomes a prison planet.
             trade: "Avengers / X-Men: Maximum Security"
             reading:
               essential:
@@ -1909,7 +1911,7 @@ eras:
                 omnibus: Avengers By K. Busiek & G. Perez vol. 2
           - ref: intelligencia
             title: Intelligencia
-            comment: Captain Marvel and the Surfer versus the new Skrull Intelligencia. I filtered all the Marlo and micro-verse nonsense.
+            comment: Captain Marvel and the Surfer versus the new Skrull Intelligencia. In this list I filtered all the Marlo and micro-verse nonsense.
             reading:
               essential:
                 - captain_marvel_1995
@@ -1955,7 +1957,7 @@ eras:
               - title: Captain Marvel (1999) 25
           - ref: soul_survivor
             title: Soul Survivor
-            comment: The Magus is back
+            comment: The Magus is back.
             reading:
               essential:
                 - cheating_death
@@ -1968,7 +1970,7 @@ eras:
               - title: Captain Marvel (1999) 35
           - ref: abraxas
             title: Abraxas
-            comment: Follow-up to Galactus the devourer
+            comment: Follow-up to Galactus the Devourer.
             omnibus: "FF: Resurrection of Galactus (HC)"
             reading:
               essential:

@@ -119,6 +119,6 @@ export class MarvelComicsComponent {
     query += this.collectionValue && this.collectionValue != McPickerComponent.ALL_SELECTOR ?
       '&' + McPickerCollectionComponent.COLLECTION_QUERY_PARAM + '=' + this.collectionValue : '';
 
-    this.location.replaceState('?' + query);
+    this.location.replaceState(this.location.path()?.split("?")[0],'?' + query);
   }
 }
