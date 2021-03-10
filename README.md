@@ -1,7 +1,7 @@
 # Cosmic Order
 A website to list reading/viewing order of sci-fi fictional universe.
 
-[http://www.cosmicorder.space][http://www.cosmicorder.space/]
+http://www.cosmicorder.space
 
 ## Marvel Comics
 This module displays a list of all Marvel comics issues related to the cosmic side of the Marvel universe.
