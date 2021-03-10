@@ -2082,7 +2082,7 @@ eras:
           - ref: samaritan
             title: Samaritan
             trade: "Thanos: Redemption"
-            comment: Describe Thanos state of mind as the Annihilation event is about to start
+            comment: Thanos on a mission to the Kyln, introduction of Star-Lord.
             importance: optional
             reading:
               optional:
@@ -2099,7 +2099,7 @@ eras:
           - ref: annihilation
             title: Annihilation
             omnibus: "Annihilation"
-            comment: The massive crossover event that launches the modern age of cosmic
+            comment: The massive crossover event that launches the modern age of cosmic.
             importance: essential
             reading:
               optional:
@@ -2247,7 +2247,7 @@ eras:
           - ref: new_fantastic_four
             title: The New Fantastic Four
             trade: "The New Fantastic Four"
-            comment: The FF encounter the Surfer as the herald of Galactus once again
+            comment: The FF encounter the Silver Surfer as the herald of Galactus once again.
             reading:
               optional:
                 - annihilation
@@ -2265,9 +2265,9 @@ eras:
         title: Annihilation Conquest
         arcs:
           - ref: annihilation_conquest
-            title: Annihilation conquest
+            title: Annihilation Conquest
             omnibus: "Annihilation: Conquest"
-            comment: In the aftermath of annihilation starts a new event
+            comment: In the aftermath of Annihilation starts a new event.
             importance: essential
             reading:
               essential:
@@ -2460,8 +2460,8 @@ eras:
               - title: "X-Men: Deadly Genesis 5"
               - title: "X-Men: Deadly Genesis 6"
           - ref: silent_war
-            title: Silent war
-            comment: "Follow up to Son of M"
+            title: Silent War
+            comment: "Follow up to Son of M."
             trade: Silent War
             omnibus: "War of Kings Prelude: Road to War of Kings"
             reading:
@@ -2494,7 +2494,7 @@ eras:
                 trade: "New Avengers: Illuminati"
                 omnibus: "Secret Invasion by Brian Michael Bendis"
           - ref: secret_invasion_inhumans
-            title: Secret invasion Inhumans
+            title: Secret Invasion Inhumans
             importance: essential
             comment: "Tie-in to Secret Invasion event"
             trade: "Secret Invasion: Inhumans"
@@ -2511,9 +2511,9 @@ eras:
               - title: "Secret Invasion: Inhumans 3"
               - title: "Secret Invasion: Inhumans 4"
           - ref: secret_invasion_guardians
-            title: Secret invasion Guardians
+            title: Secret Invasion Guardians
             importance: essential
-            comment: "Aftermath of Annihilation conquest and tie-in to Secret Invasion event"
+            comment: "Aftermath of Annihilation Conquest and tie-in to the Secret Invasion event"
             trade: "Guard. Galaxy by A&L: The Complete Collection vol. 1"
             omnibus: "War of Kings Prelude: Road to War of Kings"
             reading:
@@ -2530,9 +2530,9 @@ eras:
               - title: Guardians of the Galaxy (2008) 5
               - title: Guardians of the Galaxy (2008) 6
           - ref: secret_invasion_nova
-            title: Secret invasion Nova
+            title: Secret Invasion Nova
             importance: essential
-            comment: "Aftermath of A. conquest and tie-in to Secret Invasion event"
+            comment: "Aftermath of Annihilation conquest and tie-in to the Secret Invasion event"
             omnibus: "War of Kings Prelude: Road to War of Kings"
             reading:
               essential:
@@ -2570,10 +2570,19 @@ eras:
                 trade: "Nova by A&L: The Complete Collection vol. 2"
               - title: Nova (2007) 22
                 trade: "Nova by A&L: The Complete Collection vol. 2"
+          - ref: godhunter
+            title: Godhunter
+            comment: "Beta Ray Bill vs. Galactus."
+            trade: "Beta Ray Bill: Godhunter"
+            issues:
+              - title: "The Green of Eden 1"
+              - title: "Beta Ray Bill: Godhunter 1"
+              - title: "Beta Ray Bill: Godhunter 2"
+              - title: "Beta Ray Bill: Godhunter 3"
           - ref: no_future
-            title: No future
+            title: No Future
             importance: essential
-            comment: "Prelude to war of kings"
+            comment: "Prelude to War of Kings."
             trade: "Guard. Galaxy by A&L: The Complete Collection vol. 1"
             omnibus: "War of Kings Prelude: Road to War of Kings"
             reading:
@@ -2596,7 +2605,7 @@ eras:
           - ref: ascension_of_vulcan
             title: Ascension of Vulcan
             importance: essential
-            comment: "Origins of Vulcan"
+            comment: "Origins of Vulcan."
             trade: "Uncanny X-Men: Rise & Fall of the Shi'ar Empire"
             omnibus: "War of Kings"
             reading:
@@ -2629,9 +2638,9 @@ eras:
               - title: "X-Men: Emperor Vulcan 5"
                 trade: "X-Men: Emperor Vulcan"
           - ref: war_of_kings
-            title: War of kings
+            title: War of Kings
             importance: essential
-            comment: "Be sure to follow this specific order to fully appreciate this event. The omnibus is not printed in this order so you will have to jump from issue to issue to have a coherent story"
+            comment: "Be sure to follow this specific order to fully appreciate this event. The omnibus is not printed in this order so you will have to jump from issue to issue to have a coherent story."
             omnibus: "War of Kings"
             reading:
               essential:
@@ -2763,7 +2772,7 @@ eras:
             title: Realm of Kings
             importance: essential
             omnibus: "War of Kings Aftermath: Realm of Kings"
-            comment: "Last chapter of the Annihilation saga"
+            comment: "Last chapter in the Annihilation saga."
             reading:
               essential:
                 - war_of_kings
@@ -2955,7 +2964,7 @@ eras:
             collections:
               - SS
             trade: "Silver Surfer: Devolution"
-            comment: "Silver Surfer and Galactus after Realm of Kings"
+            comment: "Silver Surfer and Galactus after Realm of Kings."
             reading:
               optional:
                 - realm_of_kings
@@ -2971,11 +2980,13 @@ eras:
             reading:
               essential:
                 - realm_of_kings
+              optional:
+                - godhunter
             collections:
               - Q
               - SS
             omnibus: "War of Kings Aftermath: Realm of Kings"
-            comment: "A new team of super space warriors is created to protect the universe"
+            comment: "A new team of super space warriors is created to protect the universe."
             issues:
               - title: "The Thanos Imperative: Devastation"
                 trade: The Thanos Imperative

@@ -7,7 +7,7 @@
                  'card-optional-mobile': collectionValue == 'all' && (arc | arcImportance:'optional') && !(arc | arcImportance:'essential') && (isMobile | async)?.matches}"
      (click)="openDialog(true)">
   <div [ngClass]="{'card-title': !(isMobile | async)?.matches,
-                   'card-title-mobile': (isMobile | async)?.matches}">{{arc.title | cardTitleSize:32}}</div>
+                   'card-title-mobile': (isMobile | async)?.matches}">{{arc.title | cardTitleSize:31}}</div>
   <div [ngClass]="{'card-img': !(isMobile | async)?.matches,
                    'card-img-mobile': (isMobile | async)?.matches}">
     <img src="assets/img/marvelcomics/arc/{{arc.ref}}.jpg"
