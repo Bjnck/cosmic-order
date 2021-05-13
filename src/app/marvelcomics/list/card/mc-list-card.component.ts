@@ -61,6 +61,7 @@ export class McListCardComponent {
     let dialogRef = this.dialog.open(DetailsDialog, {
       width: '100%',
       maxWidth: '1000px',
+      autoFocus: false,
       data: {
         arc: this.arc,
         issueValue: this.issueValue,

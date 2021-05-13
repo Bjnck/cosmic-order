@@ -35,8 +35,10 @@
           [ngClass]="{'row-essential': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'essential'),
                       'row-optional': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'optional') &&
                         !(issue | issueImportance:data.arc:'essential')}">
-        <span *ngIf="issue.trade">{{issue.trade}}</span>
-        <span *ngIf="!issue.trade">{{data.arc.trade}}</span>
+        <span *ngIf="issue.trade && !issue.tradeLink">{{issue.trade}}</span>
+        <a *ngIf="issue.trade && issue.tradeLink" href="{{issue.tradeLink}}" target="_blank">{{issue.trade}}</a>
+        <span *ngIf="!issue.trade && !data.arc.tradeLink">{{data.arc.trade}}</span>
+        <a *ngIf="!issue.trade && data.arc.tradeLink" href="{{data.arc.tradeLink}}" target="_blank">{{data.arc.trade}}</a>
       </td>
     </ng-container>
     <ng-container matColumnDef="omnibus">
@@ -79,8 +81,10 @@
     <div>Issue: {{issue.title}}</div>
     <div>
       Trade:
-      <span *ngIf="issue.trade">{{issue.trade}}</span>
-      <span *ngIf="!issue.trade">{{data.arc.trade}}</span>
+      <span *ngIf="issue.trade && !issue.tradeLink">{{issue.trade}}</span>
+      <a *ngIf="issue.trade && issue.tradeLink" href="{{issue.tradeLink}}" target="_blank">{{issue.trade}}</a>
+      <span *ngIf="!issue.trade && !data.arc.tradeLink">{{data.arc.trade}}</span>
+      <a *ngIf="!issue.trade && data.arc.tradeLink" href="{{data.arc.tradeLink}}" target="_blank">{{data.arc.trade}}</a>
     </div>
     <div>
       Omnibus:

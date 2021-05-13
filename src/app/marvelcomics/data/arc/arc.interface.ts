@@ -7,6 +7,7 @@ export interface Arc {
   importance: string;
   event: string;
   trade: string;
+  tradeLink: string;
   omnibus: string;
   issues: Issue[];
   collections: string[];

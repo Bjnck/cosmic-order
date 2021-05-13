@@ -275,6 +275,21 @@ eras:
       - ref: thanos_wars
         title: The Thanos Wars
         arcs:
+          - ref: cosmic_origins
+            title: Cosmic Origins
+            comment: "Short story narrating the origins of Humanity, the Titans and the Inhumans."
+            trade: "The Eternals: Cosmic Origins"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5146294/the-eternals-cosmic-origins-tp"
+            omnibus: "The Eternals: The Complete Saga"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/1694353/the-eternals-the-complete-saga-omnibus-hc"
+            importance: optional
+            issues:
+              - title: What If? (1977) 23 (excerpt)
+              - title: What If? (1977) 24 (excerpt)
+              - title: What If? (1977) 25 (excerpt)
+              - title: What If? (1977) 26 (excerpt)
+              - title: What If? (1977) 27 (excerpt)
+              - title: What If? (1977) 28 (excerpt)
           - ref: life_of_captain_marvel
             title: The Life of Captain Marvel
             comment: "First appearances of Thanos, Drax, Moondragon and the reinvention of Captain Marvel by Jim Starlin."
@@ -285,6 +300,7 @@ eras:
               optional:
                 - kree_skrull_war
                 - cm_22_24
+                - cosmic_origins
             collections:
               - CM
               - TH
@@ -2765,6 +2781,25 @@ eras:
                 trade: "Guard. Galaxy by A&L: The Complete Collection vol. 2"
               - title: "War of Kings: Who will rule ?"
                 trade: War of Kings
+          - ref: five_miles_south
+            title: "Five Miles South of the Universe"
+            comment: "The adventures of the X-men/Starjammers after War of Kings."
+            trade: "Five Miles South of the Universe"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2717811/x-men-legacy-five-miles-south-of-universe-tp"
+            reading:
+              essential:
+                - war_of_kings
+            collections:
+              - X
+            issues:
+              - title: X-Men Legacy 250 (excerpt)
+                trade: Lost Legions
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1348633/x-men-legacy-lost-legions-tp"
+              - title: X-Men Legacy 254
+              - title: X-Men Legacy 255
+              - title: X-Men Legacy 256
+              - title: X-Men Legacy 257
+              - title: X-Men Legacy 258
       - ref: realm_of_kings_section
         title: Realm of Kings
         arcs:
@@ -2772,6 +2807,7 @@ eras:
             title: Realm of Kings
             importance: essential
             omnibus: "War of Kings Aftermath: Realm of Kings"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/6125821/war-of-kings-aftermath-realm-of-kings-omnibus-hc"
             comment: "Last chapter in the Annihilation saga."
             reading:
               essential:
@@ -2959,6 +2995,9 @@ eras:
                   - GG
                   - IH
                   - SS
+              - title: "Darkhawk: Heart of the Hawk (Last Flight)"
+                omnibus: " "
+                importance: optional
           - ref: devolution
             title: Devolution
             collections:
@@ -3502,11 +3541,13 @@ eras:
               - title: Captain Marvel (2014) 5
               - title: Captain Marvel (2014) 6
           - ref: guardians_disassembled
-            title: Guardians disassembled
+            title: Guardians Disassembled
             importance: optional
             trade: "Guard. Galaxy vol. 3: Guardians Disassembled"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4418588/guardians-of-the-galaxy-vol-3-guardians-disassembled-tp"
             omnibus: Guard. Galaxy By Brian Michael Bendis vol. 1
-            comment: Captain Marvel team up with the Guardians
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5341753/guardians-of-the-galaxy-by-bendis-omnibus-vol-1-hc"
+            comment: Venom joins the team and Captain Marvel team up with the Guardians.
             reading:
               essential:
                 - trial_of_jean_grey
@@ -3516,6 +3557,7 @@ eras:
               - GG
               - CM
             issues:
+              - title: Free Comic Book Day (2014) - Guard. Galaxy 1
               - title: Guardians of the Galaxy (2013) 14
               - title: Guardians of the Galaxy (2013) 15
               - title: Guardians of the Galaxy (2013) 16
@@ -3742,6 +3784,48 @@ eras:
               - title: Nova Special 1
               - title: Nova (2013) Annual 1
                 trade: "Nova vol. 6: Homecoming"
+          - ref: cyclops
+            title: Cyclops
+            comment: "The adventures of Cyclops and the Starjammers directly following the Trial of Jean Grey. Find out how Corsair resurrected from the War of Kings."
+            reading:
+              essential:
+                - trial_of_jean_grey
+            collections:
+              - X
+            issues:
+              - title: Cyclops (2014) 1
+                trade: "Cyclops vol. 1: Starstruck"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7724165/cyclops-vol-1-starstruck-tp"
+              - title: Cyclops (2014) 2
+                trade: "Cyclops vol. 1: Starstruck"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7724165/cyclops-vol-1-starstruck-tp"
+              - title: Cyclops (2014) 3
+                trade: "Cyclops vol. 1: Starstruck"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7724165/cyclops-vol-1-starstruck-tp"
+              - title: Cyclops (2014) 4
+                trade: "Cyclops vol. 1: Starstruck"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7724165/cyclops-vol-1-starstruck-tp"
+              - title: Cyclops (2014) 5
+                trade: "Cyclops vol. 1: Starstruck"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7724165/cyclops-vol-1-starstruck-tp"
+              - title: Cyclops (2014) 6
+                trade: "Cyclops Vol. 2: Pirates Life For Me"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2182625/cyclops-vol-2-pirates-life-for-me-tp"
+              - title: Cyclops (2014) 7
+                trade: "Cyclops Vol. 2: Pirates Life For Me"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2182625/cyclops-vol-2-pirates-life-for-me-tp"
+              - title: Cyclops (2014) 8
+                trade: "Cyclops Vol. 2: Pirates Life For Me"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2182625/cyclops-vol-2-pirates-life-for-me-tp"
+              - title: Cyclops (2014) 9
+                trade: "Cyclops Vol. 2: Pirates Life For Me"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2182625/cyclops-vol-2-pirates-life-for-me-tp"
+              - title: Cyclops (2014) 10
+                trade: "Cyclops Vol. 2: Pirates Life For Me"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2182625/cyclops-vol-2-pirates-life-for-me-tp"
+              - title: Cyclops (2014) 11
+                trade: "Cyclops Vol. 2: Pirates Life For Me"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2182625/cyclops-vol-2-pirates-life-for-me-tp"
           - ref: black_vortex_prelude
             title: Black vortex prelude
             importance: optional
@@ -3758,7 +3842,7 @@ eras:
               - title: Legendary Star-Lord 7
               - title: Legendary Star-Lord 8
           - ref: black_vortex
-            title: The black vortex
+            title: The Black Vortex
             importance: optional
             trade: "Guardians of the Galaxy & X-Men: The Black Vortex"
             omnibus: "Guard. Gal. & X-Men: The Black Vortex (HC)"
@@ -3766,6 +3850,9 @@ eras:
             reading:
               essential:
                 - black_vortex_prelude
+              optional:
+                - a_god_up_there
+                - cyclops
             collections:
               - GG
               - X
@@ -4232,6 +4319,45 @@ eras:
                 trade: "Drax vol. 2: The Children's Crusade"
               - title: Drax (2016) 11
                 trade: "Drax vol. 2: The Children's Crusade"
+          - ref: venom_space_knight
+            title: Venom Space Knight
+            comment: Solo Venom story where he fully embraces his new role of Space Knight.
+            reading:
+              essential:
+                - planet_venom
+              optional:
+                - emperor_quill
+            issues:
+              - title: "Venom: Space Knight 1"
+                trade: "Venom: Space Knight vol.1: Agent of Cosmos"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9258701/venom-space-knight-vol-1-agent-of-cosmos-tp"
+              - title: "Venom: Space Knight 2"
+                trade: "Venom: Space Knight vol.1: Agent of Cosmos"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9258701/venom-space-knight-vol-1-agent-of-cosmos-tp"
+              - title: "Venom: Space Knight 3"
+                trade: "Venom: Space Knight vol.1: Agent of Cosmos"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9258701/venom-space-knight-vol-1-agent-of-cosmos-tp"
+              - title: "Venom: Space Knight 4"
+                trade: "Venom: Space Knight vol.1: Agent of Cosmos"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9258701/venom-space-knight-vol-1-agent-of-cosmos-tp"
+              - title: "Venom: Space Knight 5"
+                trade: "Venom: Space Knight vol.1: Agent of Cosmos"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9258701/venom-space-knight-vol-1-agent-of-cosmos-tp"
+              - title: "Venom: Space Knight 6"
+                trade: "Venom: Space Knight vol.1: Agent of Cosmos"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9258701/venom-space-knight-vol-1-agent-of-cosmos-tp"
+              - title: "Venom: Space Knight 7"
+                trade: "Venom: Space Knight vol.2: Enemies and Allies"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3491524/venom-space-knight-vol-2-enemies-and-allies-tp"
+              - title: "Venom: Space Knight 8"
+                trade: "Venom: Space Knight vol.2: Enemies and Allies"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3491524/venom-space-knight-vol-2-enemies-and-allies-tp"
+              - title: "Venom: Space Knight 9"
+                trade: "Venom: Space Knight vol.2: Enemies and Allies"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3491524/venom-space-knight-vol-2-enemies-and-allies-tp"
+              - title: "Venom: Space Knight 10"
+                trade: "Venom: Space Knight vol.2: Enemies and Allies"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3491524/venom-space-knight-vol-2-enemies-and-allies-tp"
           - ref: omniversal
             title: Omniversal
             trade: "Ultimates Omniversal vol. 1: Start With the Impossible"
@@ -4550,31 +4676,26 @@ eras:
                   - GG
                   - N
                   - AW
-                  - SS
               - title: Infinity Countdown 1
                 collections:
                   - GG
                   - N
                   - AW
-                  - SS
               - title: Infinity Countdown 2
                 collections:
                   - GG
                   - N
                   - AW
-                  - SS
               - title: Infinity Countdown 3
                 collections:
                   - GG
                   - N
                   - AW
-                  - SS
               - title: Infinity Countdown 4
                 collections:
                   - GG
                   - N
                   - AW
-                  - SS
               - title: "Infinity Countdown: Captain Marvel 1"
                 importance: optional
                 trade: Infinity Countdown Companion
