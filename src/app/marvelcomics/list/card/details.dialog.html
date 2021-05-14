@@ -47,8 +47,10 @@
           [ngClass]="{'row-essential': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'essential'),
                       'row-optional': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'optional') &&
                         !(issue | issueImportance:data.arc:'essential')}">
-        <span *ngIf="issue.omnibus">{{issue.omnibus}}</span>
-        <span *ngIf="!issue.omnibus">{{data.arc.omnibus}}</span>
+        <span *ngIf="issue.omnibus && !issue.omnibusLink">{{issue.omnibus}}</span>
+        <a *ngIf="issue.omnibus && issue.omnibusLink" href="{{issue.omnibusLink}}" target="_blank">{{issue.omnibus}}</a>
+        <span *ngIf="!issue.omnibus && !data.arc.omnibusLink">{{data.arc.omnibus}}</span>
+        <a *ngIf="!issue.omnibus && data.arc.omnibusLink" href="{{data.arc.omnibusLink}}" target="_blank">{{data.arc.omnibus}}</a>
       </td>
     </ng-container>
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
@@ -88,8 +90,10 @@
     </div>
     <div>
       Omnibus:
-      <span *ngIf="issue.omnibus">{{issue.omnibus}}</span>
-      <span *ngIf="!issue.omnibus">{{data.arc.omnibus}}</span>
+      <span *ngIf="issue.omnibus && !issue.omnibusLink">{{issue.omnibus}}</span>
+      <a *ngIf="issue.omnibus && issue.omnibusLink" href="{{issue.omnibusLink}}" target="_blank">{{issue.omnibus}}</a>
+      <span *ngIf="!issue.omnibus && !data.arc.omnibusLink">{{data.arc.omnibus}}</span>
+      <a *ngIf="!issue.omnibus && data.arc.omnibusLink" href="{{data.arc.omnibusLink}}" target="_blank">{{data.arc.omnibus}}</a>
     </div>
   </div>
 </div>

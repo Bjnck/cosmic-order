@@ -9,6 +9,7 @@ export interface Arc {
   trade: string;
   tradeLink: string;
   omnibus: string;
+  omnibusLink: string;
   issues: Issue[];
   collections: string[];
   comment: string;

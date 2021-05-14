@@ -36,7 +36,7 @@ export class ReadingPipe implements PipeTransform {
     let arcs = [];
     if (ArcFilterService.isOfImportance(arc, importanceFilter) && ArcFilterService.isInCollection(arc, collectionFilter)) {
       arcs.push(arc);
-    } else if(arc.reading.essential){
+    } else if(arc.reading && arc.reading.essential){
       arc.reading.essential.forEach(r => {
         this.getEssential(r, importanceFilter, collectionFilter).forEach(arc => arcs.push(arc));
       });

@@ -4,5 +4,6 @@ export interface Issue {
   trade: string;
   tradeLink: string;
   omnibus: string;
+  omnibusLink: string;
   collections: string[];
 }
