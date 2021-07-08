@@ -5899,4 +5899,76 @@ eras:
             issues:
               - title: Guardians of the Galaxy (2020) 11
               - title: Guardians of the Galaxy (2020) 12
+      - ref: last_annihilation_section
+        title: The Last Annihilation
+        arcs:
+          - ref: gala_annihilation_prelude
+            title: Hellfire Gala & Last Annihilation Prelude
+            comment: "The Guardians discovers a new threat, in the meantime sword is influencing the galaxy's political landscape."
+            trade: "Guardians of the Galaxy by Al Ewing vol. 3"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1232450/guardians-of-the-galaxy-by-al-ewing-vol-3-were-super-heroes-now-tp"
+            collections:
+              - GG
+            reading:
+              essential:
+                - king_in_black
+                - gods_coming
+            issues:
+              - title: Guardians of the Galaxy (2020) 13
+              - title: Guardians of the Galaxy (2020) 14
+              - title: S.W.O.R.D. (2020) 5
+                trade: "S.W.O.R.D. by Al Ewing vol. 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4383520/sword-by-al-ewing-vol-1-tp"
+                collection:
+                  - X
+                  - -GG
+              - title: Guardians of the Galaxy (2020) 15
+          - ref: hellfire_gala
+            title: The Hellfire Gala
+            comment: "The X-Men organise a gala to make a planet size announcement."
+            trade: "X-Men: Hellfire Gala"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5928285/x-men-hellfire-gala-tp"
+            omnibus: "X-Men: Hellfire Gala - The Red Carpet Collection (HC)"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5648928/x-men-hellfire-gala-the-red-carpet-collection-hc"
+            collections:
+              - X
+            reading:
+              optional:
+                - king_egg
+                - king_in_black
+                - gala_annihilation_prelude
+            issues:
+              - title: Marauders (2019) 21
+              - title: X-Men (2019) 21
+              - title: Planet-Size X-Men 1
+                collections:
+                  - GG
+              - title: S.W.O.R.D. (2020) 6
+                collections:
+                  - GG
+          - ref: last_annihilation
+            title: The Last Annihilation
+            collections:
+              - GG
+              - X
+            reading:
+              essential:
+                - gala_annihilation_prelude
+              optional:
+                - empire_wakanda
+                - hellfire_gala
+            issues:
+              - title: Guardians of the Galaxy (2020) 16
+                trade: "Guardians of the Galaxy by Al Ewing vol. 3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1232450/guardians-of-the-galaxy-by-al-ewing-vol-3-were-super-heroes-now-tp"
+              - title: S.W.O.R.D. (2020) 7
+              - title: Guardians of the Galaxy (2020) 17
+                trade: "Guardians of the Galaxy by Al Ewing vol. 3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1232450/guardians-of-the-galaxy-by-al-ewing-vol-3-were-super-heroes-now-tp"
+              - title: Cable Reloaded 1
+              - title: "The Last Annihilation: Wiccan & Hulkling 1"
+              - title: "The Last Annihilation: Wakanda"
+              - title: Guardians of the Galaxy (2020) 18
+                trade: "Guardians of the Galaxy by Al Ewing vol. 3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1232450/guardians-of-the-galaxy-by-al-ewing-vol-3-were-super-heroes-now-tp"
 
