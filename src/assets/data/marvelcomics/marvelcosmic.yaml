@@ -4484,7 +4484,8 @@ eras:
           - ref: guardians_infinity
             title: Guardians of Infinity
             trade: "Guardians of the Galaxy: Guardians of Infinity"
-            comment: Standalone story, some of the actual guardians meet their counterpart from the future
+            tradeLink: "https://leagueofcomicgeeks.com/comic/3649523/guardians-of-the-galaxy-guardians-of-infinity-tp"
+            comment: Standalone story. Some of the guardians meet their counterpart from the future.
             collections:
               - GG
             reading:
@@ -4492,17 +4493,17 @@ eras:
                 - korvac_saga_warzones
                 - emperor_quill
             issues:
-              - title: Guardians of Infinity 1
-              - title: Guardians of Infinity 2
-              - title: Guardians of Infinity 3
-              - title: Guardians of Infinity 4
-              - title: Guardians of Infinity 5
-              - title: Guardians of Infinity 6
-              - title: Guardians of Infinity 7
-              - title: Guardians of Infinity 8
+              - title: Guardians of Infinity 1 - A Story
+              - title: Guardians of Infinity 2 - A Story
+              - title: Guardians of Infinity 3 - A Story
+              - title: Guardians of Infinity 4 - A Story
+              - title: Guardians of Infinity 5 - A Story
+              - title: Guardians of Infinity 6 - A Story
+              - title: Guardians of Infinity 7 - A Story
+              - title: Guardians of Infinity 8 - A Story
           - ref: childrens_crusade
             title: The Children's Crusade
-            comment: Drax's little side story between two guardian's adventure
+            comment: Drax's side story between two guardian's adventure.
             collections:
               - GG
             reading:
@@ -4512,26 +4513,37 @@ eras:
             issues:
               - title: Drax (2016) 1
                 trade: "Drax vol. 1: The Galaxy's Best Detective"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8263232/drax-vol-1-the-galaxys-best-detective-tp"
               - title: Drax (2016) 2
                 trade: "Drax vol. 1: The Galaxy's Best Detective"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8263232/drax-vol-1-the-galaxys-best-detective-tp"
               - title: Drax (2016) 3
                 trade: "Drax vol. 1: The Galaxy's Best Detective"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8263232/drax-vol-1-the-galaxys-best-detective-tp"
               - title: Drax (2016) 4
                 trade: "Drax vol. 1: The Galaxy's Best Detective"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8263232/drax-vol-1-the-galaxys-best-detective-tp"
               - title: Drax (2016) 5
                 trade: "Drax vol. 1: The Galaxy's Best Detective"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8263232/drax-vol-1-the-galaxys-best-detective-tp"
               - title: Drax (2016) 6
                 trade: "Drax vol. 2: The Children's Crusade"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7911776/drax-vol-2-childrens-crusade-tp"
               - title: Drax (2016) 7
                 trade: "Drax vol. 2: The Children's Crusade"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7911776/drax-vol-2-childrens-crusade-tp"
               - title: Drax (2016) 8
                 trade: "Drax vol. 2: The Children's Crusade"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7911776/drax-vol-2-childrens-crusade-tp"
               - title: Drax (2016) 9
                 trade: "Drax vol. 2: The Children's Crusade"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7911776/drax-vol-2-childrens-crusade-tp"
               - title: Drax (2016) 10
                 trade: "Drax vol. 2: The Children's Crusade"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7911776/drax-vol-2-childrens-crusade-tp"
               - title: Drax (2016) 11
                 trade: "Drax vol. 2: The Children's Crusade"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7911776/drax-vol-2-childrens-crusade-tp"
           - ref: venom_space_knight
             title: Venom Space Knight
             comment: Solo Venom story where he fully embraces his new role of Space Knight.
@@ -4594,6 +4606,9 @@ eras:
             title: Wanted
             importance: optional
             trade: "Guardians of the Galaxy: New Guard vol. 2: Wanted"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/3377071/guardians-of-the-galaxy-new-guard-vol-2-wanted-tp"
+            omnibus: "Guardians of the Galaxy vol. 4 (HC)"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5090679/guardians-of-the-galaxy-vol-4-hc"
             collections:
               - GG
             reading:
@@ -4733,8 +4748,10 @@ eras:
             title: A Power Greater Than Cosmic
             importance: optional
             trade: "Silver Surfer vol. 5: A Power Greater Than Cosmic"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5881894/silver-surfer-vol-5-a-power-greater-than-cosmic-tp"
             omnibus: Silver Surfer by Slott & Allred
-            comment: The end of the Silver Surfer run by Slott & Allred. Also the retelling of the life of Galactus, the lifebringer
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/9941745/silver-surfer-by-slott-allred-omnibus-hc"
+            comment: The end of the Silver Surfer run by Slott & Allred. Retelling of the life of Galactus, the lifebringer.
             reading:
               essential:
                 - citizen_earth
