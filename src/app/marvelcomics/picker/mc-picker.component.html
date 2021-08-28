@@ -1,4 +1,4 @@
-<mat-toolbar id="picker" *ngIf="!(isMobile | async)?.matches">
+<mat-toolbar id="picker" class="picker-marvelcosmic" *ngIf="!(isMobile | async)?.matches">
   <div id="picker-right" *ngIf="!(isMobile | async)?.matches">
     <mat-icon aria-label="Filter">filter_list</mat-icon>
     <div class="picker-selector">
@@ -25,7 +25,7 @@
 </mat-toolbar>
 
 
-<mat-toolbar id="picker-mobile" *ngIf="(isMobile | async)?.matches">
+<mat-toolbar id="picker-mobile" class="picker-marvelcosmic-mobile" *ngIf="(isMobile | async)?.matches">
 
   <mat-toolbar-row class="picker-mobile-line">
     <div id="filter" (click)="toggleFilter()">
@@ -33,7 +33,7 @@
       Filter
     </div>
     <div>
-      <button mat-raised-button (click)="openUpdate()">Updates</button>
+      <button id="updates-button" mat-raised-button (click)="openUpdate()">Updates</button>
     </div>
   </mat-toolbar-row>
 

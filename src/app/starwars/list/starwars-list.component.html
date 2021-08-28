@@ -1,0 +1,50 @@
+<div id="expand-buttons">
+  <button mat-button (click)="accordion.openAll()">
+    <mat-icon aria-label="show all">unfold_more</mat-icon>
+  </button>
+  <button mat-button (click)="accordion.closeAll()">
+    <mat-icon aria-label="show all">unfold_less</mat-icon>
+  </button>
+</div>
+
+<div id="list">
+  <mat-accordion multi>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>The High Republic</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.highRepublic" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>The Galactic Republic</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.republic" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>The Galactic Empire</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.empire" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>The First Order</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.firstOrder" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+
+  </mat-accordion>
+</div>

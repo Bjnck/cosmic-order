@@ -1,14 +1,16 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {MarvelComicsComponent} from './marvelcomics/marvel-comics.component';
-import {DataResolve} from './marvelcomics/data/data.resolve';
+import {MarvelComicsDataResolve} from './marvelcomics/data/marvel-comics-data.resolve';
+import {StarwarsComponent} from './starwars/starwars.component';
+import {StarwarsDataResolve} from './starwars/data/starwars-data.resolve';
 
 const routes: Routes = [
   {
     path: 'marvelcosmic',
     component: MarvelComicsComponent,
     resolve: {
-      data: DataResolve
+      data: MarvelComicsDataResolve
     }
   },
   {
@@ -20,6 +22,13 @@ const routes: Routes = [
     path: 'marvelessential.html',
     redirectTo: 'marvelcosmic',
     pathMatch: 'full'
+  },
+  {
+    path: 'starwars',
+    component: StarwarsComponent,
+    resolve: {
+      data: StarwarsDataResolve
+    }
   },
   {
     path: '',

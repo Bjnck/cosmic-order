@@ -1,3 +1,9 @@
 <mat-toolbar id="topbar">
   <div id="topbar-title">Cosmic Order</div>
+
+  <button mat-raised-button [matMenuTriggerFor]="menu">Choose another order ...</button>
+  <mat-menu #menu="matMenu">
+    <a routerLink="/marvelcosmic" class="logo-menu"><button mat-menu-item><img src="assets/img/marvelcomics/logo.png" alt="MARVEL "/>COSMIC</button></a>
+    <a routerLink="/starwars" class="logo-menu starwars"><button mat-menu-item><img src="assets/img/starwars/logo.png" alt="STAR WARS"/></button></a>
+  </mat-menu>
 </mat-toolbar>

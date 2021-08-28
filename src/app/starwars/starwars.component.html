@@ -1,0 +1,11 @@
+<app-topbar></app-topbar>
+
+<div id="content">
+  <div id="logo"><img src="assets/img/starwars/logo.png" alt="STAR WARS"/></div>
+
+  <starwars-intro></starwars-intro>
+
+  <starwars-picker (typeChangeEventEmitter)="onTypeChange($event)"></starwars-picker>
+
+  <starwars-list [data]="data" [types]="types"></starwars-list>
+</div>

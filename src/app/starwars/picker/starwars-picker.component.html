@@ -1,0 +1,15 @@
+<mat-toolbar id="picker" class="picker-starwars">
+  <div id="picker-right">
+    <mat-icon aria-label="Filter">filter_list</mat-icon>
+    <div class="picker-selector">
+      <mat-form-field>
+        <mat-select [formControl]="types" multiple (valueChange)="onTypeChange($event)">
+          <mat-option *ngFor="let type of typeList" [value]="type"
+                      class="picker-selector-option option-{{type.replace(' ','').toLowerCase()}}">
+            <div class="option-text">{{type}}</div>
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+</mat-toolbar>

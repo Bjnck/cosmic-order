@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import {TopbarComponent} from './topbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import {MatMenuModule} from '@angular/material/menu';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -11,6 +14,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   imports: [
     BrowserModule,
     MatToolbarModule,
+    MatButtonModule,
+    MatMenuModule,
+    RouterModule
   ],
   providers: [],
   exports: [

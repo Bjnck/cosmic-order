@@ -1,0 +1,668 @@
+highRepublic:
+  - ref: light_jedi
+    title: Light of the Jedi
+    type: book
+    flag: true
+    link: "The_High_Republic:_Light_of_the_Jedi"
+  - ref: into_dark
+    title: Into the Dark
+    type: book
+    link: "The_High_Republic:_Into_the_Dark"
+  - ref: high_republic_adventures_vol_1
+    title: "The High Republic Adventures: Volume One"
+    type: comic
+    link: "Star_Wars:_The_High_Republic_Adventures"
+    description: The Gaze Electric short story is part of issue 6 of the Star Wars Adventures (2020) comic line and act as a short prelude.
+    content:
+      - "Tales of Villainy: The Gaze Electric"
+      - Issues 1-5
+  - ref: there_is_no_fear
+    title: "The High Republic: There is No Fear"
+    type: comic
+    link: "Star_Wars:_The_High_Republic_(comic_series)"
+    content:
+      - Issues 1-5
+  - ref: heart_drengir
+    title: "The High Republic: Heart of the Drengir"
+    type: comic
+    link: "Star_Wars:_The_High_Republic_(comic_series)"
+    content:
+      - Issues 6-8
+  - ref: rising_storm
+    title: The Rising Storm
+    type: book
+    flag: true
+    link: "The_High_Republic:_The_Rising_Storm"
+  - ref: out_shadows
+    title: Out of the Shadows
+    type: book
+    link: "The_High_Republic:_Out_of_the_Shadows"
+
+republic:
+  - ref: master_apprentice
+    title: Master & Apprentice
+    type: book
+    link: "Master_%26_Apprentice"
+    description: A Qui-Gon Jinn and Obi-Wan Kenobi story.
+  - ref: age_qui_gon
+    title: "Age of Republic: Qui-Gon Jinn"
+    type: comic
+    link: "Age_of_Republic_-_Qui-Gon_Jinn_1"
+  - ref: age_weapon
+    title: "Age of Republic: Special - The Weapon"
+    type: comic
+    link: "Age_of_Republic_Special_1"
+    description: A Mace Windu story.
+  - ref: darth_maul
+    title: "Darth Maul"
+    type: comic
+    link: "Star_Wars:_Darth_Maul_(Marvel)"
+    content:
+      - Issues 1-5
+  - ref: age_darth_maul
+    title: "Age of Republic: Darth Maul"
+    type: comic
+    link: "Age_of_Republic_-_Darth_Maul_1"
+  - ref: episode_1
+    title: "Episode I: The Phantom Menace"
+    type: live
+    flag: true
+    link: "Star_Wars:_Episode_I_The_Phantom_Menace"
+  - ref: queen_peril
+    title: Queen's Peril
+    type: book
+    link: "Queen's_Peril"
+    description: Queen Amidala's election and retelling of the events of Episode I.
+  - ref: age_obi_wan
+    title: "Age of Republic: Obi-Wan Kenobi"
+    type: comic
+    link: "Age_of_Republic_-_Obi-Wan_Kenobi_1"
+  - ref: obi_wan_anakin
+    title: "Obi-Wan & Anakin"
+    type: comic
+    link: "Star_Wars:_Obi-Wan_and_Anakin"
+  - ref: queen_shadow
+    title: Queen's Shadow
+    type: book
+    link: "Queen%27s_Shadow"
+    description: The early political career of Padmé.
+  - ref: dooku_jedi_lost
+    title: "Dooku: Jedi Lost"
+    type: book
+    link: "Dooku:_Jedi_Lost"
+    description: The youth of Dooku and his meeting with Ventress.
+  - ref: age_dooku
+    title: "Age of Republic: Count Dooku"
+    type: comic
+    link: "Age_of_Republic_-_Count_Dooku_1"
+  - ref: age_jango_fett
+    title: "Age of Republic: Jango Fett"
+    type: comic
+    link: "Age_of_Republic_-_Jango_Fett_1"
+    description: Explains the start of the clone program.
+  - ref: episode_2
+    title: "Episode II: Attack of the Clones"
+    type: live
+    flag: true
+    link: "Star_Wars:_Episode_II_Attack_of_the_Clones"
+  - ref: mace_windu
+    title: "Mace Windu"
+    type: comic
+    link: "Star_Wars:_Jedi_of_the_Republic_–_Mace_Windu"
+    content:
+      - Issues 1-5
+  - ref: age_anakin
+    title: "Age of Republic: Anakin Skywalker"
+    type: comic
+    link: "Age_of_Republic_-_Anakin_Skywalker_1"
+  - ref: clone_wars_christophsis
+    title: "The Clone Wars: Christophsis"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 2 - episode 16
+      - season 1 - episode 16
+  - ref: clone_wars_movie
+    title: "The Clone Wars (movie)"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars_(film)"
+  - ref: clone_wars_toydaria
+    title: "The Clone Wars: Toydaria"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 03
+      - season 1 - episode 01
+  - ref: clone_wars_malevolence
+    title: "The Clone Wars: The Malevolence"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 1 - episode 02
+      - season 1 - episode 03
+      - season 1 - episode 04
+  - ref: clone_wars_cadets
+    title: "The Clone Wars: Clone Cadets"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 01
+      - season 1 - episode 05
+  - ref: clone_wars_r3s6
+    title: "The Clone Wars: R3-S6"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 1 - episode 06
+      - season 1 - episode 07
+  - ref: clone_wars_nute_gunray
+    title: "The Clone Wars: Nute Gunray"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 1 - episode 08
+      - season 1 - episode 09
+      - season 1 - episode 10
+  - ref: age_grievous
+    title: "Age of Republic: General Grievous"
+    type: comic
+    link: "Age_of_Republic_-_General_Grievous_1"
+  - ref: clone_wars_florrum
+    title: "The Clone Wars: Florrum"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 1 - episode 11
+      - season 1 - episode 12
+  - ref: clone_wars_maridun
+    title: "The Clone Wars: Maridun"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 1 - episode 13
+      - season 1 - episode 14
+  - ref: clone_wars_trespass
+    title: "The Clone Wars: Trespass"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 1 - episode 15
+  - ref: clone_wars_blue_virus
+    title: "The Clone Wars: The Blue Shadow Virus"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 1 - episode 17
+      - season 1 - episode 18
+  - ref: clone_wars_ryloth
+    title: "The Clone Wars: Ryloth"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 1 - episode 19
+      - season 1 - episode 20
+      - season 1 - episode 21
+  - ref: clone_wars_holocron
+    title: "The Clone Wars: Magic of the Holocron"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 2 - episode 01
+      - season 2 - episode 02
+      - season 2 - episode 03
+  - ref: clone_wars_zillo
+    title: "The Clone Wars: Attack of the Zillo Beast"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 2 - episode 18
+      - season 2 - episode 19
+  - ref: clone_wars_geonosis
+    title: "The Clone Wars: Return to Geonosis"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 2 - episode 04
+      - season 2 - episode 05
+      - season 2 - episode 06
+      - season 2 - episode 07
+      - season 2 - episode 08
+  - ref: clone_wars_bounty_hunters
+    title: "The Clone Wars: Bounty Hunters"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 2 - episode 17
+  - ref: clone_wars_saleucami
+    title: "The Clone Wars: Saleucami"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 2 - episode 09
+      - season 2 - episode 10
+  - ref: clone_wars_lightsaber_lost
+    title: "The Clone Wars: Lightsaber Lost"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 2 - episode 11
+  - ref: clone_wars_mandalore
+    title: "The Clone Wars: Mandalore"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 2 - episode 12
+      - season 2 - episode 13
+      - season 2 - episode 14
+  - ref: clone_wars_bobba_fett
+    title: "The Clone Wars: Boba Fett"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 2 - episode 20
+      - season 2 - episode 21
+      - season 2 - episode 22
+  - ref: clone_wars_corruption
+    title: "The Clone Wars: Corruption"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 05
+      - season 3 - episode 06
+  - ref: clone_wars_hutts
+    title: "The Clone Wars: Hutts and the Underworld"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 07
+      - season 3 - episode 08
+      - season 1 - episode 22
+      - season 3 - episode 09
+  - ref: clone_wars_arc
+    title: "The Clone Wars: ARC Troopers"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 02
+  - ref: clone_wars_influence
+    title: "The Clone Wars: Sphere of Influence"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 04
+  - ref: clone_wars_padme
+    title: "The Clone Wars: Padmé Amidala"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 10
+      - season 3 - episode 11
+      - season 2 - episode 15
+  - ref: clone_wars_witches
+    title: "The Clone Wars: Witches and Monsters"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 12
+      - season 3 - episode 13
+      - season 3 - episode 14
+  - ref: clone_wars_mortis
+    title: "The Clone Wars: Secrets of Mortis"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 15
+      - season 3 - episode 16
+      - season 3 - episode 17
+  - ref: clone_wars_citadel
+    title: "The Clone Wars: The Citadel"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 18
+      - season 3 - episode 19
+      - season 3 - episode 20
+  - ref: clone_wars_padawan_lost
+    title: "The Clone Wars: Padawan Lost"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 3 - episode 20
+      - season 3 - episode 21
+
+
+
+  - ref: age_sisters
+    title: "Age of Republic: Special - Sisters"
+    type: comic
+    link: "Age_of_Republic_Special_1"
+    description: Asajj Ventress career as a bounty hunter after Dooku's betrayal. (after asohka is cast out)
+  - ref: age_501
+    title: "Age of Republic: Special - 501 Plus One"
+    type: comic
+    link: "Age_of_Republic_Special_1"
+    description: Probably at the end of Clone Wars given the look of Anakin ???
+  - ref: age_padme
+    title: "Age of Republic: Padmé Amidala"
+    type: comic
+    link: "Age_of_Republic_-_Padmé_Amidala_1"
+  - ref: episode_3
+    title: "Episode III: Revenge of the Sith"
+    type: live
+    flag: true
+    link: "Star_Wars:_Episode_III_Revenge_of_the_Sith"
+
+
+empire:
+  - ref: age_vader
+    title: "Age of Rebellion: Darth Vader"
+    type: comic
+    link: "Age_of_Rebellion_-_Darth_Vader_1"
+  - ref: solo
+    title: "Solo"
+    type: live
+    link: "Solo:_A_Star_Wars_Story"
+  - ref: kanan
+    title: "Kanan"
+    type: comic
+    link: "Star_Wars:_Kanan"
+    description: A Star Wars Rebels story. The youth of Kanan Jarrus during the Clone Wars.
+    content:
+      - Issues 1-12
+  - ref: age_jabba
+    title: "Age of Rebellion: Jabba the Hutt"
+    type: comic
+    link: "Age_of_Rebellion_-_Darth_Vader_1"
+  - ref: dark_visions
+    title: "Vader: Dark Visions"
+    type: comic
+    link: "Star_Wars:_Vader_-_Dark_Visions"
+    description: Anthology serie that shows the horrific perception of Vader throughout the galaxy.
+    content:
+      - Issues 1-5
+  - ref: rogue_one
+    title: "Rogue One"
+    type: live
+    link: "Rogue_One:_A_Star_Wars_Story"
+  - ref: episode_4
+    title: "Episode IV: A New Hope"
+    type: live
+    flag: true
+    link: "Star_Wars:_Episode_IV_A_New_Hope"
+  - ref: age_tarkin
+    title: "Age of Rebellion: Grand Moff Tarkin"
+    type: comic
+    link: "Age_of_Rebellion_-_Grand_Moff_Tarkin_1"
+    description: Concurent to Episode IV.
+  - ref: princess_leia
+    title: "Princess Leia"
+    type: comic
+    link: "Star_Wars:_Princess_Leia"
+    content:
+      - Issues 1-5
+  - ref: chewbacca
+    title: "Chewbacca"
+    type: comic
+    link: "Star_Wars:_Chewbacca_(Marvel)"
+    content:
+      - Issues 1-5
+  - ref: smuggler_run
+    title: "Smuggler's Run"
+    type: comic
+    link: "Star_Wars_Adventures:_Smuggler%27s_Run"
+    content:
+      - Issues 1-2
+  - ref: age_solo
+    title: "Age of Rebellion: Han Solo"
+    type: comic
+    link: "Age_of_Rebellion_-_Han_Solo_1"
+  - ref: heir_jedi
+    title: "Heir to the Jedi"
+    type: book
+    link: "Heir_to_the_Jedi"
+    description: A Luke Skywalker story.
+  - ref: weapon_jedi
+    title: "The Weapon of the Jedi"
+    type: comic
+    link: "Star_Wars_Adventures:_The_Weapon_of_a_Jedi"
+    content:
+      - Issues 1-2
+  - ref: han_solo
+    title: "Han Solo"
+    type: comic
+    link: "Star_Wars:_Han_Solo"
+    content:
+      - Issues 1-5
+  - ref: star_wars_2015_skywalker_strikes
+    title: "Star Wars 2015: Skywalker Strikes"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Star Wars 2015 - Issues 1-3
+      - Star Wars 2015 - Annual 4
+      - Darth Vader 2015 - Issues 1
+      - Star Wars 2015 - Issues 4-6
+  - ref: darth_vader_2015_vader
+    title: "Darth Vader 2015: Vader"
+    type: comic
+    link: "Star_Wars:_Darth_Vader_(2015)"
+    content:
+      - Issues 2-6
+  - ref: star_wars_2015_journal
+    title: "Star Wars 2015: The Journal of Kenobi"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Issue 7
+      - Issue 15
+      - Issue 20
+  - ref: star_wars_2015_moon
+    title: "Star Wars 2015: The Smuggler's Moon"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Issues 8-12
+  - ref: darth_vader_2015_shadows
+    title: "Darth Vader 2015: Shadows and Secrets"
+    type: comic
+    link: "Star_Wars:_Darth_Vader_(2015)"
+    content:
+      - Issues 7-12
+  - ref: vader_down
+    title: "Vader Down"
+    type: comic
+    link: "Star_Wars:_Vader_Down"
+    content:
+      - Vader Down
+      - Darth Vader 2015 - Issue 13
+      - Star Wars 2015 - Issue 13
+      - Darth Vader 2015 - Issue 14
+      - Star Wars 2015 - Issue 14
+      - Darth Vader 2015 - Issue 15
+  - ref: darth_vader_2015_shu_torun
+    title: "Darth Vader 2015: The Shu-Torun War"
+    type: comic
+    link: "Star_Wars:_Darth_Vader_(2015)"
+    content:
+      - Issues 16-19
+  - ref: star_wars_2015_rebel_jail
+    title: "Star Wars 2015: Rebel Jail"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Annual 1
+      - Issues 16-19
+  - ref: darth_vader_2015_end_games
+    title: "Darth Vader 2015: End of Games"
+    type: comic
+    link: "Star_Wars:_Darth_Vader_(2015)"
+    content:
+      - Issues 20-25
+  - ref: star_wars_2015_harbinger
+    title: "Star Wars 2015: The Last Flight of the Harbinger"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Issues 21-25
+  - ref: star_wars_2015_yoda_war
+    title: "Star Wars 2015: Yoda's Secret War"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Issues 26-30
+  - ref: star_wars_2015_bash
+    title: "Star Wars 2015: Bash"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Annual 2
+  - ref: doctor_aphra_2016_aphra
+    title: "Doctor Aphra 2016: Aphra"
+    type: comic
+    link: "Star_Wars:_Doctor_Aphra_(2016)"
+    content:
+      - Issues 1-6
+  - ref: screaming_citadel
+    title: "The Screaming Citadel"
+    type: comic
+    link: "Star_Wars:_Doctor_Aphra_(2016)"
+    content:
+      - The Screaming Citadel
+      - Star Wars 2015 - Issue 31
+      - Doctor Aphra 2016 - Issue 7
+      - Star Wars 2015 - Issue 32
+      - Doctor Aphra 2016 - Issue 8
+  - ref: doctor_aphra_2016_profit
+    title: "Doctor Aphra 2016: The Enormous Profit"
+    type: comic
+    link: "Star_Wars:_Doctor_Aphra_(2016)"
+    content:
+      - Annual 1
+      - Issues 9-13
+  - ref: lando
+    title: "Lando"
+    type: comic
+    link: "Star_Wars:_Lando_(comic_series)"
+    content:
+      - Issues 1-5
+  - ref: star_wars_2015_out_stars
+    title: "Star Wars 2015: Out Among the Stars"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Annual 3
+      - Issues 33-37
+  - ref: doctor_aphra_2016_remastered
+    title: "Doctor Aphra 2016: Remastered"
+    type: comic
+    link: "Star_Wars:_Doctor_Aphra_(2016)"
+    content:
+      - Annual 2
+      - Issues 14-19
+  - ref: doctor_aphra_2016_catastrophe
+    title: "Doctor Aphra 2016: The Catastrophe Con"
+    type: comic
+    link: "Star_Wars:_Doctor_Aphra_(2016)"
+    content:
+      - Issues 20-25
+  - ref: doctor_aphra_2016_worst_equals
+    title: "Doctor Aphra 2016: Worst Among Equals"
+    type: comic
+    link: "Star_Wars:_Doctor_Aphra_(2016)"
+    content:
+      - Issues 26-31
+  - ref: star_wars_2015_jedha
+    title: "Star Wars 2015: The Ashes of Jedha"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Issues 38-43
+  - ref: star_wars_2015_mon_cala
+    title: "Star Wars 2015: Mutiny at Mon Cala"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Issues 44-49
+  - ref: star_wars_2015_hope_dies
+    title: "Star Wars 2015: Hope Dies"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Issues 50-55
+  - ref: star_wars_2015_escape
+    title: "Star Wars 2015: The Escape"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Issues 56-61
+  - ref: star_wars_2015_scourging
+    title: "Star Wars 2015: The Scourging of Shu-Torun"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    content:
+      - Issues 62-67
+  - ref: doctor_aphra_2016_superweapon
+    title: "Doctor Aphra 2016: Unspeakable Rebel Superweapon"
+    type: comic
+    link: "Star_Wars:_Doctor_Aphra_(2016)"
+    content:
+      - Issues 32-36
+  - ref: star_wars_2015_rogues
+    title: "Star Wars 2015: Rebels and Rogues"
+    type: comic
+    link: "Star_Wars_(Marvel_2015)"
+    description: empire ascendant mostly focus on poe's parent, maybe not the best place to introduce them ???
+    content:
+      - Issues 68-75
+      - Empire Ascendant - An Echo of Victory
+  - ref: target_vader
+    title: "Target Vader"
+    type: comic
+    link: "Star_Wars:_Target_Vader"
+    content:
+      - Issues 1-6
+      - Empire Ascendant - Two Sides to Every Sortie
+  - ref: doctor_aphra_2016_rogue_end
+    title: "Doctor Aphra 2016: A Rogue's End"
+    type: comic
+    link: "Star_Wars:_Doctor_Aphra_(2016)"
+    content:
+      - Issues 37-40
+      - Annual 3
+      - Empire Ascendant - Epilogue
+  - ref: age_long_game
+    title: "Age of Rebellion: Special - The Long Game"
+    type: comic
+    link: "Age_of_Rebellion_Special_1"
+    description: An IG-88 story.
+  - ref: age_boba_fett
+    title: "Age of Rebellion: Boba Fett"
+    type: comic
+    link: "Age_of_Rebellion_-_Boba_Fett_1"
+  - ref: age_lando
+    title: "Age of Rebellion: Lando Clarissian"
+    type: comic
+    link: "Age_of_Rebellion_-_Lando_Calrissian_1"
+  - ref: episode_5
+    title: "Episode V: The Empire Strikes Back"
+    type: live
+    flag: true
+    link: "Star_Wars:_Episode_V_The_Empire_Strikes_Back"
+  - ref: age_dagobah
+    title: "Age of Rebellion: Special - The Trial of Dagobah"
+    type: comic
+    link: "Age_of_Rebellion_Special_1"
+    description: A Yoda story. Concurent with Episode V.
+  - ref: age_luke
+    title: "Age of Rebellion: Luke Skywalker"
+    type: comic
+    link: "Age_of_Rebellion_-_Luke_Skywalker_1"
+  - ref: age_leia
+    title: "Age of Rebellion: Princess Leia"
+    type: comic
+    link: "Age_of_Rebellion_-_Princess_Leia_1"
+  - ref: episode_6
+    title: "Episode VI: Return of the Jedi"
+    type: live
+    flag: true
+    link: "Star_Wars:_Episode_VI_Return_of_the_Jedi"
