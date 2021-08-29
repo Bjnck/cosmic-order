@@ -4905,9 +4905,10 @@ eras:
         title: Infinity Wars
         arcs:
           - ref: memento_mori
-            title: Memento mori
+            title: Memento Mori
             trade: "Gamora: Memento Mori"
-            comment: Origins of Gamora
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4792280/gamora-vol-1-memento-mori-tp"
+            comment: Origins of Gamora.
             importance: optional
             collections:
               - GG
@@ -4918,9 +4919,10 @@ eras:
               - title: Gamora 4
               - title: Gamora 5
           - ref: nova_resurection
-            title: Nova resurection
+            title: Nova Resurection
             trade: "Nova: Resurrection"
-            comment: The return of Richard Rider. (Note that I skipped issues 1 to 9 of the Nova 2015 serie, all you need to know about those is that Sam lost his dad again)
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4114226/nova-resurrection-tp"
+            comment: The return of Richard Rider. (Note that I skipped issues 1 to 9 of the Nova 2015 serie, all you need to know about those is that Sam lost his dad again).
             importance: optional
             reading:
               optional:
@@ -4931,8 +4933,10 @@ eras:
             issues:
               - title: Nova (2015) 10
                 trade: "Nova: The Human Rocket vol. 2: Afterburn"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1430852/nova-vol-2-after-burn-tp"
               - title: Nova (2015) 11
                 trade: "Nova: The Human Rocket vol. 2: Afterburn"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1430852/nova-vol-2-after-burn-tp"
               - title: Nova (2017) 1
               - title: Nova (2017) 2
               - title: Nova (2017) 3
@@ -4943,7 +4947,8 @@ eras:
           - ref: guardians_duggan
             title: Guardians by Duggan
             omnibus: Guardians of the Galaxy by Gerry Duggan
-            comment: Build-up Infinity Countdown
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7659234/guardians-of-the-galaxy-by-gerry-duggan-omnibus-hc"
+            comment: Prelude to Infinity Countdown.
             importance: essential
             reading:
               optional:
@@ -4955,56 +4960,74 @@ eras:
             issues:
               - title: Free Comic Book Day 2017 Guard. Galaxy 1
                 trade: "All-New Guard. Gal. vol. 1: Communication Breakdown"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6325403/all-new-guardians-of-the-galaxy-vol-1-communication-breakdown-tp"
               - title: All-New Guardians of the Galaxy 1
                 trade: "All-New Guard. Gal. vol. 1: Communication Breakdown"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6325403/all-new-guardians-of-the-galaxy-vol-1-communication-breakdown-tp"
               - title: All-New Guardians of the Galaxy 2
                 trade: "All-New Guard. Gal. vol. 1: Communication Breakdown"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6325403/all-new-guardians-of-the-galaxy-vol-1-communication-breakdown-tp"
               - title: All-New Guardians of the Galaxy 3
                 trade: "All-New Guard. Galaxy vol. 2: Riders in the Sky"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1545302/all-new-guardians-of-the-galaxy-vol-2-riders-in-the-sky-tp"
               - title: All-New Guardians of the Galaxy 4
                 trade: "All-New Guard. Gal. vol. 1: Communication Breakdown"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6325403/all-new-guardians-of-the-galaxy-vol-1-communication-breakdown-tp"
               - title: All-New Guardians of the Galaxy 5
                 trade: "All-New Guard. Galaxy vol. 2: Riders in the Sky"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1545302/all-new-guardians-of-the-galaxy-vol-2-riders-in-the-sky-tp"
               - title: All-New Guardians of the Galaxy 6
                 trade: "All-New Guard. Gal. vol. 1: Communication Breakdown"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6325403/all-new-guardians-of-the-galaxy-vol-1-communication-breakdown-tp"
               - title: All-New Guardians of the Galaxy 7
                 trade: "All-New Guard. Galaxy vol. 2: Riders in the Sky"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1545302/all-new-guardians-of-the-galaxy-vol-2-riders-in-the-sky-tp"
               - title: All-New Guardians of the Galaxy 8
                 trade: "All-New Guard. Gal. vol. 1: Communication Breakdown"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6325403/all-new-guardians-of-the-galaxy-vol-1-communication-breakdown-tp"
               - title: All-New Guardians of the Galaxy 9
                 trade: "All-New Guard. Galaxy vol. 2: Riders in the Sky"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1545302/all-new-guardians-of-the-galaxy-vol-2-riders-in-the-sky-tp"
               - title: All-New Guardians of the Galaxy 10
                 trade: "All-New Guard. Gal. vol. 1: Communication Breakdown"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6325403/all-new-guardians-of-the-galaxy-vol-1-communication-breakdown-tp"
               - title: All-New Guardians of the Galaxy 11
                 trade: "All-New Guard. Galaxy vol. 2: Riders in the Sky"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1545302/all-new-guardians-of-the-galaxy-vol-2-riders-in-the-sky-tp"
                 collections:
                   - N
               - title: All-New Guardians of the Galaxy 12
                 trade: "All-New Guard. Galaxy vol. 2: Riders in the Sky"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1545302/all-new-guardians-of-the-galaxy-vol-2-riders-in-the-sky-tp"
               - title: Guardians of the Galaxy (2017) 146
                 trade: "All-New Guardians of the Galaxy vol. 3: Infinity Quest"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5745517/guardians-of-the-galaxy-infinity-quest-tp"
                 collections:
                   - N
               - title: Guardians of the Galaxy (2017) 147
                 trade: "All-New Guardians of the Galaxy vol. 3: Infinity Quest"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5745517/guardians-of-the-galaxy-infinity-quest-tp"
                 collections:
                   - N
               - title: Guardians of the Galaxy (2017) 148
                 trade: "All-New Guardians of the Galaxy vol. 3: Infinity Quest"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5745517/guardians-of-the-galaxy-infinity-quest-tp"
                 collections:
                   - N
               - title: Guardians of the Galaxy (2017) 149
                 trade: "All-New Guardians of the Galaxy vol. 3: Infinity Quest"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5745517/guardians-of-the-galaxy-infinity-quest-tp"
                 collections:
                   - N
               - title: Guardians of the Galaxy (2017) 150
                 trade: "All-New Guardians of the Galaxy vol. 3: Infinity Quest"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5745517/guardians-of-the-galaxy-infinity-quest-tp"
                 collections:
                   - N
                   - AW
           - ref: god_quarry
-            title: The god quarry
-            comment: Thanos was never really gone but he comes back anyway, stronger and madder
+            title: The God Quarry
+            comment: Thanos was never really gone but he comes back anyway, stronger and even more mad.
             importance: optional
             reading:
               essential:
@@ -5014,33 +5037,47 @@ eras:
             issues:
               - title: Thanos (2016) 1
                 trade: "Thanos vol. 1: Thanos Returns"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3610284/thanos-vol-1-thanos-returns-tp"
               - title: Thanos (2016) 2
                 trade: "Thanos vol. 1: Thanos Returns"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3610284/thanos-vol-1-thanos-returns-tp"
               - title: Thanos (2016) 3
                 trade: "Thanos vol. 1: Thanos Returns"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3610284/thanos-vol-1-thanos-returns-tp"
               - title: Thanos (2016) 4
                 trade: "Thanos vol. 1: Thanos Returns"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3610284/thanos-vol-1-thanos-returns-tp"
               - title: Thanos (2016) 5
                 trade: "Thanos vol. 1: Thanos Returns"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3610284/thanos-vol-1-thanos-returns-tp"
               - title: Thanos (2016) 6
                 trade: "Thanos vol. 1: Thanos Returns"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3610284/thanos-vol-1-thanos-returns-tp"
               - title: Thanos (2016) 7
                 trade: "Thanos vol. 2: The God Quarry"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4795158/thanos-vol-2-the-god-quarry-tp"
               - title: Thanos (2016) 8
                 trade: "Thanos vol. 2: The God Quarry"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4795158/thanos-vol-2-the-god-quarry-tp"
               - title: Thanos (2016) 9
                 trade: "Thanos vol. 2: The God Quarry"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4795158/thanos-vol-2-the-god-quarry-tp"
               - title: Thanos (2016) 10
                 trade: "Thanos vol. 2: The God Quarry"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4795158/thanos-vol-2-the-god-quarry-tp"
               - title: Thanos (2016) 11
                 trade: "Thanos vol. 2: The God Quarry"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4795158/thanos-vol-2-the-god-quarry-tp"
               - title: Thanos (2016) 12
                 trade: "Thanos vol. 2: The God Quarry"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4795158/thanos-vol-2-the-god-quarry-tp"
           - ref: infinity_countdown
             title: Infinity Countdown
-            comment: Build-up Infinity Wars
-            trade: Infinity Countdown
+            comment: Prelude to Infinity Wars.
+            trade: "Infinity Countdown"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5781389/infinity-countdown-tp"
             omnibus: "Infinity Wars: The Complete Collection (HC)"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/4781545/infinity-wars-by-gerry-duggan-the-complete-collection-hc"
             importance: essential
             reading:
               essential:
@@ -5079,72 +5116,87 @@ eras:
                   - AW
               - title: "Infinity Countdown: Captain Marvel 1"
                 importance: optional
-                trade: Infinity Countdown Companion
+                trade: "Infinity Countdown Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3659669/infinity-countdown-companion-tp"
                 omnibus: " "
                 collections:
                   - CM
               - title: Doctor Strange (2018) 1
                 importance: " "
-                trade: "Doctor Strange by Mark Waid: Across The Universe"
+                trade: "Doctor Strange vol. 1: Across The Universe"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6222002/doctor-strange-vol-1-across-the-universe-tp"
                 omnibus: " "
               - title: Doctor Strange (2018) 2
                 importance: " "
-                trade: "Doctor Strange by Mark Waid: Across The Universe"
+                trade: "Doctor Strange vol. 1: Across The Universe"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6222002/doctor-strange-vol-1-across-the-universe-tp"
                 omnibus: " "
               - title: Doctor Strange (2018) 3
                 importance: optional
-                trade: "Doctor Strange by Mark Waid: Across The Universe"
+                trade: "Doctor Strange vol. 1: Across The Universe"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6222002/doctor-strange-vol-1-across-the-universe-tp"
                 omnibus: " "
               - title: Doctor Strange (2018) 4
                 importance: " "
-                trade: "Doctor Strange by Mark Waid: Across The Universe"
+                trade: "Doctor Strange vol. 1: Across The Universe"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6222002/doctor-strange-vol-1-across-the-universe-tp"
                 omnibus: " "
               - title: Doctor Strange (2018) 5
                 importance: " "
-                trade: "Doctor Strange by Mark Waid: Across The Universe"
+                trade: "Doctor Strange vol. 1: Across The Universe"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6222002/doctor-strange-vol-1-across-the-universe-tp"
                 omnibus: " "
               - title: "Infinity Countdown: Daredevil 1"
                 importance: optional
-                trade: Infinity Countdown Companion
+                trade: "Infinity Countdown Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3659669/infinity-countdown-companion-tp"
                 omnibus: " "
               - title: "Infinity Countdown: Black Widow 1"
-                trade: Infinity Countdown Companion
+                trade: "Infinity Countdown Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3659669/infinity-countdown-companion-tp"
                 omnibus: " "
               - title: "Darkhawk 51"
                 trade: "Infinity Countdown: Darkhawk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9586001/infinity-countdown-darkhawk-tp"
                 omnibus: " "
                 collections:
                   - N
               - title: "Infinity Countdown: Darkhawk 1"
                 trade: "Infinity Countdown: Darkhawk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9586001/infinity-countdown-darkhawk-tp"
                 omnibus: " "
                 collections:
                   - N
               - title: "Infinity Countdown: Darkhawk 2"
                 trade: "Infinity Countdown: Darkhawk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9586001/infinity-countdown-darkhawk-tp"
                 omnibus: " "
                 collections:
                   - N
               - title: "Infinity Countdown: Darkhawk 3"
                 trade: "Infinity Countdown: Darkhawk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9586001/infinity-countdown-darkhawk-tp"
                 omnibus: " "
                 collections:
                   - N
               - title: "Infinity Countdown: Darkhawk 4"
                 trade: "Infinity Countdown: Darkhawk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9586001/infinity-countdown-darkhawk-tp"
                 omnibus: " "
                 collections:
                   - N
               - title: "Infinity Countdown: Champions 1"
                 importance: optional
-                trade: Infinity Countdown Companion
+                trade: "Infinity Countdown Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3659669/infinity-countdown-companion-tp"
                 omnibus: " "
                 collections:
                   - N
                   - TH
               - title: "Infinity Countdown: Champions 2"
                 importance: optional
-                trade: Infinity Countdown Companion
+                trade: "Infinity Countdown Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3659669/infinity-countdown-companion-tp"
                 omnibus: " "
                 collections:
                   - N
@@ -5155,10 +5207,12 @@ eras:
                   - N
                   - AW
           - ref: thanos_wins
-            title: Thanos wins
-            comment: An incredible story that gives birth to the Cosmic Ghost Rider and setup Thanos for Infinity Wars
-            trade: Thanos Wins
+            title: Thanos Wins
+            comment: An incredible story that gives birth to the Cosmic Ghost Rider and setup Thanos for Infinity Wars.
+            trade: "Thanos Wins"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5848660/thanos-thanos-wins-tp"
             omnibus: "Marvel Cosmic Universe By D. Cates vol. 1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/2205616/marvel-cosmic-universe-by-donny-cates-omnibus-vol-1-hc"
             importance: essential
             reading:
               essential:
@@ -5179,9 +5233,11 @@ eras:
                   - -SS
           - ref: cosmic_ghost_rider
             title: Cosmic Ghost Rider
-            comment: The story of Cosmic Ghost Rider continues after Thanos wins
+            comment: The story of Cosmic Ghost Rider continues after Thanos Wins.
             trade: "Cosmic Ghost Rider: Baby Thanos Must Die"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8968781/cosmic-ghost-rider-baby-thanos-must-die-tpb"
             omnibus: "Marvel Cosmic Universe By D. Cates vol. 1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/2205616/marvel-cosmic-universe-by-donny-cates-omnibus-vol-1-hc"
             importance: optional
             reading:
               essential:
