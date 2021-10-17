@@ -2633,6 +2633,20 @@ eras:
               - title: Guardians of the Galaxy (2008) 4
               - title: Guardians of the Galaxy (2008) 5
               - title: Guardians of the Galaxy (2008) 6
+          - ref: cosmic_collision
+            title: Cosmic Collision
+            comment: "She-Hulk meets the feminine side of the Guardians of the Galaxy in an all women team up against a cosmic threat."
+            trade: "She-Hulk vol. 7: Here Today"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2305456/she-hulk-vol-7-here-today-tp"
+            omnibus: "She-Hulk by Peter David"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/6349185/she-hulk-by-peter-david-omnibus-hc"
+            reading:
+              optional:
+                - secret_invasion_guardians
+            collections:
+              - CM
+            issues:
+              - title: "She-Hulk: Cosmic Collision"
           - ref: secret_invasion_nova
             title: Secret Invasion Nova
             importance: essential
