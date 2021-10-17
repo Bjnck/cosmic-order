@@ -329,6 +329,14 @@ republic:
     content:
       - season 3 - episode 20
       - season 3 - episode 21
+  - ref: clone_wars_mon_cala
+    title: "The Clone Wars: The Battle of Mon Cala"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 4 - episode 01
+      - season 4 - episode 02
+      - season 4 - episode 03
 
 
 
