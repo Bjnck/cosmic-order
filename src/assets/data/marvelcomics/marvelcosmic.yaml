@@ -2165,6 +2165,18 @@ eras:
       - ref: annihilation_section
         title: Annihilation
         arcs:
+          - ref: stormbreaker
+            title: Stormbreaker
+            trade: "Stormbreaker: The Saga of Beta Ray Bill"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4603426/stormbreaker-the-saga-of-beta-ray-bill-tp"
+            comment: Origins of Beta Ray Bill.
+            issues:
+              - title: "Stormbreaker: The Saga of Beta Ray Bill 1"
+              - title: "Stormbreaker: The Saga of Beta Ray Bill 2"
+              - title: "Stormbreaker: The Saga of Beta Ray Bill 3"
+              - title: "Stormbreaker: The Saga of Beta Ray Bill 4"
+              - title: "Stormbreaker: The Saga of Beta Ray Bill 5"
+              - title: "Stormbreaker: The Saga of Beta Ray Bill 6"
           - ref: samaritan
             title: Samaritan
             trade: "Thanos: Redemption"
@@ -2693,6 +2705,9 @@ eras:
             comment: "Beta Ray Bill vs. Galactus."
             trade: "Beta Ray Bill: Godhunter"
             tradeLink: "https://leagueofcomicgeeks.com/comic/7342458/beta-ray-bill-godhunter-vol-1-tp"
+            reading:
+              essential:
+                - stormbreaker
             issues:
               - title: "The Green of Eden 1"
               - title: "Beta Ray Bill: Godhunter 1"
@@ -3177,6 +3192,24 @@ eras:
                 trade: "Annihilators: Earthfall"
               - title: "Annihilators: Earthfall 4"
                 trade: "Annihilators: Earthfall"
+          - ref: operation_phoenix
+            title: Operation Phoenix
+            reading:
+              essential:
+                - dark_phoenix_saga
+                - death_of_captain_marvel
+            collections:
+              - X
+              - CM
+            trade: "Secret Avengers by R. Remender: The Complete Collection"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8573200/secret-avengers-by-rick-remender-the-complete-collection-tp"
+            omnibus: "Avengers vs. X-Men: Companion (HC)"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8715439/avengers-vs-x-men-companion-hc"
+            comment: "Tie-in story to the Avengers vs. X-Men crossover event. The phoenix force is on its way to destroy Earth but the Kree have a secret plan to use it for their own."
+            issues:
+              - title: Secret Avengers (2010) 26
+              - title: Secret Avengers (2010) 27
+              - title: Secret Avengers (2010) 28
 
   - ref: secret_wars_era
     title: Secret Wars
@@ -4182,7 +4215,9 @@ eras:
         arcs:
           - ref: guardians_3000
             title: Guardians 3000
-            comment: "Original Guardians prologue to Secret Wars"
+            comment: "The original Guardians from the year 3000 come back to the present. Prelude to the Secret Wars Battleworld mini-serie, the Korvac Saga Warzones."
+            trade: "Guardians 3000 vol.1: Time After Time"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/3085232/guardians-3000-vol-1-time-after-time-tp"
             importance: optional
             reading:
               optional:
@@ -4191,26 +4226,26 @@ eras:
               - GG
             issues:
               - title: Guardians 3000 1
-                trade: "Guardians 3000 vol. 1: Time After Time"
               - title: Guardians 3000 2
-                trade: "Guardians 3000 vol. 1: Time After Time"
               - title: Guardians 3000 3
-                trade: "Guardians 3000 vol. 1: Time After Time"
               - title: Guardians 3000 4
-                trade: "Guardians 3000 vol. 1: Time After Time"
               - title: Guardians 3000 5
-                trade: "Guardians 3000 vol. 1: Time After Time"
               - title: Guardians 3000 6
-                trade: "Korvac Saga: Warzones!"
+                trade: "Korvac Saga: Warzones"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6701720/korvac-saga-warzones-tp"
               - title: Guardians 3000 7
-                trade: "Korvac Saga: Warzones!"
+                trade: "Korvac Saga: Warzones"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6701720/korvac-saga-warzones-tp"
               - title: Guardians 3000 8
-                trade: "Korvac Saga: Warzones!"
+                trade: "Korvac Saga: Warzones"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6701720/korvac-saga-warzones-tp"
           - ref: secret_wars_beginning
-            title: Secret wars beginning
+            title: Secret Wars Beginning
             trade: Secret Wars
+            tradeLink: "https://leagueofcomicgeeks.com/comic/6793940/secret-wars-tp"
             omnibus: Secret Wars (HC)
-            comment: "The start of the secret wars event. There are quiet a few limited series happening on battleworld during this event"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/6185829/secret-wars-hc"
+            comment: "The start of the Secret Wars crossover event, conclusion on the Hickman's Avengers and Fantastic Four series. There are quiet a few limited series happening on Battleworld during this event."
             importance: essential
             reading:
               essential:
@@ -4228,9 +4263,11 @@ eras:
               - title: Secret Wars 6
           - ref: guardians_knowhere
             title: Guardians of Knowhere
-            trade: "Guardians of Knowhere: Warzones!"
-            omnibus: Guard. Galaxy By Brian Michael Bendis vol. 1
-            comment: "The Guardians story continues in battleworld"
+            trade: "Guardians of Knowhere: Warzones"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9653390/guardians-of-knowhere-tp"
+            omnibus: Guard. Galaxy By Brian Michael Bendis vol.1
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5341753/guardians-of-the-galaxy-by-bendis-omnibus-vol-1-hc"
+            comment: "The Guardians story continues on Battleworld."
             importance: optional
             reading:
               essential:
@@ -4244,9 +4281,10 @@ eras:
               - title: Guardians of Knowhere 3
               - title: Guardians of Knowhere 4
           - ref: infinity_gauntlet_warzones
-            title: "The infinity gauntlet warzones"
-            trade: "The Infinity Gauntlet: Warzones!"
-            comment: "The quest for the infinity gauntlet in battleworld"
+            title: "The Infinity Gauntlet Warzones"
+            trade: "The Infinity Gauntlet: Warzones"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8757594/infinity-gauntlet-warzones-tp"
+            comment: "The quest for the infinity gauntlet on Battleworld."
             importance: optional
             reading:
               essential:
@@ -4254,15 +4292,16 @@ eras:
             collections:
               - GG
             issues:
-              - title: "The Infinity Gauntlet: Warzones! 1"
-              - title: "The Infinity Gauntlet: Warzones! 2"
-              - title: "The Infinity Gauntlet: Warzones! 3"
-              - title: "The Infinity Gauntlet: Warzones! 4"
-              - title: "The Infinity Gauntlet: Warzones! 5"
+              - title: "The Infinity Gauntlet: Warzones 1"
+              - title: "The Infinity Gauntlet: Warzones 2"
+              - title: "The Infinity Gauntlet: Warzones 3"
+              - title: "The Infinity Gauntlet: Warzones 4"
+              - title: "The Infinity Gauntlet: Warzones 5"
           - ref: korvac_saga_warzones
-            title: "Korvac saga warzones"
-            trade: "Korvac Saga: Warzones!"
-            comment: "Follow-up to Guardians 3000 and the original Korvac saga"
+            title: "Korvac Saga Warzones"
+            trade: "Korvac Saga: Warzones"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/6701720/korvac-saga-warzones-tp"
+            comment: "Follow-up to Guardians 3000 and the original Korvac saga."
             importance: optional
             reading:
               essential:
@@ -4276,9 +4315,12 @@ eras:
               - title: Korvac Saga 3
               - title: Korvac Saga 4
           - ref: secret_wars_ending
-            title: Secret wars ending
+            title: Secret Wars Ending
+            comment: The end of an era. The grand final of several years of storylines.
             trade: Secret Wars
+            tradeLink: "https://leagueofcomicgeeks.com/comic/6793940/secret-wars-tp"
             omnibus: Secret Wars (HC)
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/6185829/secret-wars-hc"
             importance: essential
             reading:
               essential:
@@ -4300,49 +4342,49 @@ eras:
               - SS
             issues:
               - title: Silver Surfer (2014) 1
-                trade: "Silver Surfer vol. 1: New Dawn"
+                trade: "Silver Surfer vol.1: New Dawn"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8046903/silver-surfer-vol-1-new-dawn-tp"
               - title: Silver Surfer (2014) 2
-                trade: "Silver Surfer vol. 1: New Dawn"
+                trade: "Silver Surfer vol.1: New Dawn"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8046903/silver-surfer-vol-1-new-dawn-tp"
               - title: Silver Surfer (2014) 3
-                trade: "Silver Surfer vol. 1: New Dawn"
+                trade: "Silver Surfer vol.1: New Dawn"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8046903/silver-surfer-vol-1-new-dawn-tp"
               - title: Silver Surfer (2014) 4
-                trade: "Silver Surfer vol. 1: New Dawn"
+                trade: "Silver Surfer vol.1: New Dawn"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8046903/silver-surfer-vol-1-new-dawn-tp"
               - title: Silver Surfer (2014) 5
-                trade: "Silver Surfer vol. 1: New Dawn"
+                trade: "Silver Surfer vol.1: New Dawn"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8046903/silver-surfer-vol-1-new-dawn-tp"
               - title: Silver Surfer (2014) 6
-                trade: "Silver Surfer vol. 2: Worlds Apart"
+                trade: "Silver Surfer vol.2: Worlds Apart"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/5406066/silver-surfer-vol-2-worlds-apart-tp"
               - title: Silver Surfer (2014) 7
-                trade: "Silver Surfer vol. 2: Worlds Apart"
+                trade: "Silver Surfer vol.2: Worlds Apart"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/5406066/silver-surfer-vol-2-worlds-apart-tp"
               - title: Silver Surfer (2014) 8
-                trade: "Silver Surfer vol. 2: Worlds Apart"
+                trade: "Silver Surfer vol.2: Worlds Apart"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/5406066/silver-surfer-vol-2-worlds-apart-tp"
               - title: Silver Surfer (2014) 9
-                trade: "Silver Surfer vol. 2: Worlds Apart"
+                trade: "Silver Surfer vol.2: Worlds Apart"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/5406066/silver-surfer-vol-2-worlds-apart-tp"
               - title: Silver Surfer (2014) 10
-                trade: "Silver Surfer vol. 2: Worlds Apart"
+                trade: "Silver Surfer vol.2: Worlds Apart"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/5406066/silver-surfer-vol-2-worlds-apart-tp"
               - title: Silver Surfer (2014) 11
-                trade: "Silver Surfer vol. 3: Last Days"
+                trade: "Silver Surfer vol.3: Last Days"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4614283/silver-surfer-vol-3-last-days-tp"
               - title: Silver Surfer (2014) 12
-                trade: "Silver Surfer vol. 3: Last Days"
+                trade: "Silver Surfer vol.3: Last Days"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4614283/silver-surfer-vol-3-last-days-tp"
               - title: Silver Surfer (2014) 13
-                trade: "Silver Surfer vol. 3: Last Days"
+                trade: "Silver Surfer vol.3: Last Days"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4614283/silver-surfer-vol-3-last-days-tp"
               - title: Silver Surfer (2014) 14
-                trade: "Silver Surfer vol. 3: Last Days"
+                trade: "Silver Surfer vol.3: Last Days"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4614283/silver-surfer-vol-3-last-days-tp"
               - title: Silver Surfer (2014) 15
-                trade: "Silver Surfer vol. 3: Last Days"
+                trade: "Silver Surfer vol.3: Last Days"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4614283/silver-surfer-vol-3-last-days-tp"
       - ref: thanos_infinity
         title: Thanos Infinity
@@ -4812,6 +4854,8 @@ eras:
           - ref: empire_wakanda
             title: The Intergalactic Empire of Wakanda
             comment: Wakanda has expanded to the edge of the galaxy and T'Challa has to fight to get back to the throne and free his poeple from an oppressive empire. Black Panther meets Star Wars in this epic storyline.
+            omnibus: "Black Panther by Ta-Nehisi Coates"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/6618118/black-panther-by-ta-nehisi-coates-omnibus-hc"
             reading:
               optional:
                 - secret_wars_ending
@@ -4819,63 +4863,39 @@ eras:
               - title: Black Panther (2018) 1
                 trade: "Black Panther vol. 6: The Intergalactic... Part 1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2475884/black-panther-book-6-intergalactic-empire-of-wakanda-part-1-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 2
                 trade: "Black Panther vol. 6: The Intergalactic... Part 1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2475884/black-panther-book-6-intergalactic-empire-of-wakanda-part-1-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 3
                 trade: "Black Panther vol. 6: The Intergalactic... Part 1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2475884/black-panther-book-6-intergalactic-empire-of-wakanda-part-1-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 4
                 trade: "Black Panther vol. 6: The Intergalactic... Part 1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2475884/black-panther-book-6-intergalactic-empire-of-wakanda-part-1-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 5
                 trade: "Black Panther vol. 6: The Intergalactic... Part 1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2475884/black-panther-book-6-intergalactic-empire-of-wakanda-part-1-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 6
                 trade: "Black Panther vol. 6: The Intergalactic... Part 1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2475884/black-panther-book-6-intergalactic-empire-of-wakanda-part-1-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 7
                 trade: "Black Panther vol. 7: The Intergalactic... Part 2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4398655/black-panther-book-7-intergalactic-empire-of-wakanda-part-2-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 8
                 trade: "Black Panther vol. 7: The Intergalactic... Part 2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4398655/black-panther-book-7-intergalactic-empire-of-wakanda-part-2-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 9
                 trade: "Black Panther vol. 7: The Intergalactic... Part 2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4398655/black-panther-book-7-intergalactic-empire-of-wakanda-part-2-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 10
                 trade: "Black Panther vol. 7: The Intergalactic... Part 2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4398655/black-panther-book-7-intergalactic-empire-of-wakanda-part-2-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 11
                 trade: "Black Panther vol. 7: The Intergalactic... Part 2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4398655/black-panther-book-7-intergalactic-empire-of-wakanda-part-2-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 12
                 trade: "Black Panther vol. 7: The Intergalactic... Part 2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4398655/black-panther-book-7-intergalactic-empire-of-wakanda-part-2-tp"
-                omnibus: "Black Panther vol. 3: The Intergalactic...  Part 1 (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1986094/black-panther-vol-3-the-intergalactic-empire-of-wakanda-part-one-hc"
               - title: Black Panther (2018) 13
                 trade: "Black Panther vol. 8: The Intergalactic... Part 3"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8580445/black-panther-book-8-intergalactic-empire-of-wakanda-part-3-tp"
