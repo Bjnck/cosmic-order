@@ -2659,6 +2659,40 @@ eras:
               - CM
             issues:
               - title: "She-Hulk: Cosmic Collision"
+          - ref: secret_invasion_captain_marvel
+            title: Secret Invasion Captain Marvel
+            comment: "Captain Marvel is back! But is it really him? Follow Captain Marvel on earth as he deals with the Secret Invasion. Introduction to Hulkling and Noh-Varr."
+            trade: "Secret Invasion: Captain Marvel"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9227498/secret-invasion-captain-marvel-tp"
+            reading:
+              essential:
+                - death_of_captain_marvel
+                - secret_invasion_illuminati
+            collections:
+              - CM
+            issues:
+              - title: "New Avengers: Illuminati (2007) 4"
+                trade: "New Avengers: Illuminati"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2411687/the-new-avengers-illuminati-tp"
+              - title: "Captain Marvel (2008) 1"
+              - title: "Young Avengers Presents 2"
+                trade: "Young Avengers Presents"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2771156/young-avengers-presents-tp"
+              - title: "Captain Marvel (2008) 2"
+              - title: "Captain Marvel (2008) 3"
+              - title: "Captain Marvel (2008) 4"
+              - title: "Captain Marvel (2008) 5"
+              - title: "Secret Invasion: Who Do You Trust? - Farewell"
+                trade: "Secret Invasion: Who Do You Trust"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5165491/secret-invasion-who-do-you-trust-tp"
+              - title: "The Mighty Avengers (2007) 19"
+                trade: "The Mighty Avengers by Bendis: The C. Collection"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9754402/the-mighty-avengers-by-brian-michael-bendis-the-complete-collection-tp"
+                omnibus: "Secret Invasion by Brian Michael Bendis"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1765707/secret-invasion-by-brian-michael-bendis-omnibus-hc"
+              - title: "Secret Invasion 6 (excerpt)"
+                omnibus: "Secret Invasion by Brian Michael Bendis"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1765707/secret-invasion-by-brian-michael-bendis-omnibus-hc"
           - ref: secret_invasion_nova
             title: Secret Invasion Nova
             importance: essential
@@ -4848,6 +4882,101 @@ eras:
               - title: Ultimates2 8
               - title: Ultimates2 9
               - title: Ultimates2 100
+      - ref: death_inhumans_section
+        title: Death of the Inhumans
+        arcs:
+          - ref: royals
+            title: Royals
+            comment: When we last left the Inhuman royal family, Attilan was destroyed at the end of the Infinity event. Now, after a conflict with the X-Men and the lost of all Terrigen, the royals are about to start a voyage to discover the truth about their origins.
+            reading:
+              optional:
+                - secret_invasion_captain_marvel
+                - black_vortex
+              essential:
+                - solve_everything
+                - infinity
+            collections:
+              - IH
+            issues:
+              - title: "Inhumans: Prime 1"
+                trade: "Royals vol.1: Beyond Inhuman"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9334332/royals-vol-1-beyond-inhuman-tp"
+              - title: "Royals 1"
+                trade: "Royals vol.1: Beyond Inhuman"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9334332/royals-vol-1-beyond-inhuman-tp"
+              - title: "Royals 2"
+                trade: "Royals vol.1: Beyond Inhuman"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9334332/royals-vol-1-beyond-inhuman-tp"
+              - title: "Royals 3"
+                trade: "Royals vol.1: Beyond Inhuman"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9334332/royals-vol-1-beyond-inhuman-tp"
+              - title: "Royals 4"
+                trade: "Royals vol.1: Beyond Inhuman"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9334332/royals-vol-1-beyond-inhuman-tp"
+              - title: "Royals 5"
+                trade: "Royals vol.1: Beyond Inhuman"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9334332/royals-vol-1-beyond-inhuman-tp"
+              - title: "Royals 6"
+                trade: "Royals vol.2: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8326050/royals-vol-2-judgment-day-tp"
+              - title: "Royals 7"
+                trade: "Royals vol.2: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8326050/royals-vol-2-judgment-day-tp"
+              - title: "Royals 8"
+                trade: "Royals vol.2: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8326050/royals-vol-2-judgment-day-tp"
+              - title: "Royals 9"
+                trade: "Royals vol.2: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8326050/royals-vol-2-judgment-day-tp"
+              - title: "Royals 10"
+                trade: "Royals vol.2: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8326050/royals-vol-2-judgment-day-tp"
+              - title: "Royals 11"
+                trade: "Royals vol.2: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8326050/royals-vol-2-judgment-day-tp"
+              - title: "Royals 12"
+                trade: "Royals vol.2: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8326050/royals-vol-2-judgment-day-tp"
+              - title: "Inhumans: Judgment Day 1"
+                trade: "Royals vol.2: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8326050/royals-vol-2-judgment-day-tp"
+          - ref: black_bolt
+            title: Black Bolt
+            comment: "Introduced in the prelude of Royals, Inhumans Prime; How did Black Bolt escaped from prison ?"
+            reading:
+              optional:
+                - royals
+            collections:
+              - IH
+            omnibus: Black Bolt (HC)
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/3713381/black-bolt-hc"
+            trade: "Black Bolt vol.1: Hard Time"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8725973/black-bolt-vol-1-hard-time-tp"
+            issues:
+              - title: Black Bolt 1
+              - title: Black Bolt 2
+              - title: Black Bolt 3
+              - title: Black Bolt 4
+              - title: Black Bolt 5
+              - title: Black Bolt 6
+          - ref: death_inhumans
+            title: Death of the Inhumans
+            trade: "Death of the Inhumans"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4999124/death-of-the-inhumans-tp"
+            omnibus: "Marvel Cosmic Universe By D. Cates vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/2205616/marvel-cosmic-universe-by-donny-cates-omnibus-vol-1-hc"
+            comment: What remains of the Kree empire is trying to exterminate the Inhumans.
+            reading:
+              essential:
+                - royals
+            collections:
+              - IH
+            issues:
+              - title: Death of the Inhumans 1
+              - title: Death of the Inhumans 2
+              - title: Death of the Inhumans 3
+              - title: Death of the Inhumans 4
+              - title: Death of the Inhumans 5
       - ref: empire_wakanda_section
         title: The Intergalactic Empire of Wakanda
         arcs:
@@ -5396,24 +5525,6 @@ eras:
               - title: Black Order 3
               - title: Black Order 4
               - title: Black Order 5
-          - ref: death_inhumans
-            title: Death of the Inhumans
-            trade: "Death of the Inhumans"
-            tradeLink: "https://leagueofcomicgeeks.com/comic/4999124/death-of-the-inhumans-tp"
-            omnibus: "Marvel Cosmic Universe By D. Cates vol. 1"
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/2205616/marvel-cosmic-universe-by-donny-cates-omnibus-vol-1-hc"
-            comment: What remains of the Kree empire is trying to exterminate the Inhumans.
-            reading:
-              optional:
-                - black_vortex
-            collections:
-              - IH
-            issues:
-              - title: Death of the Inhumans 1
-              - title: Death of the Inhumans 2
-              - title: Death of the Inhumans 3
-              - title: Death of the Inhumans 4
-              - title: Death of the Inhumans 5
           - ref: best_defense
             title: The Best Defense
             comment: The Defenders reassemble to investigate a mystery of cosmic proportion.
@@ -5741,6 +5852,7 @@ eras:
               essential:
                 - guardians_cates
               optional:
+                - royals
                 - annihilation_scourge
             issues:
               - title: Incoming 1 (excerpt)
@@ -5774,11 +5886,19 @@ eras:
                 - kree_skrull_war
                 - dark_phoenix_saga_epilogue
                 - celestial_quest
+                - secret_invasion_captain_marvel
                 - death_inhumans
                 - its_us
             collections:
               - A
             issues:
+              - title: "The New Avengers (2015) 3"
+                trade: "New Avengers - A.I.M. vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9130036/new-avengers-aim-vol-1-everything-is-new-tp"
+                omnibus: " "
+                omnibusLink: " "
+                collections:
+                  - -A
               - title: Meet the Skrulls 1
                 trade: "Meet the Skrulls"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/5714381/meet-the-skrulls-tp"
@@ -5834,7 +5954,7 @@ eras:
                 collections:
                   - X
                   - -A
-                trade: "X-Men by Jonathan Hickman vol. 2"
+                trade: "X-Men by Jonathan Hickman vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/1966064/x-men-by-jonathan-hickman-vol-2-tp"
               - title: Empyre 2
                 collections:
@@ -5859,7 +5979,7 @@ eras:
                   - CM
               - title: "Empyre Fallout: Fantastic Four 1"
               - title: "Fantastic Four (2018) 25 (excerpt)"
-                trade: "Fantastic Four vol. 7: The Forever Gate"
+                trade: "Fantastic Four vol.7: The Forever Gate"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9422241/fantastic-four-vol-7-the-forever-gate-tp"
                 omnibus: " "
                 omnibusLink: " "
@@ -5871,7 +5991,7 @@ eras:
                   - GG
                   - N
                   - -A
-                trade: "Guardians of the Galaxy by Al Ewing vol. 2"
+                trade: "Guardians of the Galaxy by Al Ewing vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/3160592/guardians-of-the-galaxy-by-al-ewing-vol-2-here-we-make-our-stand-tp"
                 omnibus: " "
                 omnibusLink: " "
@@ -5880,7 +6000,7 @@ eras:
                   - GG
                   - N
                   - -A
-                trade: "Guardians of the Galaxy by Al Ewing vol. 2"
+                trade: "Guardians of the Galaxy by Al Ewing vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/3160592/guardians-of-the-galaxy-by-al-ewing-vol-2-here-we-make-our-stand-tp"
                 omnibus: " "
                 omnibusLink: " "
