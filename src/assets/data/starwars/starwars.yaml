@@ -337,6 +337,52 @@ republic:
       - season 4 - episode 01
       - season 4 - episode 02
       - season 4 - episode 03
+  - ref: clone_wars_darkness_umbara
+    title: "The Clone Wars: Darkness of Umbara"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 4 - episode 07
+      - season 4 - episode 08
+      - season 4 - episode 09
+      - season 4 - episode 10
+  - ref: clone_wars_slavers
+    title: "The Clone Wars: Slavers of Zygerria"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 4 - episode 11
+      - season 4 - episode 12
+      - season 4 - episode 13
+  - ref: clone_wars_friend
+    title: "The Clone Wars: A Friend in Need"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 4 - episode 14
+  - ref: clone_wars_undercover
+    title: "The Clone Wars: Undercover"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 4 - episode 15
+      - season 4 - episode 16
+      - season 4 - episode 17
+      - season 4 - episode 18
+  - ref: clone_wars_ventress
+    title: "The Clone Wars: Asajj Ventress"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 4 - episode 19
+      - season 4 - episode 20
+  - ref: clone_wars_darth_maul
+    title: "The Clone Wars: Darth Maul"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 4 - episode 21
+      - season 4 - episode 22
 
 
 
