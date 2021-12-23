@@ -78,42 +78,14 @@ eras:
             collections:
               - SS
             issues:
+              - title: Silver Surfer Annual 2018
+                omnibus: " "
               - title: Silver Surfer (1968) 1
                 trade: "Marvel Masterworks: The Silver Surfer vol. 1"
               - title: Silver Surfer (1968) 2
                 trade: "Marvel Masterworks: The Silver Surfer vol. 1"
-              - title: Silver Surfer (1968) 3
-                trade: "Marvel Masterworks: The Silver Surfer vol. 1"
-              - title: Silver Surfer (1968) 4
-                trade: "Marvel Masterworks: The Silver Surfer vol. 1"
-              - title: Silver Surfer (1968) 5
-                trade: "Marvel Masterworks: The Silver Surfer vol. 1"
               - title: Silver Surfer (1968) 6
                 trade: "Marvel Masterworks: The Silver Surfer vol. 1"
-              - title: Silver Surfer (1968) 7
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 8
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 9
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 10
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 11
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 12
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 13
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 14
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 15
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 16
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 17
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
-              - title: Silver Surfer (1968) 18
-                trade: "Marvel Masterworks: The Silver Surfer vol. 2"
           - ref: galactus_unleashed
             title: Galactus Unleashed
             comment: First appearance of Air Walker.
