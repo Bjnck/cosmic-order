@@ -1,6 +1,6 @@
 <app-topbar></app-topbar>
 
-<div id="content">
+<div id="marvel-comics">
   <div id="logo"><img src="assets/img/marvelcomics/logo.png" alt="MARVEL "/>COSMIC</div>
   <mc-intro (openArcEventEmitter)="openArcForIntro($event)"></mc-intro>
 
@@ -14,13 +14,24 @@
              (openArcEventEmitter)="openArcForUpdate($event)">
   </mc-picker>
 
-  <mc-list [data]="data"
-           [eraValue]="eraValue"
-           [issueValue]="issueValue"
-           [collectionValue]="collectionValue"
-           [arcValue]="arcValue"
-           (eraSelectionEventEmitter)="onEraChange($event)"
-           (openArcEventEmitter)="openArcForReading($event)"
-           (closeArcEventEmitter)="closeArc()">
-  </mc-list>
+
+  <div *ngFor="let era of data" class="era">
+    <div class="title">- {{era.title}} -</div>
+    <div class="description"><div>{{era.comment}}</div></div>
+
+    <mc-list [data]="data"
+             [sections]=era.sections
+             [eraValue]="eraValue"
+             [issueValue]="issueValue"
+             [collectionValue]="collectionValue"
+             [arcValue]="arcValue"
+             (eraSelectionEventEmitter)="onEraChange($event)"
+             (openArcEventEmitter)="openArcForReading($event)"
+             (closeArcEventEmitter)="closeArc()">
+    </mc-list>
+  </div>
+
+
+
+
 </div>

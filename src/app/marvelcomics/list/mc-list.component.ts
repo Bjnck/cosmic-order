@@ -3,6 +3,7 @@ import {MatAccordion} from '@angular/material/expansion';
 import {Era} from '../data/era.interface';
 import {Observable} from 'rxjs';
 import {BreakpointObserver, BreakpointState} from '@angular/cdk/layout';
+import {Section} from '../data/section.interface';
 
 @Component({
   selector: 'mc-list',
@@ -13,6 +14,7 @@ export class McListComponent {
   @ViewChild(MatAccordion) accordion: MatAccordion;
 
   @Input() data: Era[];
+  @Input() sections: Section[];
   @Input() eraValue: string;
   @Input() issueValue: string;
   @Input() collectionValue: string;
