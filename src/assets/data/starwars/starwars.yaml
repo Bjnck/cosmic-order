@@ -43,7 +43,7 @@ republic:
     title: Master & Apprentice
     type: book
     link: "Master_%26_Apprentice"
-    description: A Qui-Gon Jinn and Obi-Wan Kenobi story.
+    description: A Qui-Gon Jinn and Obi-Wan Kenobi story. Skip the prologue after the last chapter if you wish to avoid spoilers for Episode I.
   - ref: age_qui_gon
     title: "Age of Republic: Qui-Gon Jinn"
     type: comic
@@ -383,6 +383,42 @@ republic:
     content:
       - season 4 - episode 21
       - season 4 - episode 22
+  - ref: clone_wars_onderon
+    title: "The Clone Wars: Revolt on Onderon"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 5 - episode 02
+      - season 5 - episode 03
+      - season 5 - episode 04
+      - season 5 - episode 05
+  - ref: clone_wars_younglings
+    title: "The Clone Wars: Younglings"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 5 - episode 06
+      - season 5 - episode 07
+      - season 5 - episode 08
+      - season 5 - episode 09
+  - ref: clone_wars_dsquad
+    title: "The Clone Wars: D-Squad"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 5 - episode 10
+      - season 5 - episode 11
+      - season 5 - episode 12
+      - season 5 - episode 13
+  - ref: clone_wars_battle_mandalore
+    title: "The Clone Wars: Revolt on Mandalore"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 5 - episode 01
+      - season 5 - episode 14
+      - season 5 - episode 15
+      - season 5 - episode 16
 
 
 
