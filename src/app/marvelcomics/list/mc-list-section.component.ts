@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {Observable} from 'rxjs';
-import {BreakpointObserver, BreakpointState} from '@angular/cdk/layout';
+import {BreakpointState} from '@angular/cdk/layout';
 import {Section} from '../data/section.interface';
 
 @Component({
@@ -18,17 +18,9 @@ export class McListSectionComponent {
   @Output() openArcEventEmitter: EventEmitter<string> = new EventEmitter<string>();
   @Output() closeArcEventEmitter: EventEmitter<void> = new EventEmitter<void>();
 
-  isMobile: Observable<BreakpointState>;
+  @Input() isMobile: Observable<BreakpointState>;
 
   expanded: boolean = false;
-
-  constructor(private breakpointObserver: BreakpointObserver) {
-  }
-
-  ngOnInit() {
-    this.isMobile = this.breakpointObserver.observe('(max-width: 800px)');
-  }
-
   ngOnChanges() {
     this.expand(this.arcValue);
   }

@@ -1,86 +1,54 @@
-.card
-  width: 200px
+.card-new
+  width: 340px
+  background-color: #484848
   margin: 5px 5px 0 0
-  height: auto
-
-.card-mobile
-  width: 150px
-  margin: 5px 5px 0 0
-  height: auto
-
-.card:hover
-  opacity: 0.5
+  padding: 5px
+  border-radius: 5px
+.card-new.mobile
+  margin-right: 0
+  width: 100%
+  box-sizing: border-box
+.card-new:hover
+  background-color: #3e3e3e
   cursor: pointer
 
-.card-mobile:hover
-  opacity: 0.5
-  cursor: pointer
+.card-new .content
+  display: flex
+  overflow: hidden
+  height: 190px
+.card-new.mobile .content
+  height: 150px
 
-.card-essential
-  width: 196px
-  border: 2px solid #359934
-
-.card-essential-mobile
-  width: 146px
-  border: 2px solid #359934
-
-.card-optional
-  width: 196px
-  border: 2px solid #f38b1c
-
-.card-optional-mobile
-  width: 146px
-  border: 2px solid #f38b1c
-
-.card-title
-  font-size: 14px
-  padding: 10px 10px 5px
-  background-color: #2e2e2e
-
-.card-title-mobile
-  height: 35px
-  font-size: 12px
-  padding: 10px 10px 5px
-  background-color: #2e2e2e
-
-.card-long-title .card-title
-  font-size: 12px
-
-.card-img
-  width: 200px
-  height: 250px
-
-.card-img-mobile
-  width: 150px
-  height: 200px
-
-.card-img img
-  width: 200px
-  height: 250px
+.card-new .image
+  width: 130px
+  height: 190px
+  margin-right: 10px
+.card-new.mobile .image
+  width: 100px
+  height: 150px
+.card-new .image img
+  width: 130px
+  height: 190px
   object-fit: cover
   object-position: 50% 0
+  border-radius: 5px
+.card-new.mobile .image img
+  width: 100px
+  height: 150px
 
-.card-img-mobile img
-  width: 150px
-  height: 200px
-  object-fit: cover
-  object-position: 50% 0
+.card-new .title
+  font-size: 16px
+  margin-bottom: 10px
+.card-new.mobile .title
+  font-size: 18px
 
-.card-essential .card-img img
-  width: 196px
+.card-new.mobile .description
+  font-size: 16px
 
-.card-optional .card-img img
-  width: 196px
 
-.card-essential-mobile .card-img-mobile img
-  width: 146px
+.card-new.essential
+  background-color: #359934
+.card-new.optional
+  background-color: #f38b1c
 
-.card-optional-mobile .card-img-mobile img
-  width: 146px
-
-.card-comment
-  font-size: 12px
-  padding: 5px 10px 10px
-  background-color: #2e2e2e
-  height: 60px
 

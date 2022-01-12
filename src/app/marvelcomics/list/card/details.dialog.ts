@@ -21,7 +21,7 @@ export class DetailsDialog {
   }
 
   ngOnInit() {
-    this.isMobile = this.breakpointObserver.observe('(max-width: 800px)');
+    this.isMobile = this.breakpointObserver.observe('(max-width: 900px)');
   }
 
   onReading(arc: string) {

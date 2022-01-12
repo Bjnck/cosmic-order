@@ -17,9 +17,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {DetailsDialog} from './list/card/details.dialog';
 import {MatDialogModule} from '@angular/material/dialog';
 import {McPickerCollectionComponent} from './picker/mc-picker-collection.component';
-import {McPickerEraComponent} from './picker/mc-picker-era.component';
-import {MarvelComicsDataResolve} from './data/marvel-comics-data.resolve';
-import {McListCardEraComponent} from './list/card/mc-list-card-era.component';
+import {DataResolve} from './data/data.resolve';
 import {McListSectionComponent} from './list/mc-list-section.component';
 import {EraPipe} from './list/era.pipe';
 import {McPickerIssueComponent} from './picker/mc-picker-issue.component';
@@ -41,12 +39,10 @@ import {CardTitleSizePipe} from './list/card/card-title-size.pipe';
     McIntroComponent,
     McPickerComponent,
     McPickerCollectionComponent,
-    McPickerEraComponent,
     McPickerIssueComponent,
     McListComponent,
     McListSectionComponent,
     McListCardComponent,
-    McListCardEraComponent,
     EraPipe,
     SectionPipe,
     ArcPipe,
@@ -74,7 +70,7 @@ import {CardTitleSizePipe} from './list/card/card-title-size.pipe';
     MatTableModule
   ],
   providers: [
-    MarvelComicsDataResolve,
+    DataResolve,
     McPickerComponent
   ],
   bootstrap: [MarvelComicsComponent]

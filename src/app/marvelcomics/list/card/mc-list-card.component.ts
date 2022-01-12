@@ -5,10 +5,7 @@ import {BreakpointObserver, BreakpointState} from '@angular/cdk/layout';
 import {Observable} from 'rxjs';
 import {Arc} from '../../data/arc/arc.interface';
 import {ActivatedRoute} from '@angular/router';
-import {McPickerEraComponent} from '../../picker/mc-picker-era.component';
 import {Location} from '@angular/common';
-import {McPickerIssueComponent} from '../../picker/mc-picker-issue.component';
-import {McPickerCollectionComponent} from '../../picker/mc-picker-collection.component';
 
 export interface DialogData {
   arc: Arc;
@@ -33,7 +30,7 @@ export class McListCardComponent {
   @Output() openArcEventEmitter: EventEmitter<string> = new EventEmitter<string>();
   @Output() closeArcEventEmitter: EventEmitter<void> = new EventEmitter<void>();
 
-  isMobile: Observable<BreakpointState>;
+  @Input() isMobile: Observable<BreakpointState>;
 
   arcEvent: string;
 
@@ -44,7 +41,7 @@ export class McListCardComponent {
   }
 
   ngOnInit() {
-    this.isMobile = this.breakpointObserver.observe('(max-width: 800px)');
+    this.isMobile = this.breakpointObserver.observe('(max-width: 900px)');
   }
 
   ngOnChanges() {
@@ -56,7 +53,8 @@ export class McListCardComponent {
 
   openDialog(setLocation: boolean) {
     if (setLocation) {
-      this.location.go(this.location.path() + '&' + McListCardComponent.ARC_QUERY_PARAM + '=' + this.arc.ref);
+      // todo gérer ? ou & selon les query params présent
+      this.location.go(this.location.path() + '?' + McListCardComponent.ARC_QUERY_PARAM + '=' + this.arc.ref);
     }
     let dialogRef = this.dialog.open(DetailsDialog, {
       width: '100%',
@@ -73,7 +71,7 @@ export class McListCardComponent {
       dialogRef.close();
     });
     dialogRef.afterClosed().subscribe(() => {
-      this.location.go((this.location.path().split('&arc')[0]));
+      // this.location.go((this.location.path().split('arc')[0]));
       sub.unsubscribe();
       this.closeArcEventEmitter.emit();
       if (this.arcEvent) {
