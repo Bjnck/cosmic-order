@@ -141,6 +141,11 @@ republic:
       - season 1 - episode 02
       - season 1 - episode 03
       - season 1 - episode 04
+  - ref: age_501
+    title: "Age of Republic: Special - 501 Plus One"
+    type: comic
+    link: "Age_of_Republic_Special_1"
+    description: A Jar Jar Binks story.
   - ref: clone_wars_cadets
     title: "The Clone Wars: Clone Cadets"
     type: animation
@@ -298,6 +303,10 @@ republic:
       - season 3 - episode 10
       - season 3 - episode 11
       - season 2 - episode 15
+  - ref: age_padme
+    title: "Age of Republic: Padmé Amidala"
+    type: comic
+    link: "Age_of_Republic_-_Padmé_Amidala_1"
   - ref: clone_wars_witches
     title: "The Clone Wars: Witches and Monsters"
     type: animation
@@ -419,23 +428,43 @@ republic:
       - season 5 - episode 14
       - season 5 - episode 15
       - season 5 - episode 16
-
-
-
+  - ref: clone_wars_fugitive
+    title: "The Clone Wars: Fugitive"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 5 - episode 17
+      - season 5 - episode 18
+      - season 5 - episode 19
+      - season 5 - episode 20
   - ref: age_sisters
     title: "Age of Republic: Special - Sisters"
     type: comic
     link: "Age_of_Republic_Special_1"
-    description: Asajj Ventress career as a bounty hunter after Dooku's betrayal. (after asohka is cast out)
-  - ref: age_501
-    title: "Age of Republic: Special - 501 Plus One"
-    type: comic
-    link: "Age_of_Republic_Special_1"
-    description: Probably at the end of Clone Wars given the look of Anakin ???
-  - ref: age_padme
-    title: "Age of Republic: Padmé Amidala"
-    type: comic
-    link: "Age_of_Republic_-_Padmé_Amidala_1"
+    description: "An Asajj Ventress story. Concurrent with The Clone Wars: Fugitive."
+  - ref: clone_wars_conspiracy
+    title: "The Clone Wars: The Kamino Conspiracy"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 6 - episode 01
+      - season 6 - episode 02
+      - season 6 - episode 03
+      - season 6 - episode 04
+  - ref: clone_wars_clovis
+    title: "The Clone Wars: Rush Clovis"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 6 - episode 05
+      - season 6 - episode 06
+      - season 6 - episode 07
+
+
+
+
+
+
   - ref: episode_3
     title: "Episode III: Revenge of the Sith"
     type: live
