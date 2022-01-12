@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output, ViewChild} from '@angular/core';
 import {MatAccordion} from '@angular/material/expansion';
 import {Era} from '../data/era.interface';
 import {Observable} from 'rxjs';
@@ -10,7 +10,7 @@ import {Section} from '../data/section.interface';
   templateUrl: './mc-list.component.html',
   styleUrls: ['./mc-list.component.sass']
 })
-export class McListComponent {
+export class McListComponent implements OnInit {
   @ViewChild(MatAccordion) accordion: MatAccordion;
 
   @Input() data: Era[];
@@ -30,11 +30,7 @@ export class McListComponent {
   }
 
   ngOnInit() {
-    this.isMobile = this.breakpointObserver.observe('(max-width: 800px)');
-  }
-
-  onEraSelection(value: string) {
-    this.eraSelectionEventEmitter.emit(value);
+    this.isMobile = this.breakpointObserver.observe('(max-width: 900px)');
   }
 
   openArc(arc: string) {

@@ -5,9 +5,21 @@
   font-size: 16px
   font-weight: 500
   height: 40px
+.section.mobile .mat-expansion-panel-header
+  font-size: 18px
+.section  .mat-expansion-panel-header.mat-expanded
+  border-bottom-right-radius: 0
+  border-bottom-left-radius: 0
+.section .mat-expansion-panel-header, ::ng-deep .section .mat-expansion-panel-body
+  background-color: #2e2e2e
+::ng-deep .section.mobile .mat-expansion-panel-body
+  padding-right: 0
+  padding-left: 0
 
-.cards
+.section .cards
   display: flex
   justify-content: flex-start
   flex-wrap: wrap
-  //align-items: stretch
+.section.mobile .cards
+  flex-direction: column
+  justify-content: stretch

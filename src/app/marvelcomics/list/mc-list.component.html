@@ -1,22 +1,26 @@
-<div id="expand-buttons">
-  <button mat-button (click)="accordion.openAll()">
-    <mat-icon aria-label="show all">unfold_more</mat-icon>
-  </button>
-  <button mat-button (click)="accordion.closeAll()">
-    <mat-icon aria-label="show all">unfold_less</mat-icon>
-  </button>
+<div class="list" [ngClass]="{mobile: (isMobile | async)?.matches}">
+  <div class="expand">
+    <button mat-button (click)="accordion.openAll()">
+      <mat-icon aria-label="show all">unfold_more</mat-icon>
+    </button>
+    <button mat-button (click)="accordion.closeAll()">
+      <mat-icon aria-label="show all">unfold_less</mat-icon>
+    </button>
+  </div>
+
+  <div class="sections">
+    <mat-accordion multi>
+      <div *ngFor="let section of sections | section:issueValue:collectionValue">
+        <mc-list-section [section]="section"
+                         [issueValue]="issueValue"
+                         [collectionValue]="collectionValue"
+                         [arcValue]="arcValue"
+                         [isMobile]="isMobile"
+                         (openArcEventEmitter)="openArc($event)"
+                         (closeArcEventEmitter)="closeArc()">
+        </mc-list-section>
+      </div>
+    </mat-accordion>
+  </div>
 </div>
 
-<div class="marvel-comics-sections">
-  <mat-accordion multi>
-    <div *ngFor="let section of sections | section:issueValue:collectionValue">
-      <mc-list-section [section]="section"
-                       [issueValue]="issueValue"
-                       [collectionValue]="collectionValue"
-                       [arcValue]="arcValue"
-                       (openArcEventEmitter)="openArc($event)"
-                       (closeArcEventEmitter)="closeArc()">
-      </mc-list-section>
-    </div>
-  </mat-accordion>
-</div>

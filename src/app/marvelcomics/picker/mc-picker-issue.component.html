@@ -1,22 +1,13 @@
-<mat-label>Issues:</mat-label>
 <mat-form-field>
-  <mat-select [(value)]="picker"
-              [disableOptionCentering]="true"
-              (selectionChange)="pickerChange()"
-              [ngClass]="{'picker-selector-optional':picker == 'optional',
-                    'picker-selector-essential':picker == 'essential'}">
-    <mat-option class="picker-selector-option" value="all">All</mat-option>
-    <mat-option id="picker-selector-option-optional" class="picker-selector-option" value="optional">
-      Optional
-      <mat-icon *ngIf="!mobile" matTooltip="Show only the issues connected to the main storyline">
-        help_outline
-      </mat-icon>
+  <mat-select [(value)]="picker" [disableOptionCentering]="true" (selectionChange)="pickerChange()"
+              [ngClass]="{'selector-optional':picker == 'optional',
+                    'selector-essential':picker == 'essential'}">
+    <mat-option class="selector-option" value="all">All issues</mat-option>
+    <mat-option id="selector-option-optional" class="selector-option" value="optional">
+      Essential and optional
     </mat-option>
-    <mat-option id="picker-selector-option-essential" class="picker-selector-option" value="essential">
-      Essential
-      <mat-icon *ngIf="!mobile" matTooltip="Show only the major issues needed to understand the main storyline">
-        help_outline
-      </mat-icon>
+    <mat-option id="selector-option-essential" class="selector-option" value="essential">
+      Essential only
     </mat-option>
   </mat-select>
 </mat-form-field>

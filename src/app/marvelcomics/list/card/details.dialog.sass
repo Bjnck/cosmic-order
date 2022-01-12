@@ -1,75 +1,95 @@
-::ng-deep .mat-dialog-container
-  border-radius: 0
-
-#details-intro
+#details .intro
   display: flex
   justify-content: space-between
+  margin-bottom: 10px
+  text-align: left
 
-#details-reading
-  min-width: 40%
+#details .intro .left
+  display: flex
+#details .intro .image
+  width: 130px
+  height: 190px
+  margin-right: 20px
+#details .intro .image img
+  width: 130px
+  height: 190px
+  object-fit: cover
+  object-position: 50% 0
+  border-radius: 5px
+
+#details .intro .description
+  text-align: justify
+
+#details .intro .reading
+  min-width: 30%
   padding-left: 20px
-
-#details-reading-mobile
-  padding-top: 20px
-  margin-bottom: 20px
-
-#details-reading-title
+#details .intro .reading .title
   font-size: 15px
   margin-bottom: 5px
-
-.details-reading-essential
-  color: #eb4842
+#details .intro .reading .essential, #details-mobile .reading .essential
+  color: #f0141e
   text-decoration: underline
-
-.details-reading-essential:hover
-  color: #d54640
+#details .intro .reading .essential:hover, #details-mobile .reading .essential:hover
+  color: #f04548
   cursor: pointer
-
-.details-reading-optional
+#details .intro .reading .optional, #details-mobile .reading .optional
   color: #cecece
   text-decoration: underline
-
-.details-reading-optional:hover
-  color: #a7a7a7
+#details .intro .reading .optional:hover, #details-mobile .reading .optional:hover
+  color: white
   cursor: pointer
 
-#details-issue-table
+#details .issue-table
   width: 100%
-  margin-top: 10px
+#details .mat-table
+  background-color: #2d2d2d
 
-.issue-block
-  margin-top: 10px
-  color: #cecece
-  font-size: 12px
-
-.issue-block a
-  color: #cecece
-  text-decoration: none
-
-.issue-block a:hover
-  color: #e1e1e1
-
-.mat-cell
-  color: #cecece
-
-.mat-cell a
-  color: #cecece
-  text-decoration: none
-
-.mat-cell a:hover
-  color: #e1e1e1
-
-.row-essential, .row-essential a
-  color: #359934
-
-.row-essential a:hover
-  color: #3aaf39
-
-.row-optional, .row-optional a
-  color: #f38b1c
-
-.row-optional a:hover
-  color: #ff951c
-
-tr.mat-row
+#details tr.mat-row
   height: 30px
+
+#details .mat-cell
+  color: #cecece
+#details .mat-cell a
+  color: #cecece
+  text-decoration: none
+#details .mat-cell a:hover
+  color: white
+
+
+#details-mobile .description
+  font-size: 16px
+  text-align: justify
+  margin-bottom: 30px
+
+#details-mobile .reading
+  margin-bottom: 30px
+  font-size: 16px
+#details-mobile .reading .title
+  font-size: 18px
+  margin-bottom: 5px
+
+#details-mobile  .issue-block
+  margin-bottom: 10px
+  font-size: 16px
+  border-bottom: 0.5px solid #cecece
+  padding-bottom: 5px
+  color: #cecece
+#details-mobile  .issue-block a
+  text-decoration: none
+  color: #cecece
+
+#details-mobile .issue-block .row .head
+  font-size: 12px
+  color: #cecece
+
+
+#details .row-essential, #details .row-essential a, #details-mobile .row-essential, #details-mobile .row-essential a
+  color: #359934
+#details .row-essential a:hover, #details-mobile .row-essential a:hover
+  color: #4bc149
+#details .row-optional, #details .row-optional a, #details-mobile .row-optional, #details-mobile .row-optional a
+  color: #f38b1c
+#details .row-optional a:hover, #details-mobile .row-optional a:hover
+  color: #ffb34a
+
+

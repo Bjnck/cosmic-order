@@ -6,34 +6,63 @@
   padding-right: 5%
 
 #marvel-comics .era
-  margin-bottom: 10px
-  background-color: #2e2e2e
-  padding: 20px
-  border-radius: 10px
+  margin-bottom: 30px
+  background-color: #1f1f1f
+  border-radius: 5px
 
 #marvel-comics .era .title
   text-align: center
   font-size: 25px
-  color: #ffd400
+  color: #ffc900
   margin-bottom: 30px
+  padding-top: 20px
+  text-decoration: underline
+#marvel-comics.mobile .era .title
+  font-size: 30px
 
 #marvel-comics .era .description
   margin-bottom: 20px
   max-width: 900px
   margin-left: auto
   margin-right: auto
+  text-align: justify
+#marvel-comics .era .description div
+  margin-left: 20px
+  margin-right: 20px
+#marvel-comics.mobile .era .description div
+  margin-left: 10px
+  margin-right: 10px
+  font-size: 16px
 
 
 ::ng-deep ::-webkit-scrollbar
   width: 10px
-
 ::ng-deep ::-webkit-scrollbar-track
   background: #2d2d2d
-
 ::ng-deep ::-webkit-scrollbar-thumb
   background-color: #4b4b4b
   border: none
   border-radius: 5px
+
+::ng-deep .mat-select-panel::-webkit-scrollbar
+  width: 8px
+::ng-deep .mat-select-panel::-webkit-scrollbar-track
+  background: #2d2d2d
+  border-radius: 0 5px 5px 0
+::ng-deep .mat-select-panel::-webkit-scrollbar-thumb
+  background-color: #4b4b4b
+  border: none
+  border-radius: 4px
+
+::ng-deep .mat-dialog-content::-webkit-scrollbar
+  width: 8px
+::ng-deep .mat-dialog-content::-webkit-scrollbar-track
+  background: #2d2d2d
+  border-radius: 0 5px 5px 0
+::ng-deep .mat-dialog-content::-webkit-scrollbar-thumb
+  background-color: #4b4b4b
+  border: none
+  border-radius: 4px
 
 
 
