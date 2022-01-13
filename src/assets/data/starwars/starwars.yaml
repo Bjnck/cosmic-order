@@ -443,7 +443,7 @@ republic:
     link: "Age_of_Republic_Special_1"
     description: "An Asajj Ventress story. Concurrent with The Clone Wars: Fugitive."
   - ref: clone_wars_conspiracy
-    title: "The Clone Wars: The Kamino Conspiracy"
+    title: "The Clone Wars: The Clone Conspiracy"
     type: animation
     link: "Star_Wars:_The_Clone_Wars"
     content:
