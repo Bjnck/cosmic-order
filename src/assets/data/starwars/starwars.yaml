@@ -454,11 +454,29 @@ republic:
   - ref: clone_wars_clovis
     title: "The Clone Wars: Rush Clovis"
     type: animation
+    essential: true
     link: "Star_Wars:_The_Clone_Wars"
     content:
       - season 6 - episode 05
       - season 6 - episode 06
       - season 6 - episode 07
+  - ref: clone_wars_disappeared
+    title: "The Clone Wars: The Disappeared"
+    type: animation
+    essential: false
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 6 - episode 08
+      - season 6 - episode 09
+  - ref: clone_wars_yoda
+    title: "The Clone Wars: Yoda"
+    type: animation
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 6 - episode 10
+      - season 6 - episode 11
+      - season 6 - episode 12
+      - season 6 - episode 13
 
 
 

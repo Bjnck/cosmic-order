@@ -1,50 +1,64 @@
 .card
-  width: 370px
+  width: 340px
   margin: 5px 5px 0 0
-  height: 200px
-  display: flex
   background-color: #2e2e2e
-
-.card-flag
-  background-color: #2e0e0c
-
-.card-content
-  width: 220px
-
-.card:hover
-  opacity: 0.5
-  cursor: pointer
-
-.card-title
-  font-size: 14px
-  padding: 10px 10px 5px
-  vertical-align: middle
+  border-radius: 5px
+  padding: 5px
   display: flex
+.card.mobile
+  margin-right: 0
+  width: 100%
+  box-sizing: border-box
+.card:hover
+  background-color: #252525
+  cursor: pointer
+.card.flag
+  background-color: #b73125
+.card.flag:hover
+  background-color: #9f2823
 
-.card-title mat-icon
+.card .content
+  overflow: hidden
+  height: 190px
+.card.mobile .content
+  height: 150px
+
+.card .image
+  width: 130px
+  height: 190px
+  margin-right: 10px
+.card.mobile .image
+  width: 100px
+  height: 150px
+.card .image img
+  width: 130px
+  height: 190px
+  object-fit: cover
+  object-position: 50% 0
+  border-radius: 5px
+.card.mobile .image img
+  width: 100px
+  height: 150px
+
+.card .title
+  font-size: 16px
+  margin-bottom: 10px
+  display: flex
+.card.mobile .title
+  font-size: 18px
+.card .title mat-icon
   font-size: 22px
   margin-right: 5px
-  vertical-align: middle
 
-.icon-book
+.card .title .icon-book
   color: #3847ff
-.icon-comic
+.card .title .icon-comic
   color: #e3d700
-.icon-animation
+.card .title .icon-animation
   color: #00b706
-.icon-live
+.card .title .icon-live
   color: #d00003
 
-.card-img
-  width: 150px
-  height: 200px
-
-.card-img img
-  width: 150px
-  height: 200px
-  object-fit: cover
-  object-position: 50% 50%
-
-.card-details
+.card .details
   font-size: 12px
-  padding: 5px 10px 10px
+  text-align: justify

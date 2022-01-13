@@ -1,31 +1,42 @@
-<div id="intro" [ngClass]="{'intro-not-mobile': !(isMobile | async)?.matches}">
+<div id="intro" [ngClass]="{'mobile': (isMobile | async)?.matches}">
 
-  <div id="intro-update">Last update: 18-07-2021</div>
+  <div class="content">
 
-  <div id="intro-content">
-  <img alt="Death Star" src="assets/img/starwars/c3po_intro.png" *ngIf="!(isMobile | async)?.matches"/>
+    <img alt="C3PO" src="assets/img/starwars/c3po_intro.png" *ngIf="!(isMobile | async)?.matches"/>
 
-  <div>
     <div>
-      The purpose of this order is to list all <b>canon related materials</b> of the Star Wars universe in a way that
-      serves the narrative above a purely chronological approach. It is a good way to discover the Star Wars mythology
-      for all newcomers or to dive into it again for old fans.
-    </div>
+      <div>
+        The purpose of this order is to list all <b>canon related materials</b> of the Star Wars universe in a way that
+        serves the narrative above a purely chronological approach. It is a good way to discover the Star Wars mythology
+        for all newcomers or to dive into it again for old fans.
+      </div>
 
-    <div id="not-listed">
-      This list focus on the rebooted Disney 2015 canon universe but does not include the following materials
-      (either because it does not fit well with the rest of the canon or because it does not add much to it):
-      <ul>
-        <li class="elt"><span class="click" (click)="goToLink('https://starwars.fandom.com/wiki/Star_Wars_Legends')">The legends materials pre 2015 (obviously)</span></li>
-        <li class="elt"><span class="click" (click)="goToLink('https://starwars.fandom.com/wiki/Timeline_of_canon_short_stories')">The many short stories published in different books and Star Wars Insider magazine</span></li>
-        <li class="elt"><span class="click" (click)="goToLink('https://starwars.fandom.com/wiki/Category:Canon_young-reader_novels')">The many young reader books published by Disney</span></li>
-        <li class="elt">The Star Wars Adventures comics published by IDW</li>
-        <li class="elt"><span class="click" (click)="goToLink('https://starwars.fandom.com/wiki/Star_Wars:_Forces_of_Destiny')">The Forces of Destiny Youtube minisode</span></li>
-        <li class="elt"><span class="click" (click)="goToLink('https://starwars.fandom.com/wiki/Star_Wars_Galaxy_of_Adventures')">The Galaxy of Adventures promotional videos</span></li>
-        <li class="elt"><span class="click" (click)="goToLink('https://starwars.fandom.com/wiki/Timeline_of_canon_video_games')">Most video games that does not focus on storytelling</span></li>
-        <li class="elt">The Clone Wars season 4 episodes 5 (Mercy Mission) and 6 (Nomad Droids)</li>
-      </ul>
+      <div class="not-listed">
+        This list focus on the rebooted Disney 2015 canon universe but does not include the following materials
+        (either because it does not fit well with the rest of the canon or because it does not add much to it):
+        <ul>
+          <li class="elt"><span class="click" (click)="goToLink('https://starwars.fandom.com/wiki/Star_Wars_Legends')">The legends materials pre 2015 (obviously)</span>
+          </li>
+          <li class="elt"><span class="click"
+                                (click)="goToLink('https://starwars.fandom.com/wiki/Timeline_of_canon_short_stories')">The many short stories published in different books and Star Wars Insider magazine</span>
+          </li>
+          <li class="elt"><span class="click"
+                                (click)="goToLink('https://starwars.fandom.com/wiki/Category:Canon_young-reader_novels')">The many young reader books published by Disney</span>
+          </li>
+          <li class="elt">The Star Wars Adventures comics published by IDW</li>
+          <li class="elt"><span class="click"
+                                (click)="goToLink('https://starwars.fandom.com/wiki/Star_Wars:_Forces_of_Destiny')">The Forces of Destiny Youtube minisode</span>
+          </li>
+          <li class="elt"><span class="click"
+                                (click)="goToLink('https://starwars.fandom.com/wiki/Star_Wars_Galaxy_of_Adventures')">The Galaxy of Adventures promotional videos</span>
+          </li>
+          <li class="elt"><span class="click"
+                                (click)="goToLink('https://starwars.fandom.com/wiki/Timeline_of_canon_video_games')">Most video games that does not focus on storytelling</span>
+          </li>
+          <li class="elt">The Clone Wars season 4 episodes 5 (Mercy Mission) and 6 (Nomad Droids)</li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
+
 </div>

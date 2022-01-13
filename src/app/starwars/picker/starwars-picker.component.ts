@@ -1,16 +1,28 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {FormControl} from '@angular/forms';
+import {Observable} from 'rxjs';
+import {BreakpointObserver, BreakpointState} from '@angular/cdk/layout';
+import {MatDialog} from '@angular/material/dialog';
 
 @Component({
   selector: 'starwars-picker',
   templateUrl: './starwars-picker.component.html',
   styleUrls: ['./starwars-picker.component.sass']
 })
-export class StarwarsPickerComponent {
+export class StarwarsPickerComponent implements OnInit{
 
   @Output() typeChangeEventEmitter: EventEmitter<string[]> = new EventEmitter<string[]>();
   typeList: string[] = ['Live Action', 'Animation', 'Books', 'Comics'];
   types: FormControl = new FormControl(this.typeList);
+
+  isMobile: Observable<BreakpointState>;
+
+  constructor(private breakpointObserver: BreakpointObserver) {
+  }
+
+  ngOnInit() {
+    this.isMobile = this.breakpointObserver.observe('(max-width: 900px)');
+  }
 
   onTypeChange(types: string[]) {
     let transformedTypes = types
@@ -26,7 +38,6 @@ export class StarwarsPickerComponent {
           return type;
         }
       });
-    console.log(transformedTypes);
     this.typeChangeEventEmitter.emit(transformedTypes);
   }
 }

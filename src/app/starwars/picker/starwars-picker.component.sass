@@ -1,34 +1,33 @@
 #picker
-  background: #2e2e2e
-  height: 50px
-  z-index: 50
   margin-bottom: 30px
   display: flex
   justify-content: space-between
-  align-items: center
-  padding-left: 15px
-  padding-right: 15px
+  background-color: #151515
+  padding: 0
+#picker.mobile
+  margin-bottom: 30px
+  background-color: #151515
+  padding: 0
 
-#picker-right
-  display: flex
-  align-items: flex-start
-
-#picker-right mat-icon
-  height: 100%
-  line-height: 60px
-  vertical-align: center
-  margin-right: 10px
-
-.picker-selector
+#picker .selector
   font-size: 15px
+  background-color: #2e2e2e
+  border-radius: 5px
+  padding: 5px
+  height: 40px
+#picker.mobile .selector
+  font-size: 16px
+  background-color: #2e2e2e
+  border-radius: 5px
+  padding: 5px
+  height: 40px
+  width: 100%
 
-::ng-deep .picker-starwars .picker-selector mat-form-field-wrapper, ::ng-deep .picker-starwars .picker-selector mat-form-field
-  margin-left: 5px
-  margin-right: 30px
+::ng-deep #picker .selector .mat-form-field-infix
+  border-top: 0
+
+::ng-deep #picker .selector mat-form-field-wrapper, ::ng-deep #picker .selector mat-form-field
   width: 300px
-
-::ng-deep .mat-select-panel
-  border-radius: 0 !important
 
 .option-books, ::ng-deep .option-books .mat-selected, ::ng-deep .option-books .mat-pseudo-checkbox
   color: #3847ff !important

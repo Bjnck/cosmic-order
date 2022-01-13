@@ -1,17 +1,17 @@
-<div id="{{data.ref}}" [ngClass]="{'card' : true, 'card-flag': data.flag}" *ngIf="types.includes(data.type)"
+<div id="{{data.ref}}" [ngClass]="{'card' : true, 'flag': data.flag}" *ngIf="types.includes(data.type)"
      (click)="goToLink('https://starwars.fandom.com/wiki/'+data.link)">
-  <div class="card-img"><img src="assets/img/starwars/{{data.ref}}.jpg"></div>
-  <div class="card-content">
-    <div class="card-title">
+  <div class="image"><img src="assets/img/starwars/{{data.ref}}.jpg"></div>
+  <div class="content">
+    <div class="title">
       <mat-icon class="icon-book" *ngIf="data.type == 'book'">auto_stories</mat-icon>
       <mat-icon class="icon-comic" *ngIf="data.type == 'comic'">dashboard</mat-icon>
       <mat-icon class="icon-animation" *ngIf="data.type == 'animation'">tv</mat-icon>
       <mat-icon class="icon-live" *ngIf="data.type == 'live'">movie</mat-icon>
-      <div class="card-title-text">{{data.title}}</div>
+      <div class="text">{{data.title}}</div>
     </div>
-    <div class="card-details">
-      <div class="card-text">{{data.description}}</div>
-      <div class="card-elt" *ngFor="let elt of data.content">{{elt}}</div>
+    <div class="details">
+      <div class="text">{{data.description}}</div>
+      <div class="elt" *ngFor="let elt of data.content">{{elt}}</div>
     </div>
   </div>
 </div>
