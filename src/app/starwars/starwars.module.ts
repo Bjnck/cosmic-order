@@ -16,6 +16,7 @@ import {StarwarsDataResolve} from './data/starwars-data.resolve';
 import {StarwarsPickerComponent} from './picker/starwars-picker.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {StarwarsIntroComponent} from './intro/starwars-intro.component';
+import {MatRippleModule} from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -25,18 +26,19 @@ import {StarwarsIntroComponent} from './intro/starwars-intro.component';
     StarwarsListComponent,
     StarwarsCardComponent
   ],
-  imports: [
-    BrowserModule,
-    TopbarModule,
-    MatToolbarModule,
-    ReactiveFormsModule,
-    MatFormFieldModule,
-    MatSelectModule,
-    MatButtonModule,
-    MatIconModule,
-    MatCardModule,
-    MatExpansionModule
-  ],
+    imports: [
+        BrowserModule,
+        TopbarModule,
+        MatToolbarModule,
+        ReactiveFormsModule,
+        MatFormFieldModule,
+        MatSelectModule,
+        MatButtonModule,
+        MatIconModule,
+        MatCardModule,
+        MatExpansionModule,
+        MatRippleModule
+    ],
   providers: [
     StarwarsDataResolve
   ],

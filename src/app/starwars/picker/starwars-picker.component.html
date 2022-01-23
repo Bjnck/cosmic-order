@@ -1,4 +1,4 @@
-<mat-toolbar id="picker" [ngClass]="{mobile: (isMobile | async)?.matches}">
+<mat-toolbar id="picker-starwars" [ngClass]="{mobile: (isMobile | async)?.matches}">
     <div class="selector">
       <mat-form-field>
         <mat-select [formControl]="types" multiple (valueChange)="onTypeChange($event)">

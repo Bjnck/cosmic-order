@@ -1,14 +1,12 @@
 .card
   width: 340px
-  margin: 5px 5px 0 0
+  margin: 0 5px 10px 0
   background-color: #2e2e2e
   border-radius: 5px
   padding: 5px
   display: flex
 .card.mobile
-  margin-right: 0
-  width: 100%
-  box-sizing: border-box
+  margin: 0 0 5px 0
 .card:hover
   background-color: #252525
   cursor: pointer
@@ -20,32 +18,22 @@
 .card .content
   overflow: hidden
   height: 190px
-.card.mobile .content
-  height: 150px
 
 .card .image
   width: 130px
   height: 190px
   margin-right: 10px
-.card.mobile .image
-  width: 100px
-  height: 150px
 .card .image img
   width: 130px
   height: 190px
   object-fit: cover
   object-position: 50% 0
   border-radius: 5px
-.card.mobile .image img
-  width: 100px
-  height: 150px
 
 .card .title
   font-size: 16px
   margin-bottom: 10px
   display: flex
-.card.mobile .title
-  font-size: 18px
 .card .title mat-icon
   font-size: 22px
   margin-right: 5px
@@ -61,4 +49,4 @@
 
 .card .details
   font-size: 12px
-  text-align: justify
+  //text-align: justify

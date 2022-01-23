@@ -1,5 +1,8 @@
-<div id="{{data.ref}}" [ngClass]="{'card' : true, 'flag': data.flag}" *ngIf="types.includes(data.type)"
-     (click)="goToLink('https://starwars.fandom.com/wiki/'+data.link)">
+<div id="{{data.ref}}" class="card mat-elevation-z1"
+     [ngClass]="{mobile: (isMobile | async)?.matches, flag: data.flag}"
+     *ngIf="types.includes(data.type)"
+     (click)="goToLink('https://starwars.fandom.com/wiki/'+data.link)"
+     mat-ripple>
   <div class="image"><img src="assets/img/starwars/{{data.ref}}.jpg"></div>
   <div class="content">
     <div class="title">
