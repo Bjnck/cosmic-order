@@ -11,8 +11,10 @@ eras:
         arcs:
           - ref: badoon_war
             title: The Badoon War
-            trade: "Guardians of the Galaxy: Tomorrow's Avengers vol. 1"
+            trade: "Guardians of the Galaxy: Tomorrow's Avengers vol.1"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2902972/guardians-of-the-galaxy-tomorrows-avengers-vol-1-tp"
             omnibus: "Guardians of the Galaxy: Tomorrow's Heroes"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7104601/guardians-of-the-galaxy-tomorrows-heroes-omnibus-hc"
             comment: Origins of the original Guardians of the Galaxy in an alternative future.
             collections:
               - GG
@@ -27,8 +29,10 @@ eras:
               - title: Defenders 29
           - ref: arcturus_war
             title: At War with Arcturus
-            trade: "Guardians of the Galaxy: Tomorrow's Avengers vol. 1"
+            trade: "Guardians of the Galaxy: Tomorrow's Avengers vol.1"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2902972/guardians-of-the-galaxy-tomorrows-avengers-vol-1-tp"
             omnibus: "Guardians of the Galaxy: Tomorrow's Heroes"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7104601/guardians-of-the-galaxy-tomorrows-heroes-omnibus-hc"
             comment: First adventures for the Guardians and origins of Starhawk.
             reading:
               essential:
@@ -51,11 +55,11 @@ eras:
         arcs:
           - ref: coming_of_galactus
             title: The Coming of Galactus
-            omnibus: "Fantastic Four vol. 2"
+            omnibus: "Fantastic Four vol.2"
             omnibusLink: "https://leagueofcomicgeeks.com/comic/7772938/fantastic-four-omnibus-vol-2-hc?variant=2867797"
             trade: "Silver Surfer Epic Collection: When Calls Galactus"
             tradeLink: "https://leagueofcomicgeeks.com/comic/2087898/silver-surfer-epic-collection-when-calls-galactus-tp"
-            comment: First appearances of Galactus and the Silver Surfer. The Fantastic Four must save earth from the coming of Galactus.
+            comment: First appearances of Galactus and the Silver Surfer. The Fantastic Four must save Earth from the coming of Galactus.
             collections:
               - SS
             issues:
@@ -64,13 +68,26 @@ eras:
               - title: Fantastic Four (1961) 50
               - title: Fantastic Four (1961) 55
               - title: Fantastic Four (1961) 72
+                omnibus: "Fantastic Four vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
               - title: Fantastic Four (1961) 74
+                omnibus: "Fantastic Four vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
               - title: Fantastic Four (1961) 75
+                omnibus: "Fantastic Four vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
               - title: Fantastic Four (1961) 76
+                omnibus: "Fantastic Four vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
               - title: Fantastic Four (1961) 77
+                omnibus: "Fantastic Four vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
           - ref: silver_surfer_origins
             title: Silver Surfer Origins
-            omnibus: "Silver Surfer vol. 1"
+            trade: "Marvel Universe: Time and Again"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9484194/marvel-universe-time-and-again-tp"
+            omnibus: "Silver Surfer vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/9037327/the-silver-surfer-omnibus-vol-1-hc"
             comment: Origins of the Silver Surfer.
             reading:
               essential:
@@ -79,22 +96,82 @@ eras:
               - SS
             issues:
               - title: Silver Surfer Annual 2018
+                trade: "Marvel Universe: Time and Again"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9484194/marvel-universe-time-and-again-tp"
                 omnibus: " "
               - title: Silver Surfer (1968) 1
-                trade: "Marvel Masterworks: The Silver Surfer vol. 1"
               - title: Silver Surfer (1968) 2
-                trade: "Marvel Masterworks: The Silver Surfer vol. 1"
               - title: Silver Surfer (1968) 6
-                trade: "Marvel Masterworks: The Silver Surfer vol. 1"
+          - ref: cosmic_threats
+            title: And Now...Galactus!
+            comment: Thor vs. multiple cosmic threats. First appearances of the Riggelians, Ego the living planet, the High Evolutionary and the Man-Beast. Also find out about the origins of Galactus.
+            reading:
+              optional:
+                - coming_of_galactus
+            issues:
+              - title: The Mighty Thor (1966) 131
+                trade: "The Mighty Thor Epic Collection: The Wrath of Odin"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8776642/the-mighty-thor-epic-collection-the-wrath-of-odin-tp"
+                omnibus: "The Mighty Thor vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/2210992/the-mighty-thor-omnibus-vol-2-hc"
+              - title: The Mighty Thor (1966) 132
+                trade: "The Mighty Thor Epic Collection: The Wrath of Odin"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8776642/the-mighty-thor-epic-collection-the-wrath-of-odin-tp"
+                omnibus: "The Mighty Thor vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/2210992/the-mighty-thor-omnibus-vol-2-hc"
+              - title: The Mighty Thor (1966) 133
+                trade: "The Mighty Thor Epic Collection: The Wrath of Odin"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8776642/the-mighty-thor-epic-collection-the-wrath-of-odin-tp"
+                omnibus: "The Mighty Thor vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/2210992/the-mighty-thor-omnibus-vol-2-hc"
+              - title: The Mighty Thor (1966) 134
+                trade: "The Mighty Thor Epic Collection: The Wrath of Odin"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8776642/the-mighty-thor-epic-collection-the-wrath-of-odin-tp"
+                omnibus: "The Mighty Thor vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/2210992/the-mighty-thor-omnibus-vol-2-hc"
+              - title: The Mighty Thor (1966) 135
+                trade: "The Mighty Thor Epic Collection: The Wrath of Odin"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8776642/the-mighty-thor-epic-collection-the-wrath-of-odin-tp"
+                omnibus: "The Mighty Thor vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/2210992/the-mighty-thor-omnibus-vol-2-hc"
+              - title: The Mighty Thor (1966) 160
+                trade: "The Mighty Thor Epic Collection: To Wake the Mangog"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8977341/the-mighty-thor-epic-collection-to-wake-the-mangog-tp"
+                omnibus: "The Mighty Thor vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1822631/the-mighty-thor-omnibus-vol-3-hc"
+              - title: The Mighty Thor (1966) 161
+                trade: "The Mighty Thor Epic Collection: To Wake the Mangog"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8977341/the-mighty-thor-epic-collection-to-wake-the-mangog-tp"
+                omnibus: "The Mighty Thor vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1822631/the-mighty-thor-omnibus-vol-3-hc"
+              - title: The Mighty Thor (1966) 162
+                trade: "The Mighty Thor Epic Collection: To Wake the Mangog"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8977341/the-mighty-thor-epic-collection-to-wake-the-mangog-tp"
+                omnibus: "The Mighty Thor vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1822631/the-mighty-thor-omnibus-vol-3-hc"
+              - title: The Mighty Thor (1966) 168
+                trade: "The Mighty Thor Epic Collection: To Wake the Mangog"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8977341/the-mighty-thor-epic-collection-to-wake-the-mangog-tp"
+                omnibus: "The Mighty Thor vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1822631/the-mighty-thor-omnibus-vol-3-hc"
+              - title: The Mighty Thor (1966) 169
+                trade: "The Mighty Thor Epic Collection: To Wake the Mangog"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8977341/the-mighty-thor-epic-collection-to-wake-the-mangog-tp"
+                omnibus: "The Mighty Thor vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1822631/the-mighty-thor-omnibus-vol-3-hc"
           - ref: galactus_unleashed
-            title: Galactus Unleashed
+            title: Behold...Galactus!
             comment: First appearance of Air Walker.
-            trade: "Fantastic Four: Behold... Galactus! Marvel Select"
+            trade: "Fantastic Four Behold...Galactus!"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9950066/fantastic-four-beholdgalactus-tp"
+            omnibus: "Fantastic Four vol. 4"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8136908/fantastic-four-omnibus-vol-4-hc"
             reading:
               essential:
                 - coming_of_galactus
               optional:
                 - silver_surfer_origins
+                - cosmic_threats
             collections:
               - SS
             issues:
@@ -102,29 +179,106 @@ eras:
               - title: Fantastic Four (1961) 121
               - title: Fantastic Four (1961) 122
               - title: Fantastic Four (1961) 123
-          - ref: nova_origins
-            title: Nova Origins
-            trade: "Nova Classic vol. 1"
-            comment: Origins of Nova (Richard Rider).
+          - ref: galactus_ego
+            title: Galactus vs. Ego
+            comment: Galactus vs.Ego. First appearance of Firelord.
+            trade: "The Mighty Thor Epic Collection: Ulik Unchained"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9400436/the-mighty-thor-epic-collection-ulik-unchained-tp"
+            reading:
+              essential:
+                - cosmic_threats
+              optional:
+                - galactus_unleashed
+            issues:
+              - title: The Mighty Thor (1966) 225
+              - title: The Mighty Thor (1966) 226
+              - title: The Mighty Thor (1966) 227
+              - title: The Mighty Thor (1966) 228
+          - ref: him
+            title: Him
+            comment: First appearance of Adam Warlock.
+            collections:
+              - AW
+            issues:
+              - title: Fantastic Four (1961) 66
+                trade: "FF Epic Collection: The Mystery of the Black Panther"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2495299/fantastic-four-epic-collection-the-mystery-of-the-black-panther-tp"
+                omnibus: "Fantastic Four vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
+              - title: Fantastic Four (1961) 67
+                trade: "FF Epic Collection: The Mystery of the Black Panther"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2495299/fantastic-four-epic-collection-the-mystery-of-the-black-panther-tp"
+                omnibus: "Fantastic Four vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
+              - title: The Mighty Thor (1966) 165
+                trade: "The Mighty Thor Epic Collection: To Wake the Mangog"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8977341/the-mighty-thor-epic-collection-to-wake-the-mangog-tp"
+                omnibus: "The Mighty Thor vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1822631/the-mighty-thor-omnibus-vol-3-hc"
+              - title: The Mighty Thor (1966) 166
+                trade: "The Mighty Thor Epic Collection: To Wake the Mangog"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8977341/the-mighty-thor-epic-collection-to-wake-the-mangog-tp"
+                omnibus: "The Mighty Thor vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1822631/the-mighty-thor-omnibus-vol-3-hc"
+          - ref: adam_warlock_origins
+            title: Adam Warlock Origins
+            trade: "Marvel Masterworks: Warlock vol.1"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8414831/marvel-masterworks-warlock-vol-1-tp"
+            comment: Origins of Adam Warlock.
+            reading:
+              optional:
+                - cosmic_threats
+                - him
+            collections:
+              - AW
+            issues:
+              - title: Marvel Premiere 1
+              - title: Marvel Premiere 2
+              - title: Warlock 1
+              - title: Warlock 2
+              - title: Warlock 3
+              - title: Warlock 4
+              - title: Warlock 5
+              - title: Warlock 6
+              - title: Warlock 7
+              - title: Warlock 8
+              - title: Incredible Hulk (1968) 176
+              - title: Incredible Hulk (1968) 177
+          - ref: counter_earth
+            title: Counter-Earth Must Die
+            trade: "Fantastic Four: Crusaders and Titans"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8481035/fantastic-four-crusaders-and-titans-tp"
+            comment: Galactus vs. Counter-Earth.
+            reading:
+              essential:
+                - cosmic_threats
+              optional:
+                - galactus_ego
+                - adam_warlock_origins
+            issues:
+              - title: Fantastic Four (1961) 172
+              - title: Fantastic Four (1961) 173
+              - title: Fantastic Four (1961) 174
+              - title: Fantastic Four (1961) 175
+          - ref: in_search_of_galactus
+            title: In Search of Galactus
+            omnibus: "Fantastic Four: in Search of Galactus (HC)"
+            comment: "First appearance and origins of Nova, first appearance of Terrax and introduction of the Nova corps."
+            reading:
+              optional:
+                - galactus_unleashed
             collections:
               - N
             issues:
               - title: Nova (1976) 1
-          - ref: in_search_of_galactus
-            title: In Search of Galactus
-            omnibus: "Fantastic Four: in Search of Galactus (HC)"
-            comment: "First appearance of Terrax and introduction of the Nova corps."
-            reading:
-              optional:
-                - galactus_unleashed
-                - nova_origins
-            collections:
-              - N
-            issues:
+                trade: "Nova Classic vol.1"
+                omnibus: " "
               - title: Fantastic Four (1961) 204
               - title: Fantastic Four (1961) 205
+              - title: Nova (1976) 25
+                trade: " "
+                omnibus: " "
               - title: Fantastic Four (1961) 206
-              - title: Fantastic Four (1961) 207
               - title: Fantastic Four (1961) 208
               - title: Fantastic Four (1961) 209
               - title: Fantastic Four (1961) 210
@@ -354,47 +508,6 @@ eras:
                 trade: "Marvel Masterworks: Captain Marvel vol. 5"
               - title: Captain Marvel (1968) 57
                 trade: "Marvel Masterworks: Captain Marvel vol. 5"
-          - ref: him
-            title: Him
-            comment: First appearance of Adam Warlock.
-            collections:
-              - AW
-            issues:
-              - title: Fantastic Four (1961) 66
-                trade: "FF Epic Collection: The Mystery of the Black Panther"
-                omnibus: "Fantastic Four vol. 3"
-              - title: Fantastic Four (1961) 67
-                trade: "FF Epic Collection: The Mystery of the Black Panther"
-                omnibus: "Fantastic Four vol. 3"
-              - title: Thor (1966) 165
-                trade: "Marvel Masterworks: Mighty Thor vol. 8"
-                omnibus: "The Mighty Thor vol. 3"
-              - title: Thor (1966) 166
-                trade: "Marvel Masterworks: Mighty Thor vol. 8"
-                omnibus: "The Mighty Thor vol. 3"
-          - ref: adam_warlock_origins
-            title: Adam Warlock Origins
-            trade: "Marvel Masterworks: Warlock vol. 1"
-            comment: Origins of Adam Warlock.
-            importance: optional
-            reading:
-              optional:
-                - him
-            collections:
-              - AW
-            issues:
-              - title: Marvel Premiere 1
-              - title: Marvel Premiere 2
-              - title: Warlock 1
-              - title: Warlock 2
-              - title: Warlock 3
-              - title: Warlock 4
-              - title: Warlock 5
-              - title: Warlock 6
-              - title: Warlock 7
-              - title: Warlock 8
-              - title: Incredible Hulk (1968) 176
-              - title: Incredible Hulk (1968) 177
           - ref: warlock_starlin
             title: Warlock by Starlin
             comment: "The reinvention of Adam Warlock by Jim Starlin and the first appearances of Gamora, the Magus and Pip the troll."
@@ -1479,7 +1592,6 @@ eras:
             comment: Rebirth of Xandar.
             reading:
               essential:
-                - nova_origins
                 - in_search_of_galactus
               optional:
                 - supernova_saga
