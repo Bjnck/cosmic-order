@@ -9,7 +9,6 @@ export class McPickerIssueComponent {
 
   public static ISSUE_QUERY_PARAM: string = 'issue';
 
-  @Input() mobile: boolean;
   @Input() picker: string;
 
   @Output() pickerChangeEventEmitter: EventEmitter<string> = new EventEmitter<string>();

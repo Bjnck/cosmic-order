@@ -6,6 +6,7 @@ import {MarvelComicsModule} from './marvelcomics/marvel-comics.module';
 import {AppRoutingModule} from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
+import {StarwarsModule} from './starwars/starwars.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
     HttpClientModule,
     MarvelComicsModule,
+    StarwarsModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],

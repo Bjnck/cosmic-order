@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {BreakpointObserver, BreakpointState} from '@angular/cdk/layout';
 import {Observable} from 'rxjs';
 import {Era} from '../data/era.interface';
@@ -10,23 +10,19 @@ import {UpdateDialog} from '../update/update.dialog';
   templateUrl: './mc-picker.component.html',
   styleUrls: ['./mc-picker.component.sass']
 })
-export class McPickerComponent {
+export class McPickerComponent implements OnInit{
 
   public static ALL_SELECTOR: string = 'all';
 
   @Input() data: Era[];
-  @Input() eraValue: string;
   @Input() issueValue: string;
   @Input() collectionValue: string;
 
-  @Output() eraChangeEventEmitter: EventEmitter<string> = new EventEmitter<string>();
   @Output() collectionChangeEventEmitter: EventEmitter<string> = new EventEmitter<string>();
   @Output() issueChangeEventEmitter: EventEmitter<string> = new EventEmitter<string>();
   @Output() openArcEventEmitter: EventEmitter<string> = new EventEmitter<string>();
 
   isMobile: Observable<BreakpointState>;
-
-  showFilter: boolean = false;
 
   arcEvent:string;
 
@@ -35,15 +31,7 @@ export class McPickerComponent {
   }
 
   ngOnInit() {
-    this.isMobile = this.breakpointObserver.observe('(max-width: 750px)');
-  }
-
-  toggleFilter() {
-    this.showFilter = !this.showFilter;
-  }
-
-  onEraChange(value: string) {
-    this.eraChangeEventEmitter.emit(value);
+    this.isMobile = this.breakpointObserver.observe('(max-width: 900px)');
   }
 
   onCollectionChange(value: string) {

@@ -1,0 +1,50 @@
+<div id="expand" [ngClass]="{mobile: (isMobile | async)?.matches}">
+  <button mat-button (click)="accordion.openAll()">
+    <mat-icon aria-label="show all">unfold_more</mat-icon>
+  </button>
+  <button mat-button (click)="accordion.closeAll()">
+    <mat-icon aria-label="show all">unfold_less</mat-icon>
+  </button>
+</div>
+
+<div id="list" [ngClass]="{mobile: (isMobile | async)?.matches}">
+  <mat-accordion multi>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title><img class="emblem" src="../assets/img/starwars/high_republic_emblem_tiny.png"/>The High Republic</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.highRepublic" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title><img class="emblem" src="../assets/img/starwars/republic_emblem_tiny.png"/>The Galactic Republic</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.republic" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title><img class="emblem" src="../assets/img/starwars/imperial_emblem_tiny.png"/>The Galactic Empire</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.empire" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title><img class="emblem" src="../assets/img/starwars/first_order_emblem_tiny.png"/>The First Order</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.firstOrder" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+
+  </mat-accordion>
+</div>

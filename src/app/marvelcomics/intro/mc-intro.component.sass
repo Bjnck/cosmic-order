@@ -1,26 +1,39 @@
 #intro
-  text-align: left
+  text-align: justify
   margin-bottom: 50px
   display: flex
   justify-content: center
+#intro.mobile
+  font-size: 16px
+  margin-bottom: 30px
+
+#intro .content
+  display: flex
+  max-width: 1200px
 
 #intro img
   height: 360px
   margin-right: 20px
 
-#faq
+#intro #faq
   margin-top: 30px
-
-.faq-title
+#intro #faq .faq-title
   margin-bottom: 5px
   margin-top: 15px
   font-size: 16px
-  color: #d60000
+  color: #f0141e
+#intro.mobile #faq .faq-title
+  font-size: 20px
+  margin-top: 20px
+  margin-bottom: 10px
+#intro #faq p
+  margin-bottom: 0
+#intro.mobile #faq p
+  margin-bottom: 10px
 
-.start-link
+#intro .start-link
   color: white
   text-decoration: underline
-
-.start-link:hover
+#intro .start-link:hover
   color: #cecece
   cursor: pointer

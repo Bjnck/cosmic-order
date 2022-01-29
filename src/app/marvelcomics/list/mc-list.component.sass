@@ -1,36 +1,21 @@
-#list
-  margin-bottom: 10px
-
-#list-title
-  text-align: center
-  font-size: 25px
-  color: #ffd400
-  margin-bottom: 20px
-
-#era-description
-  margin-bottom: 20px
-
-#era-description div
-  max-width: 900px
-  margin-left: auto
-  margin-right: auto
-
-#expand-buttons .mat-button
-  width: 24px !important
-  min-width: 0 !important
-  line-height: 24px !important
-  padding: 0 !important
+.list .expand .mat-button
+  width: 24px
+  min-width: 0
+  line-height: 24px
+  padding: 0
   margin-bottom: 5px
 
-.cards-era
-  display: flex
-  justify-content: center
-  flex-wrap: wrap
+.list .expand
+  padding-left: 20px
+.list.mobile .expand
+  padding-left: 0
 
-::ng-deep .mat-accordion .mat-expansion-panel:first-of-type
-  border-top-right-radius: 0 !important
-  border-top-left-radius: 0 !important
+.list .sections
+  padding-right: 20px
+  padding-left: 20px
+  padding-bottom: 1px
+.list.mobile .sections
+  padding-right: 0
+  padding-left: 0
+  padding-bottom: 0
 
-::ng-deep .mat-accordion .mat-expansion-panel:last-of-type
-  border-bottom-right-radius: 0 !important
-  border-bottom-left-radius: 0 !important

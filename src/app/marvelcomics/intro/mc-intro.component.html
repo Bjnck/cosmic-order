@@ -1,36 +1,39 @@
-<div id="intro">
+<div id="intro" [ngClass]="{mobile: (isMobile | async)?.matches}">
 
-  <img alt="Eternity" src="assets/img/marvelcomics/eternity.png" *ngIf="!(isMobile | async)?.matches"/>
+  <div class="content">
+    <img alt="Eternity" src="assets/img/marvelcomics/eternity.png" *ngIf="!(isMobile | async)?.matches"/>
 
-  <div>
     <div>
-      This is the complete reading order for the <b>Marvel Cosmic Universe.</b>
-      <br/>
-      <br/>
-      This reading order contains all of the Marvel comics issues related to the cosmic side of the Marvel
-      universe.
-      <br/>
-      It follows the chronological order of events as much as possible but the main objective is centered on the
-      cohesion of the narrative.
-    </div>
+      <div>
+        This is the complete reading order for the <b>Marvel Cosmic Universe.</b>
+        <br/>
+        <br/>
+        This reading order contains all of the Marvel comics issues related to the cosmic side of the Marvel
+        universe.
+        <br/>
+        It follows the chronological order of events as much as possible but the main objective is centered on the
+        cohesion of the narrative.
+      </div>
 
-    <div id="faq">
-      <div class="faq-title">Where to start ?</div>
-      - <span class="start-link" (click)="onStart('life_of_captain_marvel')">Infinity Saga (Thanos Wars)</span><br/>
-      - <span class="start-link" (click)="onStart('annihilation')">Annihilation</span><br/>
-      - <span class="start-link" (click)="onStart('solve_everything')">Secret Wars (Hickman's Fantastic Four)</span>
+      <div id="faq">
+        <div class="faq-title">Where to start ?</div>
+        - <span class="start-link" (click)="onStart('life_of_captain_marvel')">Infinity Saga (Thanos Wars)</span><br/>
+        - <span class="start-link" (click)="onStart('annihilation')">Annihilation</span><br/>
+        - <span class="start-link" (click)="onStart('solve_everything')">Secret Wars (Hickman's Fantastic Four)</span>
 
-      <div class="faq-title">What to read ?</div>
-      Read everything from top to bottom starting from your chosen starting point.
-      <br/>
-      Pay close attention to the required pre-readings for each story arc to be sure to fully understand all aspect of
-      the story.
-      <br/>
-      Use the issues filter to focus on the issues related to the <b>main storyline</b> of the Marvel cosmic universe.
-      This way you will have a much more coherent story.
-      <br/>
-      Use the collection filter to focus on a character or a team of characters. Not all appearances of that character
-      will be listed, only what is relevant to its own story.
+        <div class="faq-title">What to read ?</div>
+        <p>Read everything from top to bottom starting from your chosen starting point.</p>
+
+        <p>Pay close attention to the required pre-readings for each story arc to be sure to fully understand all aspect of
+          the story.</p>
+
+        <p>Use the issue filter to focus on the issues related to the <b>main storyline</b> of the Marvel cosmic universe.
+          This way you will have a much more coherent story.</p>
+
+        <p>Use the character filter to focus on a character or a team of characters. Not all appearances of that character
+          will be listed, only what is relevant to its own story.</p>
+      </div>
     </div>
   </div>
+
 </div>

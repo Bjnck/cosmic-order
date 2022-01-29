@@ -1,24 +1,35 @@
 <h1 mat-dialog-title>{{data.arc.title}}</h1>
-<div mat-dialog-content *ngIf=" !(isMobile | async)?.matches">
-  <div id="details-intro">
-    <div id="details-description">
-      {{data.arc.comment}}
+
+<div id="details" mat-dialog-content *ngIf=" !(isMobile | async)?.matches">
+
+  <div class="intro">
+    <div class="left">
+      <div class="image">
+        <img src="assets/img/marvelcomics/arc/{{data.arc.ref}}.jpg" alt="{{data.arc.title}}"
+             onerror="this.src='assets/img/marvelcomics/arc/placeholder.jpg';">
+      </div>
+      <div class="description">{{data.arc.comment}}</div>
     </div>
-    <div id="details-reading" *ngIf="data.arc.reading &&
+
+
+    <div class="reading">
+      <div *ngIf="data.arc.reading &&
       ((data.arc.reading.essential && (data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue).length > 0) ||
       (data.arc.reading.optional && (data.arc.reading.optional | reading:'optional':data.issueValue:data.collectionValue).length > 0))">
-      <div id="details-reading-title">Pre-reading</div>
-      <div *ngIf="data.arc.reading.essential">
-        <div *ngFor="let reading of data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue">
-          <div class="details-reading-essential" (click)="onReading(reading.ref)">{{reading.title}}</div>
+        <div class="title">Pre-reading</div>
+        <div *ngIf="data.arc.reading.essential">
+          <div *ngFor="let reading of data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue">
+            <div class="essential" (click)="onReading(reading.ref)">{{reading.title}}</div>
+          </div>
         </div>
-      </div>
-      <div *ngFor="let reading of data.arc.reading.optional | reading:'optional':data.issueValue:data.collectionValue">
-        <div class="details-reading-optional" (click)="onReading(reading.ref)">{{reading.title}}</div>
+        <div *ngFor="let reading of data.arc.reading.optional | reading:'optional':data.issueValue:data.collectionValue">
+          <div class="optional" (click)="onReading(reading.ref)">{{reading.title}}</div>
+        </div>
       </div>
     </div>
   </div>
-  <table mat-table [dataSource]="data.arc | issue:data.issueValue:data.collectionValue" id="details-issue-table">
+
+  <table mat-table [dataSource]="data.arc | issue:data.issueValue:data.collectionValue" class="issue-table">
     <ng-container matColumnDef="issue">
       <th mat-header-cell *matHeaderCellDef>Issue</th>
       <td mat-cell *matCellDef="let issue"
@@ -58,42 +69,58 @@
   </table>
 </div>
 
-<div mat-dialog-content *ngIf=" (isMobile | async)?.matches">
-  <div id="details-description-mobile">
+
+
+
+<div mat-dialog-content id="details-mobile" *ngIf=" (isMobile | async)?.matches">
+
+  <div class="description">
     {{data.arc.comment}}
   </div>
-  <div id="details-reading-mobile" *ngIf="data.arc.reading &&
+
+  <div class="reading" *ngIf="data.arc.reading &&
       ((data.arc.reading.essential && (data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue).length > 0) ||
       (data.arc.reading.optional && (data.arc.reading.optional | reading:'optional':data.issueValue:data.collectionValue).length > 0))">
-    <div id="details-reading-title">Pre-reading</div>
+    <div class="title">Pre-reading</div>
     <div *ngIf="data.arc.reading.essential">
       <div *ngFor="let reading of data.arc.reading.essential | reading:'essential':data.issueValue:data.collectionValue">
-        <div class="details-reading-essential" (click)="onReading(reading.ref)">{{reading.title}}</div>
+        <div class="essential" (click)="onReading(reading.ref)">{{reading.title}}</div>
       </div>
     </div>
     <div *ngFor="let reading of data.arc.reading.optional | reading:'optional':data.issueValue:data.collectionValue">
-      <div class="details-reading-optional" (click)="onReading(reading.ref)">{{reading.title}}</div>
+      <div class="optional" (click)="onReading(reading.ref)">{{reading.title}}</div>
     </div>
   </div>
+
   <div *ngFor="let issue of data.arc | issue:data.issueValue:data.collectionValue"
        [ngClass]="{'issue-block':true,
                    'row-essential': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'essential'),
                    'row-optional': data.collectionValue == 'all' && (issue | issueImportance:data.arc:'optional') &&
                         !(issue | issueImportance:data.arc:'essential')}">
-    <div>Issue: {{issue.title}}</div>
-    <div>
-      Trade:
-      <span *ngIf="issue.trade && !issue.tradeLink">{{issue.trade}}</span>
-      <a *ngIf="issue.trade && issue.tradeLink" href="{{issue.tradeLink}}" target="_blank">{{issue.trade}}</a>
-      <span *ngIf="!issue.trade && !data.arc.tradeLink">{{data.arc.trade}}</span>
-      <a *ngIf="!issue.trade && data.arc.tradeLink" href="{{data.arc.tradeLink}}" target="_blank">{{data.arc.trade}}</a>
+
+    <div class="row">
+      <div class="head">Issue</div>
+      <div class="content">{{issue.title}}</div>
     </div>
-    <div>
-      Omnibus:
-      <span *ngIf="issue.omnibus && !issue.omnibusLink">{{issue.omnibus}}</span>
-      <a *ngIf="issue.omnibus && issue.omnibusLink" href="{{issue.omnibusLink}}" target="_blank">{{issue.omnibus}}</a>
-      <span *ngIf="!issue.omnibus && !data.arc.omnibusLink">{{data.arc.omnibus}}</span>
-      <a *ngIf="!issue.omnibus && data.arc.omnibusLink" href="{{data.arc.omnibusLink}}" target="_blank">{{data.arc.omnibus}}</a>
+
+    <div class="row" *ngIf="issue.trade !== ' ' && (issue.trade || data.arc.trade)">
+      <div class="head">Trade</div>
+      <div class="content">
+        <span *ngIf="issue.trade && !issue.tradeLink">{{issue.trade}}</span>
+        <a *ngIf="issue.trade && issue.tradeLink" href="{{issue.tradeLink}}" target="_blank">{{issue.trade}}</a>
+        <span *ngIf="!issue.trade && !data.arc.tradeLink">{{data.arc.trade}}</span>
+        <a *ngIf="!issue.trade && data.arc.tradeLink" href="{{data.arc.tradeLink}}" target="_blank">{{data.arc.trade}}</a>
+      </div>
+    </div>
+
+    <div class="row" *ngIf="issue.omnibus !== ' ' && (issue.omnibus || data.arc.omnibus)">
+      <div class="head">Omnibus</div>
+      <div class="content">
+        <span *ngIf="issue.omnibus && !issue.omnibusLink">{{issue.omnibus}}</span>
+        <a *ngIf="issue.omnibus && issue.omnibusLink" href="{{issue.omnibusLink}}" target="_blank">{{issue.omnibus}}</a>
+        <span *ngIf="!issue.omnibus && !data.arc.omnibusLink">{{data.arc.omnibus}}</span>
+        <a *ngIf="!issue.omnibus && data.arc.omnibusLink" href="{{data.arc.omnibusLink}}" target="_blank">{{data.arc.omnibus}}</a>
+      </div>
     </div>
   </div>
 </div>

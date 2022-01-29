@@ -1,12 +1,8 @@
-<mat-label>Collection:</mat-label>
-<mat-form-field class="picker-selector-{{picker | lowercase}}">
-  <mat-select [(value)]="picker"
-              [disableOptionCentering]="true"
-              (selectionChange)="pickerChange()">
-    <mat-option class="picker-selector-option" value="all">All</mat-option>
+<mat-form-field class="selector-{{picker | lowercase}}">
+  <mat-select [(value)]="picker" [disableOptionCentering]="true" (selectionChange)="pickerChange()">
+    <mat-option class="selector-option" value="all">All characters</mat-option>
     <mat-option *ngFor="let collection of collections"
-                id="picker-selector-option-{{collection.ref | lowercase}}"
-                class="picker-selector-option" value="{{collection.ref}}">
+                id="selector-option-{{collection.ref | lowercase}}" class="selector-option" value="{{collection.ref}}">
       {{collection.name}}
     </mat-option>
   </mat-select>

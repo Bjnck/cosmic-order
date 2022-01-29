@@ -1,0 +1,12 @@
+<mat-toolbar id="picker-starwars" [ngClass]="{mobile: (isMobile | async)?.matches}">
+    <div class="selector">
+      <mat-form-field>
+        <mat-select [formControl]="types" multiple (valueChange)="onTypeChange($event)">
+          <mat-option *ngFor="let type of typeList" [value]="type"
+                      class="selector-option option-{{type.replace(' ','').toLowerCase()}}">
+            <div class="option-text">{{type}}</div>
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+</mat-toolbar>
