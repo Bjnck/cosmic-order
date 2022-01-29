@@ -262,24 +262,45 @@ eras:
               - title: Fantastic Four (1961) 175
           - ref: in_search_of_galactus
             title: In Search of Galactus
-            omnibus: "Fantastic Four: in Search of Galactus (HC)"
+            omnibus: "Fantastic Four By John Byrne vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8033474/fantastic-four-by-john-byrne-omnibus-vol-1-hc"
+            trade: "Nova Classic vol.3"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1699616/nova-classic-vol-3-tp"
             comment: "First appearance and origins of Nova, first appearance of Terrax and introduction of the Nova corps."
             reading:
               optional:
                 - galactus_unleashed
-            collections:
-              - N
             issues:
               - title: Nova (1976) 1
                 trade: "Nova Classic vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3086782/nova-classic-vol-1-tp"
                 omnibus: " "
+                collections:
+                  - N
               - title: Fantastic Four (1961) 204
+                omnibus: "Fantastic Four: In Search of Galactus (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1638477/fantastic-four-in-search-of-galactus-hc-premiere"
+                collections:
+                  - N
               - title: Fantastic Four (1961) 205
+                omnibus: "Fantastic Four: In Search of Galactus (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1638477/fantastic-four-in-search-of-galactus-hc-premiere"
+                collections:
+                  - N
               - title: Nova (1976) 25
-                trade: " "
                 omnibus: " "
+                collections:
+                  - N
               - title: Fantastic Four (1961) 206
+                omnibus: "Fantastic Four: In Search of Galactus (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1638477/fantastic-four-in-search-of-galactus-hc-premiere"
+                collections:
+                  - N
               - title: Fantastic Four (1961) 208
+                omnibus: "Fantastic Four: In Search of Galactus (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1638477/fantastic-four-in-search-of-galactus-hc-premiere"
+                collections:
+                  - N
               - title: Fantastic Four (1961) 209
               - title: Fantastic Four (1961) 210
               - title: Fantastic Four (1961) 211
@@ -288,9 +309,15 @@ eras:
               - title: Fantastic Four (1961) 214
               - title: Rom (1979) 24
                 omnibus: " "
+                trade: " "
+                collections:
+                  - N
           - ref: when_calls_galactus
             title: When Calls Galactus
-            trade: "Fantastic Four Visionaries: John Byrne vol. 2"
+            omnibus: "Fantastic Four By John Byrne vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8033474/fantastic-four-by-john-byrne-omnibus-vol-1-hc"
+            trade: "Fantastic Four Behold...Galactus!"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9950066/fantastic-four-beholdgalactus-tp"
             comment: First appearance of Nova (Herald of Galactus).
             reading:
               essential:
@@ -1593,6 +1620,7 @@ eras:
             reading:
               essential:
                 - in_search_of_galactus
+                - legacy_of_thanos
               optional:
                 - supernova_saga
             collections:
