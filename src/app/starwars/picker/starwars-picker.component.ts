@@ -12,7 +12,7 @@ import {MatDialog} from '@angular/material/dialog';
 export class StarwarsPickerComponent implements OnInit{
 
   @Output() typeChangeEventEmitter: EventEmitter<string[]> = new EventEmitter<string[]>();
-  typeList: string[] = ['Live Action', 'Animation', 'Books', 'Comics'];
+  typeList: string[] = ['Live Action', 'Animation', 'Books', 'Comics', 'Game'];
   types: FormControl = new FormControl(this.typeList);
 
   isMobile: Observable<BreakpointState>;
@@ -28,12 +28,14 @@ export class StarwarsPickerComponent implements OnInit{
     let transformedTypes = types
       .map(type => type.toLowerCase().replace(' ', ''))
       .map(type => {
-        if (type == 'books') {
+        if (type === 'books') {
           return 'book';
-        } else if (type == 'comics') {
+        } else if (type === 'comics') {
           return 'comic';
-        } else if (type == 'liveaction') {
+        } else if (type === 'liveaction') {
           return 'live';
+        } else if (type === 'game') {
+          return 'game';
         } else {
           return type;
         }

@@ -10,7 +10,7 @@ import {Eras} from './data/eras.interface';
 export class StarwarsComponent {
 
   data: Eras;
-  types: string[] = ['live', 'animation', 'book', 'comic'];
+  types: string[] = ['live', 'animation', 'book', 'comic', 'game'];
 
   constructor(private route: ActivatedRoute) {
     this.data = this.route.snapshot.data.data;

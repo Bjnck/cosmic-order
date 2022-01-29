@@ -717,6 +717,18 @@ empire:
     link: "Star_Wars:_Darth_Vader_(2017)"
     content:
       - Issues 19-25
+  - ref: dark_temple
+    title: "Jedi: Fallen Order - Dark Temple"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Jedi_Fallen_Order_-_Dark_Temple"
+    content:
+      - Issues 1-5
+  - ref: fallen_order
+    title: "Jedi: Fallen Order"
+    type: game
+    essential: false
+    link: "Star_Wars_Jedi:_Fallen_Order"
 
 
   - ref: most_wanted
