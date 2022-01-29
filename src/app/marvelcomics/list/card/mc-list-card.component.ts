@@ -30,7 +30,7 @@ export class McListCardComponent {
   @Output() openArcEventEmitter: EventEmitter<string> = new EventEmitter<string>();
   @Output() closeArcEventEmitter: EventEmitter<void> = new EventEmitter<void>();
 
-  @Input() isMobile: Observable<BreakpointState>;
+  isMobile: Observable<BreakpointState>;
 
   arcEvent: string;
 

@@ -17,7 +17,6 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {DetailsDialog} from './list/card/details.dialog';
 import {MatDialogModule} from '@angular/material/dialog';
 import {McPickerCollectionComponent} from './picker/mc-picker-collection.component';
-import {DataResolve} from './data/data.resolve';
 import {McListSectionComponent} from './list/mc-list-section.component';
 import {EraPipe} from './list/era.pipe';
 import {McPickerIssueComponent} from './picker/mc-picker-issue.component';
@@ -26,12 +25,11 @@ import {SectionPipe} from './list/section.pipe';
 import {ArcPipe} from './list/arc.pipe';
 import {MatTableModule} from '@angular/material/table';
 import {IssueImportancePipe} from './list/card/issue-importance.pipe';
-import {CardTitlePipe} from './list/card/card-title.pipe';
 import {UpdateDialog} from './update/update.dialog';
 import {IssuePipe} from './list/card/issue.pipe';
 import {ArcImportancePipe} from './list/card/arc-importance.pipe';
 import {ReadingPipe} from './list/card/reading.pipe';
-import {CardTitleSizePipe} from './list/card/card-title-size.pipe';
+import {MarvelComicsDataResolve} from './data/marvel-comics-data.resolve';
 
 @NgModule({
   declarations: [
@@ -48,8 +46,6 @@ import {CardTitleSizePipe} from './list/card/card-title-size.pipe';
     ArcPipe,
     IssuePipe,
     ArcImportancePipe,
-    CardTitlePipe,
-    CardTitleSizePipe,
     ReadingPipe,
     IssueImportancePipe,
     DetailsDialog,
@@ -70,7 +66,7 @@ import {CardTitleSizePipe} from './list/card/card-title-size.pipe';
     MatTableModule
   ],
   providers: [
-    DataResolve,
+    MarvelComicsDataResolve,
     McPickerComponent
   ],
   bootstrap: [MarvelComicsComponent]
