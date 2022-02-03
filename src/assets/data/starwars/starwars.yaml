@@ -1,16 +1,25 @@
 highRepublic:
+  - ref: high_republic_adventures_annual_set_life
+    title: "The High Republic Adventures Annual: Set for Life"
+    type: comic
+    essential: false
+    link: "The_High_Republic_Adventures_Annual_2021"
+    description: A Bell Zettifar and Loden Greatstorm story.
   - ref: light_jedi
     title: Light of the Jedi
     type: book
     flag: true
+    essential: true
     link: "The_High_Republic:_Light_of_the_Jedi"
   - ref: into_dark
     title: Into the Dark
     type: book
+    essential: true
     link: "The_High_Republic:_Into_the_Dark"
   - ref: high_republic_adventures_vol_1
-    title: "The High Republic Adventures: Volume One"
+    title: "The High Republic Adventures: Attack of the Nihil"
     type: comic
+    essential: false
     link: "Star_Wars:_The_High_Republic_Adventures"
     description: The Gaze Electric short story is part of issue 6 of the Star Wars Adventures (2020) comic line and act as a short prelude.
     content:
@@ -19,24 +28,141 @@ highRepublic:
   - ref: there_is_no_fear
     title: "The High Republic: There is No Fear"
     type: comic
+    essential: true
     link: "Star_Wars:_The_High_Republic_(comic_series)"
     content:
       - Issues 1-5
-  - ref: heart_drengir
-    title: "The High Republic: Heart of the Drengir"
+  - ref: high_republic_adventures_annual_stone
+    title: "The High Republic Adventures Annual: No Stone Unturned"
     type: comic
-    link: "Star_Wars:_The_High_Republic_(comic_series)"
+    essential: false
+    link: "The_High_Republic_Adventures_Annual_2021"
+    description: Short story about the crew of the Vessel.
+  - ref: high_republic_adventures_bilbousa
+    title: "The High Republic Adventures: Mission to Bilbousa"
+    type: comic
+    essential: false
+    link: "Star_Wars:_The_High_Republic_Adventures"
     content:
-      - Issues 6-8
+      - Issues 6-7
+  - ref: temple_peak
+    title: "The Monster of Temple Peak"
+    type: comic
+    essential: false
+    link: "Star_Wars:_The_High_Republic_Adventures_—_The_Monster_of_Temple_Peak"
+    description: A Ty Yorrick story.
+    content:
+      - Issues 1-4
+  - ref: high_republic_adventures_annual_first_mission
+    title: "The High Republic Adventures Annual: First Mission"
+    type: comic
+    essential: false
+    link: "The_High_Republic_Adventures_Annual_2021"
+    description: Flashback story of Stellan Gios and his padawan Vernestra Rwoh.
   - ref: rising_storm
     title: The Rising Storm
     type: book
-    flag: true
+    essential: true
     link: "The_High_Republic:_The_Rising_Storm"
+  - ref: heart_drengir
+    title: "The High Republic: Heart of the Drengir"
+    type: comic
+    essential: true
+    link: "Star_Wars:_The_High_Republic_(comic_series)"
+    description: Concurrent with The Rising Storm.
+    content:
+      - Issues 6-8
+  - ref: high_republic_adventures_attack_fair
+    title: "The High Republic Adventures: Attack on the Republic Fair"
+    description: Concurrent with The Rising Storm.
+    type: comic
+    essential: false
+    link: "Star_Wars:_The_High_Republic_Adventures"
+    content:
+      - Free Comic Book Day 2021
+  - ref: high_republic_adventures_together
+    title: "The High Republic Adventures: Back Together and Away Again"
+    type: comic
+    essential: false
+    link: "Star_Wars:_The_High_Republic_Adventures"
+    content:
+      - Issues 8-10
+  - ref: high_republic_adventures_bake_off
+    title: "The High Republic Adventures: Galactic Bake-Off Spectacular"
+    type: comic
+    essential: false
+    link: "Star_Wars:_The_High_Republic_Adventures"
+    description: A Torban "Buckets of Blood" Buck and Kantam Sy story.
+    content:
+      - Galactic Bake-Off Spectacular
+  - ref: high_republic_adventures_
+    title: "The High Republic Adventures: "
+    type: comic
+    essential: false
+    link: "Star_Wars:_The_High_Republic_Adventures"
+    content:
+      - Issues 11-13
+  - ref: shadow_nihil
+    title: "The High Republic: Shadow of the Nihil"
+    type: comic
+    essential: true
+    link: "Star_Wars:_The_High_Republic_(comic_series)"
+    content:
+      - Issues 9-10
+  - ref: tempest_runner
+    title: "Tempest Runner"
+    type: book
+    link: "The_High_Republic:_Tempest_Runner"
+    content:
+      - Issues 1-2
+  - ref: high_republic_adventures_annual_haul
+    title: "The High Republic Adventures Annual: The Haul"
+    type: comic
+    essential: false
+    link: "The_High_Republic_Adventures_Annual_2021"
+    description: A Porter Engle story. Lourna Dee is still alive, big surprise, after tempest runner ?
+  - ref: edge_of_balance_1
+    title: "The Edge of Balance"
+    type: comic
+    link: "Star_Wars:_The_High_Republic:_The_Edge_of_Balance"
   - ref: out_shadows
     title: Out of the Shadows
     type: book
     link: "The_High_Republic:_Out_of_the_Shadows"
+  - ref: fallen_star
+    title: The Fallen Star
+    type: book
+    essential: true
+    link: "The_High_Republic:_The_Fallen_Star"
+  - ref: midnight_horizon
+    title: Midnight Horizon
+    type: book
+    link: "The_High_Republic:_Midnight_Horizon"
+  - ref: jedi_end
+    title: "The High Republic: Jedi's End"
+    type: comic
+    link: "Star_Wars:_The_High_Republic_(comic_series)"
+    content:
+      - Issues 11-15
+
+  - ref: eye_storm
+    title: "Eye of the Storm"
+    type: comic
+    link: "Star_Wars:_The_High_Republic:_Eye_of_the_Storm"
+    content:
+      - Issues 1-2
+  - ref: trail_shadows
+    title: "Trail of Shadows"
+    type: comic
+    link: "Star_Wars:_The_High_Republic:_Trail_of_Shadows"
+    content:
+      - Issues 1-5
+  - ref: high_republic_adventures_annual_crash
+    title: "The High Republic Adventures Annual: Crash and the Crew"
+    type: comic
+    essential: false
+    link: "The_High_Republic_Adventures_Annual_2021"
+    description: Where in continuity ???
 
 republic:
   - ref: master_apprentice
