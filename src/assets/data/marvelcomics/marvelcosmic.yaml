@@ -3320,8 +3320,6 @@ eras:
             issues:
               - title: "The Thanos Imperative: Devastation"
                 trade: The Thanos Imperative
-                collections:
-                  - IH
               - title: Annihilators 1
                 trade: "Annihilators"
               - title: Annihilators 2
@@ -3363,130 +3361,211 @@ eras:
     comment: "A complex storyline orchestrated by Jonathan Hickman for several years throughout the titles Fantastic Four and Avengers; and culminating with the Secret Wars event. Side stories includes the adventures of the Guardians of the Galaxy written by Brian Michael Bendis, the Silver Surfer by Slott and Allred and the first steps of a new character as Nova."
     sections:
       - ref: Hickman_fantastic_four
-        title: Hickman's Fantastic Four
+        title: Fantasthick Four
         arcs:
-          - ref: dark_reign
-            title: Dark Reign
-            trade: "Dark Reign: Fantastic Four"
-            omnibus: Fantastic Four by Jonathan Hickman vol. 1
-            comment: In the aftermath of the Secret Invasion event, Hickman starts his run on the Fantastic Four. This story is happening during the events of War of Kings
+          - ref: nu_world
+            title: Nu World
+            trade: "Fantastic Four World's Greatest"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/7550968/fantastic-four-worlds-greatest"
+            comment: The creation of Nu World. This story is not cosmic in nature but the concepts introduced here will be of great importance in the following Fantastic Four stories.
             importance: optional
             issues:
-              - title: "Dark Reign: Fantastic Four 1"
-              - title: "Dark Reign: Fantastic Four 2"
-              - title: "Dark Reign: Fantastic Four 3"
-              - title: "Dark Reign: Fantastic Four 4"
-              - title: "Dark Reign: Fantastic Four 5"
+              - title: "Fantastic Four 554"
+              - title: "Fantastic Four 555"
+              - title: "Fantastic Four 556"
+              - title: "Fantastic Four 557"
+              - title: "Fantastic Four 558"
+              - title: "Fantastic Four 559"
+              - title: "Fantastic Four 560"
+              - title: "Fantastic Four 561"
           - ref: solve_everything
-            title: Solve everything
-            omnibus: Fantastic Four by Jonathan Hickman vol. 1
+            title: Solve Everything
+            omnibus: "Fantastic Four by Hickman vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8636978/fantastic-four-by-hickman-omnibus-vol-1-hc"
+            comment: Hickman starts his run on the Fantastic Four, this story is happening concurrently with War of Kings.
             importance: essential
             reading:
               optional:
-                - dark_reign
+                - annihilation
+                - realm_of_kings
+                - nu_world
+            collections:
+              - IH
             issues:
+              - title: "Dark Reign: Fantastic Four 1"
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
+              - title: "Dark Reign: Fantastic Four 2"
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
+              - title: "Dark Reign: Fantastic Four 3"
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
+              - title: "Dark Reign: Fantastic Four 4"
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
+              - title: "Dark Reign: Fantastic Four 5"
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 570
-                trade: Fantastic Four by Jonathan Hickman vol. 1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 571
-                trade: Fantastic Four by Jonathan Hickman vol. 1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 572
-                trade: Fantastic Four by Jonathan Hickman vol. 1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 573
-                trade: Fantastic Four by Jonathan Hickman vol. 1
-                importance: optional
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 574
-                trade: Fantastic Four by Jonathan Hickman vol. 1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 575
-                trade: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 576
-                trade: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 577
-                trade: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 578
-                trade: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
               - title: Fantastic Four 579
-                trade: Fantastic Four by Jonathan Hickman vol. 3
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: Fantastic Four 580
-                trade: Fantastic Four by Jonathan Hickman vol. 3
-                importance: optional
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: Fantastic Four 581
-                trade: Fantastic Four by Jonathan Hickman vol. 3
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: Fantastic Four 582
-                trade: Fantastic Four by Jonathan Hickman vol. 3
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: Fantastic Four 583
-                trade: Fantastic Four by Jonathan Hickman vol. 4
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: Fantastic Four 584
-                trade: Fantastic Four by Jonathan Hickman vol. 4
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: Fantastic Four 585
-                trade: Fantastic Four by Jonathan Hickman vol. 4
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: Fantastic Four 586
-                trade: Fantastic Four by Jonathan Hickman vol. 4
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: Fantastic Four 587
-                trade: Fantastic Four by Jonathan Hickman vol. 4
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: Fantastic Four 588
-                trade: Fantastic Four by Jonathan Hickman vol. 4
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: FF 1
-                trade: FF by Jonathan Hickman vol. 1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: FF 2
-                trade: FF by Jonathan Hickman vol. 1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: FF 3
-                trade: FF by Jonathan Hickman vol. 1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: FF 4
-                trade: FF by Jonathan Hickman vol. 1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: FF 5
-                trade: FF by Jonathan Hickman vol. 1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: FF 6
-                trade: FF by Jonathan Hickman vol. 2
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
               - title: FF 7
-                trade: FF by Jonathan Hickman vol. 2
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
               - title: FF 8
-                trade: FF by Jonathan Hickman vol. 2
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
               - title: FF 9
-                trade: FF by Jonathan Hickman vol. 2
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
               - title: FF 10
-                trade: FF by Jonathan Hickman vol. 2
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
               - title: FF 11
-                trade: FF by Jonathan Hickman vol. 2
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: Fantastic Four 600 - Forever part 1
-                trade: Fantastic Four by Jonathan Hickman vol. 5
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: FF 12 - All
-                trade: FF by Jonathan Hickman vol. 3
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: Fantastic Four 601 - Forever part 2
-                trade: Fantastic Four by Jonathan Hickman vol. 5
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: FF 13 - Hope
-                trade: FF by Jonathan Hickman vol. 3
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: FF 14 - Lies
-                trade: FF by Jonathan Hickman vol. 3
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: Fantastic Four 602 - Forever part 3
-                trade: Fantastic Four by Jonathan Hickman vol. 5
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: 	Fantastic Four 603 - Forever part 4
-                trade: Fantastic Four by Jonathan Hickman vol. 5
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: FF 15 - In
-                trade: FF by Jonathan Hickman vol. 3
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: Fantastic Four 604 - Forever part 5
-                trade: Fantastic Four by Jonathan Hickman vol. 5
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
-              - title: FF 16 - Doom
-                trade: FF by Jonathan Hickman vol. 3
-                omnibus: Fantastic Four by Jonathan Hickman vol. 2
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: Fantastic Four 600
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: FF 12
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: Fantastic Four 601
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: FF 13
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: Fantastic Four 602
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: FF 14
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: 	Fantastic Four 603
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: FF 15
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: Fantastic Four 604
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+              - title: FF 16
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
           - ref: foundation
             title: Foundation
             comment: At this point the main story of this run is over, but both series continue for some more issues. This will set up what is to come in the following New Avengers serie
-            omnibus: Fantastic Four by Jonathan Hickman vol. 2
+            trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+            omnibus: "Fantastic Four by Hickman vol.2"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
             importance: optional
             reading:
               essential:

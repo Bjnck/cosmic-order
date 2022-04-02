@@ -121,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "cosmic-order"
+  "defaultProject": "cosmic-order",
+  "cli": {
+    "analytics": "176ddd40-3d34-432c-983a-d25527783a06"
+  }
 }
