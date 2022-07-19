@@ -326,9 +326,80 @@ eras:
               - title: Fantastic Four (1961) 242
               - title: Fantastic Four (1961) 243
               - title: Fantastic Four (1961) 244
+      - ref: dark_phoenix_saga_section
+        title: The Dark Phoenix Saga
+        arcs:
+          - ref: dark_phoenix_saga
+            title: The Dark Phoenix Saga
+            omnibus: "X-Men: The Dark Phoenix Saga"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/3935236/x-men-dark-phoenix-saga-omnibus-hc"
+            comment: First appearences of the Shi'ar imperial family, the Starjammers and the Phoenix.
+            collections:
+              - X
+            issues:
+              - title: X-Men (1963) 105
+                trade: "X-Men Epic Collection: Second Genesis"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1907805/x-men-epic-collection-second-genesis-tp"
+              - title: X-Men (1963) 107
+                trade: "X-Men Epic Collection: Second Genesis"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1907805/x-men-epic-collection-second-genesis-tp"
+              - title: X-Men (1963) 108
+                trade: "X-Men Epic Collection: Second Genesis"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1907805/x-men-epic-collection-second-genesis-tp"
+              - title: X-Men (1963) 125 (excerpt)
+                trade: "X-Men: Proteus"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5165090/x-men-epic-collection-proteus-tp"
+              - title: X-Men (1963) 135
+                trade: "X-Men: The Dark Phoenix Saga"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2092551/the-x-men-the-dark-phoenix-saga-tp"
+              - title: X-Men (1963) 136
+                trade: "X-Men: The Dark Phoenix Saga"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2092551/the-x-men-the-dark-phoenix-saga-tp"
+              - title: X-Men (1963) 137
+                trade: "X-Men: The Dark Phoenix Saga"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2092551/the-x-men-the-dark-phoenix-saga-tp"
+          - ref: brood_saga
+            title: The Brood Saga
+            trade: "X-Men: Starjammers by Dave Cockrum"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1369988/x-men-starjammers-by-dave-cockrum-tp"
+            omnibus: "Uncanny X-Men Omnibus vol.3"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5344139/uncanny-x-men-omnibus-vol-3-hc"
+            comment: First appearence of Deathbird.
+            reading:
+              essential:
+                - dark_phoenix_saga
+            collections:
+              - X
+            issues:
+              - title: Uncanny X-Men (1981) 154
+              - title: Uncanny X-Men (1981) 155
+              - title: Uncanny X-Men (1981) 156
+              - title: Uncanny X-Men (1981) 157
+              - title: Uncanny X-Men (1981) 158
+              - title: Uncanny X-Men (1981) 159
+              - title: Uncanny X-Men (1981) 160
+              - title: Uncanny X-Men (1981) 161
+              - title: Uncanny X-Men (1981) 162
+              - title: Uncanny X-Men (1981) 163
+              - title: Uncanny X-Men (1981) 164
+              - title: Uncanny X-Men (1981) 165
+              - title: "X-Men: Spotlight on Starjammers 1"
+                omnibus: " "
+              - title: "X-Men: Spotlight on Starjammers 2"
+                omnibus: " "
       - ref: kree_skrull_war_section
         title: The Kree/Skrull War
         arcs:
+          - ref: the_sentry
+            title: The Sentry
+            trade: "Fantastic Four Epic Collection: The Mystery of the Black Panther"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2495299/fantastic-four-epic-collection-the-mystery-of-the-black-panther-tp"
+            omnibus: "Fantastic Four vol.3"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc"
+            comment: First appearence of Ronan the Accuser.
+            issues:
+              - title: Fantastic Four (1961) 64
+              - title: Fantastic Four (1961) 65
           - ref: legend_of_captain_marvel
             title: The Untold Legend of Captain Marvel
             comment: A short story preceding the first volume of Captain Marvel.
@@ -343,6 +414,7 @@ eras:
             comment: Origins of Captain Marvel.
             reading:
               optional:
+                - the_sentry
                 - legend_of_captain_marvel
             collections:
               - CM
@@ -415,6 +487,18 @@ eras:
               - title: Avengers (1963) 95
               - title: Avengers (1963) 96
               - title: Avengers (1963) 97
+          - ref: kree_skrull_war_epilogue
+            title: The Kree/Skrull War Epilogue
+            trade: "Fantastic Four Visionaries: John Byrne vol.5"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/3081482/fantastic-four-visionaries-john-byrne-vol-5-tp"
+            omnibus: "Fantastic Four By John Byrne vol.2 "
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/6459818/fantastic-four-by-john-byrne-omnibus-vol-2-hc"
+            comment: Two warriors fight for the victory of their own Empire.
+            reading:
+              essential:
+                - kree_skrull_war
+            issues:
+              - title: Fantastic Four Annual (1961) 18
           - ref: cm_22_24
             title: Captain Marvel 22-24
             trade: "Marvel Masterworks: Captain Marvel vol. 3"
@@ -1072,62 +1156,13 @@ eras:
               - title: Quasar (1989) 29
               - title: Quasar (1989) 30
               - title: Quasar (1989) 31
-          - ref: dark_phoenix_saga
-            title: The Dark Phoenix Saga
-            omnibus: "X-Men: The Dark Phoenix Saga"
-            comment: First appearences of the Shi'ar imperial family, the Starjammers and the Phoenix.
-            collections:
-              - X
-            issues:
-              - title: X-Men (1963) 105
-                trade: "X-Men Epic Collection: Second Genesis"
-              - title: X-Men (1963) 107
-                trade: "X-Men Epic Collection: Second Genesis"
-              - title: X-Men (1963) 108
-                trade: "X-Men Epic Collection: Second Genesis"
-              - title: X-Men (1963) 125 (excerpt)
-                trade: "X-Men: Proteus"
-              - title: X-Men (1963) 135
-                trade: "X-Men: The Dark Phoenix Saga"
-              - title: X-Men (1963) 136
-                trade: "X-Men: The Dark Phoenix Saga"
-              - title: X-Men (1963) 137
-                trade: "X-Men: The Dark Phoenix Saga"
-          - ref: dark_phoenix_saga_epilogue
-            title: The Dark Phoenix Saga Epilogue
-            trade: "Fantastic Four Visionaries: John Byrne vol. 5"
-            reading:
-              essential:
-                - dark_phoenix_saga
-            issues:
-              - title: Fantastic Four Annual (1961) 18
-          - ref: brood_saga
-            title: The Brood Saga
-            trade: "X-Men: Starjammers by Dave Cockrum"
-            comment: First appearence of Deathbird.
-            reading:
-              essential:
-                - dark_phoenix_saga
-            collections:
-              - X
-            issues:
-              - title: Uncanny X-Men (1981) 154
-              - title: Uncanny X-Men (1981) 155
-              - title: Uncanny X-Men (1981) 156
-              - title: Uncanny X-Men (1981) 157
-              - title: Uncanny X-Men (1981) 158
-              - title: Uncanny X-Men (1981) 159
-              - title: Uncanny X-Men (1981) 160
-              - title: Uncanny X-Men (1981) 161
-              - title: Uncanny X-Men (1981) 162
-              - title: Uncanny X-Men (1981) 163
-              - title: Uncanny X-Men (1981) 164
-              - title: Uncanny X-Men (1981) 165
-              - title: "X-Men: Spotlight on Starjammers 1"
-              - title: "X-Men: Spotlight on Starjammers 2"
           - ref: fall_of_deathbird
             title: The Fall of Deathbird
-            trade: "X-Men Visionaries: Jim Lee"
+            trade: "X-Men Visionaries"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/7492982/x-men-visionaries-1"
+            omnibus: "X-Men by Chris Claremont & Jim Lee vol.2"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8113012/x-men-by-chris-claremont-jim-lee-omnibus-vol-2-hc"
+            comment: Overturn of the Shi'ar imperial power.
             reading:
               essential:
                 - brood_saga
@@ -2292,6 +2327,7 @@ eras:
           - ref: samaritan
             title: Samaritan
             trade: "Thanos: Redemption"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1398483/thanos-redemption-tp"
             comment: Thanos on a mission to the Kyln, introduction of Star-Lord.
             importance: optional
             reading:
@@ -2309,6 +2345,7 @@ eras:
           - ref: annihilation
             title: Annihilation
             omnibus: "Annihilation"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8534550/annihilation-omnibus-hc"
             comment: The massive crossover event that launches the modern age of cosmic.
             importance: essential
             reading:
@@ -2318,93 +2355,115 @@ eras:
                 - samaritan
             issues:
               - title: "Drax the Destroyer: Earthfall 1"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - GG
               - title: "Drax the Destroyer: Earthfall 2"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - GG
               - title: "Drax the Destroyer: Earthfall 3"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - GG
               - title: "Drax the Destroyer: Earthfall 4"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - GG
               - title: "Annihilation: Prologue"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - N
                   - GG
                   - Q
               - title: "Annihilation: Nova 1"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - N
                   - Q
               - title: "Annihilation: Nova 2"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - N
                   - Q
               - title: "Annihilation: Nova 3"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - N
                   - Q
               - title: "Annihilation: Nova 4"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - N
                   - Q
               - title: "Annihilation: Silver Surfer 1"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - SS
                   - TH
               - title: "Annihilation: Silver Surfer 2"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - SS
                   - TH
               - title: "Annihilation: Silver Surfer 3"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - SS
                   - TH
               - title: "Annihilation: Silver Surfer 4"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 collections:
                   - SS
                   - TH
               - title: "Annihilation: Super-Skrull 1"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 importance: optional
               - title: "Annihilation: Super-Skrull 2"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 importance: optional
               - title: "Annihilation: Super-Skrull 3"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 importance: optional
               - title: "Annihilation: Super-Skrull 4"
-                trade: "Annihilation: The Complete Collection vol. 1"
+                trade: "Annihilation: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7632657/annihilation-vol-1-complete-collection-tp"
                 importance: optional
               - title: "Annihilation: Ronan 1"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 importance: optional
               - title: "Annihilation: Ronan 2"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 importance: optional
               - title: "Annihilation: Ronan 3"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 importance: optional
               - title: "Annihilation: Ronan 4"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 importance: optional
               - title: "Annihilation 1"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 collections:
                   - N
                   - GG
@@ -2412,7 +2471,8 @@ eras:
                   - SS
                   - CM
               - title: "Annihilation 2"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 collections:
                   - N
                   - GG
@@ -2420,7 +2480,8 @@ eras:
                   - SS
                   - CM
               - title: "Annihilation 3"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 collections:
                   - N
                   - GG
@@ -2428,7 +2489,8 @@ eras:
                   - SS
                   - CM
               - title: "Annihilation 4"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 collections:
                   - N
                   - GG
@@ -2436,7 +2498,8 @@ eras:
                   - SS
                   - CM
               - title: "Annihilation 5"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 collections:
                   - N
                   - GG
@@ -2444,7 +2507,8 @@ eras:
                   - SS
                   - CM
               - title: "Annihilation 6"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 collections:
                   - N
                   - GG
@@ -2452,19 +2516,22 @@ eras:
                   - SS
                   - CM
               - title: "Annihilation: Heralds of Galactus 1"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 importance: optional
                 collections:
                   - SS
               - title: "Annihilation: Heralds of Galactus 2"
-                trade: "Annihilation: The Complete Collection vol. 2"
+                trade: "Annihilation: The Complete Collection vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4166908/annihilation-vol-2-complete-collection-tp"
                 importance: optional
                 collections:
                   - SS
           - ref: new_fantastic_four
             title: The New Fantastic Four
             trade: "The New Fantastic Four"
-            comment: The FF encounter the Silver Surfer as the herald of Galactus once again.
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2022066/fantastic-four-the-new-fantastic-four-tp"
+            comment: The Fantastic Four encounter the Silver Surfer as the herald of Galactus once again.
             reading:
               optional:
                 - annihilation
@@ -3370,14 +3437,14 @@ eras:
             comment: The creation of Nu World. This story is not cosmic in nature but the concepts introduced here will be of great importance in the following Fantastic Four stories.
             importance: optional
             issues:
-              - title: "Fantastic Four 554"
-              - title: "Fantastic Four 555"
-              - title: "Fantastic Four 556"
-              - title: "Fantastic Four 557"
-              - title: "Fantastic Four 558"
-              - title: "Fantastic Four 559"
-              - title: "Fantastic Four 560"
-              - title: "Fantastic Four 561"
+              - title: "Fantastic Four (1961) 554"
+              - title: "Fantastic Four (1961) 555"
+              - title: "Fantastic Four (1961) 556"
+              - title: "Fantastic Four (1961) 557"
+              - title: "Fantastic Four (1961) 558"
+              - title: "Fantastic Four (1961) 559"
+              - title: "Fantastic Four (1961) 560"
+              - title: "Fantastic Four (1961) 561"
           - ref: solve_everything
             title: Solve Everything
             omnibus: "Fantastic Four by Hickman vol.1"
@@ -3407,61 +3474,61 @@ eras:
               - title: "Dark Reign: Fantastic Four 5"
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 570
+              - title: Fantastic Four (1961) 570
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 571
+              - title: Fantastic Four (1961) 571
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 572
+              - title: Fantastic Four (1961) 572
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 573
+              - title: Fantastic Four (1961) 573
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 574
+              - title: Fantastic Four (1961) 574
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 575
+              - title: Fantastic Four (1961) 575
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 576
+              - title: Fantastic Four (1961) 576
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 577
+              - title: Fantastic Four (1961) 577
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 578
+              - title: Fantastic Four (1961) 578
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9909235/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-tp"
-              - title: Fantastic Four 579
+              - title: Fantastic Four (1961) 579
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
-              - title: Fantastic Four 580
+              - title: Fantastic Four (1961) 580
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
-              - title: Fantastic Four 581
+              - title: Fantastic Four (1961) 581
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
-              - title: Fantastic Four 582
+              - title: Fantastic Four (1961) 582
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
-              - title: Fantastic Four 583
+              - title: Fantastic Four (1961) 583
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
-              - title: Fantastic Four 584
+              - title: Fantastic Four (1961) 584
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
-              - title: Fantastic Four 585
+              - title: Fantastic Four (1961) 585
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
-              - title: Fantastic Four 586
+              - title: Fantastic Four (1961) 586
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
-              - title: Fantastic Four 587
+              - title: Fantastic Four (1961) 587
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
-              - title: Fantastic Four 588
+              - title: Fantastic Four (1961) 588
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2193304/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-2-tp"
               - title: FF 1
@@ -3509,7 +3576,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
-              - title: Fantastic Four 600
+              - title: Fantastic Four (1961) 600
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
@@ -3519,7 +3586,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
-              - title: Fantastic Four 601
+              - title: Fantastic Four (1961) 601
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
@@ -3529,7 +3596,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
-              - title: Fantastic Four 602
+              - title: Fantastic Four (1961) 602
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
@@ -3539,7 +3606,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
-              - title: 	Fantastic Four 603
+              - title: 	Fantastic Four (1961) 603
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
@@ -3549,7 +3616,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
-              - title: Fantastic Four 604
+              - title: Fantastic Four (1961) 604
                 trade: "Fantastic Four by Hickman: The Complete Collection vol.3"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
@@ -3559,53 +3626,72 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8317563/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-3-tp"
                 omnibus: "Fantastic Four by Hickman vol.2"
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
-          - ref: foundation
-            title: Foundation
-            comment: At this point the main story of this run is over, but both series continue for some more issues. This will set up what is to come in the following New Avengers serie
-            trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
-            tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
-            omnibus: "Fantastic Four by Hickman vol.2"
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
-            importance: optional
-            reading:
-              essential:
-                - solve_everything
-            issues:
-              - title: Fantastic Four 605
-                trade: Fantastic Four by Jonathan Hickman vol. 6
-                importance: " "
-              - title: FF 17
-                trade: FF by Jonathan Hickman vol. 4
-                importance: " "
-              - title: Fantastic Four 605.1
-                trade: Fantastic Four by Jonathan Hickman vol. 6
-                importance: " "
-              - title: Fantastic Four 606
-                trade: Fantastic Four by Jonathan Hickman vol. 6
-                importance: " "
+              - title: Fantastic Four (1961) 605.1
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+                importance: optional
+                collections:
+                  - -IH
               - title: FF 18
-                trade: FF by Jonathan Hickman vol. 4
-              - title: Fantastic Four 607
-                trade: Fantastic Four by Jonathan Hickman vol. 6
-              - title: Fantastic Four 608
-                trade: Fantastic Four by Jonathan Hickman vol. 6
-              - title: FF 19
-                trade: FF by Jonathan Hickman vol. 4
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+                importance: optional
+              - title: Fantastic Four (1961) 607
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+                importance: optional
+                collections:
+                  - -IH
+              - title: Fantastic Four (1961) 608
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+                importance: optional
+                collections:
+                  - -IH
               - title: FF 20
-                trade: FF by Jonathan Hickman vol. 4
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+                importance: optional
               - title: FF 21
-                trade: FF by Jonathan Hickman vol. 4
-              - title: Fantastic Four 609
-                trade: Fantastic Four by Jonathan Hickman vol. 6
-                importance: " "
-              - title: Fantastic Four 610
-                trade: Fantastic Four by Jonathan Hickman vol. 6
-              - title: FF 22
-                trade: FF by Jonathan Hickman vol. 4
-              - title: Fantastic Four 611
-                trade: Fantastic Four by Jonathan Hickman vol. 6
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+                importance: optional
+              - title: Fantastic Four (1961) 609
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+                importance: optional
+                collections:
+                  - -IH
+              - title: Fantastic Four (1961) 611
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+                importance: optional
+                collections:
+                  - -IH
               - title: FF 23
-                trade: FF by Jonathan Hickman vol. 4
+                trade: "Fantastic Four by Hickman: The Complete Collection vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7136335/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-4-tp"
+                omnibus: "Fantastic Four by Hickman vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9855787/fantastic-four-by-hickman-omnibus-vol-2-hc"
+                importance: optional
+                collections:
+                  - -IH
       - ref: infinity_section
         title: Infinity
         arcs:
@@ -3613,7 +3699,7 @@ eras:
             title: Avengers Assemble
             trade: "Avengers Assemble By Bendis"
             tradeLink: "https://leagueofcomicgeeks.com/comic/1753305/avengers-assemble-by-brian-michael-bendis-tp"
-            omnibus: Guardians of the Galaxy By Bendis vol. 1
+            omnibus: Guardians of the Galaxy By Bendis vol.1
             omnibusLink: "https://leagueofcomicgeeks.com/comic/5341753/guardians-of-the-galaxy-by-bendis-omnibus-vol-1-hc"
             comment: The Avengers meets the Guardians on their way to fight Thanos.
             collections:
@@ -3629,31 +3715,28 @@ eras:
               - title: Avengers Assemble 6
               - title: Avengers Assemble 7
               - title: Avengers Assemble 8
-          - ref: illuminati
-            title: Illuminati
-            importance: optional
-            reading:
-              optional:
-                - kree_skrull_war
-            collections:
-              - A
-            issues:
-              - title: "New Avengers: Illuminati (2006) (excerpt)"
-                trade: "New Avengers by Bendis: The Complete Collection"
-              - title: "New Avengers: Illuminati (2007) 2"
-                trade: "New Avengers: Illuminati"
           - ref: everything_dies
-            title: Everything dies
+            title: Everything Dies
             omnibus: Avengers by Jonathan Hickman vol. 1
             comment: This is the real starting point to understand the full Secret Wars story
             importance: essential
             reading:
               optional:
-                - foundation
-                - illuminati
+                - solve_everything
             collections:
               - A
             issues:
+              - title: "The New Avengers: Illuminati (2006) (excerpt)"
+                trade: "The New Avengers by Bendis: The Complete Coll. vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7378864/the-new-avengers-by-bendis-complete-collection-vol-2-tp"
+                omnibus: "The New Avengers vol.1"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1944290/the-new-avengers-omnibus-vol-1-hc"
+                importance: optional
+              - title: "The New Avengers: Illuminati (2007) 2"
+                trade: "The New Avengers: Illuminati"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2411687/the-new-avengers-illuminati-tp"
+                omnibus: " "
+                importance: optional
               - title: New Avengers (2013) 1 - Memento Mori
                 trade: "New Avengers vol. 1: Everything Dies"
               - title: New Avengers (2013) 2 - In secret they rule
@@ -6074,8 +6157,7 @@ eras:
             omnibusLink: "https://leagueofcomicgeeks.com/comic/8524702/empyre-omnibus-hc"
             reading:
               optional:
-                - kree_skrull_war
-                - dark_phoenix_saga_epilogue
+                - kree_skrull_war_epilogue
                 - celestial_quest
                 - secret_invasion_captain_marvel
                 - death_inhumans

@@ -4,7 +4,7 @@ highRepublic:
     type: comic
     essential: false
     link: "The_High_Republic_Adventures_Annual_2021"
-    description: A Bell Zettifar and Loden Greatstorm story.
+    description: A Bell Zettifar and Loden Greatstorm short story.
   - ref: light_jedi
     title: Light of the Jedi
     type: book
@@ -26,10 +26,10 @@ highRepublic:
       - "Tales of Villainy: The Gaze Electric"
       - Issues 1-5
   - ref: there_is_no_fear
-    title: "The High Republic: There is No Fear"
+    title: "The High Republic 2021: There is No Fear"
     type: comic
     essential: true
-    link: "Star_Wars:_The_High_Republic_(comic_series)"
+    link: "Star_Wars:_The_High_Republic_(Marvel_Comics_2021)"
     content:
       - Issues 1-5
   - ref: high_republic_adventures_annual_stone
@@ -66,18 +66,18 @@ highRepublic:
     link: "The_High_Republic:_The_Rising_Storm"
   - ref: high_republic_adventures_attack_fair
     title: "The High Republic Adventures: Attack on the Republic Fair"
-    description: Concurrent with The Rising Storm.
+    description: Concurrent to The Rising Storm.
     type: comic
     essential: false
     link: "Star_Wars:_The_High_Republic_Adventures"
     content:
       - Free Comic Book Day 2021
   - ref: heart_drengir
-    title: "The High Republic: Heart of the Drengir"
+    title: "The High Republic 2021: Heart of the Drengir"
     type: comic
     essential: true
-    link: "Star_Wars:_The_High_Republic_(comic_series)"
-    description: Concurrent with The Rising Storm.
+    link: "Star_Wars:_The_High_Republic_(Marvel_Comics_2021)"
+    description: Concurrent to The Rising Storm.
     content:
       - Issues 6-8
   - ref: edge_balance_1
@@ -102,7 +102,9 @@ highRepublic:
   - ref: tempest_runner
     title: "Tempest Runner"
     type: book
+    essential: true
     link: "The_High_Republic:_Tempest_Runner"
+    description: A Lourna Dee story.
   - ref: high_republic_adventures_bake_off
     title: "The High Republic Adventures: Galactic Bake-Off Spectacular"
     type: comic
@@ -111,42 +113,48 @@ highRepublic:
     description: A Torban "Buckets of Blood" Buck and Kantam Sy story.
     content:
       - Galactic Bake-Off Spectacular
-  - ref: high_republic_adventures_
-    title: "The High Republic Adventures: "
+  - ref: high_republic_adventures_light_life
+    title: "The High Republic Adventures: For Light and Life"
     type: comic
     essential: false
     link: "Star_Wars:_The_High_Republic_Adventures"
     content:
-      - Issues 11-13
-  - ref: shadow_nihil
-    title: "The High Republic: Shadow of the Nihil"
-    type: comic
-    essential: true
-    link: "Star_Wars:_The_High_Republic_(comic_series)"
-    content:
-      - Issues 9-10
+      - Issue 11
+      - "Annual: Crash and the Crew"
+      - Issue 12
+      - Issue 13
   - ref: high_republic_adventures_annual_haul
     title: "The High Republic Adventures Annual: The Haul"
     type: comic
     essential: false
     link: "The_High_Republic_Adventures_Annual_2021"
-    description: A Porter Engle story. Lourna Dee is still alive, big surprise, after tempest runner ?
+    description: A Porter Engle short story.
+  - ref: shadow_nihil
+    title: "The High Republic 2021: Shadow of the Nihil"
+    type: comic
+    essential: true
+    link: "Star_Wars:_The_High_Republic_(Marvel_Comics_2021)"
+    content:
+      - Issues 9-12
   - ref: fallen_star
     title: The Fallen Star
     type: book
     essential: true
     link: "The_High_Republic:_The_Fallen_Star"
+  - ref: jedi_end
+    title: "The High Republic 2021: Jedi's End"
+    type: comic
+    essential: true
+    link: "Star_Wars:_The_High_Republic_(Marvel_Comics_2021)"
+    description: Concurrent to The Fallen Star.
+    content:
+      - Issues 13-15
+
+
   - ref: midnight_horizon
     title: Midnight Horizon
     type: book
     link: "The_High_Republic:_Midnight_Horizon"
-  - ref: jedi_end
-    title: "The High Republic: Jedi's End"
-    type: comic
-    link: "Star_Wars:_The_High_Republic_(comic_series)"
-    content:
-      - Issues 11-15
-
   - ref: eye_storm
     title: "Eye of the Storm"
     type: comic
@@ -159,20 +167,61 @@ highRepublic:
     link: "Star_Wars:_The_High_Republic:_Trail_of_Shadows"
     content:
       - Issues 1-5
-  - ref: high_republic_adventures_annual_crash
-    title: "The High Republic Adventures Annual: Crash and the Crew"
+  - ref: edge_balance_2
+    title: "The Edge of Balance: "
     type: comic
     essential: false
-    link: "The_High_Republic_Adventures_Annual_2021"
-    description: Where in continuity ???
+    link: "Star_Wars:_The_High_Republic:_The_Edge_of_Balance"
+    content:
+      - Volume 2
+
+
+
+  - ref: convergence
+    title: Convergence
+    type: book
+    flag: true
+    essential: true
+    link: "The_High_Republic:_Convergence"
+  - ref: path_deceit
+    title: Path of Deceit
+    type: book
+    essential: true
+    link: "The_High_Republic:_Path_of_Deceit"
+  - ref: battle_jedha
+    title: The Battle of Jedha
+    type: book
+    essential: true
+    link: "The_High_Republic:_The_Battle_of_Jedha"
+
+  - ref: high_republic_cataclysm
+    title: Cataclysm
+    type: book
+    essential: true
+    link: "The_High_Republic:_Cataclysm"
+  - ref: path_vengeance
+    title: Path of Vengeance
+    type: book
+    essential: true
+    link: "The_High_Republic:_Path_of_Vengeance"
+
+
+
+
+
+
 
 republic:
+  - ref: padawan
+    title: Padawan
+    type: book
+    link: "Padawan_(novel)"
   - ref: master_apprentice
     title: Master & Apprentice
     type: book
     essential: true
     link: "Master_%26_Apprentice"
-    description: A Qui-Gon Jinn and Obi-Wan Kenobi story. Skip the prologue after the last chapter if you wish to avoid spoilers for Episode I.
+    description: A Qui-Gon Jinn and Obi-Wan Kenobi story. Skip the epilogue after the last chapter if you wish to avoid spoilers for Episode I.
   - ref: age_qui_gon
     title: "Age of Republic: Qui-Gon Jinn"
     type: comic
@@ -247,6 +296,11 @@ republic:
     flag: true
     essential: true
     link: "Star_Wars:_Episode_II_Attack_of_the_Clones"
+  - ref: queen_hope
+    title: Queen's Hope
+    type: book
+    essential: false
+    link: "Queen's_Hope"
   - ref: mace_windu
     title: "Mace Windu"
     type: comic
@@ -254,6 +308,10 @@ republic:
     link: "Star_Wars:_Jedi_of_the_Republic_–_Mace_Windu"
     content:
       - Issues 1-5
+  - ref: brotherhood
+    title: Brotherhood
+    type: book
+    link: "Brotherhood"
   - ref: age_anakin
     title: "Age of Republic: Anakin Skywalker"
     type: comic
@@ -523,6 +581,13 @@ republic:
       - season 4 - episode 01
       - season 4 - episode 02
       - season 4 - episode 03
+  - ref: clone_wars_shadow_warrior
+    title: "The Clone Wars: Shadow Warrior"
+    type: animation
+    essential: false
+    link: "Star_Wars:_The_Clone_Wars"
+    content:
+      - season 4 - episode 04
   - ref: clone_wars_darkness_umbara
     title: "The Clone Wars: Darkness of Umbara"
     type: animation
@@ -728,13 +793,13 @@ republic:
 
 
 empire:
-  - ref: bad_batch_aftermath
-    title: "The Bad Batch: Aftermath"
+  - ref: bad_batch_season_1
+    title: "The Bad Batch: Season 1"
     type: animation
     essential: true
-    link: "Star_Wars:_The_Bad_Batch"
+    link: "The_Bad_Batch_Season_1"
     content:
-      - season 1 - episode 01
+      - 16 episodes
   - ref: darth_vader_2017_chosen_one
     title: "Darth Vader 2017: The Chosen One"
     type: comic
@@ -749,57 +814,6 @@ empire:
     link: "Star_Wars:_Darth_Vader_(2017)"
     content:
       - Issues 7-10
-  - ref: bad_batch_fugitive
-    title: "The Bad Batch: Fugitives"
-    type: animation
-    essential: true
-    link: "Star_Wars:_The_Bad_Batch"
-    content:
-      - season 1 - episode 02
-      - season 1 - episode 03
-      - season 1 - episode 04
-      - season 1 - episode 05
-  - ref: bad_batch_decommissioned
-    title: "The Bad Batch: Decommissioned"
-    type: animation
-    essential: true
-    link: "Star_Wars:_The_Bad_Batch"
-    content:
-      - season 1 - episode 06
-      - season 1 - episode 07
-      - season 1 - episode 08
-      - season 1 - episode 09
-  - ref: bad_batch_common_ground
-    title: "The Bad Batch: Common Ground"
-    type: animation
-    essential: false
-    link: "Star_Wars:_The_Bad_Batch"
-    content:
-      - season 1 - episode 10
-  - ref: bad_batch_ryloth
-    title: "The Bad Batch: Ryloth"
-    type: animation
-    essential: true
-    link: "Star_Wars:_The_Bad_Batch"
-    content:
-      - season 1 - episode 11
-      - season 1 - episode 12
-  - ref: bad_batch_infested
-    title: "The Bad Batch: Infested"
-    type: animation
-    essential: false
-    link: "Star_Wars:_The_Bad_Batch"
-    content:
-      - season 1 - episode 13
-  - ref: bad_batch_kamino
-    title: "The Bad Batch: Kamino Lost"
-    type: animation
-    essential: true
-    link: "Star_Wars:_The_Bad_Batch"
-    content:
-      - season 1 - episode 14
-      - season 1 - episode 15
-      - season 1 - episode 16
   - ref: darth_vader_2017_rule_five
     title: "Darth Vader 2017: The Rule of Five"
     type: comic
@@ -814,6 +828,11 @@ empire:
     link: "Star_Wars:_Darth_Vader_(2017)"
     content:
       - Issues 13-17
+  - ref: ahsoka
+    title: "Ahsoka"
+    type: book
+    essential: true
+    link: "Ahsoka_(novel)"
   - ref: age_vader
     title: "Age of Rebellion: Darth Vader"
     type: comic
@@ -848,6 +867,7 @@ empire:
     type: comic
     essential: false
     link: "Star_Wars:_Jedi_Fallen_Order_-_Dark_Temple"
+    description: "Flashback story. Prologue to Jedi: Fallen Oder."
     content:
       - Issues 1-5
   - ref: fallen_order
@@ -855,54 +875,169 @@ empire:
     type: game
     essential: false
     link: "Star_Wars_Jedi:_Fallen_Order"
-
-
+  - ref: kenobi
+    title: "Obi-Wan Kenobi"
+    type: live
+    link: "Obi-Wan_Kenobi_(television_series)"
+    content:
+      - 6 episodes
   - ref: most_wanted
     title: "Most Wanted"
     type: book
+    essential: false
     link: "Most_Wanted"
-  - ref: imperial_cadet
-    title: "Han Solo: Imperial Cadet"
-    type: comic
-    link: "Star_Wars:_Han_Solo_-_Imperial_Cadet"
-    content:
-      - Issues 1-5
+    description: A Han Solo and Qi'ra story.
   - ref: becket
     title: "Becket"
     type: comic
+    essential: false
     link: "Beckett_1"
-  - ref: solo
-    title: "Solo"
-    type: live
-    link: "Solo:_A_Star_Wars_Story"
+    description: Prologue to Solo.
   - ref: double_nothing
     title: "Lando: Double or Nothing"
     type: comic
+    essential: false
     link: "Star_Wars:_Lando_-_Double_or_Nothing"
+    description: Prologue to Solo.
     content:
       - Issues 1-5
-
-
-  - ref: ahsoka
-    title: "Ahsoka"
+  - ref: solo
+    title: "Solo"
+    type: live
+    essential: true
+    link: "Solo:_A_Star_Wars_Story"
+  - ref: solo_book
+    title: "Solo"
     type: book
-    link: "Ahsoka_(novel)"
+    essential: true
+    link: "Solo:_A_Star_Wars_Story:_Expanded_Edition"
+    description: Book adaptation.
+  - ref: solo_comic
+    title: "Solo"
+    type: comic
+    essential: true
+    link: "Solo:_A_Star_Wars_Story_Adaptation"
+    description: Comic adaptation.
+    content:
+      - Issues 1-7
+  - ref: imperial_cadet
+    title: "Han Solo: Imperial Cadet"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Han_Solo_-_Imperial_Cadet"
+    description: Concurrent to the start of Solo. Fill in the 3 years gap period when Han is trained as an Imperial.
+    content:
+      - Issues 1-5
+  - ref: solo_chewbacca
+    title: "Han Solo & Chewbacca"
+    type: comic
+    link: "Star_Wars:_Han_Solo_%26_Chewbacca"
+    content:
+      - Issues 1-5
+  - ref: leia_princess
+    title: "Leia, Princess of Alderaan"
+    type: book
+    link: "Leia,_Princess_of_Alderaan"
+  - ref: new_dawn
+    title: "A New Dawn"
+    type: book
+    essential: false
+    link: "A_New_Dawn_(novel)"
+    description: A Kanan Jarrus and Hera Syndulla story.
+  - ref: rebels_shorts
+    title: "Rebels: Meet the Crew"
+    type: animation
+    essential: false
+    link: "Star_Wars_Rebels_Season_One"
+    description: Mini episodes preceding season 1 of Rebels.
+    content:
+      - season 1 - short 01
+      - season 1 - short 02
+      - season 1 - short 03
+      - season 1 - short 04
+  - ref: rebels_season_1
+    title: "Rebels: Season 1"
+    type: animation
+    essential: true
+    link: "Star_Wars_Rebels_Season_One"
+    content:
+      - 15 episodes
+  - ref: kanan
+    title: "Kanan"
+    type: comic
+    esential: false
+    link: "Star_Wars:_Kanan"
+    description: Concurrent to Rebels season 1. Flashback to the youth of Kanan Jarrus during the Clone Wars. Issues 1 and 2 breaks continuity with the first episode of The Bad Batch but the rest of the serie fits very well in the canon.
+    content:
+      - Issues 1-12
+  - ref: rebels_season_2
+    title: "Rebels: Season 2"
+    type: animation
+    essential: true
+    link: "Star_Wars_Rebels_Season_Two"
+    content:
+      - 22 episodes
   - ref: thrawn
     title: "Thrawn"
     type: book
     link: "Thrawn_(novel)"
-  - ref: new_dawn
-    title: "A New Dawn"
-    type: book
-    link: "A_New_Dawn_(novel)"
-  - ref: rebels_spark_rebellion
-    title: "Rebels: Spark of Rebellion"
-    type: animation
-    link: "Star_Wars_Rebels"
+    description: after season 2
+  - ref: thrawn_comic
+    title: "Thrawn"
+    type: comic
+    link: "Star_Wars:_Thrawn"
+    description: Comic adaptation.
     content:
-      - season 1 - episode 01
-      - season 1 - episode 02
+      - Issues 1-6
+  - ref: rebels_season_3
+    title: "Rebels: Season 3"
+    type: animation
+    essential: true
+    link: "Star_Wars_Rebels_Season_Three"
+    content:
+      - 22 episodes
+  - ref: thrawn_alliances
+    title: "Thrawn: Alliances"
+    type: book
+    link: "Thrawn:_Alliances"
+    description: After season 3
+  - ref: rebels_season_4
+    title: "Rebels: Season 4"
+    type: animation
+    essential: true
+    link: "Star_Wars_Rebels_Season_Four"
+    content:
+      - 16 episodes
+  - ref: thrawn_treason
+    title: "Thrawn: Treason"
+    type: book
+    link: "Thrawn:_Treason"
+    description: After final of season 4
 
+
+
+
+  - ref: obi_wan
+    title: "Obi-Wan"
+    type: comic
+    link: "Star_Wars:_Obi-Wan_(comic_series)"
+    content:
+      - Issues 1-5
+
+
+
+  - ref: rebel_rising
+    title: "Rebel Rising"
+    type: book
+    link: "Rebel_Rising"
+  - ref: battlefront_2_novel
+    title: "Battlefront II: Inferno Squad"
+    type: book
+    link: "Battlefront_II:_Inferno_Squad"
+  - ref: battlefront_novel
+    title: "Battlefront: Twilight Company"
+    type: book
+    link: "Battlefront:_Twilight_Company"
 
 
 
@@ -920,13 +1055,7 @@ empire:
     link: "Catalyst:_A_Rogue_One_Novel"
 
 
-  - ref: kanan
-    title: "Kanan"
-    type: comic
-    link: "Star_Wars:_Kanan"
-    description: A Star Wars Rebels story. The youth of Kanan Jarrus during the Clone Wars.
-    content:
-      - Issues 1-12
+
   - ref: age_jabba
     title: "Age of Rebellion: Jabba the Hutt"
     type: comic
@@ -942,6 +1071,14 @@ empire:
     title: "Rogue One"
     type: live
     link: "Rogue_One:_A_Star_Wars_Story"
+  - ref: rogue_one_book
+    title: "Rogue One (book adaptation)"
+    type: book
+    link: "Rogue_One:_A_Star_Wars_Story_(novelization)"
+  - ref: rogue_one_comic
+    title: "Rogue One (comic adaptation)"
+    type: comic
+    link: "Star_Wars:_Rogue_One_Adaptation"
   - ref: episode_4
     title: "Episode IV: A New Hope"
     type: live
@@ -1059,6 +1196,12 @@ empire:
     link: "Star_Wars:_Darth_Vader_(2015)"
     content:
       - Issues 20-25
+  - ref: doctor_aphra_book
+    title: "Doctor Aphra"
+    type: book
+    essential: false
+    link: "Doctor_Aphra:_An_Audiobook_Original"
+    description: Audiobook adaptation of the adventures of Doctor Aphra in the comic series Darth Vader 2015, Star Wars 2015 and Vader Down.
   - ref: star_wars_2015_harbinger
     title: "Star Wars 2015: The Last Flight of the Harbinger"
     type: comic
