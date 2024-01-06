@@ -84,8 +84,8 @@ eras:
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
           - ref: silver_surfer_origins
             title: Silver Surfer Origins
-            trade: "Marvel Universe: Time and Again"
-            tradeLink: "https://leagueofcomicgeeks.com/comic/9484194/marvel-universe-time-and-again-tp"
+            trade: "Marvel Masterworks: The Silver Surfer vol.1"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4066270/marvel-masterworks-the-silver-surfer-vol-1-tp"
             omnibus: "Silver Surfer vol.1"
             omnibusLink: "https://leagueofcomicgeeks.com/comic/9037327/the-silver-surfer-omnibus-vol-1-hc"
             comment: Origins of the Silver Surfer.
@@ -102,7 +102,7 @@ eras:
               - title: Silver Surfer (1968) 1
               - title: Silver Surfer (1968) 2
               - title: Silver Surfer (1968) 6
-          - ref: cosmic_threats
+          - ref: now_galactus
             title: And Now...Galactus!
             comment: Thor vs. multiple cosmic threats. First appearances of the Riggelians, Ego the living planet, the High Evolutionary and the Man-Beast. Also find out about the origins of Galactus.
             reading:
@@ -164,14 +164,14 @@ eras:
             comment: First appearance of Air Walker.
             trade: "Fantastic Four Behold...Galactus!"
             tradeLink: "https://leagueofcomicgeeks.com/comic/9950066/fantastic-four-beholdgalactus-tp"
-            omnibus: "Fantastic Four vol. 4"
+            omnibus: "Fantastic Four vol.4"
             omnibusLink: "https://leagueofcomicgeeks.com/comic/8136908/fantastic-four-omnibus-vol-4-hc"
             reading:
               essential:
                 - coming_of_galactus
               optional:
                 - silver_surfer_origins
-                - cosmic_threats
+                - now_galactus
             collections:
               - SS
             issues:
@@ -184,9 +184,11 @@ eras:
             comment: Galactus vs.Ego. First appearance of Firelord.
             trade: "The Mighty Thor Epic Collection: Ulik Unchained"
             tradeLink: "https://leagueofcomicgeeks.com/comic/9400436/the-mighty-thor-epic-collection-ulik-unchained-tp"
+            omnibus: "The Mighty Thor vol.4"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/9133800/the-mighty-thor-omnibus-vol-4-hc"
             reading:
               essential:
-                - cosmic_threats
+                - now_galactus
               optional:
                 - galactus_unleashed
             issues:
@@ -197,37 +199,33 @@ eras:
           - ref: him
             title: Him
             comment: First appearance of Adam Warlock.
+            omnibus: "Adam Warlock"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/2824462/adam-warlock-omnibus-hc"
             collections:
               - AW
             issues:
               - title: Fantastic Four (1961) 66
                 trade: "FF Epic Collection: The Mystery of the Black Panther"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2495299/fantastic-four-epic-collection-the-mystery-of-the-black-panther-tp"
-                omnibus: "Fantastic Four vol.3"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
               - title: Fantastic Four (1961) 67
                 trade: "FF Epic Collection: The Mystery of the Black Panther"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2495299/fantastic-four-epic-collection-the-mystery-of-the-black-panther-tp"
-                omnibus: "Fantastic Four vol.3"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/5807961/fantastic-four-omnibus-vol-3-hc?variant=9762699"
               - title: The Mighty Thor (1966) 165
                 trade: "The Mighty Thor Epic Collection: To Wake the Mangog"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8977341/the-mighty-thor-epic-collection-to-wake-the-mangog-tp"
-                omnibus: "The Mighty Thor vol.3"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1822631/the-mighty-thor-omnibus-vol-3-hc"
               - title: The Mighty Thor (1966) 166
                 trade: "The Mighty Thor Epic Collection: To Wake the Mangog"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8977341/the-mighty-thor-epic-collection-to-wake-the-mangog-tp"
-                omnibus: "The Mighty Thor vol.3"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1822631/the-mighty-thor-omnibus-vol-3-hc"
           - ref: adam_warlock_origins
             title: Adam Warlock Origins
             trade: "Marvel Masterworks: Warlock vol.1"
             tradeLink: "https://leagueofcomicgeeks.com/comic/8414831/marvel-masterworks-warlock-vol-1-tp"
+            omnibus: "Adam Warlock"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/2824462/adam-warlock-omnibus-hc"
             comment: Origins of Adam Warlock.
             reading:
               optional:
-                - cosmic_threats
+                - now_galactus
                 - him
             collections:
               - AW
@@ -251,7 +249,7 @@ eras:
             comment: Galactus vs. Counter-Earth.
             reading:
               essential:
-                - cosmic_threats
+                - now_galactus
               optional:
                 - galactus_ego
                 - adam_warlock_origins
@@ -262,8 +260,8 @@ eras:
               - title: Fantastic Four (1961) 175
           - ref: in_search_of_galactus
             title: In Search of Galactus
-            omnibus: "Fantastic Four By John Byrne vol.1"
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/8033474/fantastic-four-by-john-byrne-omnibus-vol-1-hc"
+            omnibus: "Nova: Richard Rider"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/4708153/nova-richard-rider-omnibus-hc"
             trade: "Nova Classic vol.3"
             tradeLink: "https://leagueofcomicgeeks.com/comic/1699616/nova-classic-vol-3-tp"
             comment: "First appearance and origins of Nova, first appearance of Terrax and introduction of the Nova corps."
@@ -274,31 +272,21 @@ eras:
               - title: Nova (1976) 1
                 trade: "Nova Classic vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/3086782/nova-classic-vol-1-tp"
-                omnibus: " "
                 collections:
                   - N
               - title: Fantastic Four (1961) 204
-                omnibus: "Fantastic Four: In Search of Galactus (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1638477/fantastic-four-in-search-of-galactus-hc-premiere"
                 collections:
                   - N
               - title: Fantastic Four (1961) 205
-                omnibus: "Fantastic Four: In Search of Galactus (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1638477/fantastic-four-in-search-of-galactus-hc-premiere"
                 collections:
                   - N
               - title: Nova (1976) 25
-                omnibus: " "
                 collections:
                   - N
               - title: Fantastic Four (1961) 206
-                omnibus: "Fantastic Four: In Search of Galactus (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1638477/fantastic-four-in-search-of-galactus-hc-premiere"
                 collections:
                   - N
               - title: Fantastic Four (1961) 208
-                omnibus: "Fantastic Four: In Search of Galactus (HC)"
-                omnibusLink: "https://leagueofcomicgeeks.com/comic/1638477/fantastic-four-in-search-of-galactus-hc-premiere"
                 collections:
                   - N
               - title: Fantastic Four (1961) 209
@@ -782,9 +770,25 @@ eras:
       - ref: infinity_gauntlet_section
         title: The Infinity Gauntlet
         arcs:
+          - ref: fragments
+            title: Fragments
+            trade: "Secret Invasion: Meet the Skrulls"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/6496806/secret-invasion-meet-the-skrulls-tp"
+            omnibus: "Fantastic Four By John Byrne vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8033474/fantastic-four-by-john-byrne-omnibus-vol-1-hc"
+            comment: "Galactus hungers for the Skrull empire."
+            reading:
+              essential:
+                - when_calls_galactus
+            issues:
+              - title: Fantastic Four (1987) 257
           - ref: escape
             title: Escape
             trade: "Silver Surfer Epic Collection: Freedom"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/6541908/silver-surfer-epic-collection-freedom-tp"
+            omnibus: "Marvel Universe By John Byrne"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5669881/marvel-universe-by-john-byrne-omnibus-hc"
+            comment: "The Surfer is confined on Earth and wishes to escape..."
             importance: optional
             reading:
               optional:
@@ -798,9 +802,11 @@ eras:
           - ref: freedom
             title: Freedom
             trade: "Silver Surfer Epic Collection: Freedom"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/6541908/silver-surfer-epic-collection-freedom-tp"
             comment: "The Surfer escapes earth and starts new adventures in space."
             reading:
               optional:
+                - fragments
                 - escape
             collections:
               - SS
@@ -819,8 +825,11 @@ eras:
               - title: Silver Surfer (1987) 12
               - title: Silver Surfer (1987) 13
               - title: Silver Surfer (1987) 14
-          - ref: silver_surfer_15_27
-            title: Silver Surfer 15-27
+          - ref: cosmic_threats
+            title: Cosmic Threats
+            trade: "Silver Surfer Epic Collection: Parable"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8572814/silver-surfer-epic-collection-parable-tp"
+            comment: "The Silver Surfer versus the Elders of the universe, the In-Betweener, Ego, and many more..."
             reading:
               essential:
                 - freedom
@@ -831,35 +840,41 @@ eras:
               - title: Silver Surfer (1987) 15
               - title: Silver Surfer (1987) 16
               - title: Silver Surfer (1987) 17
+              - title: Silver Surfer (1987) 17
               - title: Silver Surfer (1987) 18
               - title: Silver Surfer (1987) 19
               - title: Silver Surfer (1987) 20
               - title: Silver Surfer (1987) 21
               - title: Silver Surfer (1987) 22
               - title: Silver Surfer (1987) 23
-              - title: Silver Surfer (1987) 24
-              - title: Silver Surfer (1987) 25
-              - title: Silver Surfer (1987) 26
-              - title: Silver Surfer (1987) 27
               - title: Silver Surfer (1987) Annual 2
           - ref: judgement_day
             title: Judgement Day
-            trade: "Silver Surfer: Judgement Day"
+            trade: "Silver Surfer Epic Collection: Parable"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8572814/silver-surfer-epic-collection-parable-tp"
+            comment: "Silver Surfer vs. Mephisto"
             reading:
               essential:
-                - silver_surfer_15_27
+                - cosmic_threats
             collections:
               - SS
             issues:
-              - title: Marvel Graphic Novel 34
-          - ref: silver_surfer_28_33
-            title: Silver Surfer 28-33
+              - title: Marvel Graphic Novel 38
+          - ref: kree_and_skrulls
+            title: Kree and Skrulls
+            trade: "Silver Surfer Epic Collection: The Return of Thanos"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1674175/silver-surfer-epic-collection-the-return-of-thanos-tp"
+            comment: "The Surfer is in the middle of a new conflict between the Kree and the Skrulls."
             reading:
               essential:
                 - judgement_day
             collections:
               - SS
             issues:
+              - title: Silver Surfer (1987) 24
+              - title: Silver Surfer (1987) 25
+              - title: Silver Surfer (1987) 26
+              - title: Silver Surfer (1987) 27
               - title: Silver Surfer (1987) 28
               - title: Silver Surfer (1987) 29
               - title: Silver Surfer (1987) 30
@@ -1075,8 +1090,10 @@ eras:
               - title: Silver Surfer (1987) 64
               - title: Silver Surfer (1987) 65
                 importance: " "
-              - title: Silver Surfer (1987) Annual 5
+              - title: Silver Surfer (1987) Annual 5 - Firelord
                 importance: " "
+                collections:
+                  - -SS
       - ref: operation_galactic_storm_section
         title: Operation Galactic Storm
         arcs:
@@ -1180,6 +1197,7 @@ eras:
               essential:
                 - kree_skrull_war
               optional:
+                - kree_and_skrulls
                 - death_of_captain_marvel
                 - quasar_26_31
                 - fall_of_deathbird
@@ -1954,7 +1972,6 @@ eras:
             reading:
               optional:
                 - in_search_of_galactus
-                - celestial_madonna_saga
                 - operation_galactic_storm
             collections:
               - SS
@@ -2551,6 +2568,7 @@ eras:
           - ref: annihilation_conquest
             title: Annihilation Conquest
             omnibus: "Annihilation: Conquest"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5057451/annihilation-conquest-omnibus-hc"
             comment: In the aftermath of Annihilation starts a new event.
             importance: essential
             reading:
@@ -2561,109 +2579,135 @@ eras:
                 - samaritan
             issues:
               - title: "Nova (2007) 1"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 2"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 3"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Annihilation: Conquest Prologue"
                 trade: "Annihilation: Conquest - Book 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2805746/annihilation-conquest-book-1-tp"
                 collections:
                   - GG
                   - N
                   - AW
               - title: "Annihilation: Conquest Starlord 1"
                 trade: "Annihilation: Conquest - Book 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2805746/annihilation-conquest-book-1-tp"
                 collections:
                   - GG
               - title: "Annihilation: Conquest Starlord 2"
                 trade: "Annihilation: Conquest - Book 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2805746/annihilation-conquest-book-1-tp"
                 collections:
                   - GG
               - title: "Annihilation: Conquest Starlord 3"
                 trade: "Annihilation: Conquest - Book 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2805746/annihilation-conquest-book-1-tp"
                 collections:
                   - GG
               - title: "Annihilation: Conquest Starlord 4"
                 trade: "Annihilation: Conquest - Book 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2805746/annihilation-conquest-book-1-tp"
                 collections:
                   - GG
               - title: "Annihilation: Conquest Quasar 1"
                 trade: "Annihilation: Conquest - Book 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2805746/annihilation-conquest-book-1-tp"
                 collections:
                   - GG
                   - AW
                   - CM
               - title: "Annihilation: Conquest Quasar 2"
                 trade: "Annihilation: Conquest - Book 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2805746/annihilation-conquest-book-1-tp"
                 collections:
                   - GG
                   - AW
                   - CM
               - title: "Annihilation: Conquest Quasar 3"
                 trade: "Annihilation: Conquest - Book 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2805746/annihilation-conquest-book-1-tp"
                 collections:
                   - GG
                   - AW
                   - CM
               - title: "Annihilation: Conquest Quasar 4"
                 trade: "Annihilation: Conquest - Book 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2805746/annihilation-conquest-book-1-tp"
                 collections:
                   - GG
                   - AW
                   - CM
               - title: "Nova (2007) 4"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 5"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 6"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 7"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 8"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 9"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 10"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 11"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Nova (2007) 12"
-                trade: "Nova by A&L: The Complete Collection vol. 1"
+                trade: "Nova by A&L: The Complete Collection vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5232094/nova-by-abnett-lanning-the-complete-collection-vol-1"
                 collections:
                   - N
               - title: "Annihilation: Conquest Wraith 1"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
               - title: "Annihilation: Conquest Wraith 2"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
               - title: "Annihilation: Conquest Wraith 3"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
               - title: "Annihilation: Conquest Wraith 4"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
               - title: "Annihilation: Conquest 1"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
                 collections:
                   - GG
                   - N
@@ -2671,6 +2715,7 @@ eras:
                   - CM
               - title: "Annihilation: Conquest 2"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
                 collections:
                   - GG
                   - N
@@ -2678,6 +2723,7 @@ eras:
                   - CM
               - title: "Annihilation: Conquest 3"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
                 collections:
                   - GG
                   - N
@@ -2685,6 +2731,7 @@ eras:
                   - CM
               - title: "Annihilation: Conquest 4"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
                 collections:
                   - GG
                   - N
@@ -2692,6 +2739,7 @@ eras:
                   - CM
               - title: "Annihilation: Conquest 5"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
                 collections:
                   - GG
                   - N
@@ -2699,6 +2747,7 @@ eras:
                   - CM
               - title: "Annihilation: Conquest 6"
                 trade: "Annihilation: Conquest - Book 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7468416/annihilation-conquest-book-2-tp"
                 collections:
                   - GG
                   - N
@@ -2710,6 +2759,7 @@ eras:
           - ref: end_of_greys
             title: End of Grey's
             trade: "Uncanny X-Men: The New Age: End of Grey's"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8538168/uncanny-x-men-the-new-age-vol-4-end-of-greys-tp"
             reading:
               essential:
                 - dark_phoenix_saga
@@ -2725,7 +2775,9 @@ eras:
             title: Son of M
             comment: "During Annihilation Conquest, the House of M event just resulted with nearly all of the mutant population stripped of their powers. This will impact the Inhumans royal family. For a better understanding of the story, read a small recap of the House of M event."
             trade: "Decimation: Son of M"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/3571619/decimation-son-of-m-tp"
             omnibus: "War of Kings Prelude: Road to War of Kings"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/3835261/war-of-kings-prelude-road-to-war-of-kings-omnibus-hc"
             collections:
               - IH
             reading:
@@ -2742,7 +2794,9 @@ eras:
             title: Deadly Genesis
             comment: "During Annihilation Conquest, the House of M event just resulted with nearly all of the mutant population stripped of their powers. This will impact the X-Men who just lost traces of professor Xavier. For a better understanding of the story, read a small recap of the House of M event."
             trade: "X-Men: Deadly Genesis"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1496862/x-men-deadly-genesis-tp"
             omnibus: "War of Kings Prelude: Road to War of Kings"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/3835261/war-of-kings-prelude-road-to-war-of-kings-omnibus-hc"
             importance: optional
             collections:
               - X
@@ -2756,8 +2810,10 @@ eras:
           - ref: silent_war
             title: Silent War
             comment: "Follow up to Son of M."
-            trade: Silent War
+            trade: "Silent War"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4761895/silent-war-tp"
             omnibus: "War of Kings Prelude: Road to War of Kings"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/3835261/war-of-kings-prelude-road-to-war-of-kings-omnibus-hc"
             reading:
               essential:
                 - son_of_m
@@ -2853,6 +2909,7 @@ eras:
               - title: "New Avengers: Illuminati (2007) 4"
                 trade: "New Avengers: Illuminati"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/2411687/the-new-avengers-illuminati-tp"
+              - title: "Civil War: The Return - Captain Marvel"
               - title: "Captain Marvel (2008) 1"
               - title: "Young Avengers Presents 2"
                 trade: "Young Avengers Presents"

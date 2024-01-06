@@ -1,8 +1,9 @@
-npm install yaml
+Install libs to read and parse yaml files:
+  npm install yaml
 
+Start local server:
+  ng serve
 
-ng build --prod --base-href ./
-firebase deploy
-
-
-ng serve
+Build and deploy:
+  ng build --prod --base-href ./
+  firebase deploy
