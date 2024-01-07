@@ -1746,6 +1746,7 @@ eras:
             importance: optional
             comment: Second encounter with Tyrant.
             trade: "Thanos: Cosmic Powers"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5582360/thanos-cosmic-powers"
             reading:
               optional:
                 - power_of_tyrant
@@ -1778,6 +1779,7 @@ eras:
                   - -TH
           - ref: temptation
             title: Temptation
+            comment: "The Silver Surfer vs. Mephisto."
             reading:
               essential:
                 - cosmic_powers
@@ -1794,6 +1796,7 @@ eras:
               - title: Silver Surfer (1987) 100
           - ref: cosmic_powers_unlimited_1
             title: Cosmic Powers Unlimited 1
+            comment: "The Silver Surfer and Thanos team up."
             importance: optional
             reading:
               essential:
@@ -1805,12 +1808,91 @@ eras:
               - TH
             issues:
               - title: Cosmic Powers Unlimited 1
+          - ref: rebirth
+            title: "Rebirth"
+            comment: "Cosmic team-up. Written by Ron Marz years after his original run on the Silver Surfer but fit quiet well within the original timeline."
+            reading:
+              essential:
+                - temptation
+                - cosmic_powers_unlimited_1
+              optional:
+                - count_abyss
+            collections:
+              - SS
+              - TH
+              - CM
+            issues:
+              - title: "Silver Surfer: Rebirth 1"
+                trade: "Silver Surfer: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2773721/silver-surfer-rebirth-tp"
+              - title: "Silver Surfer: Rebirth 2"
+                trade: "Silver Surfer: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2773721/silver-surfer-rebirth-tp"
+              - title: "Silver Surfer: Rebirth 3"
+                trade: "Silver Surfer: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2773721/silver-surfer-rebirth-tp"
+              - title: "Silver Surfer: Rebirth 4"
+                trade: "Silver Surfer: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2773721/silver-surfer-rebirth-tp"
+              - title: "Silver Surfer: Rebirth 5"
+                trade: "Silver Surfer: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2773721/silver-surfer-rebirth-tp"
+              - title: "Warlock: Rebirth 1"
+                trade: "Warlock: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5449859/warlock-rebirth-tp"
+                collections:
+                  - AW
+                  - -TH
+                  - -SS
+              - title: "Warlock: Rebirth 2"
+                trade: "Warlock: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5449859/warlock-rebirth-tp"
+                collections:
+                  - AW
+                  - -TH
+                  - -SS
+              - title: "Warlock: Rebirth 3"
+                trade: "Warlock: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5449859/warlock-rebirth-tp"
+                collections:
+                  - AW
+                  - -TH
+                  - -SS
+              - title: "Warlock: Rebirth 4"
+                trade: "Warlock: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5449859/warlock-rebirth-tp"
+                collections:
+                  - AW
+                  - -TH
+                  - -SS
+              - title: "Warlock: Rebirth 5"
+                trade: "Warlock: Rebirth"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5449859/warlock-rebirth-tp"
+                collections:
+                  - AW
+                  - -TH
+                  - -SS
+              - title: "Silver Surfer Rebirth: Legacy 1"
+                trade: "Silver Surfer Rebirth: Legacy"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8329263/silver-surfer-rebirth-legacy-tp"
+              - title: "Silver Surfer Rebirth: Legacy 2"
+                trade: "Silver Surfer Rebirth: Legacy"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8329263/silver-surfer-rebirth-legacy-tp"
+              - title: "Silver Surfer Rebirth: Legacy 3"
+                trade: "Silver Surfer Rebirth: Legacy"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8329263/silver-surfer-rebirth-legacy-tp"
+              - title: "Silver Surfer Rebirth: Legacy 4"
+                trade: "Silver Surfer Rebirth: Legacy"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8329263/silver-surfer-rebirth-legacy-tp"
+              - title: "Silver Surfer Rebirth: Legacy 5"
+                trade: "Silver Surfer Rebirth: Legacy"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8329263/silver-surfer-rebirth-legacy-tp"
           - ref: cosmic_powers_unlimited_2
             title: Cosmic Powers Unlimited 2
             reading:
               optional:
                 - coming_of_her
-                - temptation
+                - rebirth
             collections:
               - SS
             issues:
@@ -1855,12 +1937,10 @@ eras:
                   - -AW
           - ref: end_of_tyrant
             title: End of Tyrant
-            comment: Third encounter with Tyrant.
+            comment: Final encounter with Tyrant.
             reading:
               essential:
-                - temptation
-              optional:
-                - cosmic_powers_unlimited_1
+                - rebirth
             collections:
               - SS
             issues:
@@ -1989,7 +2069,7 @@ eras:
             trade: "Thor By Dan Jurgens & John Romita Jr. vol. 4"
             reading:
               optional:
-                - cosmic_powers_unlimited_1
+                - rebirth
             collections:
               - TH
             issues:
