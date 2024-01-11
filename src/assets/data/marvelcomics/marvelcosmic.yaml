@@ -5329,6 +5329,24 @@ eras:
               - title: Ultimates2 8
               - title: Ultimates2 9
               - title: Ultimates2 100
+          - ref: defenders_no_rules
+            title: There Are No Rules
+            comment: "The Defenders on a journey across the cosmos. Here Ewing explores the many cosmos that he introduced in the Ultimate. The Marvel Comics short stories about The Masked Raider, all written by Ewing, serve as a great introduction to the story and are a beautiful love letter to the Marvel comics history."
+            trade: "Defenders: There Are No Rules"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1896722/defenders-there-are-no-rules-tp"
+            reading:
+              optional:
+                - eternity_war
+            issues:
+              - title: Marvel Comics 1000 - Masked Raider shorts
+                trade: " "
+                omnibus: "Marvel Comics 1000 HC"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/4107997/marvel-comics-1000-hc"
+              - title: Defenders (2021) 1
+              - title: Defenders (2021) 2
+              - title: Defenders (2021) 3
+              - title: Defenders (2021) 4
+              - title: Defenders (2021) 5
       - ref: death_inhumans_section
         title: Death of the Inhumans
         arcs:
@@ -6683,6 +6701,21 @@ eras:
               - title: Captain Marvel (2019) 34
               - title: Captain Marvel (2019) 35
               - title: Captain Marvel (2019) 36
+          - ref: captain_genis
+            title: "Genis-Vell: Captain Marvel"
+            comment: "The return of Genis-Vell, directly following the events of the Last of the Marvels. Peter David is writing this story and massively references his original work on Captain Marvel."
+            collections:
+              - CM
+            reading:
+              essential:
+                - captain_marvel_2002
+                - last_marvels
+            issues:
+              - title: "Genis-Vell: Captain Marvel 1"
+              - title: "Genis-Vell: Captain Marvel 2"
+              - title: "Genis-Vell: Captain Marvel 3"
+              - title: "Genis-Vell: Captain Marvel 4"
+              - title: "Genis-Vell: Captain Marvel 5"
       - ref: last_annihilation_section
         title: The Last Annihilation
         arcs:
