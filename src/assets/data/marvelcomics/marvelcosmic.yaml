@@ -852,7 +852,7 @@ eras:
             title: Judgement Day
             trade: "Silver Surfer Epic Collection: Parable"
             tradeLink: "https://leagueofcomicgeeks.com/comic/8572814/silver-surfer-epic-collection-parable-tp"
-            comment: "Silver Surfer vs. Mephisto"
+            comment: "Silver Surfer vs. Mephisto."
             reading:
               essential:
                 - cosmic_threats
@@ -2836,6 +2836,27 @@ eras:
       - ref: war_of_kings_section
         title: War of Kings
         arcs:
+          - ref: imperial
+            title: Imperial
+            trade: "New X-Men By Grant Morrison Book 3"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4361610/new-x-men-by-grant-morrison-book-3-tp"
+            omnibus: "New X-Men"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/2779595/new-x-men-omnibus-hc"
+            comment: "The Shi'ar and the X-Men vs. Cassandra Nova. The Shi'ar empire distances itself from the X-Men."
+            reading:
+              essential:
+                - dark_phoenix_saga
+            collections:
+              - X
+            issues:
+              - title: New X-Men (2001) 122
+              - title: New X-Men (2001) 123
+              - title: New X-Men (2001) 124
+              - title: New X-Men (2001) 125
+              - title: New X-Men (2001) 126
+              - title: New X-Men (2001) 133 (excerpt)
+                trade: "New X-Men By Grant Morrison Book 4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1077439/new-x-men-by-grant-morrison-book-4-tp"
           - ref: end_of_greys
             title: End of Grey's
             trade: "Uncanny X-Men: The New Age: End of Grey's"
@@ -5331,11 +5352,10 @@ eras:
               - title: Ultimates2 100
           - ref: defenders_no_rules
             title: There Are No Rules
-            comment: "The Defenders on a journey across the cosmos. Here Ewing explores the many cosmos that he introduced in the Ultimate. The Marvel Comics short stories about The Masked Raider, all written by Ewing, serve as a great introduction to the story and are a beautiful love letter to the Marvel comics history."
-            trade: "Defenders: There Are No Rules"
-            tradeLink: "https://leagueofcomicgeeks.com/comic/1896722/defenders-there-are-no-rules-tp"
+            comment: "The Defenders on a journey across the cosmos. Here Ewing explores the many cosmos that he introduced in the Ultimates. The Marvel Comics short stories about The Masked Raider, all written by Ewing, serve as a great introduction to the story and are a beautiful love letter to the Marvel comics history."
+            importance: optional
             reading:
-              optional:
+              essential:
                 - eternity_war
             issues:
               - title: Marvel Comics 1000 - Masked Raider shorts
@@ -5343,10 +5363,38 @@ eras:
                 omnibus: "Marvel Comics 1000 HC"
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/4107997/marvel-comics-1000-hc"
               - title: Defenders (2021) 1
+                trade: "Defenders: There Are No Rules"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1896722/defenders-there-are-no-rules-tp"
               - title: Defenders (2021) 2
+                trade: "Defenders: There Are No Rules"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1896722/defenders-there-are-no-rules-tp"
               - title: Defenders (2021) 3
+                trade: "Defenders: There Are No Rules"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1896722/defenders-there-are-no-rules-tp"
               - title: Defenders (2021) 4
+                trade: "Defenders: There Are No Rules"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1896722/defenders-there-are-no-rules-tp"
               - title: Defenders (2021) 5
+                trade: "Defenders: There Are No Rules"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1896722/defenders-there-are-no-rules-tp"
+              - title: Thor (2020) 24 - What Comes Next
+                trade: "Defenders: Beyond"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6318336/defenders-beyond-tp"
+              - title: "Defenders: Beyond 1"
+                trade: "Defenders: Beyond"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6318336/defenders-beyond-tp"
+              - title: "Defenders: Beyond 2"
+                trade: "Defenders: Beyond"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6318336/defenders-beyond-tp"
+              - title: "Defenders: Beyond 3"
+                trade: "Defenders: Beyond"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6318336/defenders-beyond-tp"
+              - title: "Defenders: Beyond 4"
+                trade: "Defenders: Beyond"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6318336/defenders-beyond-tp"
+              - title: "Defenders: Beyond 5"
+                trade: "Defenders: Beyond"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6318336/defenders-beyond-tp"
       - ref: death_inhumans_section
         title: Death of the Inhumans
         arcs:
@@ -6095,7 +6143,7 @@ eras:
           - ref: black_hole
             title: Black Hole
             comment: A black hole opens while most of the cosmic heroes where having a meeting.
-            importance: optional
+            importance: essential
             trade: "Guardians of the Galaxy vol.1: The Final Gauntlet"
             tradeLink: "https://leagueofcomicgeeks.com/comic/5519300/guardians-of-the-galaxy-vol-1-the-final-gauntlet-tp"
             omnibus: "Cosmic Ghost Rider vol.1"
@@ -6150,7 +6198,7 @@ eras:
           - ref: guardians_cates
             title: Guardians by Cates
             comment: A quick run on the Guardians of the Galaxy by Donny Cates.
-            importance: optional
+            importance: essential
             omnibus: "Guard. Galaxy by Donny Cates (HC)"
             omnibusLink: "https://leagueofcomicgeeks.com/comic/2744294/guardians-of-the-galaxy-by-donny-cates-hc"
             reading:
@@ -6244,10 +6292,24 @@ eras:
               - title: Revenge of the Cosmic Ghost Rider 3
               - title: Revenge of the Cosmic Ghost Rider 4
               - title: Revenge of the Cosmic Ghost Rider 5
+          - ref: fourever
+            title: Fourever
+            comment: The Fantastic Four are back after Secret Wars. First encounter with the Griever.
+            trade: "Fantastic Four vol.1: Fourever"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1491360/fantastic-four-vol-1-fourever-tp"
+            omnibus: "Fantastic Four by Dan Slott vol.1 (HC)"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8092280/fantastic-four-by-dan-slott-vol-1-hc"
+            reading:
+              optional:
+                - secret_wars_ending
+            issues:
+              - title: Fantastic Four (2018) 1
+              - title: Fantastic Four (2018) 2
+              - title: Fantastic Four (2018) 3
           - ref: annihilation_scourge
             title: Annihilation Scourge
             comment: A new threat is coming from the negative zone, Nova has to rally heroes to save the day.
-            importance: optional
+            importance: essential
             trade: "Annihilation Scourge"
             tradeLink: "https://leagueofcomicgeeks.com/comic/3825462/annihilation-scourge-tp"
             reading:
@@ -6284,6 +6346,26 @@ eras:
       - ref: empyre_section
         title: Empyre
         arcs:
+          - ref: final_host
+            title: The Final Host
+            comment: Rogue celestials are coming, the Avengers must assemble to protect Earth. This is the origins of the new Avengers base, the Avengers Mountain.
+            trade: "Avengers by Jason Aaron vol.1: The Final Host"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2406278/avengers-vol-1-the-final-host-tp"
+            omnibus: "Avengers by Jason Aaron vol.1 (HC)"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8370836/avengers-by-jason-aaron-vol-1-hc"
+            importance: optional
+            collections:
+              - A
+            issues:
+              - title: Avengers (2018) 1
+              - title: Avengers (2018) 2
+              - title: Avengers (2018) 3
+              - title: Avengers (2018) 4
+              - title: Avengers (2018) 5
+              - title: Avengers (2018) 6
+              - title: Avengers (2018) 8 (excerpt)
+                trade: "Avengers by Jason Aaron vol.2: World Tour"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6587694/avengers-vol-2-world-tour-tp"
           - ref: starbrand_reborn
             title: Starbrand Reborn
             comment: The Avengers, the Surfer and the Shi'ar on a search for the new Starbrand.
@@ -6294,6 +6376,7 @@ eras:
             reading:
               optional:
                 - annihilation_scourge
+                - final_host
             collections:
               - A
               - SS
@@ -6305,11 +6388,12 @@ eras:
               - title: Avengers (2018) 30
           - ref: house_x
             title: House of X
-            comment: "The foundation of Krakoa, the new nation for all mutants. This is the start of a new era for the X-Men, written by Jonathan Hickman."
+            comment: "The foundation of Krakoa, the new nation for all mutants. This is the start of a new era for the X-Men, written by Jonathan Hickman. A story not cosmic in nature but very important since the Mutants will play a important role in the galactic scene."
             trade: "House of X/Powers of X"
             tradeLink: "https://leagueofcomicgeeks.com/comic/2403611/house-of-xpowers-of-x-tp"
             omnibus: "House of X/Powers of X (HC)"
             omnibusLink: "https://leagueofcomicgeeks.com/comic/6272769/house-of-xpowers-of-x-hc"
+            importance: optional
             collections:
               - X
             issues:
@@ -6335,16 +6419,44 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9137940/x-men-by-jonathan-hickman-vol-1-tp"
                 omnibus: "X-Men by Jonathan Hickman"
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/9621345/x-men-by-jonathan-hickman-omnibus-hc"
+              - title: X-Men (2019) 20
+                trade: "X-Men by Jonathan Hickman vol.3"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4115079/x-men-by-jonathan-hickman-vol-3-tp"
+                omnibus: "X-Men by Jonathan Hickman"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/9621345/x-men-by-jonathan-hickman-omnibus-hc"
+              - title: Inferno (2021) 1
+                trade: "Inferno"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7842968/inferno-tp"
+                omnibus: "Inferno (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5113990/inferno-hc?variant=6222627"
+              - title: Inferno (2021) 2
+                trade: "Inferno"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7842968/inferno-tp"
+                omnibus: "Inferno (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5113990/inferno-hc?variant=6222627"
+              - title: Inferno (2021) 3
+                trade: "Inferno"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7842968/inferno-tp"
+                omnibus: "Inferno (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5113990/inferno-hc?variant=6222627"
+              - title: Inferno (2021) 4
+                trade: "Inferno"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7842968/inferno-tp"
+                omnibus: "Inferno (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5113990/inferno-hc?variant=6222627"
           - ref: king_egg
             title: The King Egg
             comment: "A X-Men adventure in space. A big shift of power is happening in the Shi'ar empire."
             trade: "New Mutants by Jonathan Hickman vol.1"
             tradeLink: "https://leagueofcomicgeeks.com/comic/6829399/new-mutants-by-jonathan-hickman-vol-1-tp"
+            importance: optional
             collections:
               - X
             reading:
-              optional:
+              essential:
                 - house_x
+              optional:
+                - war_of_kings
             issues:
               - title: New Mutants (2019) 1
               - title: New Mutants (2019) 2
@@ -6370,6 +6482,7 @@ eras:
             comment: "The guardians have to manage the return of old gods and learn to deal with its outcome."
             trade: "Guardians of the Galaxy by Al Ewing"
             tradeLink: "https://leagueofcomicgeeks.com/comic/4924401/guardians-of-the-galaxy-by-al-ewing-tp"
+            importance: essential
             collections:
               - GG
             reading:
@@ -6400,11 +6513,12 @@ eras:
                   - N
           - ref: empyre
             title: Empyre
-            comment: "The Kree and Skrull empires merge has they found a common leader. They start a war with the Cotati which bring them on earth to the Avengers. This story is tightly linked to the Celestial Quest storyline but all you need to know is contained in the Road to Empyre issue."
+            comment: "The Kree and Skrull empires merge as they found a common leader. They start a war with the Cotati which bring them on earth to the Avengers. This story is tightly linked to the Celestial Quest storyline but all you need to know is contained in the Road to Empyre issue."
             trade: Empyre
             tradeLink: "https://leagueofcomicgeeks.com/comic/7419798/empyre-tp"
             omnibus: Empyre
             omnibusLink: "https://leagueofcomicgeeks.com/comic/8524702/empyre-omnibus-hc"
+            importance: essential
             reading:
               optional:
                 - kree_skrull_war_epilogue
@@ -6420,6 +6534,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/9130036/new-avengers-aim-vol-1-everything-is-new-tp"
                 omnibus: " "
                 omnibusLink: " "
+                importance: optional
                 collections:
                   - -A
               - title: Meet the Skrulls 1
@@ -6427,6 +6542,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/6496806/secret-invasion-meet-the-skrulls-tp"
                 omnibus: " "
                 omnibusLink: " "
+                importance: optional
                 collections:
                   - -A
               - title: Meet the Skrulls 2
@@ -6434,6 +6550,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/6496806/secret-invasion-meet-the-skrulls-tp"
                 omnibus: " "
                 omnibusLink: " "
+                importance: optional
                 collections:
                   - -A
               - title: Meet the Skrulls 3
@@ -6441,6 +6558,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/6496806/secret-invasion-meet-the-skrulls-tp"
                 omnibus: " "
                 omnibusLink: " "
+                importance: optional
                 collections:
                   - -A
               - title: Meet the Skrulls 4
@@ -6448,6 +6566,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/6496806/secret-invasion-meet-the-skrulls-tp"
                 omnibus: " "
                 omnibusLink: " "
+                importance: optional
                 collections:
                   - -A
               - title: Meet the Skrulls 5
@@ -6455,6 +6574,7 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/6496806/secret-invasion-meet-the-skrulls-tp"
                 omnibus: " "
                 omnibusLink: " "
+                importance: optional
                 collections:
                   - -A
               - title: "Road to Empyre: The Kree/Skrull War 1"
@@ -6479,24 +6599,28 @@ eras:
                   - -A
                 trade: "X-Men by Jonathan Hickman vol.2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/1966064/x-men-by-jonathan-hickman-vol-2-tp"
+                importance: optional
               - title: Empyre 2
                 collections:
                   - CM
               - title: Captain Marvel (2019) 18
                 trade: "Captain Marvel vol.4: Accused"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4676956/captain-marvel-vol-4-accused-tp"
+                importance: optional
                 collections:
                   - CM
                   - -A
               - title: Captain Marvel (2019) 19
                 trade: "Captain Marvel vol.4: Accused"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4676956/captain-marvel-vol-4-accused-tp"
+                importance: optional
                 collections:
                   - CM
                   - -A
               - title: Captain Marvel (2019) 20
                 trade: "Captain Marvel vol.4: Accused"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4676956/captain-marvel-vol-4-accused-tp"
+                importance: optional
                 collections:
                   - CM
                   - -A
@@ -6521,15 +6645,11 @@ eras:
               - title: Captain Marvel (2019) 21
                 trade: "Captain Marvel vol.4: Accused"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4676956/captain-marvel-vol-4-accused-tp"
+                importance: optional
                 collections:
                   - CM
                   - -A
               - title: "Empyre Fallout: Fantastic Four 1"
-              - title: "Fantastic Four (2018) 25 (excerpt)"
-                trade: "Fantastic Four vol.7: The Forever Gate"
-                tradeLink: "https://leagueofcomicgeeks.com/comic/9422241/fantastic-four-vol-7-the-forever-gate-tp"
-                omnibus: " "
-                omnibusLink: " "
               - title: "Empyre Aftermath: Avengers 1"
                 collections:
                   - CM
@@ -6551,6 +6671,25 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4924401/guardians-of-the-galaxy-by-al-ewing-tp"
                 omnibus: " "
                 omnibusLink: " "
+          - ref: forever_gate
+            title: The Forever Gate
+            comment: "Prelude to Reckoning War. Second encounter with the Griever."
+            trade: "Fantastic Four vol.7: The Forever Gate"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9422241/fantastic-four-vol-7-the-forever-gate-tp"
+            omnibus: "Fantastic Four by Dan Slott vol.3 (HC)"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/9567908/fantastic-four-by-dan-slott-vol-3-hc"
+            reading:
+              essential:
+                - fourever
+              optional:
+                - empyre
+            collections:
+              - SS
+            issues:
+              - title: Fantastic Four (2018) 25
+              - title: Fantastic Four (2018) 26
+              - title: Fantastic Four (2018) 27
+              - title: Fantastic Four (2018) 28
       - ref: king_in_black_section
         title: King in Black
         arcs:
@@ -6580,11 +6719,12 @@ eras:
             tradeLink: "https://leagueofcomicgeeks.com/comics/series/148078/king-in-black"
             omnibus: "King in Black"
             omnibusLink: "https://leagueofcomicgeeks.com/comic/2498564/king-in-black-omnibus-hc"
+            importance: essential
             reading:
-              essential:
-                - knull
               optional:
+                - knull
                 - surfer_black
+                - house_x
                 - empyre
             issues:
               - title: S.W.O.R.D. (2020) 1
@@ -6669,6 +6809,7 @@ eras:
             comment: "Final battle against the Olympian gods."
             trade: "Guardians of the Galaxy by Al Ewing"
             tradeLink: "https://leagueofcomicgeeks.com/comic/4924401/guardians-of-the-galaxy-by-al-ewing-tp"
+            importance: essential
             collections:
               - GG
               - N
@@ -6724,6 +6865,7 @@ eras:
             comment: "The Guardians discovers a new threat, in the meantime sword is influencing the galaxy's political landscape."
             trade: "Guardians of the Galaxy by Al Ewing"
             tradeLink: "https://leagueofcomicgeeks.com/comic/4924401/guardians-of-the-galaxy-by-al-ewing-tp"
+            importance: essential
             collections:
               - GG
             reading:
@@ -6747,6 +6889,7 @@ eras:
             tradeLink: "https://leagueofcomicgeeks.com/comic/5928285/x-men-hellfire-gala-tp"
             omnibus: "X-Men: Hellfire Gala - The Red Carpet Collection (HC)"
             omnibusLink: "https://leagueofcomicgeeks.com/comic/5648928/x-men-hellfire-gala-the-red-carpet-collection-hc"
+            importance: essential
             collections:
               - X
             reading:
@@ -6767,7 +6910,8 @@ eras:
             title: The Last Annihilation
             trade: "The Last Annihilation"
             tradeLink: "https://leagueofcomicgeeks.com/comic/5935299/the-last-annihilation-tp"
-            comment: "S.W.O.R.D. the new Kree/Skrull empire and the Guardians face a new Annihilation event."
+            comment: "S.W.O.R.D. the new Kree/Skrull empire and the Guardians face a new Annihilation event. Conclusion of the Guardians run by Ewing."
+            importance: essential
             collections:
               - GG
               - X
@@ -6785,3 +6929,334 @@ eras:
               - title: "The Last Annihilation: Wiccan & Hulkling 1"
               - title: "The Last Annihilation: Wakanda"
               - title: Guardians of the Galaxy (2020) 18
+          - ref: reckoning_war
+            title: Reckoning War
+            comment: "A Fantastic Four event about the Watcher and the First War."
+            collections:
+              - SS
+            reading:
+              essential:
+                - forever_gate
+                - last_annihilation
+              optional:
+                - coming_of_galactus
+                - original_sin
+            issues:
+              - title: "Fantastic Four: Reckoning War Alpha 1"
+                trade: "Fantastic Four vol.10: Reckoning War Part 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8197434/fantastic-four-vol-10-reckoning-war-part-1-tp"
+              - title: "Fantastic Four 40"
+                trade: "Fantastic Four vol.10: Reckoning War Part 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8197434/fantastic-four-vol-10-reckoning-war-part-1-tp"
+              - title: "Fantastic Four 41"
+                trade: "Fantastic Four vol.10: Reckoning War Part 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8197434/fantastic-four-vol-10-reckoning-war-part-1-tp"
+              - title: "Reckoning War: Trial of the Watcher 1"
+                trade: "Fantastic Four vol.10: Reckoning War Part 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8197434/fantastic-four-vol-10-reckoning-war-part-1-tp"
+              - title: "Fantastic Four 42"
+                trade: "Fantastic Four vol.10: Reckoning War Part 1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8197434/fantastic-four-vol-10-reckoning-war-part-1-tp"
+              - title: "Fantastic Four 43"
+                trade: "Fantastic Four vol.11: Reckoning War Part 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2445087/fantastic-four-vol-11-reckoning-war-part-2-tp"
+              - title: "Fantastic Four 44"
+                trade: "Fantastic Four vol.11: Reckoning War Part 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2445087/fantastic-four-vol-11-reckoning-war-part-2-tp"
+              - title: "Fantastic Four 45"
+                trade: "Fantastic Four vol.11: Reckoning War Part 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2445087/fantastic-four-vol-11-reckoning-war-part-2-tp"
+          - ref: fall_down
+            title: All Fall Down
+            trade: "S.W.O.R.D. by Al Ewing vol.2"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/3883694/sword-by-al-ewing-vol-2-tp"
+            comment: "S.W.O.R.D. mission expands after the great announcement at the Hellfire Gala."
+            importance: essential
+            collections:
+              - X
+            reading:
+              essential:
+                - hellfire_gala
+            issues:
+              - title: S.W.O.R.D. (2020) 8
+              - title: S.W.O.R.D. (2020) 9
+              - title: S.W.O.R.D. (2020) 10
+              - title: S.W.O.R.D. (2020) 11
+          - ref: extinction_agenda
+            title: Extinction Agenda
+            trade: "Marauders by Steve Orlando vol.1"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5831279/marauders-by-steve-orlando-vol-1-tp"
+            comment: "The mutants are about to discover the original sin of the Shi'ar empire."
+            collections:
+              - X
+            reading:
+              essential:
+                - king_egg
+              optional:
+                - imperial
+            issues:
+              - title: Secret X-Men 1
+                trade: "X-Men: Hellfire Gala - Immortal"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6085510/x-men-hellfire-gala-immortal-tp"
+              - title: Marauders (2022) Annual 1
+              - title: Marauders (2022) 1
+              - title: Marauders (2022) 2
+              - title: Marauders (2022) 3
+              - title: Marauders (2022) 4
+              - title: Marauders (2022) 5
+      - ref: judgment_day_section
+        title: Judgment Day
+        arcs:
+          - ref: red_planet
+            title: The Red Planet
+            trade: "X-Men: Red by Al Ewing vol.1"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2109383/x-men-red-by-al-ewing-vol-1-tp"
+            comment: "Political intrigue on Arakko. Direct continuation of the S.W.O.R.D storyline. Judgment Day prologue."
+            importance: essential
+            collections:
+              - X
+            reading:
+              essential:
+                - fall_down
+              optional:
+                - last_annihilation
+            issues:
+              - title: X-Men Red (2022) 1
+              - title: X-Men Red (2022) 2
+              - title: X-Men Red (2022) 3
+              - title: X-Men Red (2022) 4
+          - ref: judgment_day
+            title: Judgment Day
+            comment: "The Eternals awake and find themselves in a difficult situation. A conflict with the Avengers and the X-Men is inevitable."
+            importance: essential
+            reading:
+              essential:
+                - red_planet
+              optional:
+                - cosmic_origins
+                - final_host
+            collections:
+              - A
+            issues:
+              - title: Eternals (2021) 1
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 2
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 3
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 4
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 5
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 6
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: "Eternals: Thanos Rises 1"
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: "Eternals: Celestia 1"
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - -TH
+              - title: Eternals (2021) 7
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 8
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 9
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 10
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: "Eternals: The Heretic 1"
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 11
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: Eternals (2021) 12
+                trade: "Eternals by Kieron Gillen"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4910298/eternals-by-kieron-gillen-tp"
+                collections:
+                  - TH
+              - title: "Free Comic Book Day 2022: Avengers/X-Men 1"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Eve of Judgment 1"
+                trade: "A.X.E.: Judgment Day Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7370854/axe-judgment-day-companion-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Judgment Day 1"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: X-Men Red (2022) 5
+                trade: "X-Men: Red by Al Ewing vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2109383/x-men-red-by-al-ewing-vol-1-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Judgment Day 2"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Death To the Mutants 1"
+                trade: "A.X.E.: Judgment Day Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7370854/axe-judgment-day-companion-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Judgment Day 3"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Death To the Mutants 2"
+                trade: "A.X.E.: Judgment Day Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7370854/axe-judgment-day-companion-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: X-Men Red (2022) 6
+                trade: "X-Men: Red by Al Ewing vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4912807/x-men-red-by-al-ewing-vol-2-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Judgment Day 4"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: Legion of X 6
+                trade: "Legion of X by Simon Spurrier vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5837913/legion-of-x-by-simon-spurrier-vol-2-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: X-Men Red (2022) 7
+                trade: "X-Men: Red by Al Ewing vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4912807/x-men-red-by-al-ewing-vol-2-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Judgment Day 5"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: Immortal X-Men 7
+                trade: "Immortal X-Men by Kieron Gillen vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6221915/immortal-x-men-by-kieron-gillen-vol-2-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Death To the Mutants 3"
+                trade: "A.X.E.: Judgment Day Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7370854/axe-judgment-day-companion-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Avengers 1"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: X-Men 1"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Eternals 1"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Starfox 1"
+                trade: "A.X.E.: Judgment Day Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7370854/axe-judgment-day-companion-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Judgment Day 6"
+                trade: "A.X.E.: Judgment Day"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5885955/axe-judgment-day-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
+              - title: "A.X.E.: Judgment Day Omega"
+                trade: "A.X.E.: Judgment Day Companion"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7370854/axe-judgment-day-companion-tp"
+                omnibus: "Judgment Day"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
+                collections:
+                  - X
