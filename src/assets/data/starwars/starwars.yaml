@@ -262,6 +262,12 @@ republic:
     description: "A Dooku and Qui-Gon Jinn story"
     content:
       - season 1 - episode 02
+  - ref: mace_windu
+    title: "Mace Windu"
+    type: comic
+    link: "Star_Wars:_Mace_Windu"
+    content:
+      - Issues 1-4
   - ref: padawan
     title: Padawan
     type: book
@@ -291,6 +297,10 @@ republic:
     description: "A Dooku and Mace Windu story."
     content:
       - season 1 - episode 03
+  - ref: living_force
+    title: The Living Force
+    type: book
+    link: "The_Living_Force"
   - ref: darth_maul
     title: "Darth Maul"
     type: comic
@@ -350,6 +360,12 @@ republic:
     type: comic
     essential: false
     link: "Age_of_Republic_-_Count_Dooku_1"
+  - ref: jango_fett
+    title: "Jango Fett"
+    type: comic
+    link: "Star_Wars:_Jango_Fett_(comic_series)"
+    content:
+      - Issues 1-4
   - ref: age_jango_fett
     title: "Age of Republic: Jango Fett"
     type: comic
@@ -1031,6 +1047,10 @@ empire:
     description: Concurrent to the start of Solo. Fill in the 3 years gap period when Han is trained as an Imperial.
     content:
       - Issues 1-5
+  - ref: crimson_climb
+    title: "Crimson Climb"
+    type: book
+    link: "Crimson_Climb"
   - ref: solo_chewbacca
     title: "Han Solo & Chewbacca: The Crystal Run"
     type: comic
@@ -1119,6 +1139,14 @@ empire:
     type: book
     essential: false
     link: "Thrawn:_Alliances"
+  - ref: thrawn_alliances_comics
+    title: "Thrawn: Alliances"
+    type: book
+    essential: false
+    link: "Thrawn:_Alliances"
+    description: Comic adaptation.
+    content:
+      - Issues 1-4
   - ref: rebels_season_4
     title: "Rebels: Season 4"
     type: animation
@@ -1174,15 +1202,17 @@ empire:
     essential: true
     link: "Rogue_One:_A_Star_Wars_Story"
   - ref: rogue_one_book
-    title: "Rogue One (book adaptation)"
+    title: "Rogue One"
     type: book
     essential: true
     link: "Rogue_One:_A_Star_Wars_Story_(novelization)"
+    description: Book adaptation.
   - ref: rogue_one_comic
-    title: "Rogue One (comic adaptation)"
+    title: "Rogue One"
     type: comic
     essential: true
     link: "Star_Wars:_Rogue_One_Adaptation"
+    description: Comic adaptation.
   - ref: episode_4
     title: "Episode IV: A New Hope"
     type: live
@@ -1252,6 +1282,11 @@ empire:
     title: "Sana Starros"
     type: comic
     link: ""
+  - ref: age_jabba
+    title: "Age of Rebellion: Jabba the Hutt"
+    type: comic
+    essential: false
+    link: "Age_of_Rebellion_-_Darth_Vader_1"
   - ref: star_wars_2015_skywalker_strikes
     title: "Star Wars 2015: Skywalker Strikes"
     type: comic
@@ -1472,14 +1507,11 @@ empire:
   - ref: yoda
     title: "Yoda"
     type: comic
+    essential: false
+    description: Flashback to the life of Obi-Wan Kenobi.
     link: "Star_Wars:_Yoda"
     content:
       - Issues 1-10
-
-  - ref: age_jabba
-    title: "Age of Rebellion: Jabba the Hutt"
-    type: comic
-    link: "Age_of_Rebellion_-_Darth_Vader_1"
 
   - ref: episode_5
     title: "Episode V: The Empire Strikes Back"
@@ -1550,7 +1582,7 @@ empire:
     content:
       - 8 episodes
   - ref: mandalorian_comic
-    title: "The Mandalorian"
+    title: "The Mandalorian: Season 1"
     type: comic
     link: ""
     description: Comic adaptation of season 1.
@@ -1560,6 +1592,11 @@ empire:
     link: "The_Mandalorian_Season_Two"
     content:
       - 8 episodes
+  - ref: mandalorian_comic
+    title: "The Mandalorian: Season 2"
+    type: comic
+    link: ""
+    description: Comic adaptation of season 2.
   - ref: book_boba_fett
     title: "The Book of Boba Fett"
     type: live
