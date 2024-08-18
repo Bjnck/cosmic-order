@@ -1,50 +1,192 @@
-<div id="expand" [ngClass]="{mobile: (isMobile | async)?.matches}">
-  <button mat-button (click)="accordion.openAll()">
-    <mat-icon aria-label="show all">unfold_more</mat-icon>
-  </button>
-  <button mat-button (click)="accordion.closeAll()">
-    <mat-icon aria-label="show all">unfold_less</mat-icon>
-  </button>
-</div>
+
 
 <div id="list" [ngClass]="{mobile: (isMobile | async)?.matches}">
-  <mat-accordion multi>
 
+  <div class="era-title">
+    <div><img class="emblem" src="../assets/img/starwars/high_republic_emblem_tiny.png"/></div>
+    <div>The High Republic</div>
+  </div>
+  <mat-accordion multi class="era-list">
     <mat-expansion-panel>
       <mat-expansion-panel-header>
-        <mat-panel-title><img class="emblem" src="../assets/img/starwars/high_republic_emblem_tiny.png"/>The High Republic</mat-panel-title>
+        <mat-panel-title>Phase I</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="cards">
-        <starwars-card *ngFor="let item of data.highRepublic" [data]="item" [types]="types"></starwars-card>
+        <starwars-card *ngFor="let item of data.phase1" [data]="item" [types]="types"></starwars-card>
       </div>
     </mat-expansion-panel>
-
     <mat-expansion-panel>
       <mat-expansion-panel-header>
-        <mat-panel-title><img class="emblem" src="../assets/img/starwars/republic_emblem_tiny.png"/>The Galactic Republic</mat-panel-title>
+        <mat-panel-title>Phase II</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="cards">
-        <starwars-card *ngFor="let item of data.republic" [data]="item" [types]="types"></starwars-card>
+        <starwars-card *ngFor="let item of data.phase2" [data]="item" [types]="types"></starwars-card>
       </div>
     </mat-expansion-panel>
-
     <mat-expansion-panel>
       <mat-expansion-panel-header>
-        <mat-panel-title><img class="emblem" src="../assets/img/starwars/imperial_emblem_tiny.png"/>The Galactic Empire</mat-panel-title>
+        <mat-panel-title>Phase III</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="cards">
-        <starwars-card *ngFor="let item of data.empire" [data]="item" [types]="types"></starwars-card>
+        <starwars-card *ngFor="let item of data.phase3" [data]="item" [types]="types"></starwars-card>
       </div>
     </mat-expansion-panel>
-
     <mat-expansion-panel>
       <mat-expansion-panel-header>
-        <mat-panel-title><img class="emblem" src="../assets/img/starwars/first_order_emblem_tiny.png"/>The First Order</mat-panel-title>
+        <mat-panel-title>The Acolyte</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.acolyte" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  <div class="era-title">
+    <div><img class="emblem" src="../assets/img/starwars/republic_emblem_tiny.png"/></div>
+    <div>The Galactic Republic</div>
+  </div>
+  <mat-accordion multi class="era-list">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>The Phantom Menace</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.phantommenace" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>Attack of the Clones</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.attackclones" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>The Clone Wars</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.clonewars" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  <div class="era-title">
+    <div><img class="emblem" src="../assets/img/starwars/imperial_emblem_tiny.png"/></div>
+    <div>The Galactic Empire</div>
+  </div>
+  <mat-accordion multi class="era-list">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>Reign of the Empire</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.reignempire" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>Solo</mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="cards">
+          <starwars-card *ngFor="let item of data.solo" [data]="item" [types]="types"></starwars-card>
+        </div>
+      </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>Rise of the Rebellion</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.riserebel" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>A New Hope</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.newhope" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>The Rebellion</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.rebellion" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>The Empire Strikes Back</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.strikesback" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>Return of the Jedi</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.returnjedi" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  <div class="era-title">
+    <div><img class="emblem" src="../assets/img/starwars/first_order_emblem_tiny.png"/></div>
+    <div>The First Order</div>
+  </div>
+  <mat-accordion multi class="era-list">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>First Order</mat-panel-title>
       </mat-expansion-panel-header>
       <div class="cards">
         <starwars-card *ngFor="let item of data.firstOrder" [data]="item" [types]="types"></starwars-card>
       </div>
     </mat-expansion-panel>
-
   </mat-accordion>
+
+<!--  <mat-accordion multi>-->
+
+<!--    <mat-expansion-panel>-->
+<!--      <mat-expansion-panel-header>-->
+<!--        <mat-panel-title><img class="emblem" src="../assets/img/starwars/high_republic_emblem_tiny.png"/>The High Republic</mat-panel-title>-->
+<!--      </mat-expansion-panel-header>-->
+<!--      <div class="cards">-->
+<!--        <starwars-card *ngFor="let item of data.highRepublic" [data]="item" [types]="types"></starwars-card>-->
+<!--      </div>-->
+<!--    </mat-expansion-panel>-->
+
+<!--    <mat-expansion-panel>-->
+<!--      <mat-expansion-panel-header>-->
+<!--        <mat-panel-title><img class="emblem" src="../assets/img/starwars/republic_emblem_tiny.png"/>The Galactic Republic</mat-panel-title>-->
+<!--      </mat-expansion-panel-header>-->
+<!--      <div class="cards">-->
+<!--        <starwars-card *ngFor="let item of data.republic" [data]="item" [types]="types"></starwars-card>-->
+<!--      </div>-->
+<!--    </mat-expansion-panel>-->
+
+<!--    <mat-expansion-panel>-->
+<!--      <mat-expansion-panel-header>-->
+<!--        <mat-panel-title><img class="emblem" src="../assets/img/starwars/imperial_emblem_tiny.png"/>The Galactic Empire</mat-panel-title>-->
+<!--      </mat-expansion-panel-header>-->
+<!--      <div class="cards">-->
+<!--        <starwars-card *ngFor="let item of data.empire" [data]="item" [types]="types"></starwars-card>-->
+<!--      </div>-->
+<!--    </mat-expansion-panel>-->
+
+<!--    <mat-expansion-panel>-->
+<!--      <mat-expansion-panel-header>-->
+<!--        <mat-panel-title><img class="emblem" src="../assets/img/starwars/first_order_emblem_tiny.png"/>The First Order</mat-panel-title>-->
+<!--      </mat-expansion-panel-header>-->
+<!--      <div class="cards">-->
+<!--        <starwars-card *ngFor="let item of data.firstOrder" [data]="item" [types]="types"></starwars-card>-->
+<!--      </div>-->
+<!--    </mat-expansion-panel>-->
+
+<!--  </mat-accordion>-->
 </div>
