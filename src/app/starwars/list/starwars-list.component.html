@@ -136,6 +136,29 @@
   </mat-accordion>
 
   <div class="era-title">
+    <div><img class="emblem" src="../assets/img/starwars/new_republic_emblem_tiny.png"/></div>
+    <div>The New Republic</div>
+  </div>
+  <mat-accordion multi class="era-list">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>Rebirth of the Republic</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.republicrebirth" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>The Mandalorian</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="cards">
+        <starwars-card *ngFor="let item of data.mandalorian" [data]="item" [types]="types"></starwars-card>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  <div class="era-title">
     <div><img class="emblem" src="../assets/img/starwars/first_order_emblem_tiny.png"/></div>
     <div>The First Order</div>
   </div>

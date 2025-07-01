@@ -4,6 +4,7 @@ import {MarvelComicsComponent} from './marvelcomics/marvel-comics.component';
 import {MarvelComicsDataResolve} from './marvelcomics/data/marvel-comics-data.resolve';
 import {StarwarsComponent} from './starwars/starwars.component';
 import {StarwarsDataResolve} from './starwars/data/starwars-data.resolve';
+import {MainComponent} from "./main.component";
 
 const routes: Routes = [
   {
@@ -32,7 +33,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'marvelcosmic',
+    component: MainComponent,
     pathMatch: 'full'
   }
 ];

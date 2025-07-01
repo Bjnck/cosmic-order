@@ -296,7 +296,8 @@ eras:
               - title: Fantastic Four (1961) 213
               - title: Fantastic Four (1961) 214
               - title: Rom (1979) 24
-                omnibus: " "
+                omnibus: "Rom: The Original Marvel Years vol.1"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/2404935/rom-the-original-marvel-years-omnibus-vol-1-hc"
                 trade: " "
                 collections:
                   - N
@@ -400,6 +401,8 @@ eras:
           - ref: captain_marvel_origins
             title: Captain Marvel Origins
             comment: Origins of Captain Marvel.
+            omnibus: "Captain Mar-Vell vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7056971/captain-mar-vell-omnibus-vol-1-hc?variant=8677317"
             reading:
               optional:
                 - the_sentry
@@ -409,50 +412,73 @@ eras:
             issues:
               - title: Marvel Super-Heroes 12
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Marvel Super-Heroes 13
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 1
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 2
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 3
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 4
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 5
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 6
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 7
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 8
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 9
                 trade: "Marvel Masterworks: Captain Marvel vol.1"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5658493/marvel-masterworks-captain-marvel-vol-1-hc"
               - title: Captain Marvel (1968) 10
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 11
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 12
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 13
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 14
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 15
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 16
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 17
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 18
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 19
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 20
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
               - title: Captain Marvel (1968) 21
                 trade: "Marvel Masterworks: Captain Marvel vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2511481/marvel-masterworks-captain-marvel-vol-2-hc"
           - ref: kree_skrull_war
             title: The Kree/Skrull War
             comment: The famous war between the Skrulls and the Krees.
@@ -490,6 +516,9 @@ eras:
           - ref: cm_22_24
             title: Captain Marvel 22-24
             trade: "Marvel Masterworks: Captain Marvel vol.3"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1816248/marvel-masterworks-captain-marvel-vol-3-hc"
+            omnibus: "Captain Mar-Vell vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7056971/captain-mar-vell-omnibus-vol-1-hc?variant=8677317"
             reading:
               essential:
                 - captain_marvel_origins
@@ -522,7 +551,9 @@ eras:
             title: The Life of Captain Marvel
             comment: "First appearances of Thanos, Drax, Moondragon and the reinvention of Captain Marvel by Jim Starlin."
             trade: "Captain Marvel by Jim Starlin: The Complete Collection"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5184162/captain-marvel-by-jim-starlin-the-complete-collection-tp"
             omnibus: "The Thanos Wars: Infinity Origin"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8791210/the-thanos-wars-infinity-origin-omnibus-hc"
             importance: essential
             reading:
               optional:
@@ -546,8 +577,8 @@ eras:
               - title: Captain Marvel (1968) 32
               - title: Avengers (1963) 125
                 importance: "optional"
-                omnibus: " "
                 trade: "Avengers: The Complete Celestial Madonna Saga"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1110693/avengers-the-complete-celestial-madonna-saga-tp"
                 collections:
                   - A
                   - -CM
@@ -555,6 +586,8 @@ eras:
               - title: Captain Marvel (1968) 34
           - ref: cm_35_57
             title: Captain Marvel 35-57
+            omnibus: "Death of Captain Marvel"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8081507/death-of-captain-marvel-omnibus-hc?variant=2737309"
             reading:
               essential:
                 - life_of_captain_marvel
@@ -563,50 +596,73 @@ eras:
             issues:
               - title: Captain Marvel (1968) 35
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 36
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 37
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 38
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 39
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 40
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 41
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 42
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 43
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 44
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 45
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 46
                 trade: "Marvel Masterworks: Captain Marvel vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3032991/marvel-masterworks-captain-marvel-vol-4-hc"
               - title: Captain Marvel (1968) 47
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 48
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 49
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 50
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 51
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 52
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 53
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 54
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 55
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 56
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
               - title: Captain Marvel (1968) 57
                 trade: "Marvel Masterworks: Captain Marvel vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8914433/marvel-masterworks-captain-marvel-vol-5-hc"
           - ref: warlock_starlin
             title: Warlock by Starlin
             comment: "The reinvention of Adam Warlock by Jim Starlin and the first appearances of Gamora, the Magus and Pip the troll."
@@ -737,6 +793,9 @@ eras:
           - ref: trouble_on_titan
             title: Trouble on Titan
             trade: "Marvel Masterworks: Captain Marvel vol.6"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/7331638/marvel-masterworks-captain-marvel-vol-6-hc"
+            omnibus: "Death of Captain Marvel"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8081507/death-of-captain-marvel-omnibus-hc?variant=2737309"
             reading:
               essential:
                 - life_of_captain_marvel
@@ -756,7 +815,9 @@ eras:
           - ref: death_of_captain_marvel
             title: The Death of Captain Marvel
             trade: "Captain Marvel by Jim Starlin: The Complete Collection"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5184162/captain-marvel-by-jim-starlin-the-complete-collection-tp"
             omnibus: "The Thanos Wars: Infinity Origin"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8791210/the-thanos-wars-infinity-origin-omnibus-hc"
             comment: The death of Captain Marvel.
             importance: essential
             reading:
@@ -786,8 +847,8 @@ eras:
             title: Escape
             trade: "Silver Surfer Epic Collection: Freedom"
             tradeLink: "https://leagueofcomicgeeks.com/comic/6541908/silver-surfer-epic-collection-freedom-tp"
-            omnibus: "Marvel Universe By John Byrne"
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/5669881/marvel-universe-by-john-byrne-omnibus-hc"
+            omnibus: "Silver Surfer: Return to the Spaceways"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/1793208/silver-surfer-return-to-the-spaceways-omnibus-hc"
             comment: "The Surfer is confined on Earth and wishes to escape..."
             importance: optional
             reading:
@@ -803,6 +864,8 @@ eras:
             title: Freedom
             trade: "Silver Surfer Epic Collection: Freedom"
             tradeLink: "https://leagueofcomicgeeks.com/comic/6541908/silver-surfer-epic-collection-freedom-tp"
+            omnibus: "Silver Surfer: Return to the Spaceways"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/1793208/silver-surfer-return-to-the-spaceways-omnibus-hc"
             comment: "The Surfer escapes earth and starts new adventures in space."
             reading:
               optional:
@@ -829,6 +892,8 @@ eras:
             title: Cosmic Threats
             trade: "Silver Surfer Epic Collection: Parable"
             tradeLink: "https://leagueofcomicgeeks.com/comic/8572814/silver-surfer-epic-collection-parable-tp"
+            omnibus: "Silver Surfer: Return to the Spaceways"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/1793208/silver-surfer-return-to-the-spaceways-omnibus-hc"
             comment: "The Silver Surfer versus the Elders of the universe, the In-Betweener, Ego, and many more..."
             reading:
               essential:
@@ -852,6 +917,8 @@ eras:
             title: Judgement Day
             trade: "Silver Surfer Epic Collection: Parable"
             tradeLink: "https://leagueofcomicgeeks.com/comic/8572814/silver-surfer-epic-collection-parable-tp"
+            omnibus: "Silver Surfer: Return to the Spaceways"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/1793208/silver-surfer-return-to-the-spaceways-omnibus-hc"
             comment: "Silver Surfer vs. Mephisto."
             reading:
               essential:
@@ -864,6 +931,8 @@ eras:
             title: Kree and Skrulls
             trade: "Silver Surfer Epic Collection: The Return of Thanos"
             tradeLink: "https://leagueofcomicgeeks.com/comic/1674175/silver-surfer-epic-collection-the-return-of-thanos-tp"
+            omnibus: "Silver Surfer: Return to the Spaceways"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/1793208/silver-surfer-return-to-the-spaceways-omnibus-hc"
             comment: "The Surfer is in the middle of a new conflict between the Kree and the Skrulls."
             reading:
               essential:
@@ -1681,10 +1750,20 @@ eras:
             issues:
               - title: Nova (1999) 1
               - title: New Warriors (1990) 40
+                omnibus: "The New Warriors Classic vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8599275/the-new-warriors-classic-omnibus-vol-2-hc?variant=2134647"
               - title: New Warriors (1990) 41
+                omnibus: "The New Warriors Classic vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8599275/the-new-warriors-classic-omnibus-vol-2-hc?variant=2134647"
               - title: New Warriors (1990) 42
+                omnibus: "The New Warriors Classic vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8599275/the-new-warriors-classic-omnibus-vol-2-hc?variant=2134647"
               - title: Nova (1994) 1
+                omnibus: "New Warriors: Nova & Night Thrasher"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/4202482/new-warriors-nova-night-thrasher-omnibus-hc"
               - title: Nova (1994) 4
+                omnibus: "New Warriors: Nova & Night Thrasher"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/4202482/new-warriors-nova-night-thrasher-omnibus-hc"
           - ref: deathstorm
             title: Deathstorm
             reading:
@@ -1694,7 +1773,11 @@ eras:
               - N
             issues:
               - title: Nova (1994) 6 (excerpt)
+                omnibus: "The New Warriors Classic vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8599275/the-new-warriors-classic-omnibus-vol-2-hc?variant=2134647"
               - title: Nova (1994) 7 (excerpt)
+                omnibus: "The New Warriors Classic vol.2"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8599275/the-new-warriors-classic-omnibus-vol-2-hc?variant=2134647"
               - title: Nova (1994) 8
               - title: Nova (1994) 9
               - title: Nova (1994) 12
@@ -1704,6 +1787,8 @@ eras:
               - title: Nova (1994) 16
           - ref: honorable_discharge
             title: Honorable Discharge
+            omnibus: "The New Warriors Classic vol.3"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/6873980/the-new-warriors-classic-omnibus-vol-3-hc"
             reading:
               essential:
                 - deathstorm
@@ -2176,6 +2261,8 @@ eras:
           - ref: captain_marvel_1999
             title: Captain Marvel 1999
             comment: A new run of Captain Marvel by Peter David, continues what was introduced in Avengers Forever. In this list I filtered all the Marlo and micro-verse nonsense to focus on the cosmic aspect of the story.
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7954780/captain-marvel-genis-vell-by-peter-david-omnibus-hc"
+            omnibus: "Captain Marvel: Genis-Vell by Peter David"
             reading:
               essential:
                 - captain_marvel_1995
@@ -2295,6 +2382,9 @@ eras:
           - ref: the_end
             title: The End
             trade: "Marvel Universe: The End"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/7039753/marvel-universe-the-end-tp?variant=4813026"
+            omnibus: "Marvel: The End"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/1013148/marvel-the-end-omnibus-hc"
             importance: optional
             reading:
               essential:
@@ -2312,6 +2402,8 @@ eras:
           - ref: captain_marvel_2002
             title: Captain Marvel 2002
             comment: The cosmic awareness turns Captain Marvel mad. First appearance of Phyla-Vell. Issue 25 cannot really be considerd canon but it introduces the romance between Phyla and Moon-Dragon that will be a thing for years to come. Ends with the death of Genis-Vell in 2 issues of Thunderbolts.
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7954780/captain-marvel-genis-vell-by-peter-david-omnibus-hc"
+            omnibus: "Captain Marvel: Genis-Vell by Peter David"
             reading:
               essential:
                 - captain_marvel_1999
@@ -4140,7 +4232,9 @@ eras:
           - ref: trial_of_jean_grey
             title: The trial of Jean Grey
             trade: "Guard. Galaxy/All-New X-Men: The Trial of Jean Grey"
-            omnibus: Guard. Galaxy By Brian Michael Bendis vol.1
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9821573/guardians-of-the-galaxy-all-new-x-men-the-trial-of-jean-grey-tp"
+            omnibus: "Guard. Galaxy By Brian Michael Bendis vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5341753/guardians-of-the-galaxy-by-brian-michael-bendis-vol-1-hc"
             comment: Guardians / X-Men crossover
             importance: optional
             reading:
@@ -4190,9 +4284,12 @@ eras:
               - title: New Avengers (2013) 17 - A perfect world II
                 trade: "New Avengers vol.3: Other Worlds"
           - ref: higher_further
-            title: Higher, further, faster, more
-            trade: "Captain Marvel vol 1: Higher, Further, Faster, More"
-            comment: Captain Marvel deals with the aftermath of infinity far into space
+            title: Higher, Further, Faster, More
+            trade: "Captain Marvel vol.1: Higher, Further, Faster, More"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2742210/captain-marvel-vol-1-higher-further-faster-more-tp"
+            omnibus: "Captain Marvel by Kelly Sue Deconnick"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8590585/captain-marvel-by-kelly-sue-deconnick-omnibus-hc"
+            comment: Captain Marvel deals with the aftermath of infinity far into space.
             reading:
               optional:
                 - infinity
@@ -4404,8 +4501,10 @@ eras:
               - title: Legendary Star-Lord 3
               - title: Legendary Star-Lord 4
           - ref: 7_sec_before
-            title: 7 sec before you die
-            comment: Issues 9-11 are not listed here, all you need to know is that Captain Marvel went to earth and came back not long after
+            title: 7 Sec Before You Die
+            comment: Issues 9-11 are not listed here, all you need to know is that Captain Marvel went to earth and came back not long after.
+            omnibus: "Captain Marvel by Kelly Sue Deconnick"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8590585/captain-marvel-by-kelly-sue-deconnick-omnibus-hc"
             reading:
               optional:
                 - guardians_disassembled
@@ -4414,12 +4513,16 @@ eras:
             issues:
               - title: Captain Marvel (2014) 7
                 trade: "Captain Marvel vol.2: Stay Fly"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5132038/captain-marvel-vol-2-stay-fly-tp"
               - title: Captain Marvel (2014) 8
                 trade: "Captain Marvel vol.2: Stay Fly"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5132038/captain-marvel-vol-2-stay-fly-tp"
               - title: Captain Marvel (2014) 12
                 trade: "Captain Marvel vol.3: Alis Volat Propriis"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3550561/captain-marvel-vol-3-alis-volat-propriis-tp"
               - title: Captain Marvel (2014) 13
                 trade: "Captain Marvel vol.3: Alis Volat Propriis"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3550561/captain-marvel-vol-3-alis-volat-propriis-tp"
           - ref: planet_venom
             title: Planet Venom
             importance: optional
@@ -4603,36 +4706,50 @@ eras:
         title: Time Runs Out
         arcs:
           - ref: ultimate_universe
-            title: Ultimate universe
+            title: Ultimate Universe
             importance: optional
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8095215/ultimate-marvel-by-jonathan-hickman-omnibus-hc"
+            omnibus: "Ultimate Marvel by Jonathan Hickman"
             comment: "In a parallel universe, events are taking place and they will be influential for Times Runs Out. The ultimate universe has been created for quiet some time at this point and you might want to do some reading to get up to date (see the following optional reading): Ultimate Fantastic Four 1-6; Ultimate Nightmare 1-5; Ultimate Secret 1-4; Ultimate Vision 0; Ultimate Extinction 1-5; Ultimate Enemy 1-4; Ultimate Mystery 1-4; Ultimate Doom 1-4"
             collections:
               - A
             issues:
               - title: Ultimate Comics Ultimates 1
                 trade: Ultimate Comics Ultimates vol.1
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2017632/ultimate-comics-ultimates-by-jonathan-hickman-vol-1-tp"
               - title: Ultimate Comics Ultimates 2
                 trade: Ultimate Comics Ultimates vol.1
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2017632/ultimate-comics-ultimates-by-jonathan-hickman-vol-1-tp"
               - title: Ultimate Comics Ultimates 3
                 trade: Ultimate Comics Ultimates vol.1
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2017632/ultimate-comics-ultimates-by-jonathan-hickman-vol-1-tp"
               - title: Ultimate Comics Ultimates 4
                 trade: Ultimate Comics Ultimates vol.1
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2017632/ultimate-comics-ultimates-by-jonathan-hickman-vol-1-tp"
               - title: Ultimate Comics Ultimates 5
                 trade: Ultimate Comics Ultimates vol.1
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2017632/ultimate-comics-ultimates-by-jonathan-hickman-vol-1-tp"
               - title: Ultimate Comics Ultimates 6
                 trade: Ultimate Comics Ultimates vol.1
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2017632/ultimate-comics-ultimates-by-jonathan-hickman-vol-1-tp"
               - title: Ultimate Comics Ultimates 7
                 trade: Ultimate Comics Ultimates vol.2
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2646172/ultimate-comics-ultimates-by-jonathan-hickman-vol-2-tp"
               - title: Ultimate Comics Ultimates 8
                 trade: Ultimate Comics Ultimates vol.2
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2646172/ultimate-comics-ultimates-by-jonathan-hickman-vol-2-tp"
               - title: Ultimate Comics Ultimates 9
                 trade: Ultimate Comics Ultimates vol.2
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2646172/ultimate-comics-ultimates-by-jonathan-hickman-vol-2-tp"
               - title: Ultimate Comics Ultimates 10
                 trade: Ultimate Comics Ultimates vol.2
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2646172/ultimate-comics-ultimates-by-jonathan-hickman-vol-2-tp"
               - title: Ultimate Comics Ultimates 11
                 trade: Ultimate Comics Ultimates vol.2
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2646172/ultimate-comics-ultimates-by-jonathan-hickman-vol-2-tp"
               - title: Ultimate Comics Ultimates 12
                 trade: Ultimate Comics Ultimates vol.2
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2646172/ultimate-comics-ultimates-by-jonathan-hickman-vol-2-tp"
           - ref: time_runs_out
             title: Time runs out
             comment: Prelude to secret wars
@@ -4719,8 +4836,8 @@ eras:
             title: Secret Wars Beginning
             trade: Secret Wars
             tradeLink: "https://leagueofcomicgeeks.com/comic/6793940/secret-wars-tp"
-            omnibus: Secret Wars (HC)
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/6185829/secret-wars-hc"
+            omnibus: "Secret Wars by Jonathan Hickman"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/9142038/secret-wars-by-jonathan-hickman-omnibus-hc"
             comment: "The start of the Secret Wars crossover event, conclusion on the Hickman's Avengers and Fantastic Four series. There are quiet a few limited series happening on Battleworld during this event."
             importance: essential
             reading:
@@ -4795,8 +4912,8 @@ eras:
             comment: The end of an era. The grand final of several years of storylines.
             trade: Secret Wars
             tradeLink: "https://leagueofcomicgeeks.com/comic/6793940/secret-wars-tp"
-            omnibus: Secret Wars (HC)
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/6185829/secret-wars-hc"
+            omnibus: "Secret Wars by Jonathan Hickman"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/9142038/secret-wars-by-jonathan-hickman-omnibus-hc"
             importance: essential
             reading:
               essential:
@@ -5104,6 +5221,8 @@ eras:
           - ref: venom_space_knight
             title: Venom Space Knight
             comment: Solo Venom story where he fully embraces his new role of Space Knight.
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/1218161/agent-venom-omnibus-hc"
+            omnibus: "Agent Venom"
             reading:
               essential:
                 - planet_venom
@@ -6343,6 +6462,39 @@ eras:
               - title: Yondu (2019) 3
               - title: Yondu (2019) 4
               - title: Yondu (2019) 5
+          - ref: devourer_king
+            title: The Devourer King
+            comment: "Thor becomes the herald of Galactus to confront the devourer king."
+            trade: "Thor by Donny Cates vol.1"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/8300381/thor-by-donny-cates-vol-1-the-devourer-king-tp"
+            omnibus: "Thor By Cates and Klein"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/8816143/thor-by-cates-and-klein-omnibus-hc"
+            collections:
+              - SS
+            reading:
+              optional:
+                - surfer_black
+            issues:
+              - title: Thor (2020) 1
+              - title: Thor (2020) 2
+              - title: Thor (2020) 3
+              - title: Thor (2020) 4
+              - title: Thor (2020) 5
+              - title: Thor (2020) 6
+          - ref: thanos_death_notes
+            title: "Thanos: Daeth Notes"
+            comment: ""
+            trade: ""
+            tradeLink: ""
+            omnibus: ""
+            omnibusLink: ""
+            collections:
+              - TH
+            reading:
+              optional:
+                -
+            issues:
+              - title:
       - ref: empyre_section
         title: Empyre
         arcs:
@@ -6386,6 +6538,18 @@ eras:
               - title: Avengers (2018) 28
               - title: Avengers (2018) 29
               - title: Avengers (2018) 30
+          - ref: mr_mrs_x
+            title: Mr & Mrs X
+            trade: ""
+            tradeLink: ""
+            comment: ""
+            collections:
+              - X
+            reading:
+              optional:
+                - war_of_kings
+            issues:
+              - title:
           - ref: house_x
             title: House of X
             comment: "The foundation of Krakoa, the new nation for all mutants. This is the start of a new era for the X-Men, written by Jonathan Hickman. A story not cosmic in nature but very important since the Mutants will play a important role in the galactic scene."
@@ -6449,6 +6613,8 @@ eras:
             comment: "A X-Men adventure in space. A big shift of power is happening in the Shi'ar empire."
             trade: "New Mutants by Jonathan Hickman vol.1"
             tradeLink: "https://leagueofcomicgeeks.com/comic/6829399/new-mutants-by-jonathan-hickman-vol-1-tp"
+            omnibus: "X-Men: Age of Krakoa - Dawn of X vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/2588536/x-men-age-of-krakoa-dawn-of-x-omnibus-vol-1-hc"
             importance: optional
             collections:
               - X
@@ -6456,7 +6622,7 @@ eras:
               essential:
                 - house_x
               optional:
-                - war_of_kings
+                - mr_mrs_x
             issues:
               - title: New Mutants (2019) 1
               - title: New Mutants (2019) 2
@@ -6693,25 +6859,6 @@ eras:
       - ref: king_in_black_section
         title: King in Black
         arcs:
-          - ref: devourer_king
-            title: The Devourer King
-            comment: "Thor becomes the herald of Galactus to confront the devourer king."
-            trade: "Thor by Donny Cates vol.1"
-            tradeLink: "https://leagueofcomicgeeks.com/comic/8300381/thor-by-donny-cates-vol-1-the-devourer-king-tp"
-            omnibus: "Thor By Cates and Klein"
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/8816143/thor-by-cates-and-klein-omnibus-hc"
-            collections:
-              - SS
-            reading:
-              optional:
-                - surfer_black
-            issues:
-              - title: Thor (2020) 1
-              - title: Thor (2020) 2
-              - title: Thor (2020) 3
-              - title: Thor (2020) 4
-              - title: Thor (2020) 5
-              - title: Thor (2020) 6
           - ref: king_in_black
             title: King in Black
             comment: "The entire galaxy is invaded by Knull and his army. While the Guardians deals with the situation in space, the Avengers have to protect Earth."
@@ -6932,6 +7079,8 @@ eras:
           - ref: reckoning_war
             title: Reckoning War
             comment: "A Fantastic Four event about the Watcher and the First War."
+            omnibus: "Fantastic Four: Reckoning War (HC)"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/1457054/fantastic-four-reckoning-war-hc"
             collections:
               - SS
             reading:
@@ -7004,6 +7153,22 @@ eras:
               - title: Marauders (2022) 3
               - title: Marauders (2022) 4
               - title: Marauders (2022) 5
+          - ref: revenge_brood
+            title: Revenge of the Brood
+            trade: ""
+            tradeLink: ""
+            comment: ""
+            collections:
+              - X
+              - CM
+            reading:
+              essential:
+                - king_egg
+                - last_marvels
+              optional:
+                - brood_saga
+            issues:
+              - title:
       - ref: judgment_day_section
         title: Judgment Day
         arcs:

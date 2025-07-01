@@ -1,9 +1,9 @@
 <div id="{{data.ref}}" class="card mat-elevation-z1"
-     [ngClass]="{mobile: (isMobile | async)?.matches, flag: data.flag}"
+     [ngClass]="{mobile: (isMobile | async)?.matches, flag: data.flag, essential: data.essential}"
      *ngIf="types.includes(data.type)"
      (click)="goToLink('https://starwars.fandom.com/wiki/'+data.link)"
      mat-ripple>
-  <div class="image"><img src="assets/img/starwars/{{data.ref}}.jpg"></div>
+  <div class="image"><img src="assets/img/starwars/{{data.ref}}.webp"></div>
   <div class="content">
     <div class="title">
       <mat-icon class="icon-book" *ngIf="data.type == 'book'">auto_stories</mat-icon>

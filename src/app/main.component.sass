@@ -1,0 +1,43 @@
+#main
+  max-width: 1840px
+  margin: auto
+  padding: 70px 25px 20px
+  display: flex
+  justify-content: center
+#main.mobile
+  display: block
+
+
+.card
+  width: 340px
+  margin: 20px
+  background-color: #2e2e2e
+  border-radius: 5px
+  padding: 5px
+  height: 500px
+  font-size: 50px
+  text-align: center
+  line-height: 50px
+#main.mobile .card
+  width: auto
+  height: 250px
+.card .text
+  padding-top: 150px
+#main.mobile .card .text
+  padding-top: 75px
+
+.card:hover
+  background-color: #252525
+  cursor: pointer
+
+#marvelcosmic
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/marvelcomics/marvelcosmic.png")
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+
+#starwars
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/starwars.jpg")
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover

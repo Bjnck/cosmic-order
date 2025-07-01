@@ -7,10 +7,13 @@ import {AppRoutingModule} from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
 import {StarwarsModule} from './starwars/starwars.module';
+import {MainComponent} from "./main.component";
+import {TopbarModule} from "./topbar/topbar.module";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +21,8 @@ import {StarwarsModule} from './starwars/starwars.module';
     MarvelComicsModule,
     StarwarsModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    TopbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

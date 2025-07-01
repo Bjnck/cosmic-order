@@ -19,5 +19,8 @@ export interface Eras {
   strikesback: Item[];
   returnjedi: Item[];
 
+  republicrebirth: Item[];
+  mandalorian: Item[];
+
   firstOrder: Item[];
 }

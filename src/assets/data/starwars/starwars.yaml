@@ -2,7 +2,7 @@
 # thrawn origins 3 books
 # short stories from star wars revalations comic
 # tales from the empire animation
-# outlaws game
+# star wars 2020 issue 25
 
 
 
@@ -137,8 +137,7 @@ phase1:
     content:
       - Issue 11
       - "Annual: Crash and the Crew"
-      - Issue 12
-      - Issue 13
+      - Issues 12-13
   - ref: midnight_horizon
     title: Midnight Horizon
     type: book
@@ -189,6 +188,14 @@ phase1:
     description: A Marchion Ro story.
     content:
       - 2 issues
+  - ref: seeds_starlight
+    title: Seeds of Starlight
+    type: book
+    link: "The_High_Republic:_Seeds_of_Starlight"
+  - ref: haunted_starlight
+    title: Haunted Starlight
+    type: book
+    link: "The_High_Republic:_Haunted_Starlight"
 
 phase2:
   - ref: path_deceit
@@ -373,10 +380,15 @@ acolyte:
     title: "The Acolyte: Wayseeker"
     type: book
     link: "The_Acolyte:_Wayseeker"
-  - ref: acolyte
+  - ref: crystal_crown
+    title: "The Acolyte: The Crystal Crown"
+    type: book
+    link: "The_Acolyte:_The_Crystal_Crown"
+  - ref: the_acolyte
     title: "The Acolyte"
     type: live
     link: "The_Acolyte"
+    essential: false
     content:
       - 8 episodes
 
@@ -390,13 +402,7 @@ phantommenace:
     link: "Star_Wars:_Tales_of_the_Jedi_(television_series)"
     description: "A Dooku and Qui-Gon Jinn story"
     content:
-      - season 1 - episode 02
-  - ref: mace_windu_twilight
-    title: "Mace Windu"
-    type: comic
-    link: "Star_Wars:_Mace_Windu"
-    content:
-      - Issues 1-4
+      - Episode 02
   - ref: padawan
     title: Padawan
     type: book
@@ -412,6 +418,14 @@ phantommenace:
     type: comic
     essential: true
     link: "Age_of_Republic_-_Qui-Gon_Jinn_1"
+  - ref: mace_windu_twilight
+    title: "Mace Windu"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Mace_Windu"
+    content:
+      - Revelations (2023) - Showdown at Ocean's Deep
+      - Issues 1-4
   - ref: age_weapon
     title: "Age of Republic: Special - The Weapon"
     type: comic
@@ -425,11 +439,32 @@ phantommenace:
     link: "Star_Wars:_Tales_of_the_Jedi_(television_series)"
     description: "A Dooku and Mace Windu story."
     content:
-      - season 1 - episode 03
+      - Episode 03
+
   - ref: living_force
     title: The Living Force
     type: book
     link: "The_Living_Force"
+  - ref: hyperspace_tides
+    title: "Hyperspace Stories: Tides of Terror"
+    type: comic
+    link: "Star_Wars:_Hyperspace_Stories—Tides_of_Terror"
+  - ref: jedi_knights
+    title: "Jedi Knights"
+    type: comic
+    link: "Star_Wars:_Jedi_Knights"
+    content:
+      - 10 issues
+
+
+  - ref: jango_fett
+    title: "Jango Fett"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Jango_Fett_(comic_series)"
+    content:
+      - Revelations (2023) - Stolen Hope
+      - Issues 1-4
   - ref: darth_maul
     title: "Darth Maul"
     type: comic
@@ -459,22 +494,31 @@ phantommenace:
     type: animation
     essential: true
     link: "Star_Wars:_Tales_of_the_Jedi_(television_series)"
-    description: "Concurrent with episode I."
+    description: Concurrent to Episode I.
     content:
-      - season 1 - episode 04
+      - Episode 04
   - ref: queen_peril
     title: Queen's Peril
     type: book
     essential: false
     link: "Queen's_Peril"
-    description: Queen Amidala's accession to the throne and retelling of the events of Episode I. Concurrent with Episode I.
+    description: Queen Amidala's accession to the throne and retelling of the events of Episode I. Concurrent to Episode I.
 
 attackclones:
+  - ref: glass_abyss
+    title: The Glass Abyss
+    type: book
+    link: "Mace_Windu:_The_Glass_Abyss"
+    description: A Mace Windu story.
   - ref: age_obi_wan
     title: "Age of Republic: Obi-Wan Kenobi"
     type: comic
     essential: true
     link: "Age_of_Republic_-_Obi-Wan_Kenobi_1"
+  - ref: padawan_pride
+    title: Padawan's Pride
+    type: book
+    link: "Padawan%27s_Pride"
   - ref: obi_wan_anakin
     title: "Obi-Wan & Anakin"
     type: comic
@@ -485,7 +529,7 @@ attackclones:
     type: book
     essential: true
     link: "Queen%27s_Shadow"
-    description: The early political career of Padmé. Skip the epilogue after the last chapter if you wish to avoid spoilers for Episode III. (todo maybe add this when sabé is reintroduced (vader 2020 ?))
+    description: The early political career of Padmé. Skip the epilogue after the last chapter if you wish to avoid spoilers for Episode III.
   - ref: dooku_jedi_lost
     title: "Dooku: Jedi Lost"
     type: book
@@ -497,12 +541,6 @@ attackclones:
     type: comic
     essential: false
     link: "Age_of_Republic_-_Count_Dooku_1"
-  - ref: jango_fett
-    title: "Jango Fett"
-    type: comic
-    link: "Star_Wars:_Jango_Fett_(comic_series)"
-    content:
-      - Issues 1-4
   - ref: age_jango_fett
     title: "Age of Republic: Jango Fett"
     type: comic
@@ -520,7 +558,9 @@ clonewars:
   - ref: queen_hope
     title: Queen's Hope
     type: book
+    essential: false
     link: "Queen's_Hope"
+    description: A Padmé Amidala story.
   - ref: mace_windu
     title: "Jedi of the Republic: Mace Windu"
     type: comic
@@ -531,6 +571,7 @@ clonewars:
   - ref: brotherhood
     title: Brotherhood
     type: book
+    essential: false
     link: "Brotherhood"
   - ref: age_anakin
     title: "Age of Republic: Anakin Skywalker"
@@ -544,7 +585,7 @@ clonewars:
     link: "Star_Wars:_Tales_of_the_Jedi_(television_series)"
     description: "An Ahsoka story."
     content:
-      - season 1 - episode 01
+      - Episode 01
   - ref: clone_wars_christophsis
     title: "The Clone Wars: Christophsis"
     type: animation
@@ -655,6 +696,13 @@ clonewars:
       - season 1 - episode 19
       - season 1 - episode 20
       - season 1 - episode 21
+  - ref: tales_underworld_bane
+    title: "Tales of the Underworld: Cad Bane"
+    type: animation
+    essential: false
+    link: "Star_Wars:_Tales_of_the_Underworld"
+    content:
+      - Episodes 04-06
   - ref: clone_wars_holocron
     title: "The Clone Wars: Magic of the Holocron"
     type: animation
@@ -964,7 +1012,7 @@ clonewars:
     essential: true
     link: "Star_Wars:_Darth_Maul—Son_of_Dathomir"
     content:
-      - Issues 1-4
+      - 4 issues
   - ref: dark_disciple
     title: "Dark Disciple"
     type: book
@@ -981,6 +1029,11 @@ clonewars:
       - season 7 - episode 02
       - season 7 - episode 03
       - season 7 - episode 04
+  - ref: hyperspace_ghost
+    title: "Hyperspace Stories: Ghost Agents"
+    type: comic
+    link: "Star_Wars:_Hyperspace_Stories:_The_Bad_Batch—Ghost_Agents"
+    description: A Bad Batch story.
   - ref: clone_wars_ahsoka
     title: "The Clone Wars: Ahsoka"
     type: animation
@@ -1022,7 +1075,7 @@ clonewars:
     link: "Star_Wars:_Tales_of_the_Jedi_(television_series)"
     description: "An Ahsoka story throughout the time of the Clone Wars."
     content:
-      - season 1 - episode 05
+      - Episode 05
 
 #The Empire
 reignempire:
@@ -1040,6 +1093,19 @@ reignempire:
     link: "The_Bad_Batch_Season_2"
     content:
       - 16 episodes
+  - ref: bad_batch_sanctuary
+    title: "Bad Batch: Sanctuary"
+    type: book
+    essential: false
+    description: Concurrent to The Bad Batch Season 2.
+    link: "Sanctuary:_A_Bad_Batch_Novel"
+  - ref: tales_underworld_ventress
+    title: "Tales of the Underworld: Asajj Ventress"
+    type: animation
+    essential: false
+    link: "Star_Wars:_Tales_of_the_Underworld"
+    content:
+      - Episodes 01-03
   - ref: bad_batch_season_3
     title: "The Bad Batch: Season 3"
     type: animation
@@ -1047,6 +1113,12 @@ reignempire:
     link: "The_Bad_Batch_Season_3"
     content:
       - 15 episodes
+
+  - ref: mask_fear
+    title: "The Mask of Fear"
+    type: book
+    link: "Reign_of_the_Empire:_The_Mask_of_Fear"
+
   - ref: darth_vader_2017_chosen_one
     title: "Darth Vader 2017: The Chosen One"
     type: comic
@@ -1087,7 +1159,12 @@ reignempire:
     link: "Star_Wars:_Tales_of_the_Jedi_(television_series)"
     description: "Short story adapting part of the Ahsoka novel."
     content:
-      - season 1 - episode 06
+      - Episode 06
+  - ref: master_evil
+    title: "Master of Evil"
+    type: book
+    description: A Darth Vader story.
+    link: "Master_of_Evil"
   - ref: age_vader
     title: "Age of Rebellion: Darth Vader"
     type: comic
@@ -1128,6 +1205,10 @@ reignempire:
     link: "Star_Wars:_Darth_Vader_(2017)"
     content:
       - Issues 19-25
+  - ref: vader_immortal
+    title: "Vader Immortal"
+    type: game
+    link: "Vader_Immortal:_A_Star_Wars_VR_Series"
   - ref: dark_temple
     title: "Jedi: Fallen Order - Dark Temple"
     type: comic
@@ -1166,6 +1247,13 @@ reignempire:
     description: Comic adaptation.
     content:
       - 6 issues
+  - ref: tales_empire_barriss
+    title: "Tales of the Empire: Barriss Offee"
+    type: animation
+    essential: false
+    link: "Star_Wars:_Tales_of_the_Empire"
+    content:
+      - Episodes 04-06
 
 solo:
   - ref: most_wanted
@@ -1187,7 +1275,7 @@ solo:
     link: "Star_Wars:_Lando_-_Double_or_Nothing"
     description: Prologue to Solo.
     content:
-      - Issues 1-5
+      - 5 issues
   - ref: solo
     title: "Solo"
     type: live
@@ -1206,7 +1294,7 @@ solo:
     link: "Solo:_A_Star_Wars_Story_Adaptation"
     description: Comic adaptation.
     content:
-      - Issues 1-7
+      - 7 issues
   - ref: imperial_cadet
     title: "Han Solo: Imperial Cadet"
     type: comic
@@ -1214,7 +1302,7 @@ solo:
     link: "Star_Wars:_Han_Solo_-_Imperial_Cadet"
     description: Concurrent to the start of Solo. Fill in the 3 years gap period when Han is trained as an Imperial.
     content:
-      - Issues 1-5
+      - 5 issues
   - ref: crimson_climb
     title: "Crimson Climb"
     type: book
@@ -1227,7 +1315,7 @@ solo:
     type: comic
     link: "Star_Wars:_Han_Solo_%26_Chewbacca"
     content:
-      - Issues 1-10
+      - 10 issues
 
 riserebel:
   - ref: leia_princess
@@ -1368,7 +1456,7 @@ newhope:
     type: book
     link: "Guardians_of_the_Whills_(novel)"
     description: Prologue to Rogue One.
-  - ref: guardians_whills
+  - ref: guardians_whills_manga
     title: "Guardians of the Whills"
     type: comic
     link: "Guardians_of_the_Whills:_The_Manga"
@@ -1433,6 +1521,7 @@ rebellion:
     title: "Smuggler's Run"
     type: book
     link: "Smuggler%27s_Run:_A_Han_Solo_%26_Chewbacca_Adventure"
+    description:  Skip the short prologue and epilogue to avoid spoilers for the next movies, they are not essential for the story.
   - ref: smuggler_run
     title: "Smuggler's Run"
     type: comic
@@ -1463,7 +1552,7 @@ rebellion:
     type: book
     essential: false
     link: "The_Weapon_of_a_Jedi:_A_Luke_Skywalker_Adventure"
-    description: A Luke Skywalker story.
+    description: A Luke Skywalker story. Skip the short prologue and epilogue to avoid spoilers for the next movies, they are not essential for the story.
   - ref: weapon_jedi
     title: "The Weapon of the Jedi"
     type: comic
@@ -1690,11 +1779,6 @@ rebellion:
       - Empire Ascendant - Epilogue
 
 strikesback:
-  - ref: age_long_game
-    title: "Age of Rebellion: Special - The Long Game"
-    type: comic
-    link: "Age_of_Rebellion_Special_1"
-    description: An IG-88 story.
   - ref: age_boba_fett
     title: "Age of Rebellion: Boba Fett"
     type: comic
@@ -1710,20 +1794,23 @@ strikesback:
     description: Flashback to the life of Yoda before the Clone Wars.
     link: "Star_Wars:_Yoda"
     content:
-      - Issues 1-10
+      - 10 issues
   - ref: episode_5
     title: "Episode V: The Empire Strikes Back"
     type: live
+    essential: true
     flag: true
     link: "Star_Wars:_Episode_V_The_Empire_Strikes_Back"
   - ref: age_dagobah
     title: "Age of Rebellion: Special - The Trial of Dagobah"
     type: comic
+    essential: false
     link: "Age_of_Rebellion_Special_1"
     description: A Yoda story. Concurent to Episode V.
   - ref: star_wars_2020_destiny_path
     title: "Star Wars 2020: The Destiny Path"
     type: comic
+    essential: true
     link: "Star_Wars_(Marvel_Comics_2020)"
     content:
       - Issues 1-6
@@ -1738,83 +1825,308 @@ strikesback:
   - ref: bounty_hunters_deadliest
     title: "Bounty Hunters: Galaxy's Deadliest"
     type: comic
+    essential: false
     link: "Star_Wars:_Bounty_Hunters"
     content:
       - Issues 1-7
   - ref: star_wars_2020_operation_starlight
     title: "Star Wars 2020: Operation Starlight"
     type: comic
+    essential: false
     link: "Star_Wars_(Marvel_Comics_2020)"
     content:
       - Issues 7-12
   - ref: bounty_hunters_terminus_gauntlet
     title: "Bounty Hunters: The Terminus Gauntlet"
     type: comic
+    essential: false
     link: "Star_Wars:_Bounty_Hunters"
     content:
       - Issues 8-11
-
+  - ref: age_long_game
+    title: "Age of Rebellion: Special - The Long Game"
+    type: comic
+    essential: false
+    link: "Age_of_Rebellion_Special_1"
+    description: An IG-88 story.
+  - ref: doctor_aphra_2020_fortune
+    title: "Doctor Aphra 2020: Fortune and Fate"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Doctor_Aphra_(2020)"
+    content:
+      - Issues 1-5
+  - ref: doctor_aphra_2020_engine
+    title: "Doctor Aphra 2020: The Engine Job"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Doctor_Aphra_(2020)"
+    content:
+      - Issues 6-10
   - ref: bounty_hunters_war
     title: "War of the Bounty Hunters"
     type: comic
-    link: "Star_Wars:_Bounty_Hunters"
+    essential: false
+    link: "Star_Wars:_War_of_the_Bounty_Hunters_Omnibus"
     description: "For the correct reading order follow the omnibus printing order."
     content:
       - War of the Bounty Hunters
-      - Star Wars 2020 - issues 13-18
-      - Bounty Hunters - issues 12-17
-      - Darth Vader 2020 - issues 12-17
-      - Doctor Aphra 2020 - issues 10-15
-
-  - ref: doctor_aphra_2020_
-    title: "Doctor Aphra 2020: "
+      - Star Wars 2020 - 13-18
+      - Bounty Hunters - 12-17
+      - Darth Vader 2020 - 12-17
+      - Doctor Aphra 2020 - 10-15
+  - ref: crimson_reign
+    title: "Crimson Reign part I"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Crimson_Reign"
+    description: "Sadly the omnibus is not printed in the proper reading order."
+    content:
+      - Darth Vader 2020 - 18
+      - Crimson Reign - 1
+      - Star Wars 2020 - 19-20
+      - Bounty Hunters - 18-19
+      - Star Wars 2020 - 21-24
+      - Bounty Hunters - 20
+  - ref: crimson_reign
+    title: "Crimson Reign part II"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Crimson_Reign"
+    content:
+      - Crimson Reign - 2
+      - Darth Vader 2020 - 19-21
+      - Doctor Aphra 2020 - 16-17
+      - Crimson Reign - 3
+      - Doctor Aphra 2020 - 18-21
+      - Crimson Reign - 4
+      - Bounty Hunters - 21-22
+      - Crimson Reign - 5
+  - ref: darth_vader_2020_shadow
+    title: "Darth Vader 2020: The Shadow's Shadow"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Darth_Vader_(2020)"
+    content:
+      - Issues 22-27
+  - ref: bounty_hunters_raid_vermillion
+    title: "Bounty Hunters: The Raid on the Vermillion"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Bounty_Hunters"
+    content:
+      - Issues 23-28
+  - ref: outlaws
+    title: "Outlaws"
+    type: game
+    essential: false
+    link: "Star_Wars_Outlaws"
+  - ref: doctor_aphra_2020_spark_eternal
+    title: "Doctor Aphra 2020: The Spark Eternal"
     type: comic
     link: "Star_Wars:_Doctor_Aphra_(2020)"
-
+    content:
+      - Issues 22-26
+  - ref: hidden_empire
+    title: "Hidden Empire"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Hidden_Empire"
+    content:
+      - Star Wars 2020 - 26-28
+      - Revelations + Hidden Empire - 1
+      - Doctor Aphra 2020 - 27
+      - Hidden Empire - 2-3
+      - Bounty Hunters - 29-31
+      - Doctor Aphra 2020 - 28-29
+      - Hidden Empire - 4-5
+      - Doctor Aphra 2020 - 30-31
   - ref: sana_starros
     title: "Sana Starros"
     type: comic
+    essential: false
     link: "Star_Wars:_Sana_Starros"
     content:
-      - Issues 1-5
+      - 5 issues
+  - ref: star_wars_2020_no_space
+    title: "Star Wars 2020: No Space"
+    type: comic
+    essential: false
+    link: "Star_Wars_(Marvel_Comics_2020)"
+    content:
+      - Issues 29-33
+  - ref: star_wars_2020_kyber
+    title: "Star Wars 2020: Kyber Crystals"
+    type: comic
+    essential: true
+    link: "Star_Wars_(Marvel_Comics_2020)"
+    content:
+      - Issues 34-35
+  - ref: darth_vader_2020_handmaidens
+    title: "Darth Vader 2020: Return of the Handmaidens"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Darth_Vader_(2020)"
+    content:
+      - Issues 28-34
+  - ref: darth_vader_2020_target_aphra
+    title: "Darth Vader 2020: Target Aphra"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Darth_Vader_(2020)"
+    content:
+      - Issues 35-36
+  - ref: doctor_aphra_2020_ripple
+    title: "Doctor Aphra 2020: Ripple Effect"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Doctor_Aphra_(2020)"
+    content:
+      - Issues 32-34
+  - ref: star_wars_2020_trial_run
+    title: "Star Wars 2020: The Trial Run"
+    type: comic
+    essential: false
+    link: "Star_Wars_(Marvel_Comics_2020)"
+    content:
+      - Issue 36
+  - ref: bounty_hunters_inferno_squad
+    title: "Bounty Hunters: Inferno Squad"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Bounty_Hunters"
+    content:
+      - Issues 32-36
+  - ref: dark_droids
+    title: "Dark Droids part I"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Dark_Droids"
+    content:
+      - Dark Droids 1
+      - Star Wars 2020 - 37-39
+      - Dark Droids 2
+      - Darth Vader 2020 - 37-39
+      - Dark Droids 3
+      - Bounty Hunters - 37-39
+      - Doctor Aphra 2020 - 35-37
+  - ref: dark_droids
+    title: "Dark Droids part II"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Dark_Droids"
+    content:
+      - Dark Droids 4
+      - D-Squad 1-4
+      - Darth Vader 2020 - 40
+      - Bounty Hunters - 40
+      - Darth Vader 2020 - 41
+      - Doctor Aphra 2020 - 38-39
+      - Star Wars 2020 - 40
+  - ref: dark_droids
+    title: "Dark Droids part III"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Dark_Droids"
+    content:
+      - Dark Droids 5
+      - Star Wars 2020 - 41
+      - Bounty Hunters - 41
+      - Doctor Aphra 2020 - 40
+      - Bounty Hunters - 42
+      - Revelations (2023) - Tall Tales
+  - ref: star_wars_2020_sith_skywalker
+    title: "Star Wars 2020: The Sith and the Skywalker"
+    type: comic
+    essential: true
+    link: "Star_Wars_(Marvel_Comics_2020)"
+    content:
+      - Issue 42-43
+  - ref: star_wars_2020_trial_lando
+    title: "Star Wars 2020: The Trial of Lando Calrissian"
+    type: comic
+    essential: false
+    link: "Star_Wars_(Marvel_Comics_2020)"
+    content:
+      - Revelations (2023) - A Trick of the Mind
+      - Issue 44-47
+  - ref: darth_vader_2020_schism
+    title: "Darth Vader 2020: The Schism Imperial"
+    type: comic
+    essential: false
+    link: "Star_Wars:_Darth_Vader_(2020)"
+    content:
+      - Revelations (2023) - Tool of the Empire
+      - Issues 42-45
+      - Free Comic Book Day 2024 - The Curse
+      - Issues 46-50
+  - ref: star_wars_2020_path_light
+    title: "Star Wars 2020: The Path of Light"
+    type: comic
+    essential: false
+    link: "Star_Wars_(Marvel_Comics_2020)"
+    content:
+      - Free Comic Book Day 2024 - Return to Echo Base
+      - Issue 48-49
+  - ref: return_lando
+    title: "Return of the Jedi - Lando"
+    type: comic
+    essential: false
+    link: "Return_of_the_Jedi_–_Lando_1"
+
+# Darth Vader – Black, White & Red (issue 4 before episode 6)
 
   - ref: moving_target
     title: "Moving Target"
     type: book
     link: "Moving_Target:_A_Princess_Leia_Adventure"
+    description:  Skip the short prologue and epilogue to avoid spoilers for the next movies, they are not essential for the story.
 
 returnjedi:
   - ref: age_luke
     title: "Age of Rebellion: Luke Skywalker"
     type: comic
+    essential: true
     link: "Age_of_Rebellion_-_Luke_Skywalker_1"
+  - ref: return_empire
+    title: "The Empire - Operation: Endor"
+    type: comic
+    essential: false
+    link: "Return_of_the_Jedi_–_The_Empire_1"
+  - ref: return_rebellion
+    title: "The Rebellion - The Kill Shot"
+    type: comic
+    essential: false
+    link: "Return_of_the_Jedi_–_The_Rebellion_1"
   - ref: age_leia
     title: "Age of Rebellion: Princess Leia"
     type: comic
+    essential: true
     link: "Age_of_Rebellion_-_Princess_Leia_1"
   - ref: episode_6
     title: "Episode VI: Return of the Jedi"
     type: live
+    essential: true
     flag: true
     link: "Star_Wars:_Episode_VI_Return_of_the_Jedi"
-  - ref: tie_fighter
-    title: "Tie Fighter"
+  - ref: jabba_palace
+    title: "Jabba's Palace"
     type: comic
-    link: "Star_Wars:_TIE_Fighter_(comic_series)"
-    content:
-      - Issues 1-5
-  - ref: shattered_empire
-    title: "Shattered Empire"
+    essential: false
+    link: "Return_of_the_Jedi_–_Jabba%27s_Palace_1"
+    description: Concurrent to Episode VI.
+  - ref: max_rebo
+    title: "Max Rebo"
     type: comic
-    link: "Star_Wars:_Shattered_Empire"
-    content:
-      - Issues 1-4
+    essential: false
+    link: "Return_of_the_Jedi_–_Max_Rebo_1"
+    description: Concurrent to Episode VI.
 
+  - ref: ewoks
+    title: "Ewoks"
+    type: comic
+    link: "Star_Wars:_Ewoks_(2024)"
 
-  - ref: battlefront_2
-    title: "Battlefront II"
-    type: game
-    link: "Star_Wars_Battlefront_II"
   - ref: lost_stars
     title: "Lost Stars"
     type: book
@@ -1825,69 +2137,21 @@ returnjedi:
     link: "Lost_Stars_(webcomic)"
     description: Manga adaptation.
     content:
-      - Volumes 1-3
-
-  - ref: princess_scoundrel
-    title: "The Princess and the Scoundrel"
-    type: book
-    link: "The_Princess_and_the_Scoundrel"
-
-  - ref: squadrons
-    title: "Squadrons"
-    type: game
-    link: ""
-
-
-  - ref: mandalorian_s1
-    title: "The Mandalorian: Season 1"
-    type: live
-    link: "The_Mandalorian_Season_One"
-    content:
-      - 8 episodes
-  - ref: mandalorian_comic
-    title: "The Mandalorian: Season 1"
+      - 3 volumes
+  - ref: shattered_empire
+    title: "Shattered Empire"
     type: comic
-    link: ""
-    description: Comic adaptation.
-  - ref: mandalorian_s2
-    title: "The Mandalorian: Season 2"
-    type: live
-    link: "The_Mandalorian_Season_Two"
+    essential: false
+    link: "Star_Wars:_Shattered_Empire"
+    description: "Operation: Cinder."
     content:
-      - 8 episodes
-  - ref: mandalorian_comic
-    title: "The Mandalorian: Season 2"
+      - 4 issues
+  - ref: tie_fighter
+    title: "Tie Fighter"
     type: comic
-    link: ""
-    description: Comic adaptation.
-  - ref: book_boba_fett
-    title: "The Book of Boba Fett"
-    type: live
-    link: "The_Book_of_Boba_Fett"
+    link: "Star_Wars:_TIE_Fighter_(comic_series)"
     content:
-      - 7 episodes
-  - ref: mandalorian_s3
-    title: "The Mandalorian: Season 3"
-    type: live
-    link: "The_Mandalorian_Season_Three"
-    content:
-      - 8 episodes
-  - ref: ahsoka_s1
-    title: "Ahsoka: Season 1"
-    type: live
-    link: "Ahsoka_(television_series)"
-    content:
-      -  8 episodes
-  - ref: ahsoka_s1_comic
-    title: "Ahsoka: Season 1"
-    type: comic
-    link: "Star_Wars:_Ahsoka"
-    description: Comic adaptation.
-    content:
-      - 8 issues
-
-
-
+      - 5 issues
   - ref: alphabet_squadron
     title: "Alphabet Squadron"
     type: book
@@ -1901,6 +2165,19 @@ returnjedi:
     type: book
     link: "Victory%27s_Price"
 
+  - ref: squadrons
+    title: "Squadrons"
+    type: game
+    link: ""
+
+# hyperspace stories issue 12 just after episode 6 (is it good enough to stay in the list ?)
+
+# ewoks
+
+  - ref: princess_scoundrel
+    title: "The Princess and the Scoundrel"
+    type: book
+    link: "The_Princess_and_the_Scoundrel"
 
   - ref: aftermath
     title: "Aftermath"
@@ -1914,14 +2191,122 @@ returnjedi:
     title: "Aftermath: Empire's End"
     type: book
     link: "Aftermath:_Empire%27s_End"
+  - ref: battle_jakku
+    title: "The Battle of Jakku"
+    type: comic
+    link: "Star_Wars:_Battle_of_Jakku"
+    content:
+      - Insurgency Rising 1-4
+      - Republic Under Siege 1-4
+      - Last Stand 1-4
+  - ref: battlefront_2
+    title: "Battlefront II"
+    type: game
+    essential: false
+    link: "Star_Wars_Battlefront_II"
+    description: "An Inferno Squad story. Story running from Return of the Jedi to The Battle of Jakku."
+    content:
+      - Main game
 
+republicrebirth:
+  - ref: aphra_chaos
+    title: "Doctor Aphra: Chaos Agent"
+    type: comic
+    link: "Star_Wars:_Doctor_Aphra_–_Chaos_Agent"
+    content:
+      - Issues 1-
+  - ref: star_wars_2025_
+    title: "Star Wars (2025): "
+    type: comic
+    link: "Star_Wars_(2025)"
+    content:
+      - Free Comic Book Day 2025 - Past is Prologue
+      - Issues 1-
+  - ref: skeleton_crew
+    title: "Skeleton Crew"
+    type: live
+    link: "Star_Wars:_Skeleton_Crew"
+    essential: false
+    content:
+      - 8 episodes
+
+mandalorian:
+  - ref: mandalorian_s1
+    title: "The Mandalorian: Season 1"
+    type: live
+    essential: true
+    link: "The_Mandalorian_Season_One"
+    content:
+      - 8 episodes
+  - ref: mandalorian_s1_comic
+    title: "The Mandalorian: Season 1"
+    type: comic
+    essential: true
+    link: "Star_Wars:_The_Mandalorian_(comic_series)"
+    description: Comic adaptation.
+    content:
+      - 8 issues
+  - ref: mandalorian_s2
+    title: "The Mandalorian: Season 2"
+    type: live
+    essential: true
+    link: "The_Mandalorian_Season_Two"
+    content:
+      - 8 episodes
+  - ref: mandalorian_s2_comic
+    title: "The Mandalorian: Season 2"
+    type: comic
+    essential: true
+    link: "Star_Wars:_The_Mandalorian_Season_2"
+    description: Comic adaptation.
+    content:
+      - 8 issues
+  - ref: book_boba_fett
+    title: "The Book of Boba Fett"
+    type: live
+    essential: true
+    link: "The_Book_of_Boba_Fett"
+    description: The Mandalorian season 2.5.
+    content:
+      - 7 episodes
+  - ref: mandalorian_s3
+    title: "The Mandalorian: Season 3"
+    type: live
+    essential: true
+    link: "The_Mandalorian_Season_Three"
+    content:
+      - 8 episodes
+  - ref: tales_empire_morgan
+    title: "Tales of the Empire: Morgan Elsbeth"
+    type: animation
+    essential: false
+    link: "Star_Wars:_Tales_of_the_Empire"
+    content:
+      - Episodes 01-03
+    description: Morgan Elsbeth life story. Prologue to Ahsoka season 1.
+  - ref: ahsoka_s1
+    title: "Ahsoka: Season 1"
+    type: live
+    essential: true
+    link: "Ahsoka_(television_series)"
+    content:
+      -  8 episodes
+  - ref: ahsoka_s1_comic
+    title: "Ahsoka: Season 1"
+    type: comic
+    essential: true
+    link: "Star_Wars:_Ahsoka"
+    description: Comic adaptation.
+    content:
+      - 8 issues
+
+firstOrder:
   - ref: last_shot
     title: "Last Shot"
     type: book
     link: "Last_Shot"
 
 
-firstOrder:
   - ref: free_fall
     title: "Poe Dameron: Free Fall"
     type: book
@@ -1937,12 +2322,15 @@ firstOrder:
     type: book
     link: "Bloodline_(novel)"
     description: A Leia story.
+
+#    Star Wars 2020 issue 50 (old tluke tells a story to young kylo)
   - ref: rise_kylo
     title: "The Rise of Kylo Ren"
     type: comic
     link: "Star_Wars:_The_Rise_of_Kylo_Ren"
     content:
       - Issues 1-4
+
   - ref: force_collector
     title: "Force Collector"
     type: book
@@ -1954,6 +2342,11 @@ firstOrder:
 
 
   # Star Wars Adventures (2017) 1-2 (rey)
+
+  - ref: hyperspace_codebreaker
+    title: "Hyperspace Stories: Codebreaker"
+    type: comic
+    link: "Star_Wars:_Hyperspace_Stories—Codebreaker"
 
   - ref: poe_dameron_comic
     title: "Poe Dameron"
@@ -2006,10 +2399,18 @@ firstOrder:
     description: Book adaptation.
   - ref: episode_7_comic
     title: "Episode VII: The Force Awakens"
-    type: book
+    type: comic
     flag: true
     link: "Star_Wars:_The_Force_Awakens_Adaptation"
     description: Comic adaptation.
+  - ref: battlefront_2_dlc
+    title: "Battlefront II: Resurrection"
+    type: game
+    essential: false
+    link: "Star_Wars_Battlefront_II"
+    description: "An Inferno Squad story. Concurrent to Episode VII."
+    content:
+      - The Last Jedi DLC
   - ref: episode_8
     title: "Episode VIII: The Last Jedi"
     type: live
@@ -2017,13 +2418,13 @@ firstOrder:
     link: "Star_Wars:_Episode_VIII_The_Last_Jedi"
   - ref: episode_8_book
     title: "Episode VIII: The Last Jedi"
-    type: live
+    type: book
     flag: true
     link: "Star_Wars:_The_Last_Jedi:_Expanded_Edition"
     description: Book adaptation.
   - ref: episode_8_comic
     title: "Episode VIII: The Last Jedi"
-    type: live
+    type: comic
     flag: true
     link: "Star_Wars:_The_Last_Jedi_Adaptation"
     description: Comic adaptation.
@@ -2060,7 +2461,10 @@ firstOrder:
     type: book
     link: "Spark_of_the_Resistance"
 
-
+  - ref: legacy_vader
+    title: "The Legacy of Vader"
+    type: comic
+    link: "Star_Wars:_Legacy_of_Vader"
 
   - ref: episode_9
     title: "Episode IX: The Rise of Skywalker"
@@ -2073,3 +2477,9 @@ firstOrder:
     flag: true
     link: "Star_Wars:_The_Rise_of_Skywalker:_Expanded_Edition"
     description: Book adaptation.
+  - ref: episode_9_comic
+    title: "Episode IX: The Rise of Skywalker"
+    type: comic
+    flag: true
+    link: "Star_Wars:_The_Rise_of_Skywalker_Adaptation"
+    description: Comic adaptation.

@@ -2,8 +2,15 @@ Install libs to read and parse yaml files:
   npm install yaml
 
 Start local server:
+  nvm use 14
   ng serve
 
 Build and deploy:
   ng build --prod --base-href ./
+  nvm use 18
   firebase deploy
+
+
+compress image
+  for file in *.jpg; do cwebp -q 80 "$file" -o "${file%.jpg}.webp"; done
+

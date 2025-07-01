@@ -1,0 +1,7 @@
+<app-topbar></app-topbar>
+
+<div id="main" [ngClass]="{mobile: (isMobile | async)?.matches}">
+  <div id="marvelcosmic" class="card" routerLink="/marvelcosmic"><div class="text">MARVEL</div><div>COSMIC</div></div>
+
+  <div id="starwars" class="card" routerLink="/starwars"><div class="text">STAR</div><div>WARS</div></div>
+</div>
