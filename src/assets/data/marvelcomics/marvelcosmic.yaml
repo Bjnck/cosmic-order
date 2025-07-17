@@ -351,8 +351,8 @@ eras:
             title: The Brood Saga
             trade: "X-Men: Starjammers by Dave Cockrum"
             tradeLink: "https://leagueofcomicgeeks.com/comic/1369988/x-men-starjammers-by-dave-cockrum-tp"
-            omnibus: "Uncanny X-Men Omnibus vol.3"
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/5344139/uncanny-x-men-omnibus-vol-3-hc"
+            omnibus: "Cosmic X-Men"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7570191/cosmic-x-men-omnibus-hc"
             comment: First appearence of Deathbird.
             reading:
               essential:
@@ -1246,8 +1246,8 @@ eras:
             title: The Fall of Deathbird
             trade: "X-Men Visionaries"
             tradeLink: "https://leagueofcomicgeeks.com/comic/7492982/x-men-visionaries-1"
-            omnibus: "X-Men by Chris Claremont & Jim Lee vol.2"
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/8113012/x-men-by-chris-claremont-jim-lee-omnibus-vol-2-hc"
+            omnibus: "Cosmic X-Men"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7570191/cosmic-x-men-omnibus-hc"
             comment: Overturn of the Shi'ar imperial power.
             reading:
               essential:
@@ -5259,6 +5259,19 @@ eras:
               - title: "Venom: Space Knight 10"
                 trade: "Venom: Space Knight vol.2: Enemies and Allies"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/3491524/venom-space-knight-vol-2-enemies-and-allies-tp"
+          - ref: rise_alpha
+            title: Rise of Alpha Flight
+            trade: "Captain Marvel: Earth's Mightiest Hero vol.5"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/5521404/captain-marvel-earths-mightiest-hero-vol-5-tp"
+            comment: "Captain Marvel is the new boss of the Alpha Flight space station."
+            collections:
+              - CM
+            issues:
+              - title: Captain Marvel (2016) 1
+              - title: Captain Marvel (2016) 2
+              - title: Captain Marvel (2016) 3
+              - title: Captain Marvel (2016) 4
+              - title: Captain Marvel (2016) 5
           - ref: omniversal
             title: Omniversal
             trade: "The Ultimates By Al Ewing: The Complete Collection"
@@ -5270,6 +5283,8 @@ eras:
             reading:
               essential:
                 - secret_wars_ending
+              optional:
+                - rise_alpha
             issues:
               - title: Avengers (2015) 0 (excerpt)
               - title: Ultimates 1
@@ -5285,7 +5300,7 @@ eras:
             tradeLink: "https://leagueofcomicgeeks.com/comic/3377071/guardians-of-the-galaxy-new-guard-vol-2-wanted-tp"
             omnibus: Guard. Galaxy By Brian Michael Bendis vol.2
             omnibusLink: "https://leagueofcomicgeeks.com/comic/7971765/guardians-of-the-galaxy-by-brian-michael-bendis-omnibus-vol-2-hc"
-            comment: "The Guardians on a special mission on a badoon prison planet."
+            comment: "The Guardians on a special mission on a Badoon prison planet."
             collections:
               - GG
             reading:
@@ -5309,6 +5324,10 @@ eras:
             collections:
               - CM
             issues:
+              - title: Captain Marvel (2016) 6
+                importance: "optional"
+                trade: "Captain Marvel: Earth's Mightiest Hero vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5521404/captain-marvel-earths-mightiest-hero-vol-5-tp"
               - title: Ultimates 7
                 trade: "The Ultimates By Al Ewing: The Complete Collection"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/7366286/the-ultimates-by-al-ewing-the-complete-collection-tp"
@@ -5327,6 +5346,14 @@ eras:
                 tradeLink: "https://leagueofcomicgeeks.com/comic/7366286/the-ultimates-by-al-ewing-the-complete-collection-tp"
                 collections:
                   - TH
+              - title: Captain Marvel (2016) 7
+                importance: "optional"
+                trade: "Captain Marvel: Earth's Mightiest Hero vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5521404/captain-marvel-earths-mightiest-hero-vol-5-tp"
+              - title: Captain Marvel (2016) 8
+                importance: "optional"
+                trade: "Captain Marvel: Earth's Mightiest Hero vol.5"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5521404/captain-marvel-earths-mightiest-hero-vol-5-tp"
               - title: Ultimates 9
                 trade: "The Ultimates By Al Ewing: The Complete Collection"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/7366286/the-ultimates-by-al-ewing-the-complete-collection-tp"
@@ -5421,6 +5448,37 @@ eras:
                   - GG
                   - CM
                   - TH
+          - ref: alien_nation
+            title: Alien Nation
+            trade: "Captain Marvel by Margaret Stohl"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9012151/captain-marvel-by-margaret-stohl-tp"
+            comment: "Aftermath of 'Civil War II'."
+            collections:
+              - CM
+            reading:
+              essential:
+                - civil_war_2
+            issues:
+              - title: The Mighty Captain Marvel 0
+              - title: The Mighty Captain Marvel 1
+              - title: The Mighty Captain Marvel 2
+              - title: The Mighty Captain Marvel 3
+              - title: The Mighty Captain Marvel 4
+          - ref: chitauri_invasion
+            title: The Chitauri Invasion
+            trade: "Captain Marvel by Margaret Stohl"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9012151/captain-marvel-by-margaret-stohl-tp"
+            comment: "Captain Marvel & Alpha Flight protecting Earth gainst a Chitauri invasion. These events are concurrent to 'Eternity War'."
+            collections:
+              - CM
+            reading:
+              essential:
+                - alien_nation
+            issues:
+              - title: The Mighty Captain Marvel 5
+              - title: The Mighty Captain Marvel 6
+              - title: The Mighty Captain Marvel 7
+              - title: The Mighty Captain Marvel 8
           - ref: power_greater_cosmic
             title: A Power Greater Than Cosmic
             importance: optional
@@ -5514,6 +5572,23 @@ eras:
               - title: "Defenders: Beyond 5"
                 trade: "Defenders: Beyond"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/6318336/defenders-beyond-tp"
+          - ref: dark_origins
+            title: Dark Origins
+            trade: "Captain Marvel by Margaret Stohl"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/9012151/captain-marvel-by-margaret-stohl-tp"
+            comment: "Captain Marvel is stuck in a dark dimension."
+            collections:
+              - CM
+            reading:
+              essential:
+                - chitauri_invasion
+            issues:
+              - title: "Generations: Capt. Marvel & Capt. Mar-Vell 1"
+              - title: Captain Marvel (2017) 125
+              - title: Captain Marvel (2017) 126
+              - title: Captain Marvel (2017) 127
+              - title: Captain Marvel (2017) 128
+              - title: Captain Marvel (2017) 129
       - ref: death_inhumans_section
         title: Death of the Inhumans
         arcs:
@@ -5898,6 +5973,7 @@ eras:
                 - guardians_duggan
               optional:
                 - power_greater_cosmic
+                - dark_origins
                 - god_quarry
             issues:
               - title: "Infinity Countdown: Adam Warlock 1"
@@ -6139,6 +6215,38 @@ eras:
                 collections:
                   - -GG
                   - -AW
+          - ref: falling_star
+            title: Falling Star
+            trade: "Captain Marvel vol.2: Falling Star"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2051291/captain-marvel-vol-2-falling-star-tp"
+            comment: "Origins of Star & epilogue to Infinity Wars."
+            omnibus: "Captain Marvel by Kelly Thompson vol.1"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/4329576/captain-marvel-by-kelly-thompson-omnibus-vol-1-hc"
+            reading:
+              essential:
+                - infinity_wars
+            collections:
+              - CM
+            issues:
+              - title: Captain Marvel (2019) 8
+              - title: Captain Marvel (2019) 9
+              - title: Captain Marvel (2019) 10
+              - title: Captain Marvel (2019) 11
+              - title: Star 1
+                trade: "Star: Birth of a Dragon"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6042720/star-birth-of-a-dragon-tp"
+              - title: Star 2
+                trade: "Star: Birth of a Dragon"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6042720/star-birth-of-a-dragon-tp"
+              - title: Star 3
+                trade: "Star: Birth of a Dragon"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6042720/star-birth-of-a-dragon-tp"
+              - title: Star 4
+                trade: "Star: Birth of a Dragon"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6042720/star-birth-of-a-dragon-tp"
+              - title: Star 5
+                trade: "Star: Birth of a Dragon"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6042720/star-birth-of-a-dragon-tp"
       - ref: annihilation_scourge_section
         title: Annihilation Scourge
         arcs:
@@ -6169,6 +6277,8 @@ eras:
             reading:
               essential:
                 - infinity_wars
+              optional:
+                - falling_star
             collections:
               - N
             issues:
@@ -6411,6 +6521,20 @@ eras:
               - title: Revenge of the Cosmic Ghost Rider 3
               - title: Revenge of the Cosmic Ghost Rider 4
               - title: Revenge of the Cosmic Ghost Rider 5
+          - ref: duel_identity
+            title: "Cosmic Ghost Rider: Duel Identity"
+            comment: "Frank Castle in the middle of an identity crisis."
+            trade: "Cosmic Ghost Rider: Duel Identity"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4471437/cosmic-ghost-rider-duel-identity-tp"
+            reading:
+              essential:
+                - revenge_ghost_rider
+            issues:
+              - title: Cosmic Ghost Rider (2023) 1
+              - title: Cosmic Ghost Rider (2023) 2
+              - title: Cosmic Ghost Rider (2023) 3
+              - title: Cosmic Ghost Rider (2023) 4
+              - title: Cosmic Ghost Rider (2023) 5
           - ref: fourever
             title: Fourever
             comment: The Fantastic Four are back after Secret Wars. First encounter with the Griever.
@@ -6464,7 +6588,7 @@ eras:
               - title: Yondu (2019) 5
           - ref: devourer_king
             title: The Devourer King
-            comment: "Thor becomes the herald of Galactus to confront the devourer king."
+            comment: "Thor becomes the herald of Galactus to confront the devourer king. This story ends on a major cliffhanger that is addressed in 'Thanos: Death Notes' but is fully resolved in the end of the Thor (2020) run in issues 29-35. I am not listing those issues here as it is not cosmic in nature and they are deeply connected to the lore of Thor."
             trade: "Thor by Donny Cates vol.1"
             tradeLink: "https://leagueofcomicgeeks.com/comic/8300381/thor-by-donny-cates-vol-1-the-devourer-king-tp"
             omnibus: "Thor By Cates and Klein"
@@ -6481,20 +6605,9 @@ eras:
               - title: Thor (2020) 4
               - title: Thor (2020) 5
               - title: Thor (2020) 6
-          - ref: thanos_death_notes
-            title: "Thanos: Daeth Notes"
-            comment: ""
-            trade: ""
-            tradeLink: ""
-            omnibus: ""
-            omnibusLink: ""
-            collections:
-              - TH
-            reading:
-              optional:
-                -
-            issues:
-              - title:
+              - title: "Thanos: Death Notes"
+                trade: "Thor vol.5: The Legacy of Thanos"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3630786/thor-vol-5-the-legacy-of-thanos-tp"
       - ref: empyre_section
         title: Empyre
         arcs:
@@ -6539,17 +6652,24 @@ eras:
               - title: Avengers (2018) 29
               - title: Avengers (2018) 30
           - ref: mr_mrs_x
-            title: Mr & Mrs X
-            trade: ""
-            tradeLink: ""
-            comment: ""
+            title: Mr. & Mrs. X
+            trade: "Mr. & Mrs. X vol.1"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/3853771/mr-mrs-x-vol-1-love-and-marriage-tp"
+            omnibus: "Cosmic X-Men"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7570191/cosmic-x-men-omnibus-hc"
+            comment: "A honeymoon in space turns into a big adventure which will have a big impact on Shi'ar politics."
             collections:
               - X
             reading:
               optional:
                 - war_of_kings
             issues:
-              - title:
+              - title: Mr. & Mrs. X 1
+              - title: Mr. & Mrs. X 2
+              - title: Mr. & Mrs. X 3
+              - title: Mr. & Mrs. X 4
+              - title: Mr. & Mrs. X 5
+              - title: Mr. & Mrs. X 6
           - ref: house_x
             title: House of X
             comment: "The foundation of Krakoa, the new nation for all mutants. This is the start of a new era for the X-Men, written by Jonathan Hickman. A story not cosmic in nature but very important since the Mutants will play a important role in the galactic scene."
@@ -6877,7 +6997,8 @@ eras:
               - title: S.W.O.R.D. (2020) 1
                 trade: "S.W.O.R.D. by Al Ewing vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4383520/sword-by-al-ewing-vol-1-tp"
-                omnibus: " "
+                omnibus: "X-Men by Al Ewing"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5300026/x-men-by-al-ewing-omnibus-hc"
                 collections:
                   - X
               - title: Incoming 1 (excerpt)
@@ -6967,43 +7088,6 @@ eras:
             issues:
               - title: Guardians of the Galaxy (2020) 11
               - title: Guardians of the Galaxy (2020) 12
-          - ref: last_marvels
-            title: The Last of the Marvels
-            comment: "Vox supreme is back."
-            trade: "Captain Marvel vol.7: The Last of the Marvels"
-            tradeLink: "https://leagueofcomicgeeks.com/comic/6383180/captain-marvel-vol-7-the-last-of-the-marvels-tp"
-            omnibus: "Captain Marvel by Kelly Thompson vol.2"
-            omnibusLink: "https://leagueofcomicgeeks.com/comic/4973188/captain-marvel-by-kelly-thompson-omnibus-vol-2-hc"
-            collections:
-              - CM
-            reading:
-              essential:
-                - last_avenger
-                - empyre
-              optional:
-                - operation_phoenix
-            issues:
-              - title: Captain Marvel (2019) 31
-              - title: Captain Marvel (2019) 32
-              - title: Captain Marvel (2019) 33
-              - title: Captain Marvel (2019) 34
-              - title: Captain Marvel (2019) 35
-              - title: Captain Marvel (2019) 36
-          - ref: captain_genis
-            title: "Genis-Vell: Captain Marvel"
-            comment: "The return of Genis-Vell, directly following the events of the Last of the Marvels. Peter David is writing this story and massively references his original work on Captain Marvel."
-            collections:
-              - CM
-            reading:
-              essential:
-                - captain_marvel_2002
-                - last_marvels
-            issues:
-              - title: "Genis-Vell: Captain Marvel 1"
-              - title: "Genis-Vell: Captain Marvel 2"
-              - title: "Genis-Vell: Captain Marvel 3"
-              - title: "Genis-Vell: Captain Marvel 4"
-              - title: "Genis-Vell: Captain Marvel 5"
       - ref: last_annihilation_section
         title: The Last Annihilation
         arcs:
@@ -7025,6 +7109,8 @@ eras:
               - title: S.W.O.R.D. (2020) 5
                 trade: "S.W.O.R.D. by Al Ewing vol.1"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/4383520/sword-by-al-ewing-vol-1-tp"
+                omnibus: "X-Men by Al Ewing"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5300026/x-men-by-al-ewing-omnibus-hc"
                 collection:
                   - X
                   - -GG
@@ -7071,11 +7157,23 @@ eras:
             issues:
               - title: Guardians of the Galaxy (2020) 16
               - title: S.W.O.R.D. (2020) 7
+                omnibus: "X-Men by Al Ewing"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5300026/x-men-by-al-ewing-omnibus-hc"
               - title: Guardians of the Galaxy (2020) 17
               - title: Cable Reloaded 1
               - title: "The Last Annihilation: Wiccan & Hulkling 1"
               - title: "The Last Annihilation: Wakanda"
               - title: Guardians of the Galaxy (2020) 18
+          - ref: bane_blastaar
+            title: Bane of Blastaar
+            comment: "A standalone Guardians of the Galaxy story."
+            collections:
+              - GG
+            reading:
+              optional:
+                - last_annihilation
+            issues:
+              - title: "Guardians of the Galaxy: Bane of Blastaar 1"
           - ref: reckoning_war
             title: Reckoning War
             comment: "A Fantastic Four event about the Watcher and the First War."
@@ -7119,6 +7217,8 @@ eras:
             title: All Fall Down
             trade: "S.W.O.R.D. by Al Ewing vol.2"
             tradeLink: "https://leagueofcomicgeeks.com/comic/3883694/sword-by-al-ewing-vol-2-tp"
+            omnibus: "X-Men by Al Ewing"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5300026/x-men-by-al-ewing-omnibus-hc"
             comment: "S.W.O.R.D. mission expands after the great announcement at the Hellfire Gala."
             importance: essential
             collections:
@@ -7135,6 +7235,8 @@ eras:
             title: Extinction Agenda
             trade: "Marauders by Steve Orlando vol.1"
             tradeLink: "https://leagueofcomicgeeks.com/comic/5831279/marauders-by-steve-orlando-vol-1-tp"
+            omnibus: "Cosmic X-Men"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/7570191/cosmic-x-men-omnibus-hc"
             comment: "The mutants are about to discover the original sin of the Shi'ar empire."
             collections:
               - X
@@ -7147,28 +7249,15 @@ eras:
               - title: Secret X-Men 1
                 trade: "X-Men: Hellfire Gala - Immortal"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/6085510/x-men-hellfire-gala-immortal-tp"
+                omnibus: " "
+                omnibusLink: " "
               - title: Marauders (2022) Annual 1
               - title: Marauders (2022) 1
               - title: Marauders (2022) 2
               - title: Marauders (2022) 3
               - title: Marauders (2022) 4
               - title: Marauders (2022) 5
-          - ref: revenge_brood
-            title: Revenge of the Brood
-            trade: ""
-            tradeLink: ""
-            comment: ""
-            collections:
-              - X
-              - CM
-            reading:
-              essential:
-                - king_egg
-                - last_marvels
-              optional:
-                - brood_saga
-            issues:
-              - title:
+
       - ref: judgment_day_section
         title: Judgment Day
         arcs:
@@ -7176,6 +7265,8 @@ eras:
             title: The Red Planet
             trade: "X-Men: Red by Al Ewing vol.1"
             tradeLink: "https://leagueofcomicgeeks.com/comic/2109383/x-men-red-by-al-ewing-vol-1-tp"
+            omnibus: "X-Men by Al Ewing"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5300026/x-men-by-al-ewing-omnibus-hc"
             comment: "Political intrigue on Arakko. Direct continuation of the S.W.O.R.D storyline. Judgment Day prologue."
             importance: essential
             collections:
@@ -7425,3 +7516,248 @@ eras:
                 omnibusLink: "https://leagueofcomicgeeks.com/comic/8066349/judgment-day-omnibus-hc"
                 collections:
                   - X
+          - ref: code_red
+            title: Code Red
+            trade: "X-Men: Red by Al Ewing vol.2"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4912807/x-men-red-by-al-ewing-vol-2-tp"
+            omnibus: "X-Men by Al Ewing"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/5300026/x-men-by-al-ewing-omnibus-hc"
+            comment: "Epilogue to Judgement Day. Arakko political intrigue continues after the event of Judgment Day. After issue 10, the story stops following the main characters from the S.W.O.R.D story and the remaining issues are of crossovers with multiple X-Men storylines."
+            importance: optional
+            collections:
+              - X
+            reading:
+              essential:
+                - judgment_day
+            issues:
+              - title: X-Men Red (2022) 8
+              - title: X-Men Red (2022) 9
+              - title: X-Men Red (2022) 10
+
+      - ref: watch_destinies
+        title: Watch & Destinies
+        arcs:
+          - ref: infinite_destinies
+            title: Infinite Destinies
+            trade: "Infinite Destinies"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4967068/infinite-destinies-tp"
+            comment: "Who are the infinity stones ? Following the events of Infinity Wars."
+            reading:
+              essential:
+                - infinity_wars
+            issues:
+              - title: Iron Man (2020) Annual 1
+              - title: Captain America (2021) Annual  1
+              - title: Guardians of the Galaxy (2020) Annual 1
+              - title: The Avengers (2018) Annual 1
+          - ref: groot
+            title: Groot
+            trade: "Groot: Uprooted"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/4935070/groot-uprooted-tp"
+            comment: "Prologue to Grootfall. A long time ago, a young Mar-Vell meets a very young Groot."
+            collections:
+              - GG
+            issues:
+              - title: Groot (2023) 1
+              - title: Groot (2023) 2
+              - title: Groot (2023) 3
+              - title: Groot (2023) 4
+          - ref: grootfall
+            title: Grootfall
+            comment: "The Guardians story continues in this next adventure involving Groot."
+            importance: optional
+            collections:
+              - GG
+            reading:
+              essential:
+                - last_annihilation
+              optional:
+                - infinite_destinies
+                - groot
+            issues:
+              - title: Guardians of the Galaxy (2023) 1
+                trade: "Guardians of the Galaxy vol.1: Grootfall"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2528319/guardians-of-the-galaxy-vol-1-grootfall-tp"
+              - title: Guardians of the Galaxy (2023) 2
+                trade: "Guardians of the Galaxy vol.1: Grootfall"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2528319/guardians-of-the-galaxy-vol-1-grootfall-tp"
+              - title: Guardians of the Galaxy (2023) 3
+                trade: "Guardians of the Galaxy vol.1: Grootfall"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2528319/guardians-of-the-galaxy-vol-1-grootfall-tp"
+              - title: Guardians of the Galaxy (2023) 4
+                trade: "Guardians of the Galaxy vol.1: Grootfall"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2528319/guardians-of-the-galaxy-vol-1-grootfall-tp"
+              - title: Guardians of the Galaxy (2023) 5
+                trade: "Guardians of the Galaxy vol.1: Grootfall"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2528319/guardians-of-the-galaxy-vol-1-grootfall-tp"
+              - title: Guardians of the Galaxy (2023) 6
+                trade: "Guardians of the Galaxy vol.2: Grootrise"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6336777/guardians-of-the-galaxy-vol-2-grootrise-tp"
+              - title: Guardians of the Galaxy (2023) 7
+                trade: "Guardians of the Galaxy vol.2: Grootrise"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6336777/guardians-of-the-galaxy-vol-2-grootrise-tp"
+              - title: Guardians of the Galaxy (2023) 8
+                trade: "Guardians of the Galaxy vol.2: Grootrise"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6336777/guardians-of-the-galaxy-vol-2-grootrise-tp"
+              - title: Guardians of the Galaxy (2023) 9
+                trade: "Guardians of the Galaxy vol.2: Grootrise"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6336777/guardians-of-the-galaxy-vol-2-grootrise-tp"
+              - title: Guardians of the Galaxy (2023) 10
+                trade: "Guardians of the Galaxy vol.2: Grootrise"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6336777/guardians-of-the-galaxy-vol-2-grootrise-tp"
+              - title: Guardians of the Galaxy (2023) Annual 1
+                trade: "Guardians of the Galaxy vol.2: Grootrise"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6336777/guardians-of-the-galaxy-vol-2-grootrise-tp"
+          - ref: last_marvels
+            title: The Last of the Marvels
+            comment: "Vox supreme is back."
+            trade: "Captain Marvel vol.7: The Last of the Marvels"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/6383180/captain-marvel-vol-7-the-last-of-the-marvels-tp"
+            omnibus: "Captain Marvel: Highest, Furthest, Fastest"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/4973188/captain-marvel-highest-furthest-fastest-omnibus"
+            collections:
+              - CM
+            reading:
+              essential:
+                - last_avenger
+                - empyre
+              optional:
+                - operation_phoenix
+            issues:
+              - title: Captain Marvel (2019) 31
+              - title: Captain Marvel (2019) 32
+              - title: Captain Marvel (2019) 33
+              - title: Captain Marvel (2019) 34
+              - title: Captain Marvel (2019) 35
+              - title: Captain Marvel (2019) 36
+          - ref: captain_genis
+            title: "Genis-Vell: Captain Marvel"
+            comment: "The return of Genis-Vell, directly following the events of the Last of the Marvels. Peter David is writing this story and massively references his original work on Captain Marvel."
+            collections:
+              - CM
+            reading:
+              essential:
+                - captain_marvel_2002
+                - last_marvels
+            issues:
+              - title: "Genis-Vell: Captain Marvel 1"
+              - title: "Genis-Vell: Captain Marvel 2"
+              - title: "Genis-Vell: Captain Marvel 3"
+              - title: "Genis-Vell: Captain Marvel 4"
+              - title: "Genis-Vell: Captain Marvel 5"
+          - ref: infinity_watch
+            title: Infinity Watch
+            comment: "Thanos and the quest for the death stone."
+            collections:
+              - TH
+            reading:
+              essential:
+                - infinite_destinies
+                - falling_star
+              optional:
+                - captain_genis
+            issues:
+              - title: Thanos (2023) 1
+                trade: "Thanos: Return of the Mad Titan"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1641940/thanos-return-of-the-mad-titan-tp"
+              - title: Thanos (2023) 2
+                trade: "Thanos: Return of the Mad Titan"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1641940/thanos-return-of-the-mad-titan-tp"
+              - title: Thanos (2023) 3
+                trade: "Thanos: Return of the Mad Titan"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1641940/thanos-return-of-the-mad-titan-tp"
+              - title: Thanos (2023) 4
+                trade: "Thanos: Return of the Mad Titan"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1641940/thanos-return-of-the-mad-titan-tp"
+              - title: Thanos Annual (2024) 1
+                trade: "Infinity Watch: Power Corrupts"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3998023/infinity-watch-power-corrupts-tp"
+              - title: The Immortal Thor Annual 1
+                trade: "Infinity Watch: Power Corrupts"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3998023/infinity-watch-power-corrupts-tp"
+              - title: The Incredible Hulk (2023) Annual 1
+                trade: "Infinity Watch: Power Corrupts"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3998023/infinity-watch-power-corrupts-tp"
+              - title: The Avengers (2023) Annual 1
+                trade: "Infinity Watch: Power Corrupts"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3998023/infinity-watch-power-corrupts-tp"
+              - title: Infinity Watch 1
+                trade: "The Infinity Watch: Universal Destruction"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1036919/the-infinity-watch-universal-destruction-tp"
+                collections:
+                  - -TH
+              - title: Infinity Watch 2
+                trade: "The Infinity Watch: Universal Destruction"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1036919/the-infinity-watch-universal-destruction-tp"
+                collections:
+                  - -TH
+              - title: Infinity Watch 3
+                trade: "The Infinity Watch: Universal Destruction"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1036919/the-infinity-watch-universal-destruction-tp"
+                collections:
+                  - -TH
+              - title: Infinity Watch 4
+                trade: "The Infinity Watch: Universal Destruction"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1036919/the-infinity-watch-universal-destruction-tp"
+                collections:
+                  - -TH
+              - title: Infinity Watch 5
+                trade: "The Infinity Watch: Universal Destruction"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1036919/the-infinity-watch-universal-destruction-tp"
+                collections:
+                  - -TH
+          - ref: finding_home
+            title: Finding Home
+            trade: "Captain Marvel vol.8: The Trials"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/6600286/captain-marvel-vol-8-the-trials-tp"
+            omnibus: "Captain Marvel: Highest, Furthest, Fastest"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/4973188/captain-marvel-highest-furthest-fastest-omnibus"
+            comment: "Captain Marvel team up with the Starjammers to save Bean."
+            reading:
+              essential:
+                - dark_origins
+            collections:
+              - CM
+            issues:
+              - title: Captain Marvel (2019) Annual 1
+          - ref: revenge_brood
+            title: Revenge of the Brood
+            trade: "Captain Marvel vol.9: Revenge of the Brood Part 1"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2024709/captain-marvel-vol-9-revenge-of-the-brood-part-1-tp"
+            omnibus: "Captain Marvel: Highest, Furthest, Fastest"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/4973188/captain-marvel-highest-furthest-fastest-omnibus"
+            comment: "Captain Marvel and the X-Men team-up against the Brood."
+            collections:
+              - X
+              - CM
+            reading:
+              essential:
+                - king_egg
+                - last_marvels
+              optional:
+                - brood_saga
+            issues:
+              - title: Captain Marvel (2019) 43
+              - title: Captain Marvel (2019) 44
+              - title: Captain Marvel (2019) 45
+              - title: Captain Marvel (2019) 46
+              - title: X-Men (2021) 19
+                trade: "X-Men by Gerry Duggan vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6699438/x-men-by-gerry-duggan-vol-4-tp"
+              - title: X-Men (2021) 20
+                trade: "X-Men by Gerry Duggan vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6699438/x-men-by-gerry-duggan-vol-4-tp"
+              - title: X-Men (2021) 21
+                trade: "X-Men by Gerry Duggan vol.4"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6699438/x-men-by-gerry-duggan-vol-4-tp"
+              - title: Captain Marvel (2019) 47
+                trade: "Captain Marvel vol.10: Revenge of the Brood Part 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8996181/captain-marvel-vol-10-revenge-of-the-brood-part-2-tp"
+              - title: Captain Marvel (2019) 48
+                trade: "Captain Marvel vol.10: Revenge of the Brood Part 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8996181/captain-marvel-vol-10-revenge-of-the-brood-part-2-tp"
+              - title: Captain Marvel (2019) 49
+                trade: "Captain Marvel vol.10: Revenge of the Brood Part 2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8996181/captain-marvel-vol-10-revenge-of-the-brood-part-2-tp"
+
+
