@@ -2928,8 +2928,8 @@ eras:
       - ref: war_of_kings_section
         title: War of Kings
         arcs:
-          - ref: imperial
-            title: Imperial
+          - ref: imperium
+            title: Imperium
             trade: "New X-Men By Grant Morrison Book 3"
             tradeLink: "https://leagueofcomicgeeks.com/comic/4361610/new-x-men-by-grant-morrison-book-3-tp"
             omnibus: "New X-Men"
@@ -3671,7 +3671,192 @@ eras:
               - title: Secret Avengers (2010) 26
               - title: Secret Avengers (2010) 27
               - title: Secret Avengers (2010) 28
-
+      - ref: planet_hulk_section
+        title: Planet Hulk
+        arcs:
+          - ref: planet_hulk
+            title: Planet Hulk
+            omnibus: "Hulk: Planet Hulk"
+            omnibusLink: "https://leagueofcomicgeeks.com/comic/3272219/hulk-planet-hulk-omnibus-hc?variant=2073659"
+            trade: "The Incredible Hulk: Planet Hulk"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/7256329/the-incredible-hulk-planet-hulk-tp"
+            comment: "As the Annihilation and War of Kings events are taking place, the Hulk is having is own saga in space. A story of evil empire, rebellion, end of the world and cosmic domination that span generations. The list starts with Incredible Hulk 140 to give context about the Hulk in the microverse and his romance with Jarella that will be mentioned several times in this saga."
+            issues:
+              - title: Incredible Hulk (1968) 140
+                omnibus: "The Incredible Hulk vol.3"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/5867548/the-incredible-hulk-omnibus-vol-3-hc"
+                trade: "The Incredible Hulk: Heart of the Atom"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/5131422/the-incredible-hulk-heart-of-the-atom-tp"
+              - title: "The New Avengers: Illuminati (2006) (excerpt)"
+                trade: "The New Avengers by Bendis: The Complete Coll. vol.2"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7378864/the-new-avengers-by-bendis-complete-collection-vol-2-tp"
+              - title: Incredible Hulk (2000) 92
+              - title: Incredible Hulk (2000) 93
+              - title: Incredible Hulk (2000) 94
+              - title: Incredible Hulk (2000) 95
+              - title: Giant-Size Hulk (2006) - Banner War
+              - title: Incredible Hulk (2000) 96
+              - title: Incredible Hulk (2000) 97
+              - title: Incredible Hulk (2000) 98
+              - title: Incredible Hulk (2000) 99
+              - title: Incredible Hulk (2000) 100
+              - title: Incredible Hulk (2000) 101
+              - title: Incredible Hulk (2000) 102
+              - title: Incredible Hulk (2000) 103
+              - title: Incredible Hulk (2000) 104
+              - title: Incredible Hulk (2000) 105
+              - title: "World War Hulk Prologue: World Breaker 1"
+                trade: "World War Hulk: Front Line"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7064170/world-war-hulk-front-line-tp"
+                omnibus: "World War Hulk"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8391983/world-war-hulk-omnibus-hc?variant=4090241"
+              - title: World War Hulk 1
+                trade: "Hulk: World War Hulk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4645144/hulk-world-war-hulk-tp"
+                omnibus: "World War Hulk"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8391983/world-war-hulk-omnibus-hc?variant=4090241"
+              - title: World War Hulk 2
+                trade: "Hulk: World War Hulk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4645144/hulk-world-war-hulk-tp"
+                omnibus: "World War Hulk"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8391983/world-war-hulk-omnibus-hc?variant=4090241"
+              - title: World War Hulk 3
+                trade: "Hulk: World War Hulk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4645144/hulk-world-war-hulk-tp"
+                omnibus: "World War Hulk"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8391983/world-war-hulk-omnibus-hc?variant=4090241"
+              - title: World War Hulk 4
+                trade: "Hulk: World War Hulk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4645144/hulk-world-war-hulk-tp"
+                omnibus: "World War Hulk"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8391983/world-war-hulk-omnibus-hc?variant=4090241"
+              - title: World War Hulk 5
+                trade: "Hulk: World War Hulk"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/4645144/hulk-world-war-hulk-tp"
+                omnibus: "World War Hulk"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/8391983/world-war-hulk-omnibus-hc?variant=4090241"
+          - ref: planet_skaar
+            title: Planet Skaar
+            trade: "Skaar: Son of Hulk Complete Collection"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/1873336/skaar-son-of-hulk-complete-collection-tp"
+            comment: "The Son of Hulk seeks vengeance against his father in an apocalyptic world. There is a small crossover with War of Kings in the middle of the story that is completely skippable but gives indication on when this story takes place."
+            reading:
+              essential:
+                - planet_hulk
+            issues:
+              - title: Son of Hulk 1
+              - title: Son of Hulk 2
+              - title: Son of Hulk 3
+              - title: "Son of Hulk: Savage World of Sakaar"
+              - title: Son of Hulk 4
+              - title: Son of Hulk 5
+              - title: "War of Kings: Savage World of Skaar"
+              - title: "Hulk Family: Green Genes - Skaar: Son of Hulk"
+              - title: Son of Hulk 6
+              - title: Son of Hulk 7
+              - title: Son of Hulk 8
+              - title: Son of Hulk 9
+              - title: Son of Hulk 10
+              - title: Planet Skaar Prologue
+              - title: Son of Hulk 11
+              - title: Son of Hulk 12
+          - ref: dark_son
+            title: Dark Son
+            comment: "Hiro-Kala becomes the leader of the poeple of Sakaar. Part of this story is concurrent to Realm of Kings."
+            reading:
+              essential:
+                - planet_skaar
+            issues:
+              - title: Son of Hulk 13
+                omnibus: "Son of Hulk: Dark Son Rising (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1078735/son-of-hulk-dark-son-rising-hc"
+                trade: "Son of Hulk: Dark Son Rising"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7988117/son-of-hulk-dark-son-rising-tp"
+              - title: Son of Hulk 14
+                omnibus: "Son of Hulk: Dark Son Rising (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1078735/son-of-hulk-dark-son-rising-hc"
+                trade: "Son of Hulk: Dark Son Rising"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7988117/son-of-hulk-dark-son-rising-tp"
+              - title: Son of Hulk 15
+                omnibus: "Son of Hulk: Dark Son Rising (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1078735/son-of-hulk-dark-son-rising-hc"
+                trade: "Son of Hulk: Dark Son Rising"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7988117/son-of-hulk-dark-son-rising-tp"
+              - title: Son of Hulk 16
+                omnibus: "Son of Hulk: Dark Son Rising (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1078735/son-of-hulk-dark-son-rising-hc"
+                trade: "Son of Hulk: Dark Son Rising"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7988117/son-of-hulk-dark-son-rising-tp"
+              - title: Son of Hulk 17
+                omnibus: "Son of Hulk: Dark Son Rising (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/1078735/son-of-hulk-dark-son-rising-hc"
+                trade: "Son of Hulk: Dark Son Rising"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7988117/son-of-hulk-dark-son-rising-tp"
+              - title: "Realms of King: Son of Hulk 1"
+                omnibus: "War of Kings Aftermath: Realm of Kings"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/6125821/war-of-kings-aftermath-realm-of-kings-omnibus-hc"
+                trade: "Realm of Kings"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7655697/realm-of-kings-tp"
+              - title: "Realms of King: Son of Hulk 2"
+                omnibus: "War of Kings Aftermath: Realm of Kings"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/6125821/war-of-kings-aftermath-realm-of-kings-omnibus-hc"
+                trade: "Realm of Kings"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7655697/realm-of-kings-tp"
+              - title: "Realms of King: Son of Hulk 3"
+                omnibus: "War of Kings Aftermath: Realm of Kings"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/6125821/war-of-kings-aftermath-realm-of-kings-omnibus-hc"
+                trade: "Realm of Kings"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7655697/realm-of-kings-tp"
+              - title: "Realms of King: Son of Hulk 4"
+                omnibus: "War of Kings Aftermath: Realm of Kings"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/6125821/war-of-kings-aftermath-realm-of-kings-omnibus-hc"
+                trade: "Realm of Kings"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/7655697/realm-of-kings-tp"
+              - title: Incredible Hulk (1962) 609 - Act I
+                omnibus: "The Incredible Hulks: World War Hulks (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/2361793/the-incredible-hulks-world-war-hulks-hc"
+                trade: "The Incredible Hulk vol.3: World War Hulks"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2435733/the-incredible-hulk-vol-3-world-war-hulks-tp"
+              - title: Incredible Hulk (1962) 610 - Act II
+                omnibus: "The Incredible Hulks: World War Hulks (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/2361793/the-incredible-hulks-world-war-hulks-hc"
+                trade: "The Incredible Hulk vol.3: World War Hulks"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2435733/the-incredible-hulk-vol-3-world-war-hulks-tp"
+              - title: Incredible Hulk (1962) 611 - Act III
+                omnibus: "The Incredible Hulks: World War Hulks (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/2361793/the-incredible-hulks-world-war-hulks-hc"
+                trade: "The Incredible Hulk vol.3: World War Hulks"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/2435733/the-incredible-hulk-vol-3-world-war-hulks-tp"
+              - title: Incredible Hulks (2010) 612
+                omnibus: "The Incredible Hulks: Dark Son (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/7666161/the-incredible-hulks-dark-son-hc"
+                trade: "The Incredible Hulks: Dark Son"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3494807/the-incredible-hulks-dark-son-tp"
+              - title: Incredible Hulks (2010) 613
+                omnibus: "The Incredible Hulks: Dark Son (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/7666161/the-incredible-hulks-dark-son-hc"
+                trade: "The Incredible Hulks: Dark Son"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3494807/the-incredible-hulks-dark-son-tp"
+              - title: Incredible Hulks (2010) 614
+                omnibus: "The Incredible Hulks: Dark Son (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/7666161/the-incredible-hulks-dark-son-hc"
+                trade: "The Incredible Hulks: Dark Son"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3494807/the-incredible-hulks-dark-son-tp"
+              - title: Incredible Hulks (2010) 615
+                omnibus: "The Incredible Hulks: Dark Son (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/7666161/the-incredible-hulks-dark-son-hc"
+                trade: "The Incredible Hulks: Dark Son"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3494807/the-incredible-hulks-dark-son-tp"
+              - title: Incredible Hulks (2010) 616
+                omnibus: "The Incredible Hulks: Dark Son (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/7666161/the-incredible-hulks-dark-son-hc"
+                trade: "The Incredible Hulks: Dark Son"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3494807/the-incredible-hulks-dark-son-tp"
+              - title: Incredible Hulks (2010) 617
+                omnibus: "The Incredible Hulks: Dark Son (HC)"
+                omnibusLink: "https://leagueofcomicgeeks.com/comic/7666161/the-incredible-hulks-dark-son-hc"
+                trade: "The Incredible Hulks: Dark Son"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/3494807/the-incredible-hulks-dark-son-tp"
   - ref: secret_wars_era
     title: Secret Wars
     date: 2012-2016
@@ -7244,7 +7429,7 @@ eras:
               essential:
                 - king_egg
               optional:
-                - imperial
+                - imperium
             issues:
               - title: Secret X-Men 1
                 trade: "X-Men: Hellfire Gala - Immortal"
