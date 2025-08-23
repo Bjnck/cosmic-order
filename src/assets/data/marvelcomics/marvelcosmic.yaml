@@ -5256,8 +5256,12 @@ eras:
 
   - ref: infinity_wars_era
     title: Infinity Wars
-    date: 2016-present
-    comment: "The current era of the Marvel cosmic universe. This story is in progress therefore this order is subject to change."
+    date: 2016-2025
+    comment: "Directly following the events of Secret Wars, a new era of the Marvel universe starts now.
+              This next decade of Marvel Cosmic feels a bit more disjointed than the eras prior, it constitutes in several storylines more or less connected to each other.
+              Starting with Captain Marvel and the new Ultimates fighting the Eternity War, the Guardians of the Galaxy and Thanos in Infinity Wars, the end of Inhumans and the start of a new Kree empire,
+              and finally the Avengers vs. The X-men in Judgment Day.
+              This Era introduces new cosmic characters like Knull the King in Black, Silver Surfer Black and the Cosmic Ghost Rider."
     sections:
       - ref: eternity_war_section
         title: Eternity War
@@ -7793,6 +7797,16 @@ eras:
               - title: Guardians of the Galaxy (2023) Annual 1
                 trade: "Guardians of the Galaxy vol.2: Grootrise"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/6336777/guardians-of-the-galaxy-vol-2-grootrise-tp"
+          - ref: hierarchy_power
+            title: Hierarchy of Power
+            comment: "Short story of the Silver Surfer vs.Terrax."
+            collections:
+              - SS
+            reading:
+              essential:
+                - reckoning_war
+            issues:
+              - title: Giant-Size Silver Surfer 1
           - ref: last_marvels
             title: The Last of the Marvels
             comment: "Vox supreme is back."
@@ -7944,5 +7958,105 @@ eras:
               - title: Captain Marvel (2019) 49
                 trade: "Captain Marvel vol.10: Revenge of the Brood Part 2"
                 tradeLink: "https://leagueofcomicgeeks.com/comic/8996181/captain-marvel-vol-10-revenge-of-the-brood-part-2-tp"
+          - ref: undone
+            title: The Undone
+            trade: "Captain Marvel vol.1: The Omen"
+            tradeLink: "https://leagueofcomicgeeks.com/comic/2188313/captain-marvel-by-alyssa-wong-vol-1-the-omen-tp"
+            comment: "Captain Marvel vs. the Undone."
+            collections:
+              - CM
+            reading:
+              essential:
+                - last_marvels
+              optional:
+                - captain_genis
+            issues:
+              - title: Captain Marvel (2023) 1
+              - title: Captain Marvel (2023) 2
+              - title: Captain Marvel (2023) 3
+              - title: Captain Marvel (2023) 4
+              - title: Captain Marvel (2023) 5
+              - title: Captain Marvel (2023) 6
+                trade: "Captain Marvel vol.2: The Undone"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8028860/captain-marvel-by-alyssa-wong-vol-2-the-undone-tp"
+              - title: Captain Marvel (2023) 7
+                trade: "Captain Marvel vol.2: The Undone"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8028860/captain-marvel-by-alyssa-wong-vol-2-the-undone-tp"
+              - title: Captain Marvel (2023) 8
+                trade: "Captain Marvel vol.2: The Undone"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8028860/captain-marvel-by-alyssa-wong-vol-2-the-undone-tp"
+              - title: Captain Marvel (2023) 9
+                trade: "Captain Marvel vol.2: The Undone"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8028860/captain-marvel-by-alyssa-wong-vol-2-the-undone-tp"
+              - title: Captain Marvel (2023) 10
+                trade: "Captain Marvel vol.2: The Undone"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/8028860/captain-marvel-by-alyssa-wong-vol-2-the-undone-tp"
+          - ref: phoenix
+            title: Phoenix
+            comment: "Jean Grey aka. the Phoenix vs. Thanos."
+            collections:
+              - TH
+              - X
+            reading:
+              optional:
+                - trial_of_jean_grey
+                - infinity_watch
+            issues:
+              - title: Phoenix (2024) 1
+                trade: "Phoenix vol.1: Orbital Resonance"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6708566/phoenix-vol-1-orbital-resonance-tp"
+              - title: Phoenix (2024) 2
+                trade: "Phoenix vol.1: Orbital Resonance"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6708566/phoenix-vol-1-orbital-resonance-tp"
+              - title: Phoenix (2024) 3
+                trade: "Phoenix vol.1: Orbital Resonance"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6708566/phoenix-vol-1-orbital-resonance-tp"
+              - title: Phoenix (2024) 4
+                trade: "Phoenix vol.1: Orbital Resonance"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6708566/phoenix-vol-1-orbital-resonance-tp"
+              - title: Phoenix (2024) 5
+                trade: "Phoenix vol.1: Orbital Resonance"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/6708566/phoenix-vol-1-orbital-resonance-tp"
+              - title: Phoenix (2024) 6
+                trade: "Phoenix vol.2: Cosmic Ascent"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1161273/phoenix-vol-2-cosmic-ascent-tp"
+              - title: Phoenix (2024) 7
+                trade: "Phoenix vol.2: Cosmic Ascent"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1161273/phoenix-vol-2-cosmic-ascent-tp"
+              - title: Phoenix (2024) 8
+                trade: "Phoenix vol.2: Cosmic Ascent"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1161273/phoenix-vol-2-cosmic-ascent-tp"
+              - title: Phoenix (2024) 9
+                trade: "Phoenix vol.2: Cosmic Ascent"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1161273/phoenix-vol-2-cosmic-ascent-tp"
+              - title: Phoenix (2024) 10
+                trade: "Phoenix vol.2: Cosmic Ascent"
+                tradeLink: "https://leagueofcomicgeeks.com/comic/1161273/phoenix-vol-2-cosmic-ascent-tp"
 
+  - ref: imperial_era
+    title: Imperial
+    date: 2025-present
+    comment: "The current era of the Marvel cosmic universe. This story is in progress therefore this order is subject to change."
+    sections:
+      - ref: imperial_section
+        title: Imperial
+        arcs:
+          - ref: imperial
+            title: Imperial
+            comment:
+            importance: essential
+            reading:
+              optional:
+                - dark_son
+                - death_inhumans
+                - empire_wakanda
+                - grootfall
+            collections:
+              - GG
+              - N
+              - IH
+            issues:
+              - title: Imperial 1
+              - title: Imperial 2
+              - title: Imperial 3
 
